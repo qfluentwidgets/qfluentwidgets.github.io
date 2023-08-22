@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-4f1b8f27","path":"/zh/pages/Install/","title":"安装","lang":"简体中文","frontmatter":{"title":"安装","date":"2023-08-17T15:37:01.000Z","permalink":"/zh/pages/Install/"},"headers":[{"level":2,"title":"运行示例","slug":"运行示例","link":"#运行示例","children":[]}],"git":{},"filePathRelative":"zh/guide/install.md"}');export{e as data};

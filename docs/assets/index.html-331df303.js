@@ -1,0 +1,1 @@
+const e=JSON.parse('{"key":"v-98e8440c","path":"/zh/showcase/","title":"案例","lang":"简体中文","frontmatter":{"title":"案例","date":"2023-08-17T19:32:58.000Z","permalink":"/zh/showcase/"},"headers":[],"git":{},"filePathRelative":"zh/page/showcase.md"}');export{e as data};

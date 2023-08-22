@@ -1,0 +1,21 @@
+{
+  "name": "qfluentwidgets-docs",
+  "version": "1.0.0",
+  "description": "The documentation for QFluentWidgets components library.",
+  "repository": "git@github.com:qfluentwidgets/PyQt-Fluent-Widgets-Docs.git",
+  "author": "zhiyiYo <shokokawaii@outlook.com>",
+  "license": "GPLv3",
+  "scripts": {
+    "dev": "vuepress dev .",
+    "start": "vuepress dev .",
+    "build": "vuepress build ."
+  },
+  "dependencies": {
+    "highlight.js": "^11.8.0",
+    "inter-ui": "^3.19.3",
+    "vuepress-theme-reco": "2.0.0-beta.67"
+  },
+  "devDependencies": {
+    "vuepress": "^2.0.0-beta.66"
+  }
+}

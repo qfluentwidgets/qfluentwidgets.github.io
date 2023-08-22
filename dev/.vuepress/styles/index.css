@@ -1,0 +1,64 @@
+@import "inter-ui/inter.css";
+
+#theme-reco-custom-content {
+    max-width: 100% !important;
+    padding-left: 0rem !important;
+    padding-right: 0rem !important;
+
+}
+
+#custom-body {
+    font-family: "Inter var", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
+
+    .page-title, .page-info, .page-meta {
+        display: none;
+    }
+
+    .page-container {
+        padding-bottom: 0;
+        padding-top: 0;
+    }
+
+    .footer-wrapper {
+        display: none;
+    }
+
+    .navbar-container {
+        @apply backdrop-blur-none relative bg-transparent;
+    }
+
+    kbd {
+        background-color: transparent !important;
+
+        abbr {
+            font-family: "Inter var", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
+        }
+    }
+}
+
+body {
+    letter-spacing: normal !important;
+}
+
+body:not(#custom-body) {
+    font-family: "Inter var", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
+
+    p, li {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
+    }
+}
+
+
+.dark {
+    #custom-body {
+        background-color: rgb(15, 23, 42) !important;
+    }
+}
+
+.dropdown-link__container {
+    @apply shadow-md !important;
+}
+
+/* .back-to-top {
+    @apply bg-sky-500
+} */
