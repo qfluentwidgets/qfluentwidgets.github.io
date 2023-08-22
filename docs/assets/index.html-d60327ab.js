@@ -1,1 +1,0 @@
-const e=JSON.parse('{"key":"v-568c4718","path":"/pages/install/","title":"Install","lang":"English","frontmatter":{"title":"Install","date":"2023-08-17T15:37:01.000Z","permalink":"/pages/install/"},"headers":[{"level":2,"title":"Run examples","slug":"run-examples","link":"#run-examples","children":[]}],"git":{},"filePathRelative":"docs/guide/install.md"}');export{e as data};

@@ -16,7 +16,7 @@ export const prices = {
             recommend: false,
             features: [
                 { feature: '单一软件' },
-                { feature: '不限软件用户数量' },
+                { feature: '个人开发者' },
                 { feature: '48 小时内组件库问题邮件支持' },
                 { feature: '有效期享受组件库版本持续迭代' },
             ]
@@ -30,7 +30,7 @@ export const prices = {
             recommend: true,
             features: [
                 { feature: '单一软件' },
-                { feature: '不限软件用户数量' },
+                { feature: '个人开发者' },
                 { feature: 'GitHub Issue 得到优先处理' },
                 { feature: '24 小时内组件库问题邮件支持' },
                 { feature: '有效期内享受组件库版本持续迭代' },
@@ -45,7 +45,7 @@ export const prices = {
             recommend: false,
             features: [
                 { feature: '单一企业级别软件' },
-                { feature: '不限软件用户数量' },
+                { feature: '不限团队开发者数量' },
                 { feature: 'GitHub Issue 得到优先处理' },
                 { feature: '12 小时内组件库问题邮件支持' },
                 { feature: '有效期内享受组件库版本持续迭代' },

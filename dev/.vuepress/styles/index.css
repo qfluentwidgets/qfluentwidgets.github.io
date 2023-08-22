@@ -38,6 +38,10 @@
 
 body {
     letter-spacing: normal !important;
+
+    .page-meta, .page-info {
+        display: none !important;
+    }
 }
 
 body:not(#custom-body) {
