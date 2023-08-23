@@ -40,6 +40,37 @@ class MainWindow(QWidget):
         StyleSheet.MAIN_WINDOW.apply(self)
 ```
 
+## 自定义样式
+如果你对内置组件的样式感到不满，希望对其进行微调，可以使用 `setCustomStyleSheet()` 在原有样式的基础上添加新样式，该函数的签名如下：
+```python
+def setCustomStyleSheet(widget: QWidget, lightQss: str, darkQss: str) -> None
+```
+其中 `widget` 是需要调整样式的组件，`lightQss` 和 `darkQss` 是浅/深色主题下 **添加** 的自定义样式。
+
+举个例子，将 `PushButton` 的圆角调成 10px：
+```python
+button = PushButton('Button', self)
+
+# 添加自定义样式表
+qss = 'PushButton{border-radius: 10px}'
+setCustomStyleSheet(button, qss, qss)
+```
+
+在 QtDesigner 中，你可以通过新增动态属性来达到自定义样式的目的，操作步骤如下：
+
+1. 添加字符串类型的动态属性
+
+   ![添加字符串动态属性](/img/designer/Add_Dynamic_Property.png)
+
+2. 在创建动态属性对话框中将属性名设置为 `lightCustomQss`，深色模式就设置为 `darkCustomQss`
+
+   ![设置属性名](/img/designer/Add_Light_Qss_Dialog.png)
+
+3. 点击属性旁边的 `...` 按钮，在编辑文本对话框中编辑 `lightCustomQss`
+
+   ![设置属性名](/img/designer/Edit_Light_Qss_Dialog.png)
+
+
 ## 主题色
 
 `setThemeColor()` 函数用于修改全部组件的主题色。该函数接受三种类型的值：
