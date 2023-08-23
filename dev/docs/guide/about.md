@@ -23,7 +23,7 @@ Our vision is to simplify UI development, reduce the difficulty of creating beau
 We welcome all contributions to PyQt-Fluent-Widgets. We look forward to your PR!
 
 - Code Contribution: Code repository [PyQt-Fluent-Widgets](https://github.com/zhiyiYo/PyQt-Fluent-Widgets), issues and pull requests are welcome.
-- Documentation Maintenance: Documentation repository [PyQt-Fluent-Widgets-Doc](https://github.com/qfluentwidgets/PyQt-Fluent-Widgets-Docs), participation in translation and revision is welcome.
+- Documentation Maintenance: Documentation repository [PyQt-Fluent-Widgets-Doc](https://github.com/qfluentwidgets/qfluentwidgets.github.io), participation in translation and revision is welcome.
 
 ## Acknowledgements
 Thanks to all the contributors and supporters of this component library:

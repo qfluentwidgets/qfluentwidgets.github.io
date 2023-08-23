@@ -23,13 +23,13 @@ export const showcases = {
         },
         {
             name: 'Face-Mask-Detector',
-            description: '基于 Yolov4 的罩检测软件',
+            description: '基于 Yolov4 的口罩检测软件',
             cover: 'https://raw.githubusercontent.com/zhiyiYo/Face-Mask-Detector/master/doc/image/screenshot.png',
             url: 'https://github.com/zhiyiYo/Face-Mask-Detector'
         },
         {
             name: 'MCSL2',
-            description: '简介全能的 Minecraft 开服器',
+            description: '简洁全能的 Minecraft 开服器',
             cover: 'https://camo.githubusercontent.com/7410ef6650779a0d5a468732a20eda91491ed26cf85a325e5b5d98d4fd2ec57d/68747470733a2f2f73332e626d702e6f76682f696d67732f323032332f30332f32312f356166623231393334626439383061622e706e67',
             url: 'https://github.com/MCSLTeam/MCSL2'
         },
