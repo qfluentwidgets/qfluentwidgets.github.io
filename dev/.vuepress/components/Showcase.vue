@@ -89,7 +89,7 @@ let showcases = localeConfig('showcases');
             @apply mx-auto max-w-[48rem] text-center;
 
             .showcase-title {
-                @apply text-base font-semibold leading-7 text-indigo-600 dark:text-indigo-400 block mb-0 !important;
+                @apply text-base font-semibold leading-7 text-sky-500 dark:text-sky-500 block mb-0 !important;
             }
 
             .showcase-big-title {

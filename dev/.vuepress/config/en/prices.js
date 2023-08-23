@@ -62,7 +62,7 @@ export const prices = {
             recommend: false,
             features: [
                 { feature: 'Single software' },
-                { feature: 'Unlimited subscribers' },
+                { feature: 'Single developer' },
                 { feature: '48-hour email support response time' },
                 { feature: 'Continuous iteration of library version' },
             ]
@@ -76,7 +76,7 @@ export const prices = {
             recommend: true,
             features: [
                 { feature: 'Single software' },
-                { feature: 'Unlimited subscribers' },
+                { feature: 'Single developer' },
                 { feature: 'High GitHub Issue priority' },
                 { feature: '24-hour email support response time' },
                 { feature: 'Continuous iteration of library version' },
@@ -91,7 +91,7 @@ export const prices = {
             recommend: false,
             features: [
                 { feature: 'Single enterprise software' },
-                { feature: 'Unlimited subscribers' },
+                { feature: 'Unlimited developers' },
                 { feature: 'High GitHub Issue priority' },
                 { feature: '12-hour email support response time' },
                 { feature: 'Continuous iteration of library version' },

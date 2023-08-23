@@ -138,7 +138,7 @@ export default {
     }
 
     .buy-btn {
-        @apply ring-1 ring-inset ring-indigo-200 text-indigo-600 dark:ring-0 dark:bg-white/10 dark:text-white;
+        @apply ring-1 ring-inset ring-sky-200 text-sky-500 dark:ring-0 dark:bg-white/10 dark:text-white;
         text-decoration: none;
         margin-top: 1.5rem;
         display: block;
@@ -166,7 +166,7 @@ export default {
             font-size: 0.875rem;
 
             .feature-icon {
-                @apply text-indigo-600 dark:text-white;
+                @apply text-sky-500 dark:text-white;
                 display: block;
                 vertical-align: middle;
                 height: 1.5rem;
@@ -178,15 +178,15 @@ export default {
 }
 
 .price-card-recommend {
-    @apply ring-2 ring-indigo-600 dark:ring-indigo-500 dark:bg-white/5;
+    @apply ring-2 ring-sky-500 dark:ring-sky-500 dark:bg-white/5;
 
     .price-title-container {
         .price-title {
-            @apply text-indigo-600;
+            @apply text-sky-500;
         }
 
         .most-popular-badge {
-            @apply block rounded-full text-indigo-600 dark:bg-indigo-500 dark:text-white bg-indigo-600/10 m-0 tracking-tight;
+            @apply block rounded-full text-sky-500 dark:bg-sky-500 dark:text-white bg-sky-500/10 m-0 tracking-tight;
             padding-left: 0.625rem;
             padding-right: 0.625rem;
             padding-top: 0.25rem;
@@ -198,7 +198,7 @@ export default {
     }
 
     .buy-btn {
-        @apply ring-0 ring-inset ring-indigo-200 text-white bg-indigo-600 dark:bg-indigo-500;
+        @apply ring-0 ring-inset ring-indigo-200 text-white bg-sky-500 dark:bg-sky-500;
     }
 }
 </style>

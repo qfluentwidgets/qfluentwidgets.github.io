@@ -87,7 +87,7 @@ let onPySide2Clicked = () => {
         @apply mx-auto max-w-[48rem] text-center;
 
         .price-title {
-            @apply text-base font-semibold leading-7 text-indigo-600 dark:text-indigo-400 block mb-0 !important;
+            @apply text-base font-semibold leading-7 text-sky-500 dark:text-sky-400 block mb-0 !important;
         }
 
         .price-big-title {
@@ -107,7 +107,7 @@ let onPySide2Clicked = () => {
         @apply grid grid-cols-2 gap-x-1 rounded-full p-1 text-center text-xs font-semibold leading-5 ring-1 ring-inset ring-gray-200 dark:bg-white/5 dark:ring-0;
 
         .nav-item-selected {
-            @apply text-white py-1 px-[0.625rem] bg-indigo-600 rounded-full cursor-pointer tracking-tight;
+            @apply text-white py-1 px-[0.625rem] bg-sky-500 rounded-full cursor-pointer tracking-tight;
         }
 
         .nav-item {
