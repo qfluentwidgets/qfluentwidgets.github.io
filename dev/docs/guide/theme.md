@@ -39,8 +39,38 @@ class MainWindow(QWidget):
         StyleSheet.MAIN_WINDOW.apply(self)
 ```
 
+## Customize style
+If you are dissatisfied with the style of the built-in components and want to make minor adjustments to them, you can use `setCustomStyleSheet()` to add new styles based on the existing style. The function signature is as follows:
+```python
+def setCustomStyleSheet(widget: QWidget, lightQss: str, darkQss: str) -> None
+```
 
-### Theme color
+where `widget` is the component that needs its style adjusted, `lightQss` and `darkQss` are the custom styles added for light/dark themes.
+
+For example, let's adjust the border-radius of a `PushButton` to 10px:
+```python
+button = PushButton('Button', self)
+
+# add custom qss
+qss = 'PushButton{border-radius: 10px}'
+setCustomStyleSheet(button, qss, qss)
+```
+In Qt Designer, you can achieve custom styling by adding dynamic properties. Here are the steps:
+
+1. Add a dynamic property of type "String".
+
+   ![Add String Dynamic Property](/img/designer/Add_Dynamic_Property.png)
+
+2. In the "Create Dynamic Property" dialog, set the property name as `lightCustomQss` for the light mode and `darkCustomQss` for the dark mode.
+
+   ![Set name](/img/designer/Add_Light_Qss_Dialog.png)
+
+3. Click the `...` button next to the property and edit `lightCustomQss` in the "Edit Text" dialog.
+
+   ![Set qss](/img/designer/Edit_Light_Qss_Dialog.png)
+
+
+## Theme color
 You can use `setThemeColor()` method to change the theme color of PyQt-Fluent-Widgets. This method accepts the following three types of parameters:
 * `QColor`
 * `Qt.GlobalColor`
