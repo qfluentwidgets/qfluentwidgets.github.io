@@ -4,4 +4,4 @@ node_modules
 package-lock.json
 .temp
 .cache
-dist
+dev/.vuepress/dist
