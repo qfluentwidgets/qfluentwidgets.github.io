@@ -6,7 +6,7 @@
                 <p v-html="home.author.comment"></p>
             </blockquote>
             <figcaption>
-                <img src="/img/shoko.png" alt="" loading="lazy" decoding="async">
+                <img src="/img/shoko.jpg" alt="" loading="lazy" decoding="async">
                 <div>
                     <div class="name">{{ home.author.name }}</div>
                     <div class="desc">{{ home.author.description }}</div>

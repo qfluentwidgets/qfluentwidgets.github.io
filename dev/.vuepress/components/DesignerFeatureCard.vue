@@ -67,7 +67,7 @@
             <div class="designer-wrapper" v-show="isDesignerSelected">
                 <div class="designer-img-container">
                     <div class="designer-img-wrapper">
-                        <img src="/img/features/login-designer.png" alt="" decoding="async">
+                        <img src="/img/features/login-designer.jpg" alt="" decoding="async">
                     </div>
                 </div>
 

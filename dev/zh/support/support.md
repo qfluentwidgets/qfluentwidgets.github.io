@@ -7,7 +7,7 @@ permalink: /zh/pages/support/
 个人开发不易，如果这个组件库帮助了您，可以考虑在 [爱发电](https://afdian.net/a/zhiyiYo) 或者 [ko-fi](https://ko-fi.com/zhiyiYo) 上请作者喝一瓶快乐水。您的支持就是作者继续开发和维护项目的动力 🥰
 
 <p align="center">
-  <img src='/img/aifadian.png' style="height: 460px"/>
+  <img src='/img/aifadian.jpg' style="height: 460px"/>
 </p>
 
 
@@ -29,5 +29,5 @@ permalink: /zh/pages/support/
 
 相关联系方式：
 
-- 邮件：[shokokawaii@outlook.com](mailto:jobob@qq.com) | [qfluentwidgets@outlook.com](mailto:koyangslash@gmail.com)
+- 邮件：[shokokawaii@outlook.com](mailto:shokokawaii@outlook.com) | [shokokawaii@foxmail.com](mailto:shokokawaii@foxmail.com)
 - Github：[https://github.com/zhiyiYo/PyQt-Fluent-Widgets](https://github.com/zhiyiYo/PyQt-Fluent-Widgets)

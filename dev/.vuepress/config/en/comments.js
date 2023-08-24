@@ -34,7 +34,7 @@ export const comments = {
     column2: [
         {
             "name": "okyan123",
-            "avatar": "/img/users/okyan123.png",
+            "avatar": "/img/users/okyan123.jpg",
             "job": "Front-end Developer",
             "comment": "This is definitely the best one I've seen so far. I've seen remakes using Flutter and Qt before, and the styles were done well, but they were all lacking animations. This one has good transition animations.👍"
         },
@@ -72,7 +72,7 @@ export const comments = {
         },
         {
             "name": "哈喽鼓捣拜",
-            "avatar": "/img/users/hellogoodbye.png",
+            "avatar": "/img/users/hellogoodbye.jpg",
             "job": "Student",
             "comment": "Today, I was going crazy writing QSS, so I searched to see if there were any ready-made ones. At first, I thought it was made by a foreign master, but when I clicked to watch the video demonstration, I found out that it's actually from China. I didn't expect to be able to use it so quickly!"
         },
