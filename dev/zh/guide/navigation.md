@@ -8,7 +8,7 @@ permalink: /zh/pages/navigation/
 
 QFluentWidgets 提供侧边导航类 `NavigationInterface`，可以将它和 `QStackWidget` 放在 `QHBoxLayout` 中，实现多子界面跳转，示例程序参见 [navigation2](https://github.com/zhiyiYo/PyQt-Fluent-Widgets/tree/master/examples/navigation2)。
 
-![Structure](/img/navigation/Structure.jpg)
+![Structure](https://cdn.staticaly.com/gh/qfluentwidgets/picx-images-hosting@master/20230824/Structure.3c6pzmvz8fc0.webp)
 
 `NavigationInterface` 内部使用 `NavigationPanel` 来放置导航菜单项。所有导航菜单项都需要继承自 `NavigationWidget`，可以调用 `NavigationInterface.addWidget()` 或者 `NavigationPanel.addWidget()` 将导航项添加到导航界面中。
 
@@ -99,7 +99,7 @@ def addWidget(
 
 下面是另外一种风格的导航界面，对应的示例程序为 [navigation](https://github.com/zhiyiYo/PyQt-Fluent-Widgets/tree/master/examples/navigation)。
 
-![](/img/navigation/NavigationInterface.jpg)
+![](https://cdn.staticaly.com/gh/qfluentwidgets/picx-images-hosting@master/20230824/NavigationInterface.3tihov4epdi0.webp)
 
 迷你导航界面如下图所示，可以在 navigation3 获取完整代码。
-![](/img/navigation/Minimal.jpg)
+![](https://cdn.staticaly.com/gh/qfluentwidgets/picx-images-hosting@master/20230824/Minimal.dpm79rl6e7k.webp)

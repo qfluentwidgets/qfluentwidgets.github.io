@@ -46,7 +46,7 @@
             <div class="example-card-container">
                 <figure class="example-card">
                     <!-- 左侧图像 -->
-                    <img class="example-img" src="/img/SBR.jpg" alt="">
+                    <img class="example-img" src="https://cdn.staticaly.com/gh/qfluentwidgets/picx-images-hosting@master/20230824/SBR.webp" alt="">
 
                     <!-- 右侧文本 -->
                     <div class="example-content-container">
@@ -89,7 +89,7 @@ let quickStart = () => {
 
         .bg-img-container {
             @apply absolute inset-0 bottom-10 bg-bottom bg-no-repeat bg-slate-50 dark:bg-[#0B1120];
-            background-image: url(/img/home-background-light.jpg);
+            background-image: url(https://cdn.staticaly.com/gh/qfluentwidgets/picx-images-hosting@master/20230824/home-background-light.6xcon5vk1c40.webp);
             background-size: 150rem;
 
             .bg-grid {
@@ -188,7 +188,7 @@ let quickStart = () => {
 
     .banner-header-container {
         .bg-img-container {
-            background-image: url(/img/home-background-dark.jpg);
+            background-image: url(https://cdn.staticaly.com/gh/qfluentwidgets/picx-images-hosting@master/20230824/home-background-dark.2sqxrzm2q7q0.webp);
         }
 
         .bg-grid {

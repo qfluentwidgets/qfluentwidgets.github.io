@@ -1,1 +1,1 @@
-const i="/img/navigation/Structure.jpg",a="/img/navigation/NavigationInterface.jpg",t="/img/navigation/Minimal.jpg";export{a as _,t as a,i as b};
+const i="https://cdn.staticaly.com/gh/qfluentwidgets/picx-images-hosting@master/20230824/Structure.3c6pzmvz8fc0.webp",a="https://cdn.staticaly.com/gh/qfluentwidgets/picx-images-hosting@master/20230824/NavigationInterface.3tihov4epdi0.webp",t="https://cdn.staticaly.com/gh/qfluentwidgets/picx-images-hosting@master/20230824/Minimal.dpm79rl6e7k.webp";export{a as _,t as a,i as b};

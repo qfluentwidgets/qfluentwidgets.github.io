@@ -7,7 +7,7 @@ permalink: /pages/navigation/
 
 PyQt Fluent Widgets provides a side navigation class `NavigationInterface`. You can use it with `QStackWidget` and put them in `QHBoxLayout`. Examples are available at [navigation2](https://github.com/zhiyiYo/PyQt-Fluent-Widgets/tree/master/examples/navigation2).
 
-![](/img/navigation/Structure.jpg)
+![](https://cdn.staticaly.com/gh/qfluentwidgets/picx-images-hosting@master/20230824/Structure.3c6pzmvz8fc0.webp)
 
 `NavigationInterface` contains `NavigationPanel` which is used to place navigation menu items. All navigation menu items should inherit from `NavigationWidget` and you can add them to the panel by calling `NavigationInterface.addWidget()` or `NavigationPanel.addWidget()`. PyQt-Fluent-Widgets implements subclass `NavigationPushButton` and provides a convenient method `NavigationInterface.addItem()` to add it to the panel.
 
@@ -85,13 +85,13 @@ As you can see, this method requires four parameters:
 The navigation panel has four display modes:
 
 * `NavigationDisplayMode.EXPAND`: An expanded left pane on large window widths (1008px or greater).
-  ![](/img/navigation/Expand.jpg)
+  ![](https://cdn.staticaly.com/gh/qfluentwidgets/picx-images-hosting@master/20230824/Expand.39gngq1yta40.webp)
 
 * `NavigationDisplayMode.COMPACT`: A left, icon-only, nav panel on medium window widths (1007px or less).
-  ![](/img/navigation/Compact.jpg)
+  ![](https://cdn.staticaly.com/gh/qfluentwidgets/picx-images-hosting@master/20230824/Compact.20s8q00qtvfk.webp)
 
 * `NavigationDisplayMode.MENU`: An expanded left menu (1007px or less).
-  ![](/img/navigation/Menu.jpg)
+  ![](https://cdn.staticaly.com/gh/qfluentwidgets/picx-images-hosting@master/20230824/Menu.5qqwsbrrs4w0.webp)
 
 * `NavigationDisplayMode.MINIMAL`: Only a menu button on small window widths (you should add and manage the menu button to main window by yourself like [navigation3](https://github.com/zhiyiYo/PyQt-Fluent-Widgets/tree/master/examples/navigation3) does).
 
@@ -101,8 +101,8 @@ If you call `NavigationInterface.setExpandWidth()`, the large window width (1008
 ## More examples
 Here is an another style of navigation interface, and its corresponding example program is available at [navigation](https://github.com/zhiyiYo/PyQt-Fluent-Widgets/tree/master/examples/navigation).
 
-![](/img/navigation/NavigationInterface.jpg)
+![](https://cdn.staticaly.com/gh/qfluentwidgets/picx-images-hosting@master/20230824/NavigationInterface.3tihov4epdi0.webp)
 
 Minimal display mode navigation interface is available at [navigation3](https://github.com/zhiyiYo/PyQt-Fluent-Widgets/tree/master/examples/navigation3).
 
-![](/img/navigation/Minimal.jpg)
+![](https://cdn.staticaly.com/gh/qfluentwidgets/picx-images-hosting@master/20230824/Minimal.dpm79rl6e7k.webp)

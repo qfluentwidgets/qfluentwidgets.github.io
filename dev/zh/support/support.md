@@ -7,7 +7,7 @@ permalink: /zh/pages/support/
 个人开发不易，如果这个组件库帮助了您，可以考虑在 [爱发电](https://afdian.net/a/zhiyiYo) 或者 [ko-fi](https://ko-fi.com/zhiyiYo) 上请作者喝一瓶快乐水。您的支持就是作者继续开发和维护项目的动力 🥰
 
 <p align="center">
-  <img src='/img/aifadian.jpg' style="height: 460px"/>
+  <img src='https://cdn.staticaly.com/gh/qfluentwidgets/picx-images-hosting@master/20230824/aifadian.66t6u1ayl7k0.webp' style="height: 460px"/>
 </p>
 
 

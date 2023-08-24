@@ -3,8 +3,8 @@
         <div class="components-feature-card">
             <!-- 图标 -->
             <div class="iconContainer">
-                <div class="lightIcon" style="background-image: url(/img/features/light-components.png)"></div>
-                <div class="darkIcon" style="background-image: url(/img/features/dark-components.png);"></div>
+                <div class="lightIcon" style="background-image: url(https://cdn.staticaly.com/gh/qfluentwidgets/picx-images-hosting@master/20230824/light-components.5tktk04ppm40.webp)"></div>
+                <div class="darkIcon" style="background-image: url(https://cdn.staticaly.com/gh/qfluentwidgets/picx-images-hosting@master/20230824/dark-components.2sm0jis8vum0.webp);"></div>
             </div>
 
             <!-- 特性名称 -->
@@ -36,7 +36,7 @@
             <div class="designer-wrapper">
                 <div class="designer-img-container">
                     <div class="designer-img-wrapper">
-                        <img src="/img/features/light-store.jpg" alt="" decoding="async">
+                        <img src="https://cdn.staticaly.com/gh/qfluentwidgets/picx-images-hosting@master/20230824/light-store.2b60f39zonpc.webp" alt="" decoding="async">
                     </div>
                 </div>
 
@@ -101,7 +101,7 @@ let home = localeConfig('home');
     .bg-img {
         @apply absolute top-0 inset-x-0 bg-top bg-no-repeat top-0 xl:top-[2.5rem];
 
-        background-image: url(/img/features/components-bg-light.jpg);
+        background-image: url(https://cdn.staticaly.com/gh/qfluentwidgets/picx-images-hosting@master/20230824/components-bg-light.2vbsflt3uri0.webp);
         background-size: 123.25rem 100%;
         height: 31.0625rem;
     }
@@ -134,7 +134,7 @@ let home = localeConfig('home');
 
 .dark {
     .bg-img {
-        background-image: url(/img/features/components-bg-dark.png);
+        background-image: url(https://cdn.staticaly.com/gh/qfluentwidgets/picx-images-hosting@master/20230824/components-bg-dark.z81asyt904w.webp);
     }
 
     .content {
