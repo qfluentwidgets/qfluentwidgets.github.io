@@ -73,7 +73,7 @@
 
                 <!-- 代码块 -->
                 <div class="code-card-container">
-                    <CodeCard fileUrl="/code/LoginWindow.ui" />
+                    <CodeCard fileUrl="https://cdn.jsdelivr.net/gh/qfluentwidgets/qfluentwidgets.github.io@v0.0.1/dev/.vuepress/public/code/LoginWindow.ui" />
                 </div>
             </div>
 
