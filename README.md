@@ -86,3 +86,5 @@ The online documentation of [PyQt-Fluent-Widgets](https://github.com/zhiyiYo/PyQ
        ```
 
 4. Create a pull request.
+
+## Add your project to showcase
