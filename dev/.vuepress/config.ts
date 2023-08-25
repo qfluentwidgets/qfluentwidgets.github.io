@@ -32,7 +32,7 @@ export default defineUserConfig({
 
     // siteMap plugin，https://vuepress-theme-hope.github.io/v2/sitemap/zh/config.html
     sitemapPlugin({
-      hostname: 'https:/qfluentwidgets.com/',
+      hostname: 'https://qfluentwidgets.com/',
       extraUrls: []
     })
   ]
