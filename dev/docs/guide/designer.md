@@ -40,7 +40,7 @@ Well, the widget is now promoted to fluent push button. But you won’t be able 
 
 4. Run `python ./tools/designer.py` to launch Qt Designer (You must use this way to launch Qt Designer).
 
-If everything goes smoothly, you will see all PyQt-Fluent-Widgets components in the sidebar of Qt Designer. If the startup fails or the components of PyQt-Fluent-Widgets cannot be seen, the solution can be found in [#196](https://github.com/zhiyiYo/PyQt-Fluent-Widgets/issues/196).
+If everything goes smoothly, you will see all PyQt-Fluent-Widgets components in the sidebar of Qt Designer. If the startup fails or the components of PyQt-Fluent-Widgets cannot be seen, the solution can be found in [Issue#196](https://github.com/zhiyiYo/PyQt-Fluent-Widgets/issues/196).
 
 You can also download the compiled QtDesigner from [release page](https://github.com/zhiyiYo/PyQt-Fluent-Widgets/releases). Download and unzip `FluentDesigner_v*.*.*.zip`, then run `designer/designer.exe`, you will launch the QtDesigner that has already installed plugins.
 

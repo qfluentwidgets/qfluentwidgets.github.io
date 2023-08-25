@@ -3,6 +3,7 @@ title: Install
 date: 2023-08-17 15:37:01
 permalink: /pages/install/
 ---
+QFluentWidgets includes lite and full-featured version, while the full version having an additional acrylic label component. Due to the full-featured version depending on scipy, it will significantly increase the package size, so it is recommended to install the lite version.
 
 :::: code-group
 ::: code-group-item PyQt5

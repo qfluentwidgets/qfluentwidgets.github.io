@@ -11,9 +11,9 @@ You can use the `setTheme()` method to switch the light/dark theme of PyQt-Fluen
 * `Theme.DARK`: Dark theme
 * `Theme.AUTO`: Follow system theme. If the system theme cannot be detected, the light theme will be used.
 
-When the theme changes, `qconfig` will emit the `themeChanged` signal.
+`toggleTheme()` is used to toggle the theme mode. When the theme changes, `qconfig` will emit the `themeChanged` signal.
 
-If you want to automatically switch the interface style when the theme changes, you can inherit `StyleSheetBase` and override the `path()` method. Suppose you have a `MainWindow` class and its qss file paths are `app/resource/qss/light/main_window.qss` and `app/resource/qss/dark/main_window.qss`, the code can be written like this:
+If you want to automatically switch the interface style when the theme changes, you can inherit `StyleSheetBase` and override the `path()` method. Suppose you have a `Window` class and its qss file paths are `qss/light/window.qss` and `qss/dark/window.qss`, the code can be written like this:
 
 ```python
 from enum import Enum
@@ -23,20 +23,20 @@ from qfluentwidgets import StyleSheetBase, Theme, isDarkTheme, qconfig
 class StyleSheet(StyleSheetBase, Enum):
     """ Style sheet  """
 
-    MAIN_WINDOW = "main_window"
+    WINDOW = "window"
 
     def path(self, theme=Theme.AUTO):
         theme = qconfig.theme if theme == Theme.AUTO else theme
-        return f"app/resource/qss/{theme.value.lower()}/{self.value}.qss"
+        return f"qss/{theme.value.lower()}/{self.value}.qss"
 
 
-class MainWindow(QWidget):
+class Window(QWidget):
 
     def __init__(self, parent=None):
         super().__init__(parent=parent)
 
-        # apply style sheet to main window
-        StyleSheet.MAIN_WINDOW.apply(self)
+        # apply style sheet to window
+        StyleSheet.WINDOW.apply(self)
 ```
 
 ## Customize style
@@ -71,7 +71,7 @@ In Qt Designer, you can achieve custom styling by adding dynamic properties. Her
 
 
 ## Theme color
-You can use `setThemeColor()` method to change the theme color of PyQt-Fluent-Widgets. This method accepts the following three types of parameters:
+`themeColor()` returns current theme color, and you can use `setThemeColor()` method to change the theme color of QFluentWidgets. This method accepts the following three types of parameters:
 * `QColor`
 * `Qt.GlobalColor`
 * `str`: Hex color strings or color names, such as `#0065d5` or `red`.

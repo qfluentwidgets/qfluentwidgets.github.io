@@ -38,7 +38,7 @@ permalink: /zh/pages/designer/
 
 4. 运行 `python ./tools/designer.py` 来启动设计师软件（必须使用脚本启动）
 
-一切无误的情况下能在侧边栏 Widget Box 中看到 PyQt-Fluent-Widgets 的组件。如果启动失败或者看不到 PyQt-Fluent-Widgets 的组件，解决方案参见 [#196](https://github.com/zhiyiYo/PyQt-Fluent-Widgets/issues/196)。
+一切无误的情况下能在侧边栏 Widget Box 中看到 PyQt-Fluent-Widgets 的组件。如果启动失败或者看不到 PyQt-Fluent-Widgets 的组件，解决方案参见 [Issue#196](https://github.com/zhiyiYo/PyQt-Fluent-Widgets/issues/196)。
 
 [项目发行页面](https://github.com/zhiyiYo/PyQt-Fluent-Widgets/releases) 提供了内置 PyQt-Fluent-Widgets 插件的 QtDesigner，下载并解压 `FluentDesigner_v*.*.*.zip`，双击运行 `designer/designer.exe` 就能启动 QtDesigner。
 

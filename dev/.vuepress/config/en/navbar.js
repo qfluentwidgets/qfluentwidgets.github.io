@@ -39,6 +39,10 @@ export const navbar = [
             text: 'Settings',
             link: '/pages/setting'
           },
+          {
+            text: 'Translation',
+            link: '/pages/i18n'
+          },
         ]
       },
       {

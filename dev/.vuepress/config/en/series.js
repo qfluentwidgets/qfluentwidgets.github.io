@@ -6,7 +6,7 @@ export const series = {
         },
         {
             text: "Customize",
-            children: ["/pages/theme", "/pages/icon", "/pages/navigation", "/pages/setting"],
+            children: ["/pages/theme", "/pages/icon", "/pages/navigation", "/pages/setting", "/pages/i18n"],
         },
     ],
 };

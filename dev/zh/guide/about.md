@@ -23,7 +23,7 @@ permalink: /zh/pages/about/
 
 PyQt-Fluent-Widgets 和 PyQt6-Fluent-Widgets 的许可证为 [GPLv3](https://github.com/zhiyiYo/PyQt-Fluent-Widgets/blob/master/LICENSE).
 
-PySide6-Fluent-Widgets 和 PySide2-Fluent-Widgets 使用**双许可证**。非商业用途使用 GPLv3 许可证进行授权，商用请购买[商业许可证](/price) 以支持项目的开发。
+PySide6-Fluent-Widgets 和 PySide2-Fluent-Widgets 使用**双许可证**。非商业用途使用 GPLv3 许可证进行授权，商用请购买[商业许可证](/zh/price) 以支持项目的开发。
 
 ## 参与贡献
 

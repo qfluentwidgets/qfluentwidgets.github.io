@@ -6,7 +6,13 @@ export const series = {
         },
         {
             text: "高级定制",
-            children: ["/zh/pages/theme", "/zh/pages/icon", "/zh/pages/navigation", "/zh/pages/setting"],
+            children: [
+                "/zh/pages/theme",
+                "/zh/pages/icon",
+                "/zh/pages/navigation",
+                "/zh/pages/setting",
+                "/zh/pages/i18n"
+            ],
         },
     ],
 };

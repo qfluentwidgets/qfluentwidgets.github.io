@@ -39,6 +39,10 @@ export const navbar = [
             text: '设置',
             link: '/zh/pages/setting'
           },
+          {
+            text: '翻译',
+            link: '/zh/pages/i18n'
+          },
         ]
       },
       {
