@@ -74,5 +74,5 @@ body:not(#custom-body) {
 }
 
 .dropdown-link__container {
-    @apply shadow-md !important;
+    @apply md:shadow-md !important;
 }
