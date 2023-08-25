@@ -5,18 +5,6 @@
  */
 @import '@vuepress-reco/tailwindcss-config/lib/client/styles/tailwindcss-base.css';
 
-p>code, li>code, td>code {
-    color: #c7254e;
-    line-height: 1.2;
-    vertical-align: middle;
-    margin: 0 3px;
-    background-color: #f9f2f4!important;
-    font-size: 14px!important;
-    padding: .2em .3em!important;
-    -webkit-border-radius: 3px!important;
-    border-radius: 3px!important;
-    border: 1px solid #f9f2f4!important;
-}
 
 div[class*="language-"],
 .line-numbers {
@@ -40,8 +28,11 @@ pre[class*="language-"] {
     -moz-hyphens: none;
     -ms-hyphens: none;
     hyphens: none;
-    padding-top: 10px !important;
-    padding-bottom: 10px !important;
+}
+
+div[data-ext] pre {
+    padding-top: 8px !important;
+    padding-bottom: 15px !important;
     line-height: 1.5 !important;
 }
 
@@ -98,6 +89,10 @@ pre[class*="language-"] {
 .token.doctype,
 .token.cdata {
     color: #5C6370 !important;
+}
+
+.token.comment {
+    font-style: italic;
 }
 
 .token.punctuation {

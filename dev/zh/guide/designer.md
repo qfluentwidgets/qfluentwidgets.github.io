@@ -13,9 +13,7 @@ permalink: /zh/pages/designer/
 
 ![context menu](/img/designer/promote_context.jpg)
 
-弹出的对话框上需要填写自定义的组件名。
-
-头文件是组件库的包名 `qfluentwidgets`，提升的类名称为 `PushButton`。
+弹出的对话框上需要填写自定义的组件名。头文件是组件库的包名 `qfluentwidgets`，提升的类名称为 `PushButton`。
 
 ![promote dialog](/img/designer/promote_dialog.jpg)
 
@@ -50,7 +48,7 @@ permalink: /zh/pages/designer/
 
 PySide6 的插件不稳定，可能无法启动 QtDesigner，建议使用 PyQt5/Qt6 的 QtDesigner 来生成 ui 文件。
 
-::: note
+::: warning 警告
 PyQt5 要把 PyQt5-Frameless-Window 升级到 0.2.7 才能使用插件，PySide6 和 PyQt6 无需升级无边框包。PySide2 不支持插件，不过可以先用 PyQt5 的 QtDesigner 生成 ui 文件，然后用 uic 编译成 py 文件。
 :::
 

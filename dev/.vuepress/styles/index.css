@@ -1,5 +1,6 @@
 @import "inter-ui/inter.css";
 @import "./code.css";
+@import "./container.css";
 
 #theme-reco-custom-content {
     max-width: 100% !important;
@@ -33,6 +34,18 @@
 
         abbr {
             font-family: "Inter var", ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
+        }
+    }
+}
+
+.theme-reco-default-content {
+    ul, ol {
+        padding-left: 2rem;
+    }
+
+    p {
+        img {
+            margin: 0 auto;
         }
     }
 }

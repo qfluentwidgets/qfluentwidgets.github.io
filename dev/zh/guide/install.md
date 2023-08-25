@@ -6,7 +6,7 @@ permalink: /zh/pages/Install/
 
 :::: code-group
 ::: code-group-item PyQt5
-```python
+```shell
 # 安装轻量版
 pip install PyQt-Fluent-Widgets -i https://pypi.org/simple/
 
@@ -15,7 +15,7 @@ pip install "PyQt-Fluent-Widgets[full]" -i https://pypi.org/simple/
 ```
 :::
 ::: code-group-item PyQt6
-```python
+```shell
 # 安装轻量版
 pip install PyQt6-Fluent-Widgets -i https://pypi.org/simple/
 
@@ -24,7 +24,7 @@ pip install "PyQt6-Fluent-Widgets[full]" -i https://pypi.org/simple/
 ```
 :::
 ::: code-group-item PySide2
-```python
+```shell
 # 安装轻量版
 pip install PySide2-Fluent-Widgets -i https://pypi.org/simple/
 
@@ -33,7 +33,7 @@ pip install "PySide2-Fluent-Widgets[full]" -i https://pypi.org/simple/
 ```
 :::
 ::: code-group-item PySide6
-```python
+```shell
 # 安装轻量版
 pip install PySide6-Fluent-Widgets -i https://pypi.org/simple/
 
@@ -44,13 +44,13 @@ pip install "PySide6-Fluent-Widgets[full]" -i https://pypi.org/simple/
 ::::
 
 
-::: warning
+::: warning 警告
 请勿同时安装 PyQt-Fluent-Widgets、PyQt6-Fluent-Widgets、PySide2-Fluent-Widgets 和 PySide6-Fluent-Widgets，因为他们的包名都是 `qfluentwidgets`
 :::
 
 ## 运行示例
 使用 pip 安装好 QFluentWidgets 包并下载好项目仓库**对应分支**的代码之后，就可以运行 examples 目录下的任意示例程序，比如：
-```python
+```shell
 cd examples/gallery
 python demo.py
 ```
