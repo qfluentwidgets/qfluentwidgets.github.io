@@ -19,21 +19,21 @@ permalink: /zh/pages/about/
 * **界面缩放**：支持自定义界面缩放，适配不同分辨率的屏幕
 * **国际化**：支持多国语言，满足不同用户群体的需求
 
+## 许可证
+
+PyQt-Fluent-Widgets 和 PyQt6-Fluent-Widgets 的许可证为 [GPLv3](https://github.com/zhiyiYo/PyQt-Fluent-Widgets/blob/master/LICENSE).
+
+PySide6-Fluent-Widgets 和 PySide2-Fluent-Widgets 使用**双许可证**。非商业用途使用 GPLv3 许可证进行授权，商用请购买[商业许可证](/price) 以支持项目的开发。
+
 ## 参与贡献
 
 欢迎各路好汉一起来参与完善 PyQt-Fluent-Widgets，我们期待你的 PR！
 
-- 贡献代码：代码地址 [PyQt-Fluent-Widgets](https://github.com/zhiyiYo/PyQt-Fluent-Widgets) ，欢迎提交 Issue 或者 Pull Requests
-- 维护文档：文档地址 [PyQt-Fluent-Widgets-Doc](https://github.com/qfluentwidgets/PyQt-Fluent-Widgets-Docs) ，欢迎参与翻译和修订
+- 贡献代码：[PyQt-Fluent-Widgets](https://github.com/zhiyiYo/PyQt-Fluent-Widgets) ，欢迎提交 Issue 或者 PR
+- 维护文档：[PyQt-Fluent-Widgets-Doc](https://github.com/qfluentwidgets/PyQt-Fluent-Widgets-Docs) ，欢迎参与翻译和修订
 
 
 ## 致谢
 感谢所有为这个组件库的发展做出贡献以及支持过自己的小伙伴们：
 
 <a href="https://github.com/zhiyiYo/PyQt-Fluent-Widgets/graphs/contributors"><img src="https://contrib.rocks/image?repo=zhiyiYo/PyQt-Fluent-Widgets"></a>
-
-## 许可证
-
-PyQt-Fluent-Widgets 和 PyQt6-Fluent-Widgets 的许可证为 GPLv3.
-
-PySide6-Fluent-Widgets 和 PySide2-Fluent-Widgets 使用双许可证。非商业用途使用 GPLv3 许可证进行授权，商用请在 [**爱发电**](/price) 上进行购买以支持项目的开发。

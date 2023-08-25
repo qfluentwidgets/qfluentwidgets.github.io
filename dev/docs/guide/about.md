@@ -18,12 +18,18 @@ Our vision is to simplify UI development, reduce the difficulty of creating beau
 * **UI Scaling**: Support custom UI scaling to adapt to screens with different resolutions.
 * **Internationalization**: Support multiple languages to meet the needs of different user groups.
 
+## License
+
+The license for PyQt-Fluent-Widgets and PyQt6-Fluent-Widgets is [GPLv3](https://github.com/zhiyiYo/PyQt-Fluent-Widgets/blob/master/LICENSE).
+
+PySide6-Fluent-Widgets and PySide2-Fluent-Widgets are **dual-licensed**. They are licensed under GPLv3 for non-commercial use. For commercial use, please purchase a [**commercial license**](/price) to support the development of this project.
+
 ## Contributing
 
 We welcome all contributions to PyQt-Fluent-Widgets. We look forward to your PR!
 
-- Code Contribution: Code repository [PyQt-Fluent-Widgets](https://github.com/zhiyiYo/PyQt-Fluent-Widgets), issues and pull requests are welcome.
-- Documentation Maintenance: Documentation repository [PyQt-Fluent-Widgets-Doc](https://github.com/qfluentwidgets/qfluentwidgets.github.io), participation in translation and revision is welcome.
+- Code Contribution: [PyQt-Fluent-Widgets](https://github.com/zhiyiYo/PyQt-Fluent-Widgets), issues and pull requests are welcome.
+- Docs Maintenance: [PyQt-Fluent-Widgets-Doc](https://github.com/qfluentwidgets/qfluentwidgets.github.io), participation in translation and revision is welcome.
 
 ## Acknowledgements
 Thanks to all the contributors and supporters of this component library:
@@ -31,9 +37,3 @@ Thanks to all the contributors and supporters of this component library:
 <a href="https://github.com/zhiyiYo/PyQt-Fluent-Widgets/graphs/contributors">
     <img src="https://contrib.rocks/image?repo=zhiyiYo/PyQt-Fluent-Widgets">
 </a>
-
-## License
-
-The license for PyQt-Fluent-Widgets and PyQt6-Fluent-Widgets is GPLv3.
-
-PySide6-Fluent-Widgets and PySide2-Fluent-Widgets are dual-licensed. They are licensed under GPLv3 for non-commercial use. For commercial use, please purchase a license on [**爱发电**](/price) to support the development.
