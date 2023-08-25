@@ -1,4 +1,4 @@
-import { useRouteLocale } from "@vuepress/client"
+import { useRouteLocale, siteData } from "@vuepress/client"
 import { themeConfig } from "../config/index"
 import { computed } from "vue";
 

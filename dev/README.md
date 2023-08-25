@@ -2,9 +2,8 @@
 home: true
   - MdContent
 
+description: QFluentWidgets - Fluent Design Components Library based on PyQt/PySide
 isShowTitleInHome: true
-actionText: About
-actionLink: /views/other/about
 ---
 
 <Home/>

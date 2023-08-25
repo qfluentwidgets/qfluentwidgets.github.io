@@ -56,6 +56,8 @@ import { localeConfig } from "../utils/locale";
 
 useCustomPage();
 let comments = localeConfig('comments');
+let home = localeConfig('home');
+document.title = 'QFluentWidgets - ' + home.value.title;
 </script>
 
 <style>
