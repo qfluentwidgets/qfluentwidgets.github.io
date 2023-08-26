@@ -1,7 +1,7 @@
 ---
 title: 安装
 date: 2023-08-17 15:37:01
-permalink: /zh/pages/Install/
+permalink: /zh/pages/install/
 ---
 QFluentWidgets 分为轻量版和完整版，其中完整版多了亚克力标签组件。由于完整版依赖 scipy，会导致打包体积变大许多，所以建议安装轻量版。
 

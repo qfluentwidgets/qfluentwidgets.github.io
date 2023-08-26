@@ -3,7 +3,7 @@ export const home = {
     description: '本框架本质上是一个组件库，包含了大量类似 <code class="component">InfoBar</code>、 <code class="component">Flyout</code>、 <code class="component">CommandBar</code> 以及 <code class="component">Pivot</code> 等组件类，可以组合使用并直接在设计师上实现任何 UI 设计。',
     quickStart: {
         text: '快速开始',
-        url: '/zh/pages/Install/',
+        url: '/zh/pages/install/',
     },
     search: {
         text: '快速搜索...'
@@ -19,13 +19,13 @@ export const home = {
             title: '组件驱动',
             subTitle: '开箱即用',
             description: 'QFluentWidgets 是一个美观优雅的 Fluent Design 风格 UI 组件库。该组件库包含了数百个现成的组件和示例供你选择，保证能让你找到一个完美的组件作为千里之行的起点。',
-            url: '/zh/pages/设计师/'
+            url: '/zh/pages/designer/'
         },
         designer: {
             title: '拖拖拽拽',
             subTitle: '上手很快',
             description: 'QFluentWidgets 充分利用了所见即所得的 QtDesigner 插件功能，将令人脑壳疼的复杂界面搭建任务转化为简单的积木游戏，即便是小白也能轻松上手！',
-            url: '/zh/pages/设计师/',
+            url: '/zh/pages/designer/',
             designer: '设计师',
             runTime: '运行效果',
         },
@@ -33,7 +33,7 @@ export const home = {
             title: '夜间模式',
             subTitle: '随心切换',
             description: '你也不希望用户在半夜打开你的软件，被刺眼的白光晃瞎双眼吧？仅需要一行代码就能启用夜间模式！此功能支持背景色、文本颜色、边框颜色以及阴影颜色。',
-            url: '/zh/pages/主题/'
+            url: '/zh/pages/theme/'
         },
     },
     learnMore: '了解更多',
