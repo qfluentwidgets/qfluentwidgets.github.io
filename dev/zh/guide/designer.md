@@ -30,7 +30,7 @@ permalink: /zh/pages/designer/
 2. 激活虚拟环境，在终端中输入下述命令安装所需的包：
 
    ```shell
-   pip install PyQt-Fluent-Widget
+   pip install PyQt-Fluent-Widgets
    pip install pyqt5-tools
    ```
 
@@ -40,7 +40,7 @@ permalink: /zh/pages/designer/
 
 一切无误的情况下能在侧边栏 Widget Box 中看到 PyQt-Fluent-Widgets 的组件。如果启动失败或者看不到 PyQt-Fluent-Widgets 的组件，解决方案参见 [Issue#196](https://github.com/zhiyiYo/PyQt-Fluent-Widgets/issues/196)。
 
-[项目发行页面](https://github.com/zhiyiYo/PyQt-Fluent-Widgets/releases) 提供了内置 PyQt-Fluent-Widgets 插件的 QtDesigner，下载并解压 `FluentDesigner_v*.*.*.zip`，双击运行 `designer/designer.exe` 就能启动 QtDesigner。
+如果嫌搭建环境麻烦的话，可以从 [项目发行页面](https://github.com/zhiyiYo/PyQt-Fluent-Widgets/releases) 下载内置了 QFluentWidgets 插件的 FluentDesigner，下载并解压 `FluentDesigner_v*.*.*.zip`，双击运行 `designer/designer.exe` 就能启动 QtDesigner。
 
 <div style="position: relative; padding: 30% 45%;">
     <iframe style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;" src="https://player.bilibili.com/player.html?cid=1124976209&aid=953381256&page=1&as_wide=1&high_quality=1&danmaku=0" frameborder="no" scrolling="no" allowfullscreen="true"></iframe>

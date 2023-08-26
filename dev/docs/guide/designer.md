@@ -32,7 +32,7 @@ Well, the widget is now promoted to fluent push button. But you won’t be able 
 2. Activate virtual environment and run the following code in shell:
 
    ```shell
-   pip install PyQt-Fluent-Widget
+   pip install PyQt-Fluent-Widgets
    pip install pyqt5-tools
    ```
 
