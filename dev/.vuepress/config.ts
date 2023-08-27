@@ -17,6 +17,9 @@ export default defineUserConfig({
       title: "QFluentWidgets",
     },
   },
+  head: [
+    ['link', { rel: 'icon', href: '/img/logo.png' }]
+  ],
   theme: recoTheme(themeConfig),
   debug: false,
   base: '/',
