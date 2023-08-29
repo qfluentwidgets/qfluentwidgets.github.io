@@ -4,7 +4,8 @@ date: 2023-08-17 19:00:22
 permalink: /zh/pages/navigation/
 ---
 
-## 结构
+## 侧边导航栏
+### 结构
 
 QFluentWidgets 提供侧边导航类 `NavigationInterface`，可以将它和 `QStackWidget` 放在 `QHBoxLayout` 中，实现多子界面跳转，示例程序参见 [navigation2](https://github.com/zhiyiYo/PyQt-Fluent-Widgets/tree/master/examples/navigation2)。
 
@@ -84,7 +85,7 @@ def addWidget(
 - `tooltip`：菜单项的工具提示
 - `parentRouteKey`: 父菜单项的路由键，父菜单项对应的小部件必须是 `NavigationTreeWidgetBase` 子类的实例
 
-## 显示模式
+### 显示模式
 
 导航面板有以下四种显示模式：
 
@@ -95,11 +96,102 @@ def addWidget(
 
 如果调用了 `NavigationInterface.setExpandWidth()`，上述的窗口宽度阈值（1008px）将相应进行调整。
 
-## 更多示例
+### 更多示例
 
 下面是另外一种风格的导航界面，对应的示例程序为 [navigation](https://github.com/zhiyiYo/PyQt-Fluent-Widgets/tree/master/examples/navigation)。
 
 ![](https://cdn.staticaly.com/gh/qfluentwidgets/picx-images-hosting@master/20230824/NavigationInterface.3tihov4epdi0.webp)
 
-迷你导航界面如下图所示，可以在 navigation3 获取完整代码。
+迷你导航界面如下图所示，可以在 [navigation3](https://github.com/zhiyiYo/PyQt-Fluent-Widgets/tree/master/examples/navigation3) 获取完整代码。
 ![](https://cdn.staticaly.com/gh/qfluentwidgets/picx-images-hosting@master/20230824/Minimal.dpm79rl6e7k.webp)
+
+
+## FluentWindow
+QFluentWidgets 对侧边导航栏进行了封装，提供了开箱即用的 `FluentWindow`、`SplitFluentWindow` 和 `MSFluentWindow` 类。三个类的使用方式相似，以 `FluentWindow` 为例，只需调用 `addSubInterface()` 方法就能完成添加子界面的任务：
+```python
+def addSubInterface(
+    self,
+    interface: QWidget,
+    icon: FluentIconBase | QIcon | str,
+    text: str,
+    position=NavigationItemPosition.TOP,
+    parent: QWidget = None
+) -> NavigationTreeWidget
+```
+各个参数解释如下：
+* `interface`: 需要添加的子界面
+* `icon`：侧边栏菜单项图标
+* `text`：侧边栏菜单项文本
+* `position`：侧边栏菜单项的位置
+* `parent`：侧边栏父菜单项对应的子界面
+
+::: warning 警告
+调用 `addSubInterface()` 之前必须给子界面设置全局唯一的对象名作为路由键，否则后退功能会出问题，同时侧边栏看不到子界面对应的菜单项
+:::
+
+下面是个简单的例子，更加复杂的多子界面示例见 [视频教程](https://www.bilibili.com/video/BV1Uu411j7AV)：
+```python
+from qfluentwidgets import NavigationItemPosition, FluentWindow, SubtitleLabel, setFont
+from qfluentwidgets import FluentIcon as FIF
+
+
+class Widget(QFrame):
+
+    def __init__(self, text: str, parent=None):
+        super().__init__(parent=parent)
+        self.label = SubtitleLabel(text, self)
+        self.hBoxLayout = QHBoxLayout(self)
+
+        setFont(self.label, 24)
+        self.label.setAlignment(Qt.AlignCenter)
+        self.hBoxLayout.addWidget(self.label, 1, Qt.AlignCenter)
+
+        # 必须给子界面设置全局唯一的对象名
+        self.setObjectName(text.replace(' ', '-'))
+
+
+class Window(FluentWindow):
+    """ 主界面 """
+
+    def __init__(self):
+        super().__init__()
+
+        # 创建子界面，实际使用时将 Widget 换成自己的子界面
+        self.homeInterface = Widget('Home Interface', self)
+        self.musicInterface = Widget('Music Interface', self)
+        self.videoInterface = Widget('Video Interface', self)
+        self.settingInterface = Widget('Setting Interface', self)
+        self.albumInterface = Widget('Album Interface', self)
+        self.albumInterface1 = Widget('Album Interface 1', self)
+
+        self.initNavigation()
+        self.initWindow()
+
+    def initNavigation(self):
+        self.addSubInterface(self.homeInterface, FIF.HOME, 'Home')
+        self.addSubInterface(self.musicInterface, FIF.MUSIC, 'Music library')
+        self.addSubInterface(self.videoInterface, FIF.VIDEO, 'Video library')
+
+        self.navigationInterface.addSeparator()
+
+        self.addSubInterface(self.albumInterface, FIF.ALBUM, 'Albums', NavigationItemPosition.SCROLL)
+        self.addSubInterface(self.albumInterface1, FIF.ALBUM, 'Album 1', parent=self.albumInterface)
+
+        self.addSubInterface(self.settingInterface, FIF.SETTING, 'Settings', NavigationItemPosition.BOTTOM)
+
+    def initWindow(self):
+        self.resize(900, 700)
+        self.setWindowIcon(QIcon(':/qfluentwidgets/images/logo.png'))
+        self.setWindowTitle('PyQt-Fluent-Widgets')
+
+
+if __name__ == '__main__':
+    app = QApplication(sys.argv)
+    w = Window()
+    w.show()
+    app.exec()
+```
+
+::: tip 提示
+如果你在界面的左上角看到奇怪的东西，说明忘了调用 `addSubInterface()` 添加某个子界面
+:::
