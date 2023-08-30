@@ -3,7 +3,7 @@ import type { DefaultThemeOptions } from "vuepress";
 import recoTheme from "vuepress-theme-reco";
 import { themeConfig } from "./config/index";
 import { seoPlugin } from 'vuepress-plugin-seo2';
-import { sitemapPlugin } from 'vuepress-plugin-sitemap2'
+import { sitemapPlugin } from 'vuepress-plugin-sitemap2';
 
 
 export default defineUserConfig({
@@ -37,6 +37,6 @@ export default defineUserConfig({
     sitemapPlugin({
       hostname: 'https://qfluentwidgets.com/',
       extraUrls: []
-    })
+    }),
   ]
 });
