@@ -97,8 +97,3 @@ You can open an issue and provide the information of your project like this:
     url: 'https://github.com/zhiyiYo/QMaterialWidgets'
 }
 ```
-
-## FAQ
-* **`usePageFrontmatter()` is called without provider?**
-
-  **Re:** Try `npx vp-update`
