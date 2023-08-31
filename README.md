@@ -88,3 +88,17 @@ The online documentation of [PyQt-Fluent-Widgets](https://github.com/zhiyiYo/PyQ
 4. Create a pull request.
 
 ## Add your project to showcase
+You can open an issue and provide the information of your project like this:
+```js
+{
+    name: 'QMaterialWidgets',
+    description: 'Material Design 风格组件库',
+    cover: 'https://cdn.staticaly.com/gh/qfluentwidgets/picx-images-hosting@master/20230824/QMaterialWidgets.v1z65mb7568.webp',
+    url: 'https://github.com/zhiyiYo/QMaterialWidgets'
+}
+```
+
+## FAQ
+* **`usePageFrontmatter()` is called without provider?**
+
+  **Re:** Try `npx vp-update`
