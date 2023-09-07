@@ -12,7 +12,7 @@ If this project helps you a lot and you want to support the development and main
 
 
 ## Acknowledgements
-Thank you to all the supportive friends 💖
+Thank you to all the sponsor friends 💖
 
 <p align="center">
   <img src='https://raw.githubusercontent.com/zhiyiYo/Sponsors/main/sponsors.svg'/>
@@ -24,9 +24,16 @@ Display your brand LOGO and slogan simultaneously on:
 
 - Top of the GitHub repository homepage
 - Top of the documentation website homepage
-- Top of the left sidebar on all documentation pages of the website
 
 Contact information:
 
 - Email: [shokokawaii@outlook.com](mailto:shokokawaii@outlook.com) | [shokokawaii@foxmail.com](mailto:shokokawaii@foxmail.com)
 - GitHub: [https://github.com/zhiyiYo/PyQt-Fluent-Widgets](https://github.com/zhiyiYo/PyQt-Fluent-Widgets)
+
+
+## Join Us
+If you encounter any problems using the QFluentWidgets, welcome to join the Knowledge Planet and discuss with us.
+
+<p align="center">
+  <img src='https://cdn.staticaly.com/gh/qfluentwidgets/picx-images-hosting@master/20230907/planet.1p6r6dguvz34.webp' style="height: 80%"/>
+</p>
