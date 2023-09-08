@@ -78,7 +78,7 @@ PyQt-Fluent-Widgets 内置了许多类型的设置卡：
 
 可以通过 `SettingCardGroup.addSettingCard()` 将多个设置卡添加到同一个组中，`SettingCardGroup` 会根据设置卡的高度自动调整自己的布局。
 
-对于上述组件的具体使用方式，参见 [setting_interface.py](https://github.com/zhiyiYo/PyQt-Fluent-Widgets/blob/master/examples/settings/setting_interface.py).
+对于上述组件的具体使用方式，参见 [setting_interface.py](https://github.com/zhiyiYo/PyQt-Fluent-Widgets/blob/master/examples/window/settings/setting_interface.py).
 
 
 
