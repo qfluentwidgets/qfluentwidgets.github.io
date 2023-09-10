@@ -30,10 +30,3 @@ Contact information:
 - Email: [shokokawaii@outlook.com](mailto:shokokawaii@outlook.com) | [shokokawaii@foxmail.com](mailto:shokokawaii@foxmail.com)
 - GitHub: [https://github.com/zhiyiYo/PyQt-Fluent-Widgets](https://github.com/zhiyiYo/PyQt-Fluent-Widgets)
 
-
-## Join Us
-If you encounter any problems using the QFluentWidgets, welcome to join the Knowledge Planet and discuss with us.
-
-<p align="center">
-  <img src='https://cdn.staticaly.com/gh/qfluentwidgets/picx-images-hosting@master/20230907/planet.1p6r6dguvz34.webp' style="height: 80%"/>
-</p>

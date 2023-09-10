@@ -31,10 +31,3 @@ permalink: /zh/pages/support/
 - 邮件：[shokokawaii@outlook.com](mailto:shokokawaii@outlook.com) | [shokokawaii@foxmail.com](mailto:shokokawaii@foxmail.com)
 - Github：[https://github.com/zhiyiYo/PyQt-Fluent-Widgets](https://github.com/zhiyiYo/PyQt-Fluent-Widgets)
 
-
-## 加入我们
-如果你在使用 QFluentWidgets 组件库时遇到任何问题，欢迎加入知识星球与我们一起交流探讨~
-
-<p align="center">
-  <img src='https://cdn.staticaly.com/gh/qfluentwidgets/picx-images-hosting@master/20230907/planet.1p6r6dguvz34.webp' style="height: 80%"/>
-</p>
