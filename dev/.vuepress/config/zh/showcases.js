@@ -34,10 +34,10 @@ export const showcases = {
             url: 'https://github.com/MCSLTeam/MCSL2'
         },
         {
-            name: 'StarRail-gacha',
-            description: '星穹铁道抽卡导出工具',
-            cover: 'https://cdn.staticaly.com/gh/qfluentwidgets/picx-images-hosting@master/20230824/StarRail.6ec9ekpkaa00.webp',
-            url: 'https://github.com/DancingSnow0517/StarRail-gacha'
+            name: 'AutoStarRail',
+            description: '星穹铁道自动化工具',
+            cover: 'https://cdn.staticaly.com/gh/qfluentwidgets/picx-images-hosting@master/20230918/scripts.5r7qxjxgb2k0.webp',
+            url: 'https://github.com/JunNanLYS/AutoStarRail'
         },
     ]
 };
