@@ -3,8 +3,8 @@
         <div class="dark-mode-feature-card">
             <!-- 图标 -->
             <div class="iconContainer">
-                <div class="lightIcon" style="background-image: url(https://cdn.staticaly.com/gh/qfluentwidgets/picx-images-hosting@master/20230824/light-mode.3ff7dhv0p2i0.webp)"></div>
-                <div class="darkIcon" style="background-image: url(https://cdn.staticaly.com/gh/qfluentwidgets/picx-images-hosting@master/20230824/dark-mode.56i9pkm4gyc.webp);"></div>
+                <div class="lightIcon" style="background-image: url(/img/features/light-mode.png)"></div>
+                <div class="darkIcon" style="background-image: url(/img/features/dark-mode.png);"></div>
             </div>
 
             <!-- 特性名称 -->
@@ -83,8 +83,8 @@
 
             <!-- 图片 -->
             <div :class="imgContainerClass">
-                <img alt="" class="light-img" loading="lazy" decoding="async" src="https://cdn.staticaly.com/gh/qfluentwidgets/picx-images-hosting@master/20230824/light-store.2b60f39zonpc.webp">
-                <img alt="" class="dark-img" loading="lazy" decoding="async" src="https://cdn.staticaly.com/gh/qfluentwidgets/picx-images-hosting@master/20230824/dark-store.5mr593wdx3w.webp">
+                <img alt="" class="light-img" loading="lazy" decoding="async" src="/img/features/light-store.jpg">
+                <img alt="" class="dark-img" loading="lazy" decoding="async" src="/img/features/dark-store.jpg">
             </div>
         </div>
     </div>
@@ -97,7 +97,7 @@ import { localeConfig } from "../utils/locale";
 
 let view = ref();
 let viewHeight = computed(() => {
-   return document.body.offsetWidth * 0.56;
+    return document.body.offsetWidth * 0.56;
 });
 
 let isDark = ref(false);
@@ -108,7 +108,7 @@ let darkSwitchBtnClass = computed(() => {
 });
 
 let imgContainerClass = computed(() => {
-    return `img-container-${isDark.value ? 'dark': 'light'}`;
+    return `img-container-${isDark.value ? 'dark' : 'light'}`;
 });
 
 let toggleTheme = () => {
@@ -163,7 +163,7 @@ let toggleTheme = () => {
     .bg-img {
         @apply absolute top-10 inset-x-0 bg-top bg-no-repeat xl:top-8;
 
-        background-image: url(https://cdn.staticaly.com/gh/qfluentwidgets/picx-images-hosting@master/20230824/dark-mode-bg-light.45nh35nw2le0.webp);
+        background-image: url(/img/features/dark-mode-bg-light.jpg);
         background-size: 123.25rem 100%;
         height: 31.0625rem;
     }
@@ -268,7 +268,7 @@ let toggleTheme = () => {
     }
 
     .bg-img {
-        background-image: url(https://cdn.staticaly.com/gh/qfluentwidgets/picx-images-hosting@master/20230824/dark-mode-bg-dark.309wsx2xx900.webp);
+        background-image: url(/img/features/dark-mode-bg-dark.png);
     }
 }
 </style>

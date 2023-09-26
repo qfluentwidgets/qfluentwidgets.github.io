@@ -5,21 +5,21 @@
             <div class="bg-wrapper">
                 <picture>
                     <source srcset="/img/showcase/right-bg-light.avif" type="image/avif">
-                    <img src="https://cdn.staticaly.com/gh/qfluentwidgets/picx-images-hosting@master/20230824/right-bg-light.6sm1o5s8lyc0.webp" alt="" class="right-light-bg-img" decoding="async">
+                    <img src="/img/showcase/right-bg-light.png" alt="" class="right-light-bg-img" decoding="async">
                 </picture>
 
                 <picture>
                     <source srcset="/img/showcase/right-bg-dark.avif" type="image/avif">
-                    <img src="https://cdn.staticaly.com/gh/qfluentwidgets/picx-images-hosting@master/20230824/right-bg-dark.3gtf69inai00.webp" alt="" class="right-dark-bg-img" decoding="async">
+                    <img src="/img/showcase/right-bg-dark.png" alt="" class="right-dark-bg-img" decoding="async">
                 </picture>
             </div>
         </div>
 
         <!-- 浅色背景 -->
-        <img alt="" fetchpriority="high" decoding="async" style="color: transparent;" class="light-bg-img" src="https://cdn.staticaly.com/gh/qfluentwidgets/picx-images-hosting@master/20230824/bg-light.2an7dpe347b4.webp">
+        <img alt="" fetchpriority="high" decoding="async" style="color: transparent;" class="light-bg-img" src="/img/showcase/bg-light.jpg">
 
         <!-- 深色背景 -->
-        <img alt="" fetchpriority="high" width="1318" height="1190" decoding="async" class="dark-bg-img" style="color:transparent" src="https://cdn.staticaly.com/gh/qfluentwidgets/picx-images-hosting@master/20230824/bg-dark.51iz2ikf4so0.webp">
+        <img alt="" fetchpriority="high" width="1318" height="1190" decoding="async" class="dark-bg-img" style="color:transparent" src="/img/showcase/bg-dark.jpg">
 
         <!-- 标题 -->
         <div class="showcase-header">

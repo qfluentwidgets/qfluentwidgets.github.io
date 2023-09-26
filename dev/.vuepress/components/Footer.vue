@@ -2,7 +2,7 @@
     <footer class="footer">
         <div class="footer-container">
             <div class="footer-title">
-                <img src="https://cdn.staticaly.com/gh/qfluentwidgets/picx-images-hosting@master/20230824/logo.1gm62nofoiow.webp" alt="logo">
+                <img src="/img/logo.png" alt="logo">
                 <div class="footer-name">QFluentWidgets</div>
             </div>
 

@@ -3,8 +3,8 @@
         <div class="designer-feature-card">
             <!-- 图标 -->
             <div class="iconContainer">
-                <div class="lightIcon" style="background-image: url(https://cdn.staticaly.com/gh/qfluentwidgets/picx-images-hosting@master/20230824/light-drag.7k5rxj0mkw00.webp)"></div>
-                <div class="darkIcon" style="background-image: url(https://cdn.staticaly.com/gh/qfluentwidgets/picx-images-hosting@master/20230824/dark-drag.2q34iiuupxs.webp);"></div>
+                <div class="lightIcon" style="background-image: url(/img/features/light-drag.png)"></div>
+                <div class="darkIcon" style="background-image: url(/img/features/dark-drag.png);"></div>
             </div>
 
             <!-- 特性名称 -->
@@ -67,7 +67,7 @@
             <div class="designer-wrapper" v-show="isDesignerSelected">
                 <div class="designer-img-container">
                     <div class="designer-img-wrapper">
-                        <img src="https://cdn.staticaly.com/gh/qfluentwidgets/picx-images-hosting@master/20230824/login-designer.6jxpvaya1oo0.webp" alt="" decoding="async">
+                        <img src="/img/features/login-designer.jpg" alt="" decoding="async">
                     </div>
                 </div>
 
@@ -81,7 +81,7 @@
             <div class="designer-wrapper" v-show="!isDesignerSelected">
                 <div class="designer-img-container">
                     <div class="designer-img-wrapper">
-                        <img src="https://cdn.staticaly.com/gh/qfluentwidgets/picx-images-hosting@master/20230824/components-login.5fipry3ydtk0.webp" alt="" decoding="async">
+                        <img src="/img/features/components-login.jpg" alt="" decoding="async">
                     </div>
                 </div>
 
@@ -198,7 +198,7 @@ let onRunClicked = () => {
     .bg-img {
         @apply absolute top-0 inset-x-0 bg-top bg-no-repeat top-0 xl:top-[2.5rem];
 
-        background-image: url(https://cdn.staticaly.com/gh/qfluentwidgets/picx-images-hosting@master/20230824/designer-bg-light.2ehqs25psedc.webp);
+        background-image: url(/img/features/designer-bg-light.jpg);
         background-size: 123.25rem 100%;
         height: 31.0625rem;
     }
@@ -231,7 +231,7 @@ let onRunClicked = () => {
 
 .dark {
     .bg-img {
-        background-image: url(https://cdn.staticaly.com/gh/qfluentwidgets/picx-images-hosting@master/20230824/designer-bg-dark.4h5pnousuzu0.webp);
+        background-image: url(/img/features/designer-bg-dark.png);
     }
 
     .content {
