@@ -4,7 +4,7 @@ date: 2023-08-17 15:02:30
 permalink: /zh/pages/about/
 ---
 
-[**QFluentWidgets**](https://github.com/zhiyiYo/PyQt-Fluent-Widgets) 是一个基于 PyQt/PySide 的 Fluent Design 风格组件库，包含数以百计的流畅设计组件，为简化开发、提高效率而生。
+[**QFluentWidgets**](https://github.com/zhiyiYo/PyQt-Fluent-Widgets) 是一个基于 Qt/PyQt/PySide 的 Fluent Design 风格组件库，包含数以百计的流畅设计组件，为简化开发、提高效率而生。
 
 ::: tip 愿景
 我们的愿景是简化界面开发，降低打造精美界面的难度，Make Qt Great Again！
@@ -25,13 +25,15 @@ PyQt-Fluent-Widgets 和 PyQt6-Fluent-Widgets 的许可证为 [GPLv3](https://git
 
 PySide6-Fluent-Widgets 和 PySide2-Fluent-Widgets 使用**双许可证**。非商业用途使用 GPLv3 许可证进行授权，商用请购买[商业许可证](/zh/price) 以支持项目的开发。
 
+C++ QFluentWidgets 非开源，需购买商业许可证。
+
 ::: info GPLv3
 GPLv3 许可证具有 Copyleft 特性，如果您使用 PyQt/PyQt6-Fluent-Widgets 进行开发，必须将整个软件以 GPLv3 许可证发布。用户在购买您的程序的时候必须可以获得源代码，同时您不得阻止用户再分发，因此用户可以将代码免费送给其它人。
 :::
 
 ## 参与贡献
 
-欢迎各路好汉一起来参与完善 PyQt-Fluent-Widgets，我们期待你的 PR！
+欢迎各路好汉一起来参与完善 QFluentWidgets，我们期待你的 PR！
 
 - 贡献代码：[PyQt-Fluent-Widgets](https://github.com/zhiyiYo/PyQt-Fluent-Widgets) ，欢迎提交 Issue 或者 PR
 - 维护文档：[PyQt-Fluent-Widgets-Doc](https://github.com/qfluentwidgets/qfluentwidgets.github.io) ，欢迎参与翻译和修订

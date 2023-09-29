@@ -4,7 +4,7 @@ date: 2023-08-17 15:02:30
 permalink: /pages/about/
 ---
 
-[**QFluentWidgets**](https://github.com/zhiyiYo/PyQt-Fluent-Widgets) is a fluent design component library based on PyQt/PySide. It includes hundreds of fluent design components, aiming to simplify development and improve efficiency.
+[**QFluentWidgets**](https://github.com/zhiyiYo/PyQt-Fluent-Widgets) is a fluent design component library based on Qt/PyQt/PySide. It includes hundreds of fluent design components, aiming to simplify development and improve efficiency.
 
 ::: tip Vision
 Our vision is to simplify UI development, reduce the difficulty of creating beautiful interfaces, and Make Qt Great Again!
@@ -24,13 +24,15 @@ The license for PyQt-Fluent-Widgets and PyQt6-Fluent-Widgets is [GPLv3](https://
 
 PySide6-Fluent-Widgets and PySide2-Fluent-Widgets are **dual-licensed**. They are licensed under GPLv3 for non-commercial use. For commercial use, please purchase a [**commercial license**](/price) to support the development of this project.
 
+C++ QFluentWidgets is not open source and requires the purchase of a commercial license.
+
 ::: info GPLv3
 The GPLv3 license has Copyleft provisions, which means that if you develop using PyQt/PyQt6-Fluent-Widgets, you must release the entire software under the GPLv3 license. Users must be able to obtain the source code when they purchase your program, and you are not allowed to prevent users from redistributing it, and users can freely share the code with others.
 :::
 
 ## Contributing
 
-We welcome all contributions to PyQt-Fluent-Widgets. We look forward to your PR!
+We welcome all contributions to QFluentWidgets. We look forward to your PR!
 
 - Code Contribution: [PyQt-Fluent-Widgets](https://github.com/zhiyiYo/PyQt-Fluent-Widgets), issues and pull requests are welcome.
 - Docs Maintenance: [PyQt-Fluent-Widgets-Doc](https://github.com/qfluentwidgets/qfluentwidgets.github.io), participation in translation and revision is welcome.
