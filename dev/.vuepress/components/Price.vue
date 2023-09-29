@@ -14,6 +14,7 @@
             <div class="segmented-container">
                 <div @click="onPySide6Clicked" :class="pyside6NavItemClass">PySide6</div>
                 <div @click="onPySide2Clicked" :class="pyside2NavItemClass">PySide2</div>
+                <div @click="onCppClicked" :class="cppNavItemClass">C++</div>
             </div>
         </div>
 
@@ -25,6 +26,7 @@
                     :desc="p.desc"
                     :price="p.price"
                     :year="p.year"
+                    :permanent="p.permanent"
                     :url="p.url"
                     :recommend="p.recommend"
                     :features="p.features"
@@ -36,11 +38,24 @@
                     :desc="p.desc"
                     :price="p.price"
                     :year="p.year"
+                    :permanent="p.permanent"
                     :url="p.url"
                     :recommend="p.recommend"
                     :features="p.features"
-                    v-show="!isPySide6"
+                    v-show="isPySide2"
                     v-for="p in pricePlan.pyside2"
+                 />
+                <PriceCard
+                    :title="p.title"
+                    :desc="p.desc"
+                    :price="p.price"
+                    :year="p.year"
+                    :permanent="p.permanent"
+                    :url="p.url"
+                    :recommend="p.recommend"
+                    :features="p.features"
+                    v-show="isCpp"
+                    v-for="p in pricePlan.cpp"
                  />
             </div>
         </div>
@@ -57,6 +72,8 @@ import { localeConfig } from "../utils/locale";
 
 useCustomPage();
 let isPySide6 = ref(true);
+let isPySide2 = ref(false);
+let isCpp = ref(false);
 
 let pricePlan = localeConfig('prices');
 
@@ -65,15 +82,29 @@ let pyside6NavItemClass = computed(() => {
 });
 
 let pyside2NavItemClass = computed(() => {
-    return !isPySide6.value ? "nav-item-selected" : "nav-item";
+    return isPySide2.value ? "nav-item-selected" : "nav-item";
+});
+
+let cppNavItemClass = computed(() => {
+    return isCpp.value ? "nav-item-selected" : "nav-item";
 });
 
 let onPySide6Clicked = () => {
     isPySide6.value = true;
+    isPySide2.value = false;
+    isCpp.value = false;
 };
 
 let onPySide2Clicked = () => {
     isPySide6.value = false;
+    isPySide2.value = true;
+    isCpp.value = false;
+};
+
+let onCppClicked = () => {
+    isPySide6.value = false;
+    isPySide2.value = false;
+    isCpp.value = true;
 };
 
 </script>
@@ -104,7 +135,7 @@ let onPySide2Clicked = () => {
     @apply mt-16 flex justify-center;
 
     .segmented-container {
-        @apply grid grid-cols-2 gap-x-1 rounded-full p-1 text-center text-xs font-semibold leading-5 ring-1 ring-inset ring-gray-200 dark:bg-white/5 dark:ring-0;
+        @apply grid grid-cols-3 gap-x-1 rounded-full p-1 text-center text-xs font-semibold leading-5 ring-1 ring-inset ring-gray-200 dark:bg-white/5 dark:ring-0;
 
         .nav-item-selected {
             @apply text-white py-1 px-[0.625rem] bg-sky-500 rounded-full cursor-pointer tracking-tight;

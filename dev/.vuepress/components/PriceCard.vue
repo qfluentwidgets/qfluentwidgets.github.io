@@ -26,7 +26,8 @@
                         d="M16.704 4.153a.75.75 0 01.143 1.052l-8 10.5a.75.75 0 01-1.127.075l-4.5-4.5a.75.75 0 011.06-1.06l3.894 3.893 7.48-9.817a.75.75 0 011.05-.143z"
                         clip-rule="evenodd">
                     </path>
-                </svg>{{ item.feature }}</li>
+                </svg>{{ item.feature }}
+            </li>
         </ul>
     </div>
 </template>
@@ -55,6 +56,10 @@ export default {
             type: Boolean,
             require: true
         },
+        permanent: {
+            type: Boolean,
+            require: true
+        },
         url: {
             type: String,
             require: true
@@ -70,7 +75,7 @@ export default {
     },
     setup(props) {
         let pricePlan = localeConfig('prices');
-        let period = ref(`/${props.year ? pricePlan.value.year : pricePlan.value.month}`);
+        let period = props.permanent ? ref(`/${pricePlan.value.permanent}`) : ref(`/${props.year ? pricePlan.value.year : pricePlan.value.month}`);
 
         let cardClass = reactive(['price-card']);
         if (props.recommend) {
@@ -152,7 +157,6 @@ export default {
         font-weight: 600;
         line-height: 1.5rem;
         cursor: pointer
-
     }
 
     .features-container {

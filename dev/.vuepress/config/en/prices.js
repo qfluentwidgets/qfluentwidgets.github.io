@@ -4,6 +4,7 @@ export const prices = {
     badge: 'Most popular',
     buyPlan: 'Buy plan',
     title: 'Pricing',
+    permanent: "Permanent",
     subTitle: 'Pricing plans for teams of all sizes',
     description: 'Choose an affordable plan that’s packed with the best features for engaging your audience, creating customer loyalty, and driving sales.',
     pyside6: [
@@ -12,6 +13,7 @@ export const prices = {
             desc: 'The essentials to provide your best work for clients.',
             price: '$3',
             year: false,
+            permanent: false,
             url: 'https://afdian.net/item/51cc21a4277d11ee85875254001e7c00',
             recommend: false,
             features: [
@@ -26,6 +28,7 @@ export const prices = {
             desc: 'A plan that scales with your rapidly growing business.',
             price: '$29',
             year: true,
+            permanent: false,
             url: 'https://afdian.net/item/b9c1f79e027911eeb4295254001e7c00',
             recommend: true,
             features: [
@@ -41,6 +44,7 @@ export const prices = {
             desc: 'Dedicated support and infrastructure for your company.',
             price: '$136',
             year: true,
+            permanent: false,
             url: 'https://afdian.net/item/3cea239cf2cd11eda46352540025c377',
             recommend: false,
             features: [
@@ -58,6 +62,7 @@ export const prices = {
             desc: 'The essentials to provide your best work for clients.',
             price: '$3',
             year: false,
+            permanent: false,
             url: 'https://afdian.net/item/1bcd8678277e11eeb8965254001e7c00',
             recommend: false,
             features: [
@@ -72,6 +77,7 @@ export const prices = {
             desc: 'A plan that scales with your rapidly growing business.',
             price: '$29',
             year: true,
+            permanent: false,
             url: 'https://afdian.net/item/7f3bebd4027911eeb1aa52540025c377',
             recommend: true,
             features: [
@@ -87,6 +93,7 @@ export const prices = {
             desc: 'Dedicated support and infrastructure for your company.',
             price: '$136',
             year: true,
+            permanent: false,
             url: 'https://afdian.net/item/7f1aa71af2d111ed82045254001e7c00',
             recommend: false,
             features: [
@@ -95,6 +102,56 @@ export const prices = {
                 { feature: 'High GitHub Issue priority' },
                 { feature: '12-hour email support response time' },
                 { feature: 'Continuous iteration of library version' },
+            ]
+        }
+    ],
+    cpp: [
+        {
+            title: 'Startup',
+            desc: 'A plan that scales with your rapidly growing business.',
+            price: '$1538',
+            year: true,
+            permanent: true,
+            url: 'mailto:shokokawaii@foxmail.com',
+            recommend: false,
+            features: [
+                { feature: 'Unlimited softwares' },
+                { feature: "Permanent license validity" },
+                { feature: "Exclusive Fluent Studio Software" },
+                { feature: "Exclusive enterprise WeChat and QQ customer group service" }
+            ]
+        },
+        {
+            title: 'Enterprice',
+            desc: 'Dedicated support and infrastructure for your company.',
+            price: '$1538',
+            year: true,
+            permanent: true,
+            url: 'mailto:shokokawaii@foxmail.com',
+            recommend: true,
+            features: [
+                { feature: "Enterprise software" },
+                { feature: "Unlimited developers" },
+                { feature: "Unlimited softwares" },
+                { feature: "Permanent license validity" },
+                { feature: "Exclusive Fluent Studio Software" },
+                { feature: "Exclusive enterprise WeChat and QQ customer group service" }
+            ]
+        },
+        {
+            title: 'Custom',
+            desc: 'Customized price plan and infrastructure for You.',
+            price: 'Custom',
+            year: true,
+            permanent: true,
+            url: 'mailto:shokokawaii@foxmail.com',
+            recommend: false,
+            features: [
+                { feature: "Personal/Enterprise software" },
+                { feature: "Unlimited softwares" },
+                { feature: "Permanent license validity" },
+                { feature: "Exclusive Fluent Studio Software" },
+                { feature: "Exclusive enterprise WeChat and QQ customer group service" }
             ]
         }
     ],
