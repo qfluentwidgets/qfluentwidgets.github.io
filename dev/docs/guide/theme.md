@@ -15,6 +15,8 @@ You can use the `setTheme()` method to switch the light/dark theme of PyQt-Fluen
 
 If you want to automatically switch the interface style when the theme changes, you can inherit `StyleSheetBase` and override the `path()` method. Suppose you have a `Window` class and its qss file paths are `qss/light/window.qss` and `qss/dark/window.qss`, the code can be written like this:
 
+:::: code-group
+::: code-group-item Python
 ```python
 from enum import Enum
 from qfluentwidgets import StyleSheetBase, Theme, isDarkTheme, qconfig
@@ -38,16 +40,85 @@ class Window(QWidget):
         # apply style sheet to window
         StyleSheet.WINDOW.apply(self)
 ```
+:::
+::: code-group-item C++
+```cpp
+
+#include <QFluentWidgets/Common/StyleSheet.h>
+#include <QMetaEnum>
+
+class StyleSheet : public qfluentwidgets::StyleSheetBase
+{
+   Q_OBJECT
+
+public:
+   enum Name { Window = 0 };
+   Q_ENUM(Name)
+
+   explicit StyleSheet(Name name, QObject* parent = nullptr) : StyleSheetBase(parent), name_(name) {}
+
+   virtual QString path(qfluentwidgets::Theme theme = qfluentwidgets::Theme::Auto) override
+   {
+      QString tn;
+      if (t == Theme::Auto) {
+         tn = isDarkTheme() ? "dark" : "light";
+      } else {
+         tn = themeName(t).toLower();
+      }
+
+      QMetaEnum e = QMetaEnum::fromType<Name>();
+      auto name = e.valueToKey(static_cast<int>(name_));
+      return QString(":/gallery/qss/%1/%2.qss").arg(tn).arg(name);
+   }
+
+   static StyleSheet* applyTo(Name name, QWidget* widget, qfluentwidgets::Theme theme = qfluentwidgets::Theme::Auto)
+   {
+      auto s = new StyleSheet(name, widget);
+      s->apply(widget, theme);
+      return s;
+   }
+
+private:
+   Name name_;
+};
+
+class Window: public QWidget
+{
+   Q_OBJECT
+
+public:
+   explicit Window(QWidget *parent = nullptr): QWidget(parent)
+   {
+      // apply style sheet to window
+      StyleSheet::applyTo(StyleSheet::Window, this);
+   }
+};
+```
+:::
+::::
 
 ## Customize style
 If you are dissatisfied with the style of the built-in components and want to make minor adjustments to them, you can use `setCustomStyleSheet()` to add new styles based on the existing style. The function signature is as follows:
+
+:::: code-group
+::: code-group-item Python
 ```python
 def setCustomStyleSheet(widget: QWidget, lightQss: str, darkQss: str) -> None
 ```
+:::
+::: code-group-item C++
+```cpp
+void setCustomStyleSheet(QWidget* widget, const QString& lightQss, const QString& darkQss);
+```
+:::
+::::
 
 where `widget` is the component that needs its style adjusted, `lightQss` and `darkQss` are the custom styles added for light/dark themes.
 
 For example, let's adjust the border-radius of a `PushButton` to 10px:
+
+:::: code-group
+::: code-group-item Python
 ```python
 button = PushButton('Button', self)
 
@@ -55,6 +126,20 @@ button = PushButton('Button', self)
 qss = 'PushButton{border-radius: 10px}'
 setCustomStyleSheet(button, qss, qss)
 ```
+:::
+::: code-group-item C++
+```cpp
+#include <QFluentWidgets/Common/StyleSheet.h>
+
+auto button = new PushButton("Button", this);
+
+// add custom qss
+QString qss = "PushButton{border-radius: 10px}";
+qfluentwidgets::setCustomStyleSheet(button, qss, qss);
+```
+:::
+::::
+
 In Qt Designer, you can achieve custom styling by adding dynamic properties. Here are the steps:
 
 1. Add a dynamic property of type "String".

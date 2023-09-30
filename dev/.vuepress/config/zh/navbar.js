@@ -40,7 +40,7 @@ export const navbar = [
             link: '/zh/pages/setting'
           },
           {
-            text: '翻译',
+            text: '国际化',
             link: '/zh/pages/i18n'
           },
         ]
