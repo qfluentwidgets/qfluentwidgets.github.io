@@ -42,17 +42,18 @@ export const prices = {
         {
             title: 'Enterprise',
             desc: 'Dedicated support and infrastructure for your company.',
-            price: '$136',
+            price: '$999',
             year: true,
-            permanent: false,
-            url: 'https://afdian.net/item/3cea239cf2cd11eda46352540025c377',
+            permanent: true,
+            url: 'mailto:shokokawaii@foxmail.com',
             recommend: false,
             features: [
-                { feature: 'Single enterprise software' },
-                { feature: 'Unlimited developers' },
+                { feature: "Enterprise software" },
+                { feature: "Unlimited developers" },
+                { feature: "Unlimited softwares" },
+                { feature: "Permanent license validity" },
                 { feature: 'High GitHub Issue priority' },
-                { feature: '12-hour email support response time' },
-                { feature: 'Continuous iteration of library version' },
+                { feature: "Exclusive enterprise WeChat and QQ customer group service" }
             ]
         }
     ],
@@ -91,17 +92,18 @@ export const prices = {
         {
             title: 'Enterprise',
             desc: 'Dedicated support and infrastructure for your company.',
-            price: '$136',
+            price: '$999',
             year: true,
-            permanent: false,
-            url: 'https://afdian.net/item/7f1aa71af2d111ed82045254001e7c00',
+            permanent: true,
+            url: 'mailto:shokokawaii@foxmail.com',
             recommend: false,
             features: [
-                { feature: 'Single enterprise software' },
-                { feature: 'Unlimited developers' },
+                { feature: "Enterprise software" },
+                { feature: "Unlimited developers" },
+                { feature: "Unlimited softwares" },
+                { feature: "Permanent license validity" },
                 { feature: 'High GitHub Issue priority' },
-                { feature: '12-hour email support response time' },
-                { feature: 'Continuous iteration of library version' },
+                { feature: "Exclusive enterprise WeChat and QQ customer group service" }
             ]
         }
     ],
@@ -109,12 +111,13 @@ export const prices = {
         {
             title: 'Startup',
             desc: 'A plan that scales with your rapidly growing business.',
-            price: '$1538',
+            price: '$999',
             year: true,
             permanent: true,
             url: 'mailto:shokokawaii@foxmail.com',
             recommend: false,
             features: [
+                { feature: "Personal software" },
                 { feature: 'Unlimited softwares' },
                 { feature: "Permanent license validity" },
                 { feature: "Exclusive Fluent Studio Software" },
@@ -124,7 +127,7 @@ export const prices = {
         {
             title: 'Enterprice',
             desc: 'Dedicated support and infrastructure for your company.',
-            price: '$1538',
+            price: '$1428',
             year: true,
             permanent: true,
             url: 'mailto:shokokawaii@foxmail.com',
@@ -148,8 +151,9 @@ export const prices = {
             recommend: false,
             features: [
                 { feature: "Personal/Enterprise software" },
-                { feature: "Unlimited softwares" },
-                { feature: "Permanent license validity" },
+                { feature: "Custom softwares" },
+                { feature: "Custom developers" },
+                { feature: "Custom license validity" },
                 { feature: "Exclusive Fluent Studio Software" },
                 { feature: "Exclusive enterprise WeChat and QQ customer group service" }
             ]

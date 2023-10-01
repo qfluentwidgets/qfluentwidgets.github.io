@@ -42,17 +42,18 @@ export const prices = {
         {
             title: '企业版',
             desc: '为您的公司提供专门的支持和基础设施。',
-            price: '￥888.88',
+            price: '￥6888',
             year: true,
-            permanent: false,
-            url: 'https://afdian.net/item/3cea239cf2cd11eda46352540025c377',
+            permanent: true,
+            url: 'mailto:shokokawaii@foxmail.com',
             recommend: false,
             features: [
-                { feature: '单一企业级别软件' },
+                { feature: '企业级别软件' },
+                { feature: '永久许可证有效期' },
                 { feature: '不限团队开发者数量' },
+                { feature: '不限开发的软件数量' },
                 { feature: 'GitHub Issue 得到优先处理' },
-                { feature: '12 小时内组件库问题邮件支持' },
-                { feature: '有效期内享受组件库版本持续迭代' },
+                { feature: '专属企业微信和 QQ 客户群服务' },
             ]
         }
     ],
@@ -91,17 +92,18 @@ export const prices = {
         {
             title: '企业版',
             desc: '为您的公司提供专门的支持和基础设施。',
-            price: '￥888.88',
+            price: '￥6888',
             year: true,
-            permanent: false,
-            url: 'https://afdian.net/item/7f1aa71af2d111ed82045254001e7c00',
+            permanent: true,
+            url: 'mailto:shokokawaii@foxmail.com',
             recommend: false,
             features: [
-                { feature: '单一企业级别软件' },
+                { feature: '企业级别软件' },
+                { feature: '永久许可证有效期' },
                 { feature: '不限团队开发者数量' },
+                { feature: '不限开发的软件数量' },
                 { feature: 'GitHub Issue 得到优先处理' },
-                { feature: '12 小时内组件库问题邮件支持' },
-                { feature: '有效期内享受组件库版本持续迭代' },
+                { feature: '专属企业微信和 QQ 客户群服务' },
             ]
         }
     ],
@@ -109,7 +111,7 @@ export const prices = {
         {
             title: '个人版',
             desc: '适用于您用户量快速发展的应用程序',
-            price: '￥9999',
+            price: '￥6999',
             year: true,
             permanent: true,
             url: 'mailto:shokokawaii@foxmail.com',
@@ -149,8 +151,9 @@ export const prices = {
             recommend: false,
             features: [
                 { feature: '个人或企业级别软件' },
-                { feature: '永久许可证有效期' },
-                { feature: '不限开发的软件数量' },
+                { feature: '自定义许可证有效期' },
+                { feature: '自定义团队开发者数量' },
+                { feature: '自定义开发的软件数量' },
                 { feature: '专属 Fluent Studio 集成软件' },
                 { feature: '专属企业微信和 QQ 客户群服务' },
             ]
