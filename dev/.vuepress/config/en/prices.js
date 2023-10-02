@@ -153,7 +153,7 @@ export const prices = {
                 { feature: "Personal/Enterprise software" },
                 { feature: "Custom softwares" },
                 { feature: "Custom developers" },
-                { feature: "Custom license validity" },
+                { feature: "Permanent license validity" },
                 { feature: "Exclusive Fluent Studio Software" },
                 { feature: "Exclusive enterprise WeChat and QQ customer group service" }
             ]

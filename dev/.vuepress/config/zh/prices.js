@@ -151,7 +151,7 @@ export const prices = {
             recommend: false,
             features: [
                 { feature: '个人或企业级别软件' },
-                { feature: '自定义许可证有效期' },
+                { feature: '永久许可证有效期' },
                 { feature: '自定义团队开发者数量' },
                 { feature: '自定义开发的软件数量' },
                 { feature: '专属 Fluent Studio 集成软件' },
