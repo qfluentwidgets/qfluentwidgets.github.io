@@ -53,7 +53,8 @@ export const prices = {
                 { feature: "Unlimited softwares" },
                 { feature: "Permanent license validity" },
                 { feature: 'High GitHub Issue priority' },
-                { feature: "Exclusive enterprise WeChat and QQ customer group service" }
+                { feature: "Exclusive enterprise WeChat and QQ customer group service" },
+                { feature: 'Enjoy continuous updates and iterations of the component library' }
             ]
         }
     ],
@@ -103,7 +104,8 @@ export const prices = {
                 { feature: "Unlimited softwares" },
                 { feature: "Permanent license validity" },
                 { feature: 'High GitHub Issue priority' },
-                { feature: "Exclusive enterprise WeChat and QQ customer group service" }
+                { feature: "Exclusive enterprise WeChat and QQ customer group service" },
+                { feature: 'Enjoy continuous updates and iterations of the component library' }
             ]
         }
     ],
@@ -111,7 +113,7 @@ export const prices = {
         {
             title: 'Startup',
             desc: 'A plan that scales with your rapidly growing business.',
-            price: '$999',
+            price: '$699',
             year: true,
             permanent: true,
             url: 'mailto:shokokawaii@foxmail.com',
@@ -120,14 +122,16 @@ export const prices = {
                 { feature: "Personal software" },
                 { feature: 'Unlimited softwares' },
                 { feature: "Permanent license validity" },
-                { feature: "Exclusive Fluent Studio Software" },
-                { feature: "Exclusive enterprise WeChat and QQ customer group service" }
+                { feature: '150+ Fluent Design components' },
+                { feature: "Exclusive Fluent Studio software" },
+                { feature: "Exclusive enterprise WeChat and QQ customer group service" },
+                { feature: 'Enjoy continuous updates and iterations of the component library' }
             ]
         },
         {
             title: 'Enterprice',
             desc: 'Dedicated support and infrastructure for your company.',
-            price: '$1428',
+            price: '$1399',
             year: true,
             permanent: true,
             url: 'mailto:shokokawaii@foxmail.com',
@@ -137,8 +141,10 @@ export const prices = {
                 { feature: "Unlimited developers" },
                 { feature: "Unlimited softwares" },
                 { feature: "Permanent license validity" },
-                { feature: "Exclusive Fluent Studio Software" },
-                { feature: "Exclusive enterprise WeChat and QQ customer group service" }
+                { feature: '150+ Fluent Design components' },
+                { feature: "Exclusive Fluent Studio software" },
+                { feature: "Exclusive enterprise WeChat and QQ customer group service" },
+                { feature: 'Enjoy continuous updates and iterations of the component library' }
             ]
         },
         {
@@ -154,7 +160,8 @@ export const prices = {
                 { feature: "Custom softwares" },
                 { feature: "Custom developers" },
                 { feature: "Permanent license validity" },
-                { feature: "Exclusive Fluent Studio Software" },
+                { feature: '150+ Fluent Design components' },
+                { feature: "Exclusive Fluent Studio software" },
                 { feature: "Exclusive enterprise WeChat and QQ customer group service" }
             ]
         }

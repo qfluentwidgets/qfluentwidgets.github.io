@@ -42,7 +42,7 @@ export const prices = {
         {
             title: '企业版',
             desc: '为您的公司提供专门的支持和基础设施。',
-            price: '￥6888',
+            price: '￥6999',
             year: true,
             permanent: true,
             url: 'mailto:shokokawaii@foxmail.com',
@@ -52,6 +52,7 @@ export const prices = {
                 { feature: '永久许可证有效期' },
                 { feature: '不限团队开发者数量' },
                 { feature: '不限开发的软件数量' },
+                { feature: '享受组件库版本持续更新迭代' },
                 { feature: 'GitHub Issue 得到优先处理' },
                 { feature: '专属企业微信和 QQ 客户群服务' },
             ]
@@ -102,6 +103,7 @@ export const prices = {
                 { feature: '永久许可证有效期' },
                 { feature: '不限团队开发者数量' },
                 { feature: '不限开发的软件数量' },
+                { feature: '享受组件库版本持续更新迭代' },
                 { feature: 'GitHub Issue 得到优先处理' },
                 { feature: '专属企业微信和 QQ 客户群服务' },
             ]
@@ -111,15 +113,17 @@ export const prices = {
         {
             title: '个人版',
             desc: '适用于您用户量快速发展的应用程序',
-            price: '￥6999',
+            price: '￥4999',
             year: true,
             permanent: true,
             url: 'mailto:shokokawaii@foxmail.com',
             recommend: false,
             features: [
-                { feature: '个人商用级别软件' },
+                { feature: '个人商用软件' },
                 { feature: '永久许可证有效期' },
                 { feature: '不限开发的软件数量' },
+                { feature: '150+ Fluent Design 组件' },
+                { feature: '享受组件库版本持续更新迭代' },
                 { feature: '专属 Fluent Studio 集成软件' },
                 { feature: '专属企业微信和 QQ 客户群服务' },
             ]
@@ -133,10 +137,12 @@ export const prices = {
             url: 'mailto:shokokawaii@foxmail.com',
             recommend: true,
             features: [
-                { feature: '企业级别软件' },
+                { feature: '企业商用软件' },
                 { feature: '永久许可证有效期' },
                 { feature: '不限团队开发者数量' },
                 { feature: '不限开发的软件数量' },
+                { feature: '150+ Fluent Design 组件' },
+                { feature: '享受组件库版本持续更新迭代' },
                 { feature: '专属 Fluent Studio 集成软件' },
                 { feature: '专属企业微信和 QQ 客户群服务' },
             ]
@@ -150,10 +156,11 @@ export const prices = {
             url: 'mailto:shokokawaii@foxmail.com',
             recommend: false,
             features: [
-                { feature: '个人或企业级别软件' },
+                { feature: '个人或企业软件' },
                 { feature: '永久许可证有效期' },
                 { feature: '自定义团队开发者数量' },
                 { feature: '自定义开发的软件数量' },
+                { feature: '150+ Fluent Design 组件' },
                 { feature: '专属 Fluent Studio 集成软件' },
                 { feature: '专属企业微信和 QQ 客户群服务' },
             ]
