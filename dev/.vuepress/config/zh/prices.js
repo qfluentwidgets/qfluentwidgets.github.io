@@ -27,7 +27,7 @@ export const prices = {
             ]
         },
         {
-            title: '个人版年付',
+            title: '个人年付版',
             desc: '每个月不到 20 元，一杯奶茶的价格',
             price: '￥238.88',
             year: true,
