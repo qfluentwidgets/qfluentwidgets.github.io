@@ -9,34 +9,37 @@ export const prices = {
     description: 'Choose an affordable plan that’s packed with the best features for engaging your audience, creating customer loyalty, and driving sales.',
     pyside6: [
         {
-            title: 'Freelancer',
-            desc: 'The essentials to provide your best work for clients.',
-            price: '$3',
+            title: 'Startup',
+            desc: 'A plan that scales with your rapidly growing business.',
+            price: '$369',
             year: false,
-            permanent: false,
-            url: 'https://afdian.net/item/51cc21a4277d11ee85875254001e7c00',
+            permanent: true,
+            url: 'mailto:shokokawaii@foxmail.com',
             recommend: false,
             features: [
-                { feature: 'Single software' },
-                { feature: 'Single developer' },
-                { feature: '48-hour email support response time' },
-                { feature: 'Continuous iteration of library version' },
+                { feature: '150+ components' },
+                { feature: 'Continuous updates' },
+                { feature: "Permanent license validity" },
+                { feature: 'Unlimited personal softwares' },
+                { feature: 'High GitHub Issue priority' },
+                { feature: "Exclusive customer group service" },
             ]
         },
         {
-            title: 'Startup',
-            desc: 'A plan that scales with your rapidly growing business.',
-            price: '$29',
+            title: 'Freelancer',
+            desc: 'The essentials to provide your best work for clients.',
+            price: '$36',
             year: true,
             permanent: false,
             url: 'https://afdian.net/item/b9c1f79e027911eeb4295254001e7c00',
             recommend: true,
             features: [
+                { feature: '150+ components' },
                 { feature: 'Single software' },
                 { feature: 'Single developer' },
+                { feature: 'Continuous updates' },
                 { feature: 'High GitHub Issue priority' },
                 { feature: '24-hour email support response time' },
-                { feature: 'Continuous iteration of library version' },
             ]
         },
         {
@@ -48,46 +51,49 @@ export const prices = {
             url: 'mailto:shokokawaii@foxmail.com',
             recommend: false,
             features: [
-                { feature: "Enterprise software" },
-                { feature: "Unlimited developers" },
-                { feature: "Unlimited softwares" },
+                { feature: '150+ components' },
+                { feature: 'Continuous updates' },
                 { feature: "Permanent license validity" },
+                { feature: "Unlimited enterprise softwares" },
+                { feature: "Unlimited developers" },
                 { feature: 'High GitHub Issue priority' },
-                { feature: "Exclusive enterprise WeChat and QQ customer group service" },
-                { feature: 'Enjoy continuous updates and iterations of the component library' }
+                { feature: "Exclusive customer group service" },
             ]
         }
     ],
     pyside2: [
         {
-            title: 'Freelancer',
-            desc: 'The essentials to provide your best work for clients.',
-            price: '$3',
+            title: 'Startup',
+            desc: 'A plan that scales with your rapidly growing business.',
+            price: '$369',
             year: false,
-            permanent: false,
-            url: 'https://afdian.net/item/1bcd8678277e11eeb8965254001e7c00',
+            permanent: true,
+            url: 'mailto:shokokawaii@foxmail.com',
             recommend: false,
             features: [
-                { feature: 'Single software' },
-                { feature: 'Single developer' },
-                { feature: '48-hour email support response time' },
-                { feature: 'Continuous iteration of library version' },
+                { feature: '150+ components' },
+                { feature: 'Continuous updates' },
+                { feature: "Permanent license validity" },
+                { feature: 'Unlimited personal softwares' },
+                { feature: 'High GitHub Issue priority' },
+                { feature: "Exclusive customer group service" },
             ]
         },
         {
-            title: 'Startup',
-            desc: 'A plan that scales with your rapidly growing business.',
-            price: '$29',
+            title: 'Freelancer',
+            desc: 'The essentials to provide your best work for clients.',
+            price: '$36',
             year: true,
             permanent: false,
             url: 'https://afdian.net/item/7f3bebd4027911eeb1aa52540025c377',
             recommend: true,
             features: [
+                { feature: '150+ components' },
                 { feature: 'Single software' },
                 { feature: 'Single developer' },
+                { feature: 'Continuous updates' },
                 { feature: 'High GitHub Issue priority' },
                 { feature: '24-hour email support response time' },
-                { feature: 'Continuous iteration of library version' },
             ]
         },
         {
@@ -99,13 +105,13 @@ export const prices = {
             url: 'mailto:shokokawaii@foxmail.com',
             recommend: false,
             features: [
-                { feature: "Enterprise software" },
-                { feature: "Unlimited developers" },
-                { feature: "Unlimited softwares" },
+                { feature: '150+ components' },
+                { feature: 'Continuous updates' },
                 { feature: "Permanent license validity" },
+                { feature: "Unlimited enterprise softwares" },
+                { feature: "Unlimited developers" },
                 { feature: 'High GitHub Issue priority' },
-                { feature: "Exclusive enterprise WeChat and QQ customer group service" },
-                { feature: 'Enjoy continuous updates and iterations of the component library' }
+                { feature: "Exclusive customer group service" },
             ]
         }
     ],
@@ -119,13 +125,12 @@ export const prices = {
             url: 'mailto:shokokawaii@foxmail.com',
             recommend: false,
             features: [
-                { feature: "Personal software" },
-                { feature: 'Unlimited softwares' },
+                { feature: '150+ components' },
+                { feature: 'Continuous updates' },
                 { feature: "Permanent license validity" },
-                { feature: '150+ Fluent Design components' },
+                { feature: "Unlimited personal softwares" },
                 { feature: "Exclusive Fluent Studio software" },
-                { feature: "Exclusive enterprise WeChat and QQ customer group service" },
-                { feature: 'Enjoy continuous updates and iterations of the component library' }
+                { feature: "Exclusive customer group service" }
             ]
         },
         {
@@ -137,14 +142,13 @@ export const prices = {
             url: 'mailto:shokokawaii@foxmail.com',
             recommend: true,
             features: [
-                { feature: "Enterprise software" },
+                { feature: '150+ components' },
+                { feature: 'Continuous updates' },
                 { feature: "Unlimited developers" },
-                { feature: "Unlimited softwares" },
                 { feature: "Permanent license validity" },
-                { feature: '150+ Fluent Design components' },
+                { feature: "Unlimited enterprise softwares" },
                 { feature: "Exclusive Fluent Studio software" },
-                { feature: "Exclusive enterprise WeChat and QQ customer group service" },
-                { feature: 'Enjoy continuous updates and iterations of the component library' }
+                { feature: "Exclusive customer group service" },
             ]
         },
         {
@@ -156,13 +160,13 @@ export const prices = {
             url: 'mailto:shokokawaii@foxmail.com',
             recommend: false,
             features: [
+                { feature: '150+ components' },
                 { feature: "Personal/Enterprise software" },
-                { feature: "Custom softwares" },
-                { feature: "Custom developers" },
+                { feature: "Custom the number softwares" },
+                { feature: "Custom the number developers" },
                 { feature: "Permanent license validity" },
-                { feature: '150+ Fluent Design components' },
                 { feature: "Exclusive Fluent Studio software" },
-                { feature: "Exclusive enterprise WeChat and QQ customer group service" }
+                { feature: "Exclusive customer group service" }
             ]
         }
     ],
