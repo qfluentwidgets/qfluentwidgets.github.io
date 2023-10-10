@@ -18,6 +18,10 @@ export const navbar = [
             text: '设计师',
             link: '/zh/pages/designer'
           },
+          {
+            text: '组件',
+            link: '/zh/pages/Components'
+          },
         ]
       },
       {

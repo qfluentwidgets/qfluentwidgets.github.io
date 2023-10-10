@@ -2,7 +2,12 @@ export const series = {
     "/zh/pages/": [
         {
             text: "快速入门",
-            children: ["/zh/pages/about", "/zh/pages/install", "/zh/pages/designer"],
+            children: [
+                "/zh/pages/about",
+                "/zh/pages/install",
+                "/zh/pages/designer",
+                "/zh/pages/components"
+            ],
         },
         {
             text: "高级定制",

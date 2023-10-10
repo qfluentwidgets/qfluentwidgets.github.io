@@ -18,6 +18,10 @@ export const navbar = [
             text: 'Designer',
             link: '/pages/designer'
           },
+          {
+            text: 'Components',
+            link: '/pages/Components'
+          },
         ]
       },
       {
