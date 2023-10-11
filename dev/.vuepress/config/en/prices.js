@@ -134,7 +134,7 @@ export const prices = {
             ]
         },
         {
-            title: 'Enterprice',
+            title: 'Enterprise',
             desc: 'Dedicated support and infrastructure for your company.',
             price: '$1399',
             year: true,
