@@ -104,7 +104,7 @@ class MyFluentIcon(FluentIconBase, Enum):
 :::
 ::: code-group-item C++
 ```cpp
-#include <QFluentWidgets/Common/Icon.h>
+#include <FIcon>
 #include <QMetaEnum>
 
 class MyFluentIcon : public qfluentwidgets::FluentIconBase
@@ -157,8 +157,8 @@ button.clicked.connect(toggleTheme)
 :::
 ::: code-group-item C++
 ```cpp
-#include <QFluentWidgets/Common/FluentApp.h>
-#include <QFluentWidgets/Components/Widgets/ToolButton.h>
+#include <FApp>
+#include <FToolButton>
 
 // 创建工具按钮
 auto button = new ToolButton(new MyFluentIcon(MyFluentIcon::Add));

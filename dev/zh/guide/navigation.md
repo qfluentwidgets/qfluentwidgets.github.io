@@ -63,9 +63,9 @@ class AvatarWidget(NavigationWidget):
 :::
 ::: code-group-item C++
 ```cpp
-#include <QFluentWidgets/Common/FluentApp.h>
-#include <QFluentWidgets/Components/Widgets/Label.h>
-#include <QFluentWidgets/Components/Navigation/NavigationWidget.h>
+#include <FApp>
+#include <FLabel>
+#include <FNavigationWidget>
 #include <QPainter>
 
 class NavigationAvatarWidget : public NavigationWidget
@@ -299,11 +299,11 @@ if __name__ == '__main__':
 ```cpp
 #include <QApplication>
 #include <QDesktopServices>
-#include <QFluentWidgets/Common/FluentApp.h>
-#include <QFluentWidgets/Components/DialogBox/Dialog.h>
-#include <QFluentWidgets/Components/Widgets/Label.h>
-#include <QFluentWidgets/Window/FluentWindow.h>
 #include <QVBoxLayout>
+#include <FApp>
+#include <FMessageBox>
+#include <FLabel>
+#include <FWindow>
 
 using namespace qfluentwidgets;
 

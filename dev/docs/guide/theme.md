@@ -43,8 +43,7 @@ class Window(QWidget):
 :::
 ::: code-group-item C++
 ```cpp
-
-#include <QFluentWidgets/Common/StyleSheet.h>
+#include <FStyleSheet>
 #include <QMetaEnum>
 
 class StyleSheet : public qfluentwidgets::StyleSheetBase
@@ -129,7 +128,7 @@ setCustomStyleSheet(button, qss, qss)
 :::
 ::: code-group-item C++
 ```cpp
-#include <QFluentWidgets/Common/StyleSheet.h>
+#include <FStyleSheet>
 
 auto button = new PushButton("Button", this);
 
