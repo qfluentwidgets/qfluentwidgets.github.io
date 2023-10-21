@@ -12,31 +12,25 @@ permalink: /zh/pages/about/
 
 
 ## 特性
-* **美观优雅**：内置 130+ 个 Fluent Design 组件，开箱即用，快速打造卓越应用
-* **矢量图标**：内置 160 个 Fluent Design 矢量图标，随心缩放，依旧清晰
+* **美观优雅**：内置 160+ 个 Fluent Design 组件，开箱即用，快速打造卓越应用
+* **矢量图标**：内置 175 个 Fluent Design 矢量图标，随心缩放，依旧清晰
 * **高度可定制**：支持无缝切换亮暗主题和主题色，满足用户的个性化需求
 * **所见即所得**：搭载设计师插件，直接在 QtDesigner 中预览和使用组件
 * **界面缩放**：支持自定义界面缩放，适配不同分辨率的屏幕
 * **国际化**：支持多国语言，满足不同用户群体的需求
+* **跨平台**：支持 Windows、Linux 和 MacOS
 
 ## 许可证
 
-PyQt-Fluent-Widgets 和 PyQt6-Fluent-Widgets 的许可证为 [GPLv3](https://github.com/zhiyiYo/PyQt-Fluent-Widgets/blob/master/LICENSE).
+PyQt-Fluent-Widgets 和 PyQt6-Fluent-Widgets 的许可证为 [GPLv3](https://github.com/zhiyiYo/PyQt-Fluent-Widgets/blob/master/LICENSE)，如果你的项目使用了这两个组件库，**必须使用 GPLv3 许可证进行软件分发**.
 
 PySide6-Fluent-Widgets 和 PySide2-Fluent-Widgets 使用**双许可证**。非商业用途使用 GPLv3 许可证进行授权，商用请购买[商业许可证](/zh/price) 以支持项目的开发。
 
 C++ QFluentWidgets 没有开源，如需使用，请联系 [shokokawaii@foxmail.com](mailto:shokokawaii@foxmail.com) 并购买商业许可证。
 
 ::: info GPLv3
-GPLv3 许可证具有 Copyleft 特性，如果您使用 PyQt/PyQt6-Fluent-Widgets 进行开发，必须将整个软件以 GPLv3 许可证发布。用户在购买您的程序的时候必须可以获得源代码，同时您不得阻止用户再分发，因此用户可以将代码免费送给其它人。
+GPLv3 许可证具有 Copyleft 特性，如果使用 PyQt/PyQt6-Fluent-Widgets 进行开发，必须将整个软件以 GPLv3 许可证发布。用户在购买你的程序的时候必须可以获得源代码，同时不得阻止用户再分发，用户可以将代码免费送给其它人。
 :::
-
-## 参与贡献
-
-欢迎各路好汉一起来参与完善 QFluentWidgets，我们期待你的 PR！
-
-- 贡献代码：[PyQt-Fluent-Widgets](https://github.com/zhiyiYo/PyQt-Fluent-Widgets) ，欢迎提交 Issue 或者 PR
-- 维护文档：[PyQt-Fluent-Widgets-Doc](https://github.com/qfluentwidgets/qfluentwidgets.github.io) ，欢迎参与翻译和修订
 
 
 ## 致谢

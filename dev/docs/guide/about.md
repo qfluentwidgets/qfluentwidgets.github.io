@@ -11,8 +11,8 @@ Our vision is to simplify UI development, reduce the difficulty of creating beau
 :::
 
 ## Features
-* **Beautiful and Elegant**: Built-in 130+ Fluent Design components, ready to use, quickly create exceptional applications.
-* **Vector Icons**: Built-in 160 Fluent Design vector icons, scalable to any size without losing clarity.
+* **Beautiful and Elegant**: Built-in 160+ Fluent Design components, fast to use, ready for production.
+* **Vector Icons**: Built-in 175 Fluent Design vector icons, scalable to any size without losing clarity.
 * **Highly Customizable**: Support seamless switching between light and dark themes, and customization of theme colors to meet the user's personalized needs.
 * **WYSIWYG**: Equipped with designer plugins, allowing components to be previewed and used directly in QtDesigner.
 * **UI Scaling**: Support custom UI scaling to adapt to screens with different resolutions.
@@ -30,12 +30,6 @@ C++ QFluentWidgets is not open source and requires the purchase of a commercial 
 The GPLv3 license has Copyleft provisions, which means that if you develop using PyQt/PyQt6-Fluent-Widgets, you must release the entire software under the GPLv3 license. Users must be able to obtain the source code when they purchase your program, and you are not allowed to prevent users from redistributing it, and users can freely share the code with others.
 :::
 
-## Contributing
-
-We welcome all contributions to QFluentWidgets. We look forward to your PR!
-
-- Code Contribution: [PyQt-Fluent-Widgets](https://github.com/zhiyiYo/PyQt-Fluent-Widgets), issues and pull requests are welcome.
-- Docs Maintenance: [PyQt-Fluent-Widgets-Doc](https://github.com/qfluentwidgets/qfluentwidgets.github.io), participation in translation and revision is welcome.
 
 ## Acknowledgements
 Thanks to all the contributors and supporters of this component library:
