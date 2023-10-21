@@ -150,6 +150,8 @@ permalink: /pages/components/
 | `Pivot`                           | Top navigation bar            |
 | `SegmentedItem`                   | Segmented navigation button   |
 | `SegmentedWidget`                 | Segmented navigation bar      |
+| `SegmentedToolWidget`             | Segmented tool navigation bar  |
+| `SegmentedToggleToolWidget`       | Segmented toggle tool navigation bar  |
 | `BreadcrumbWidget`                | Breadcrumb navigation base class |
 | `BreadcrumbItem`                  | Breadcrumb navigation button   |
 | `BreadcrumbBar`                   | Breadcrumb navigation bar      |

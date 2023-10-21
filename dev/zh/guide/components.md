@@ -150,6 +150,8 @@ permalink: /zh/pages/components/
 | `Pivot`                   | 顶部导航栏         |
 | `SegmentedItem`           | 分段导航栏按钮     |
 | `SegmentedWidget`         | 分段导航栏         |
+| `SegmentedToolWidget`     | 工具分段导航栏     |
+| `SegmentedToggleToolWidget`| 开关工具分段导航栏    |
 | `BreadcrumbWidget`        | 面包屑导航按钮基类 |
 | `BreadcrumbItem`          | 面包屑导航按钮     |
 | `BreadcrumbBar`           | 面包屑导航栏       |
