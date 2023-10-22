@@ -44,6 +44,7 @@ pip install "PySide6-Fluent-Widgets[full]" -i https://pypi.org/simple/
 :::
 ::::
 
+C++ QFluentWidgets 组件库没有开源，可从 [发行页面](https://github.com/zhiyiYo/PyQt-Fluent-Widgets/releases) 下载体验编译好的示例程序 `QFluentWidgets_v*.*.*.zip`，如需购买使用请联系 [shokokawaii@foxmail.com](mailto:shokokawaii@foxmail.com).
 
 ::: warning 警告
 请勿同时安装 PyQt-Fluent-Widgets、PyQt6-Fluent-Widgets、PySide2-Fluent-Widgets 和 PySide6-Fluent-Widgets，因为他们的包名都是 `qfluentwidgets`
