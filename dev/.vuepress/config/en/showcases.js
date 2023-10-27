@@ -28,6 +28,18 @@ export const showcases = {
             url: 'https://github.com/zhiyiYo/Face-Mask-Detector'
         },
         {
+            name: 'SVFI',
+            description: 'Frame filling software based on RIFE algorithm',
+            cover: 'https://pic.imgdb.cn/item/653a59a5c458853aef25c250.png',
+            url: 'https://store.steampowered.com/app/1692080/SVFI/'
+        },
+        {
+            name: 'HuiTang AIGC',
+            description: 'Workflow software for graphics based on Stable Diffusion and LLM',
+            cover: 'https://pic.imgdb.cn/item/653b69eac458853aef4a85c5.png',
+            url: 'https://jiu-meng.feishu.cn/wiki/IrAxwMeepirGB1kpixHcTTsen2g'
+        },
+        {
             name: 'MCSL2',
             description: 'A sleek and versatile Minecraft server launcher',
             cover: 'https://camo.githubusercontent.com/7410ef6650779a0d5a468732a20eda91491ed26cf85a325e5b5d98d4fd2ec57d/68747470733a2f2f73332e626d702e6f76682f696d67732f323032332f30332f32312f356166623231393334626439383061622e706e67',

@@ -1,7 +1,7 @@
 export const showcases = {
     title: '精品案例',
     subTitle: '组件驱动，大有不同',
-    description: '我们收集了一些基于 QFluentWidgets 组件库开发的优秀开源项目，供您参考',
+    description: '我们收集了一些基于 QFluentWidgets 组件库开发的优秀项目，供您参考',
     data: [
         {
             name: 'QMaterialWidgets',
@@ -26,6 +26,18 @@ export const showcases = {
             description: '基于 Yolov4 的口罩检测软件',
             cover: 'https://raw.githubusercontent.com/zhiyiYo/Face-Mask-Detector/master/doc/image/screenshot.png',
             url: 'https://github.com/zhiyiYo/Face-Mask-Detector'
+        },
+        {
+            name: 'SVFI',
+            description: '基于 RIFE 算法的补帧软件',
+            cover: 'https://pic.imgdb.cn/item/653a59a5c458853aef25c250.png',
+            url: 'https://store.steampowered.com/app/1692080/SVFI/'
+        },
+        {
+            name: '绘唐',
+            description: '基于 Stabel Diffusion 和大语言模型的绘图工作流软件',
+            cover: 'https://pic.imgdb.cn/item/653b69eac458853aef4a85c5.png',
+            url: 'https://jiu-meng.feishu.cn/wiki/IrAxwMeepirGB1kpixHcTTsen2g'
         },
         {
             name: 'MCSL2',

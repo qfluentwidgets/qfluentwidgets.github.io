@@ -59,6 +59,7 @@ export default {
 
         img {
             @apply absolute inset-0 w-full h-full object-cover;
+            backface-visibility: hidden
         }
     }
 
