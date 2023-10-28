@@ -30,20 +30,38 @@ export const showcases = {
         {
             name: 'SVFI',
             description: 'Frame filling software based on RIFE algorithm',
-            cover: 'https://pic.imgdb.cn/item/653a59a5c458853aef25c250.png',
+            cover: 'https://img.fastmirror.net/s/2023/10/28/653d29b23ff96.jpg',
             url: 'https://store.steampowered.com/app/1692080/SVFI/'
         },
         {
             name: 'HuiTang AIGC',
             description: 'Workflow software for graphics based on Stable Diffusion and LLM',
-            cover: 'https://pic.imgdb.cn/item/653b69eac458853aef4a85c5.png',
+            cover: 'https://img.fastmirror.net/s/2023/10/28/653d2d725100d.png',
             url: 'https://jiu-meng.feishu.cn/wiki/IrAxwMeepirGB1kpixHcTTsen2g'
+        },
+        {
+            name: 'DyberPet',
+            description: 'Kawaii desktop cyber pet framework',
+            cover: 'https://img.fastmirror.net/s/2023/10/28/653d2ab76ba87.png',
+            url: 'https://github.com/ChaozhongLiu/DyberPet'
         },
         {
             name: 'MCSL2',
             description: 'A sleek and versatile Minecraft server launcher',
-            cover: 'https://camo.githubusercontent.com/7410ef6650779a0d5a468732a20eda91491ed26cf85a325e5b5d98d4fd2ec57d/68747470733a2f2f73332e626d702e6f76682f696d67732f323032332f30332f32312f356166623231393334626439383061622e706e67',
+            cover: 'https://img.fastmirror.net/s/2023/10/28/653d162f66436.png',
             url: 'https://github.com/MCSLTeam/MCSL2'
+        },
+        {
+            name: 'NoneBot Desktop',
+            description: 'A native GUI application for NoneBot2',
+            cover: 'https://img.fastmirror.net/s/2023/10/28/653d2b4046ca1.jpg',
+            url: 'https://github.com/nonebot/adapter-qq'
+        },
+        {
+            name: 'March7thAssistant',
+            description: 'Star rail automation tool',
+            cover: 'https://img.fastmirror.net/s/2023/10/28/653d1d5bc9178.jpg',
+            url: 'https://github.com/moesnow/March7thAssistant'
         },
         {
             name: 'AutoStarRail',
