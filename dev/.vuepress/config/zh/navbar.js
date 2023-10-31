@@ -22,6 +22,10 @@ export const navbar = [
             text: '组件',
             link: '/zh/pages/Components'
           },
+          {
+            text: '商用版',
+            link: '/zh/pages/pro'
+          },
         ]
       },
       {

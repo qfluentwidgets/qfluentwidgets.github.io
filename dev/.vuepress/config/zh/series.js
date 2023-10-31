@@ -6,7 +6,8 @@ export const series = {
                 "/zh/pages/about",
                 "/zh/pages/install",
                 "/zh/pages/designer",
-                "/zh/pages/components"
+                "/zh/pages/components",
+                "/zh/pages/pro"
             ],
         },
         {
