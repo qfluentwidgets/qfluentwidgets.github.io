@@ -6,10 +6,6 @@ permalink: /pages/support/
 
 If this project helps you a lot and you want to support the development and maintenance of this project, feel free to sponsor me via [爱发电](https://afdian.net/a/zhiyiYo) or [ko-fi](https://ko-fi.com/zhiyiYo). Your support is highly appreciated 🥰
 
-<p align="center">
-  <img src='https://cdn.staticaly.com/gh/qfluentwidgets/picx-images-hosting@master/20230824/aifadian.66t6u1ayl7k0.webp' style="height: 460px"/>
-</p>
-
 
 ## Acknowledgements
 Thank you to all the sponsor friends 💖
