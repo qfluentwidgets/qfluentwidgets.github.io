@@ -16,18 +16,17 @@ Currently, QFluentWidgets Pro includes the following components, and more compon
 
 ### Basic Inputs
 
-| Component Name                      | Description                |
-| ----------------------------------- | -------------------------- |
-| `MultiSelectionComboBox`            | Multi-selection combo box  |
-| `MultiSelectionComboBoxSettingCard` | Setting card for combo box |
-| `ToolTipSlider`                     | Slider with tool tips      |
-| `RangeSlider`                       | Range slider               |
+| Component Name           | Description               |
+| ------------------------ | ------------------------- |
+| `MultiSelectionComboBox` | Multi-selection combo box |
+| `ToolTipSlider`          | Slider with tool tips     |
+| `RangeSlider`            | Range slider              |
 
 ### Dialogs & flyouts
 
-| 组件名                       | 描述                            |
-| ---------------------------- | ------------------------------- |
-| `DropDownColorPalette`       | Drop down color palette         |
+| 组件名                       | 描述                           |
+| ---------------------------- | ------------------------------ |
+| `DropDownColorPalette`       | Drop down color palette        |
 | `CustomDropDownColorPalette` | Custom drop down color palette |
 
 ### Charts
@@ -37,6 +36,13 @@ Seamlessly integrate with the ECharts chart library, providing over 20 ready-to-
 | Component Name | Description  |
 | -------------- | ------------ |
 | `ChartWidget`  | Chart widget |
+
+
+### View
+| Component Name | Description               |
+| -------------- | ------------------------- |
+| `Pager`        | Data pagination component |
+
 
 ### Skeletons
 
@@ -48,3 +54,12 @@ Skeleton provide basic placeholders while network requests are slow. Once the da
 | `ArticleSkeleton`       | Article information skeleton       |
 | `CirclePersonaSkeleton` | Circular user information skeleton |
 | `SquarePersonaSkeleton` | Square user information skeleton   |
+
+
+### Settings
+
+| Component Name                      | Description                                 |
+| ----------------------------------- | ------------------------------------------- |
+| `MultiSelectionComboBoxSettingCard` | Setting card for combo box                  |
+| `ColorPaletteSettingCard`           | Drop down color palette setting card        |
+| `CustomColorPaletteSettingCard`     | Custom drop down color palette setting card |
