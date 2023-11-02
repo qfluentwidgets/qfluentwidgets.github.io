@@ -3,7 +3,7 @@ export const home = {
     description: '本框架本质上是一个组件库，包含了大量类似 <code class="component">InfoBar</code>、 <code class="component">Flyout</code>、 <code class="component">CommandBar</code> 以及 <code class="component">Pivot</code> 等组件类，可以组合使用并直接在设计师上实现任何 UI 设计。',
     quickStart: {
         text: '快速开始',
-        url: '/zh/pages/install/',
+        url: '/zh/pages/about/',
     },
     search: {
         text: '快速搜索...'

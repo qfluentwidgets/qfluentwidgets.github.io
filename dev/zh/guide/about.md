@@ -4,7 +4,7 @@ date: 2023-08-17 15:02:30
 permalink: /zh/pages/about/
 ---
 
-[**QFluentWidgets**](https://github.com/zhiyiYo/PyQt-Fluent-Widgets) 是一个基于 Qt/PyQt/PySide 的 Fluent Design 风格组件库，包含数以百计的流畅设计组件，为简化开发、提高效率而生。
+[**QFluentWidgets**](https://github.com/zhiyiYo/PyQt-Fluent-Widgets) 是一个基于 C++ Qt/PyQt/PySide 的 Fluent Design 风格组件库，包含数以百计的流畅设计组件，为简化开发、提高效率而生。
 
 ::: tip 愿景
 我们的愿景是简化界面开发，降低打造精美界面的难度，Make Qt Great Again！

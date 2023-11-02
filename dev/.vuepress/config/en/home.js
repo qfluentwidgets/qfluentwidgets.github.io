@@ -3,7 +3,7 @@ export const home = {
     description: 'A component-driven framework packed with classes like <code class="component">InfoBar</code>, <code class="component">Flyout</code>, <code class="component">CommandBar</code> and <code class="component">Pivot</code> that can be composed to build any design, directly in your designer.',
     quickStart: {
         text: 'Get started',
-        url: '/pages/install/',
+        url: '/pages/about/',
     },
     search: {
         text: 'Quick search..'

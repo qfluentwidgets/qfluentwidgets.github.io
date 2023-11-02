@@ -4,7 +4,7 @@ date: 2023-08-17 15:02:30
 permalink: /pages/about/
 ---
 
-[**QFluentWidgets**](https://github.com/zhiyiYo/PyQt-Fluent-Widgets) is a fluent design component library based on Qt/PyQt/PySide. It includes hundreds of fluent design components, aiming to simplify development and improve efficiency.
+[**QFluentWidgets**](https://github.com/zhiyiYo/PyQt-Fluent-Widgets) is a fluent design component library based on C++ Qt/PyQt/PySide. It includes hundreds of fluent design components, aiming to simplify development and improve efficiency.
 
 ::: tip Vision
 Our vision is to simplify UI development, reduce the difficulty of creating beautiful interfaces, and Make Qt Great Again!
@@ -17,6 +17,7 @@ Our vision is to simplify UI development, reduce the difficulty of creating beau
 * **WYSIWYG**: Equipped with designer plugins, allowing components to be previewed and used directly in QtDesigner.
 * **UI Scaling**: Support custom UI scaling to adapt to screens with different resolutions.
 * **Internationalization**: Support multiple languages to meet the needs of different user groups.
+* **Cross-platform**: Support Windows, Linux, and macOS
 
 ## License
 
