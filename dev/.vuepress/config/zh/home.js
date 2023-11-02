@@ -1,6 +1,6 @@
 export const home = {
     title: '在设计师中拖拖拽拽，无需书写 QSS，即可快速构建美观的界面',
-    description: '本框架本质上是一个组件库，包含了大量类似 <code class="component">InfoBar</code>、 <code class="component">Flyout</code>、 <code class="component">CommandBar</code> 以及 <code class="component">Pivot</code> 等组件类，可以组合使用并直接在设计师上实现任何 UI 设计。',
+    description: '强大、可扩展、美观优雅的组件库，包含了大量类似 <code class="component">InfoBar</code>、 <code class="component">Flyout</code>、 <code class="component">CommandBar</code> 以及 <code class="component">Pivot</code> 等组件类，可以组合使用并直接在设计师上实现任何 UI 设计。',
     quickStart: {
         text: '快速开始',
         url: '/zh/pages/about/',
@@ -18,7 +18,7 @@ export const home = {
         components: {
             title: '组件驱动',
             subTitle: '开箱即用',
-            description: 'QFluentWidgets 是一个美观优雅的 Fluent Design 风格 UI 组件库。该组件库包含了数百个现成的组件和示例供你选择，保证能让你找到一个完美的组件作为千里之行的起点。',
+            description: 'QFluentWidgets 是基于 Qt 的 Fluent Design 风格组件库。该组件库同时支持 C++ 和 Python，包含了数百个现成的组件和示例供你选择，保证能让你找到一个完美的组件作为千里之行的起点。',
             url: '/zh/pages/designer/'
         },
         designer: {

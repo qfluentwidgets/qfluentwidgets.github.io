@@ -18,7 +18,7 @@ export const home = {
         components: {
             title: 'Component-driven',
             subTitle: 'Ready for production',
-            description: `QFluentWidgets is a collection of beautiful, fluent design UI components. It's got hundreds of ready-to-use components and examples to choose from, and is guaranteed to help you find the perfect starting point for what you want to build.`,
+            description: `QFluentWidget is a fluent design component library that supports both C++ and Python. It's got hundreds of ready-to-use components and examples to choose from, and is guaranteed to help you find the perfect starting point for what you want to build.`,
             url: '/pages/designer/',
         },
         designer: {
