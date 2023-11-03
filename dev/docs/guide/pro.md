@@ -18,6 +18,7 @@ Currently, QFluentWidgets Pro includes the following components, and more compon
 
 | Component Name                | Description                    |
 | ----------------------------- | ------------------------------ |
+| `Chip`                        | Chip                           |
 | `OutlinedPushButton`          | Outlined push button           |
 | `TransparentCircleToolButton` | Transparent circle tool button |
 | `MultiSelectionComboBox`      | Multi-selection combo box      |

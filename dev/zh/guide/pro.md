@@ -14,39 +14,40 @@ PySide6-Fluent-Widgets 和 PySide2-Fluent-Widgets 使用 **双许可证**。非�
 
 ### 基本输入
 
-| 组件名                        | 描述               |
-| ----------------------------- | ------------------ |
-| `OutlinedPushButton`          | 轮廓按钮           |
-| `TransparentCircleToolButton` | 透明圆形工具按钮   |
-| `MultiSelectionComboBox`      | 多选下拉框         |
-| `ToolTipSlider`               | 带工具提示的滑动条 |
-| `RangeSlider`                 | 范围滑动条         |
+| 组件名                        | 描述                       |
+| ----------------------------- | -------------------------- |
+| `Chip`                        | 芯片，可用作过滤器         |
+| `OutlinedPushButton`          | 轮廓按钮，可用作过滤器     |
+| `TransparentCircleToolButton` | 透明圆形工具按钮           |
+| `MultiSelectionComboBox`      | 多选下拉框，可选择多个选项 |
+| `ToolTipSlider`               | 带工具提示的滑动条         |
+| `RangeSlider`                 | 带两个滑块的范围滑动条     |
 
 ### 对话框和弹出组件
 
-| 组件名                       | 描述             |
-| ---------------------------- | ---------------- |
-| `DropDownColorPalette`       | 下拉调色盘       |
-| `CustomDropDownColorPalette` | 自定义下拉调色盘 |
+| 组件名                       | 描述                                     |
+| ---------------------------- | ---------------------------------------- |
+| `DropDownColorPalette`       | 下拉调色盘，支持选择标准颜色和自定义颜色 |
+| `CustomDropDownColorPalette` | 自定义下拉调色盘                         |
 
 ### 图表
 
 无缝衔接 ECharts 图表库，提供开箱即用的 20 多种图表，并且支持各种图表的任意组合。既可以直接传入图表配置，也可以使用 pyecharts 面向对象的写法来创建图表。
 
-| 组件名        | 描述     |
-| ------------- | -------- |
-| `ChartWidget` | 图表组件 |
+| 组件名        | 描述                                        |
+| ------------- | ------------------------------------------- |
+| `ChartWidget` | 图表组件，可用于绘制 ECharts 支持的所有图表 |
 
 ### 骨架
 
 骨架屏可以在网络请求较慢时，提供基础占位，当数据加载完成后，恢复数据展示。它可以给用户一种很自然的过渡，避免页面长时间白屏或者闪烁等情况。
 
-| 类名                    | 描述             |
-| ----------------------- | ---------------- |
-| `Skeleton`              | 骨架基类         |
-| `ArticleSkeleton`       | 文章信息骨架     |
-| `CirclePersonaSkeleton` | 圆形用户信息骨架 |
-| `SquarePersonaSkeleton` | 方形用户信息骨架 |
+| 类名                    | 描述                             |
+| ----------------------- | -------------------------------- |
+| `Skeleton`              | 骨架基类，可拓展出各种布局的骨架 |
+| `ArticleSkeleton`       | 文章信息骨架                     |
+| `CirclePersonaSkeleton` | 圆形用户信息骨架                 |
+| `SquarePersonaSkeleton` | 方形用户信息骨架                 |
 
 ### 视图
 | 组件名     | 描述       |
