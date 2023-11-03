@@ -16,11 +16,13 @@ Currently, QFluentWidgets Pro includes the following components, and more compon
 
 ### Basic Inputs
 
-| Component Name           | Description               |
-| ------------------------ | ------------------------- |
-| `MultiSelectionComboBox` | Multi-selection combo box |
-| `ToolTipSlider`          | Slider with tool tips     |
-| `RangeSlider`            | Range slider              |
+| Component Name                | Description                    |
+| ----------------------------- | ------------------------------ |
+| `OutlinedPushButton`          | Outlined push button           |
+| `TransparentCircleToolButton` | Transparent circle tool button |
+| `MultiSelectionComboBox`      | Multi-selection combo box      |
+| `ToolTipSlider`               | Slider with tool tips          |
+| `RangeSlider`                 | Range slider                   |
 
 ### Dialogs & flyouts
 
@@ -42,6 +44,7 @@ Seamlessly integrate with the ECharts chart library, providing over 20 ready-to-
 | Component Name | Description               |
 | -------------- | ------------------------- |
 | `Pager`        | Data pagination component |
+| `Splitter`     | Region Splitter           |
 
 
 ### Skeletons
