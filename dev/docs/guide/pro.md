@@ -13,57 +13,59 @@ To meet the needs of developers, the commercial version of the component library
 ## What are the advanced components?
 
 Currently, QFluentWidgets Pro includes the following components, and more components being added in the future:
-
 ### Basic Inputs
 
-| Component Name                | Description                    |
-| ----------------------------- | ------------------------------ |
-| `Chip`                        | Chip                           |
-| `OutlinedPushButton`          | Outlined push button           |
-| `TransparentCircleToolButton` | Transparent circle tool button |
-| `MultiSelectionComboBox`      | Multi-selection combo box      |
-| `ToolTipSlider`               | Slider with tool tips          |
-| `RangeSlider`                 | Range slider                   |
+| Component Name                | Description                                    |
+| ----------------------------- | ---------------------------------------------- |
+| `Chip`                        | A chip used as a filter                        |
+| `OutlinedPushButton`          | An outlined button used as a filter            |
+| `TransparentCircleToolButton` | A transparent circular tool button             |
+| `MultiSelectionComboBox`      | A dropdown box that allows multiple selections |
+| `ToolTipSlider`               | A slider with tooltips                         |
+| `RangeSlider`                 | A range slider with two handles                |
 
-### Dialogs & flyouts
+### Dialogs and Pop-up Components
 
-| 组件名                       | 描述                           |
-| ---------------------------- | ------------------------------ |
-| `DropDownColorPalette`       | Drop down color palette        |
-| `CustomDropDownColorPalette` | Custom drop down color palette |
+| Component Name               | Description                                                                        |
+| ---------------------------- | ---------------------------------------------------------------------------------- |
+| `DropDownColorPalette`       | A dropdown color palette that supports selecting standard colors and custom colors |
+| `CustomDropDownColorPalette` | A custom dropdown color palette                                                    |
+
+### Date and Time
+| Component Name        | Description                                                |
+| --------------------- | ---------------------------------------------------------- |
+| `ProCalendarPicker`   | An advanced calendar picker that can disable certain dates |
+| `RangeCalendarPicker` | A calendar range picker                                    |
+
 
 ### Charts
 
-Seamlessly integrate with the ECharts chart library, providing over 20 ready-to-use chart types and supporting various combinations of charts. You can either directly pass in chart options or use the OOP approach of pyecharts to create charts.
+Seamlessly integrates with the ECharts charting library, providing more than 20 ready-to-use chart types and supporting arbitrary combinations of various charts. You can either directly pass chart configurations or use the object-oriented approach of pyecharts to create charts.
 
-| Component Name | Description  |
-| -------------- | ------------ |
-| `ChartWidget`  | Chart widget |
-
-
-### View
-| Component Name | Description               |
-| -------------- | ------------------------- |
-| `Pager`        | Data pagination component |
-| `Splitter`     | Region Splitter           |
-
+| Component Name | Description                                                   |
+| -------------- | ------------------------------------------------------------- |
+| `ChartWidget`  | A chart component used to draw any chart supported by ECharts |
 
 ### Skeletons
 
-Skeleton provide basic placeholders while network requests are slow. Once the data is loaded, the actual content is displayed. It provides a natural transition for users and avoids long periods of white screen or flickering.
+Skeleton screens provide basic placeholders when network requests are slow, and restore the data display when the data is loaded. They provide a natural transition to avoid long periods of blank or flickering screens.
 
-| Class Name              | Description                        |
-| ----------------------- | ---------------------------------- |
-| `Skeleton`              | Base skeleton                      |
-| `ArticleSkeleton`       | Article information skeleton       |
-| `CirclePersonaSkeleton` | Circular user information skeleton |
-| `SquarePersonaSkeleton` | Square user information skeleton   |
+| Class Name              | Description                                   |
+| ----------------------- | --------------------------------------------- |
+| `Skeleton`              | Base class for skeletons with various layouts |
+| `ArticleSkeleton`       | Skeleton for article information              |
+| `CirclePersonaSkeleton` | Skeleton for circular user information        |
+| `SquarePersonaSkeleton` | Skeleton for square user information          |
 
+### Views
+| Component Name | Description          |
+| -------------- | -------------------- |
+| `Pager`        | Pagination component |
+| `Splitter`     | Area splitter        |
 
 ### Settings
-
-| Component Name                      | Description                                 |
-| ----------------------------------- | ------------------------------------------- |
-| `MultiSelectionComboBoxSettingCard` | Setting card for combo box                  |
-| `ColorPaletteSettingCard`           | Drop down color palette setting card        |
-| `CustomColorPaletteSettingCard`     | Custom drop down color palette setting card |
+| Component Name                      | Description                                        |
+| ----------------------------------- | -------------------------------------------------- |
+| `ColorPaletteSettingCard`           | Setting card for the dropdown color palette        |
+| `CustomColorPaletteSettingCard`     | Setting card for the custom dropdown color palette |
+| `MultiSelectionComboBoxSettingCard` | Setting card for the multi-selection combobox      |

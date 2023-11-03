@@ -30,6 +30,13 @@ PySide6-Fluent-Widgets 和 PySide2-Fluent-Widgets 使用 **双许可证**。非�
 | `DropDownColorPalette`       | 下拉调色盘，支持选择标准颜色和自定义颜色 |
 | `CustomDropDownColorPalette` | 自定义下拉调色盘                         |
 
+### 日期和时间
+| 组件名                | 描述                             |
+| --------------------- | -------------------------------- |
+| `ProCalendarPicker`   | 高级日历选择器，可以禁用部分日期 |
+| `RangeCalendarPicker` | 日历范围选择器                   |
+
+
 ### 图表
 
 无缝衔接 ECharts 图表库，提供开箱即用的 20 多种图表，并且支持各种图表的任意组合。既可以直接传入图表配置，也可以使用 pyecharts 面向对象的写法来创建图表。
