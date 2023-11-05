@@ -26,6 +26,10 @@ export const navbar = [
             text: '商用版',
             link: '/zh/pages/pro'
           },
+          {
+            text: '常见问题',
+            link: '/zh/pages/faq'
+          },
         ]
       },
       {

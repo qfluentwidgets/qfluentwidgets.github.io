@@ -7,7 +7,8 @@ export const series = {
                 "/zh/pages/install",
                 "/zh/pages/designer",
                 "/zh/pages/components",
-                "/zh/pages/pro"
+                "/zh/pages/pro",
+                "/zh/pages/faq",
             ],
         },
         {

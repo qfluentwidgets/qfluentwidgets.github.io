@@ -26,6 +26,10 @@ export const navbar = [
             text: 'Pro',
             link: '/pages/pro'
           },
+          {
+            text: 'FAQs',
+            link: '/pages/faq'
+          },
         ]
       },
       {

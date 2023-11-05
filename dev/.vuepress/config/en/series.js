@@ -2,7 +2,7 @@ export const series = {
     "/pages/": [
         {
             text: "Quick start",
-            children: ["/pages/about", "/pages/install", "/pages/designer", "/pages/components", "/pages/pro"],
+            children: ["/pages/about", "/pages/install", "/pages/designer", "/pages/components", "/pages/pro", "/pages/faq"],
         },
         {
             text: "Customize",
