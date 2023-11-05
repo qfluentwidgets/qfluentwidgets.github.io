@@ -17,7 +17,7 @@ export const prices = {
             url: 'mailto:shokokawaii@foxmail.com',
             recommend: false,
             features: [
-                { feature: '160+ components' },
+                { feature: '180+ components' },
                 { feature: 'Continuous updates' },
                 { feature: "Permanent license validity" },
                 { feature: 'Unlimited personal softwares' },
@@ -34,7 +34,7 @@ export const prices = {
             url: 'https://afdian.net/item/b9c1f79e027911eeb4295254001e7c00',
             recommend: true,
             features: [
-                { feature: '160+ components' },
+                { feature: '180+ components' },
                 { feature: 'Single software' },
                 { feature: 'Single developer' },
                 { feature: 'Continuous updates' },
@@ -51,7 +51,7 @@ export const prices = {
             url: 'mailto:shokokawaii@foxmail.com',
             recommend: false,
             features: [
-                { feature: '160+ components' },
+                { feature: '180+ components' },
                 { feature: 'Continuous updates' },
                 { feature: "Permanent license validity" },
                 { feature: "Unlimited enterprise softwares" },
@@ -71,7 +71,7 @@ export const prices = {
             url: 'mailto:shokokawaii@foxmail.com',
             recommend: false,
             features: [
-                { feature: '160+ components' },
+                { feature: '180+ components' },
                 { feature: 'Continuous updates' },
                 { feature: "Permanent license validity" },
                 { feature: 'Unlimited personal softwares' },
@@ -88,7 +88,7 @@ export const prices = {
             url: 'https://afdian.net/item/7f3bebd4027911eeb1aa52540025c377',
             recommend: true,
             features: [
-                { feature: '160+ components' },
+                { feature: '180+ components' },
                 { feature: 'Single software' },
                 { feature: 'Single developer' },
                 { feature: 'Continuous updates' },
@@ -105,7 +105,7 @@ export const prices = {
             url: 'mailto:shokokawaii@foxmail.com',
             recommend: false,
             features: [
-                { feature: '160+ components' },
+                { feature: '180+ components' },
                 { feature: 'Continuous updates' },
                 { feature: "Permanent license validity" },
                 { feature: "Unlimited enterprise softwares" },
@@ -125,7 +125,7 @@ export const prices = {
             url: 'mailto:shokokawaii@foxmail.com',
             recommend: false,
             features: [
-                { feature: '160+ components' },
+                { feature: '170+ components' },
                 { feature: 'Continuous updates' },
                 { feature: "Permanent license validity" },
                 { feature: "Unlimited personal softwares" },
@@ -142,7 +142,7 @@ export const prices = {
             url: 'mailto:shokokawaii@foxmail.com',
             recommend: true,
             features: [
-                { feature: '160+ components' },
+                { feature: '170+ components' },
                 { feature: 'Continuous updates' },
                 { feature: "Unlimited developers" },
                 { feature: "Permanent license validity" },
@@ -160,7 +160,7 @@ export const prices = {
             url: 'mailto:shokokawaii@foxmail.com',
             recommend: false,
             features: [
-                { feature: '160+ components' },
+                { feature: '170+ components' },
                 { feature: "Personal/Enterprise software" },
                 { feature: "Custom the number softwares" },
                 { feature: "Custom the number developers" },
