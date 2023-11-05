@@ -3,7 +3,7 @@ title: Install
 date: 2023-08-17 15:37:01
 permalink: /pages/install/
 ---
-QFluentWidgets includes lite and full-featured version, while the full version having an additional acrylic label component. Due to the full-featured version depending on scipy, it will significantly increase the package size, so it is recommended to install the lite version.
+QFluentWidgets includes lite and full-featured version, while the full version having additional acrylic components. Due to the full-featured version depending on scipy, it will significantly increase the package size, so it is recommended to install the lite version.
 
 :::: code-group
 ::: code-group-item PyQt5
@@ -46,6 +46,8 @@ pip install "PySide6-Fluent-Widgets[full]" -i https://pypi.org/simple/
 
 
 C++ QFluentWidgets is not open source. You can download the compiled demo `QFluentWidgets_v*.*.*.zip` from [release page](https://github.com/zhiyiYo/PyQt-Fluent-Widgets/releases). Please contact [shokokawaii@foxmail.com](mailto:shokokawaii@foxmail.com) if you want to use C++ QFluentWidgets.
+
+The gallery of Pro version library can be downloaded from the release page as `PySide6-Fluent-Widgets-Pro-Gallery.7z` for preview purposes. The purchasing link can be found on the [pricing page](/price).
 
 ::: warning
 Do not install PyQt-Fluent-Widgets, PyQt6-Fluent-Widgets, PySide2-Fluent-Widgets, and PySide6-Fluent-Widgets in the same environment, because they all have the package name `qfluentwidgets`.

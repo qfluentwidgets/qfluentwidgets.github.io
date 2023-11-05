@@ -3,7 +3,7 @@ title: 安装
 date: 2023-08-17 15:37:01
 permalink: /zh/pages/install/
 ---
-QFluentWidgets 分为轻量版和完整版，其中完整版多了亚克力标签组件。由于完整版依赖 scipy，会导致打包体积变大许多，所以建议安装轻量版。
+QFluentWidgets 分为轻量版和完整版，其中完整版多了亚克力组件。由于完整版依赖 scipy，会导致打包体积变大许多，所以建议安装轻量版。
 
 :::: code-group
 ::: code-group-item PyQt5
@@ -45,6 +45,8 @@ pip install "PySide6-Fluent-Widgets[full]" -i https://pypi.org/simple/
 ::::
 
 C++ QFluentWidgets 组件库没有开源，可从 [发行页面](https://github.com/zhiyiYo/PyQt-Fluent-Widgets/releases) 下载体验编译好的示例程序 `QFluentWidgets_v*.*.*.zip`，如需购买使用请联系 [shokokawaii@foxmail.com](mailto:shokokawaii@foxmail.com).
+
+商用高级版的组件库可在发行页面下载 `PySide6-Fluent-Widgets-Pro-Gallery.7z` 进行预览，购买链接见[价格页面](/zh/price/)。
 
 ::: warning 警告
 请勿同时安装 PyQt-Fluent-Widgets、PyQt6-Fluent-Widgets、PySide2-Fluent-Widgets 和 PySide6-Fluent-Widgets，因为他们的包名都是 `qfluentwidgets`

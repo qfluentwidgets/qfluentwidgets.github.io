@@ -21,9 +21,9 @@ Our vision is to simplify UI development, reduce the difficulty of creating beau
 
 ## License
 
-The license for PyQt-Fluent-Widgets and PyQt6-Fluent-Widgets is [GPLv3](https://github.com/zhiyiYo/PyQt-Fluent-Widgets/blob/master/LICENSE).
+The license for PyQt-Fluent-Widgets and PyQt6-Fluent-Widgets is [GPLv3](https://github.com/zhiyiYo/PyQt-Fluent-Widgets/blob/master/LICENSE). If your project uses these two libraries, **software distribution must be done under the GPLv3 license**..
 
-PySide6-Fluent-Widgets and PySide2-Fluent-Widgets are **dual-licensed**. They are licensed under GPLv3 for non-commercial use. For commercial use, please purchase a [**commercial license**](/price) to support the development of this project.
+PySide6-Fluent-Widgets and PySide2-Fluent-Widgets are **dual-licensed**. They are licensed under GPLv3 for non-commercial use. For commercial use, please purchase a [**commercial license**](/price) to support the development of this project, and the [commerial version library](/pages/pro/) contains more advance components.
 
 C++ QFluentWidgets is not open source. You can download the compiled demo `QFluentWidgets_v*.*.*.zip` from [release page](https://github.com/zhiyiYo/PyQt-Fluent-Widgets/releases). Please check the [price plan](/price) and contact [shokokawaii@foxmail.com](mailto:shokokawaii@foxmail.com) if you want to use C++ QFluentWidgets.
 

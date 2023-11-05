@@ -24,7 +24,7 @@ permalink: /zh/pages/about/
 
 PyQt-Fluent-Widgets 和 PyQt6-Fluent-Widgets 的许可证为 [GPLv3](https://github.com/zhiyiYo/PyQt-Fluent-Widgets/blob/master/LICENSE)，如果你的项目使用了这两个组件库，**必须使用 GPLv3 许可证进行软件分发**.
 
-PySide6-Fluent-Widgets 和 PySide2-Fluent-Widgets 使用**双许可证**。非商业用途使用 GPLv3 许可证进行授权，商用请购买[商业许可证](/zh/price) 以支持项目的开发。
+PySide6-Fluent-Widgets 和 PySide2-Fluent-Widgets 使用**双许可证**。非商业用途使用 GPLv3 许可证进行授权，商用请购买[商业许可证](/zh/price) 以支持项目的开发，同时[商业版](/zh/pages/pro/)也包含更多的组件。
 
 C++ QFluentWidgets 组件库没有开源，可从 [发行页面](https://github.com/zhiyiYo/PyQt-Fluent-Widgets/releases) 下载体验编译好的示例程序 `QFluentWidgets_v*.*.*.zip`，如需购买使用请先了解 [价格方案](/zh/price) 并联系 [shokokawaii@foxmail.com](mailto:shokokawaii@foxmail.com).
 
