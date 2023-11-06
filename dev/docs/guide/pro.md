@@ -24,14 +24,14 @@ Currently, QFluentWidgets Pro includes the following components, and more compon
 | `ToolTipSlider`               | A slider with tooltips                         |
 | `RangeSlider`                 | A range slider with two handles                |
 
-### Dialogs and Pop-up Components
+### Dialogs & Flyouts
 
 | Component Name               | Description                                                                        |
 | ---------------------------- | ---------------------------------------------------------------------------------- |
 | `DropDownColorPalette`       | A dropdown color palette that supports selecting standard colors and custom colors |
 | `CustomDropDownColorPalette` | A custom dropdown color palette                                                    |
 
-### Date and Time
+### Date Time
 | Component Name        | Description                                                |
 | --------------------- | ---------------------------------------------------------- |
 | `ProCalendarPicker`   | An advanced calendar picker that can disable certain dates |
@@ -64,6 +64,11 @@ Skeleton screens provide basic placeholders when network requests are slow, and 
 | `NoInternetStatusWidget` | No Internet status widget |
 | `Pager`                  | Pagination component      |
 | `Splitter`               | Area splitter             |
+
+### Status & Info
+| Component Name      | Description                         |
+| ------------------- | ----------------------------------- |
+| `FilledProgressBar` | Progress bar with filled background |
 
 ### Settings
 | Component Name                      | Description                                        |
