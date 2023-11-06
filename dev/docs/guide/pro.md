@@ -58,10 +58,12 @@ Skeleton screens provide basic placeholders when network requests are slow, and 
 | `SquarePersonaSkeleton` | Skeleton for square user information          |
 
 ### Views
-| Component Name | Description          |
-| -------------- | -------------------- |
-| `Pager`        | Pagination component |
-| `Splitter`     | Area splitter        |
+| Component Name           | Description               |
+| ------------------------ | ------------------------- |
+| `EmptyStatusWidget`      | Empty status widget       |
+| `NoInternetStatusWidget` | No Internet status widget |
+| `Pager`                  | Pagination component      |
+| `Splitter`               | Area splitter             |
 
 ### Settings
 | Component Name                      | Description                                        |
