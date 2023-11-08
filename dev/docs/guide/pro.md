@@ -19,6 +19,9 @@ Currently, QFluentWidgets Pro includes the following components, and more compon
 | ----------------------------- | ---------------------------------------------- |
 | `Chip`                        | A chip used as a filter                        |
 | `OutlinedPushButton`          | An outlined button used as a filter            |
+| `OutlinedToolButton`          | An outlined tool button                        |
+| `FilledPushButton`            | A filled push button                           |
+| `FilledToolButton`            | A filled tool button                           |
 | `TransparentCircleToolButton` | A transparent circular tool button             |
 | `MultiSelectionComboBox`      | A dropdown box that allows multiple selections |
 | `ToolTipSlider`               | A slider with tooltips                         |
