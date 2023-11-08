@@ -6,25 +6,25 @@ export const showcases = {
         {
             name: 'QMaterialWidgets',
             description: 'Material Design 风格组件库',
-            cover: 'https://raw.githubusercontent.com/zhiyiYo/QMaterialWidgets/master/docs/source/_static/Interface.jpg',
+            cover: 'https://img.fastmirror.net/s/2023/11/08/654ba28604a6f.jpg',
             url: 'https://github.com/zhiyiYo/QMaterialWidgets'
         },
         {
             name: 'Groove',
             description: '跨平台音乐播放器',
-            cover: 'https://raw.githubusercontent.com/zhiyiYo/Groove/master/docs/source/_static/images/Groove%E9%9F%B3%E4%B9%90.jpg',
+            cover: 'https://img.fastmirror.net/s/2023/11/08/654ba23ebad12.jpg',
             url: 'https://github.com/zhiyiYo/Groove'
         },
         {
             name: 'Alpha-Gobang-Zero',
             description: '强化学习五子棋机器人',
-            cover: 'https://raw.githubusercontent.com/zhiyiYo/PyQt-Fluent-Widgets/master/docs/source/_static/Alpha-Gobang-Zero.jpg',
+            cover: 'https://img.fastmirror.net/s/2023/11/08/654ba2ad839eb.jpg',
             url: 'https://github.com/zhiyiYo/Alpha-Gobang-Zero'
         },
         {
             name: 'Face-Mask-Detector',
             description: '基于 Yolov4 的口罩检测软件',
-            cover: 'https://raw.githubusercontent.com/zhiyiYo/Face-Mask-Detector/master/doc/image/screenshot.png',
+            cover: 'https://img.fastmirror.net/s/2023/11/08/654ba2f9442f0.png',
             url: 'https://github.com/zhiyiYo/Face-Mask-Detector'
         },
         {
@@ -55,7 +55,7 @@ export const showcases = {
             name: 'NoneBot Desktop',
             description: '原生 NoneBot2 客户端',
             cover: 'https://img.fastmirror.net/s/2023/10/28/653d2b4046ca1.jpg',
-            url: 'https://github.com/nonebot/adapter-qq'
+            url: 'https://github.com/nonedesktop/Nonebot-Desktop-Qt'
         },
         {
             name: '三月七小助手',
@@ -64,10 +64,22 @@ export const showcases = {
             url: 'https://github.com/moesnow/March7thAssistant'
         },
         {
+            name: '真寻工具箱',
+            description: '一个简洁易用的 FFmpeg 客户端',
+            cover: 'https://img.fastmirror.net/s/2023/11/08/654b9ec22ce0e.jpg',
+            url: 'https://github.com/Eanya-Tonic/MihiroToolbox'
+        },
+        {
             name: 'AutoStarRail',
             description: '星穹铁道自动化工具',
             cover: 'https://raw.githubusercontent.com/JunNanLYS/AutoStarRail/main/doc/readme/gui/scripts.png',
             url: 'https://github.com/JunNanLYS/AutoStarRail'
+        },
+        {
+            name: 'YML3',
+            description: '一个高度可自定义的 Minecraft 启动器',
+            cover: 'https://img.fastmirror.net/s/2023/11/08/654ba0a1a47df.png',
+            url: 'https://github.com/xiaoshuaiyo/Yes-MineCraft-Launcher'
         },
     ]
 };
