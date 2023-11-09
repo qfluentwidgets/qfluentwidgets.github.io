@@ -12,7 +12,10 @@ To meet the needs of developers, the commercial version of the component library
 
 ## What are the advanced components?
 
-Currently, QFluentWidgets Pro includes the following components, and more components being added in the future:
+Currently, QFluentWidgets Pro includes the following components, and more components being added in the future.
+
+Check out this [▶ example video](https://youtu.be/4Udpxu5D9MQ?si=Lod-vCqL1dhmaztQ) that shows off what Pro are capable of.
+
 ### Basic Inputs
 
 | Component Name                | Description                                    |
