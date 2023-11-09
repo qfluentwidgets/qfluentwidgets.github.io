@@ -72,9 +72,10 @@ Skeleton screens provide basic placeholders when network requests are slow, and 
 | `Splitter`               | Area splitter             |
 
 ### Status & Info
-| Component Name      | Description                         |
-| ------------------- | ----------------------------------- |
-| `FilledProgressBar` | Progress bar with filled background |
+| Component Name       | Description                         |
+| -------------------- | ----------------------------------- |
+| `FilledProgressBar`  | Progress bar with filled background |
+| `ProgressPushButton` | Progress push button                |
 
 ### Settings
 | Component Name                      | Description                                        |
