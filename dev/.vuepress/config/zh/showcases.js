@@ -46,10 +46,10 @@ export const showcases = {
             url: 'https://github.com/ChaozhongLiu/DyberPet'
         },
         {
-            name: 'MCSL2',
+            name: 'MCServerLauncher2',
             description: '简洁全能的 Minecraft 开服器',
             cover: 'https://img.fastmirror.net/s/2023/10/28/653d162f66436.png',
-            url: 'https://github.com/MCSLTeam/MCSL2'
+            url: 'https://mcsl.com.cn'
         },
         {
             name: 'NoneBot Desktop',
