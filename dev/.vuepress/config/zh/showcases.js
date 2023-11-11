@@ -70,16 +70,28 @@ export const showcases = {
             url: 'https://github.com/Eanya-Tonic/MihiroToolbox'
         },
         {
-            name: 'AutoStarRail',
-            description: '星穹铁道自动化工具',
-            cover: 'https://raw.githubusercontent.com/JunNanLYS/AutoStarRail/main/doc/readme/gui/scripts.png',
-            url: 'https://github.com/JunNanLYS/AutoStarRail'
+            name: 'Baas',
+            description: '蔚蓝档案自动化工具',
+            cover: 'https://img.fastmirror.net/s/2023/11/11/654eed0927f9f.png',
+            url: 'https://github.com/pur1fying/blue_archive_auto_script'
+        },
+        {
+            name: 'Bangumi Renamer',
+            description: '自动化番剧命名工具',
+            cover: 'https://img.fastmirror.net/s/2023/11/11/654ef66014d97.jpg',
+            url: 'https://github.com/nuthx/bangumi-renamer'
         },
         {
             name: 'YML3',
             description: '一个高度可自定义的 Minecraft 启动器',
             cover: 'https://img.fastmirror.net/s/2023/11/08/654ba0a1a47df.png',
             url: 'https://github.com/xiaoshuaiyo/Yes-MineCraft-Launcher'
+        },
+        {
+            name: 'AutoStarRail',
+            description: '星穹铁道自动化工具',
+            cover: 'https://raw.githubusercontent.com/JunNanLYS/AutoStarRail/main/doc/readme/gui/scripts.png',
+            url: 'https://github.com/JunNanLYS/AutoStarRail'
         },
     ]
 };

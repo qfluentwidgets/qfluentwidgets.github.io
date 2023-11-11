@@ -70,16 +70,28 @@ export const showcases = {
             url: 'https://github.com/Eanya-Tonic/MihiroToolbox'
         },
         {
-            name: 'AutoStarRail',
-            description: 'Star rail automation tool',
-            cover: 'https://raw.githubusercontent.com/JunNanLYS/AutoStarRail/main/doc/readme/gui/scripts.png',
-            url: 'https://github.com/JunNanLYS/AutoStarRail'
+            name: 'Baas',
+            description: 'Blue Archive auto script',
+            cover: 'https://img.fastmirror.net/s/2023/11/11/654eed0927f9f.png',
+            url: 'https://github.com/pur1fying/blue_archive_auto_script'
+        },
+        {
+            name: 'Bangumi Renamer',
+            description: 'Automated anime naming Tool',
+            cover: 'https://img.fastmirror.net/s/2023/11/11/654ef66014d97.jpg',
+            url: 'https://github.com/nuthx/bangumi-renamer'
         },
         {
             name: 'YML3',
             description: 'A highly customizable minecraft launcher',
             cover: 'https://img.fastmirror.net/s/2023/11/08/654ba0a1a47df.png',
             url: 'https://github.com/xiaoshuaiyo/Yes-MineCraft-Launcher'
+        },
+        {
+            name: 'AutoStarRail',
+            description: 'Star rail automation tool',
+            cover: 'https://raw.githubusercontent.com/JunNanLYS/AutoStarRail/main/doc/readme/gui/scripts.png',
+            url: 'https://github.com/JunNanLYS/AutoStarRail'
         },
     ]
 };
