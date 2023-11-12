@@ -76,6 +76,7 @@ Skeleton screens provide basic placeholders when network requests are slow, and 
 | -------------------- | ----------------------------------- |
 | `FilledProgressBar`  | Progress bar with filled background |
 | `ProgressPushButton` | Progress push button                |
+| `StepProgressBar`    | Step progress bar                   |
 
 ### Settings
 | Component Name                      | Description                                        |

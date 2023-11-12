@@ -68,10 +68,11 @@ PySide6-Fluent-Widgets 和 PySide2-Fluent-Widgets 使用 **双许可证**。非�
 | `Splitter`               | 区域分割器         |
 
 ### 状态和信息
-| 组件名               | 描述                         |
-| -------------------- | ---------------------------- |
-| `FilledProgressBar`  | 填充进度条                   |
-| `ProgressPushButton` | 进度按钮，可用于显示任务进度 |
+| 组件名               | 描述                           |
+| -------------------- | ------------------------------ |
+| `FilledProgressBar`  | 填充进度条                     |
+| `ProgressPushButton` | 进度按钮，可用于显示任务进度   |
+| `StepProgressBar`    | 步骤进度条，可用于显示任务步骤 |
 
 ### 设置
 | 组件名                              | 描述                   |
