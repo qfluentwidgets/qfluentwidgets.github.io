@@ -14,7 +14,7 @@ No, it does not. PyQt has stricter licensing. For commercial software, please us
 
 #### Is there a trial or subscription option for the C++ component library?
 
-No, there is no trial or subscription option. C++ only supports a one-time perpetual buyout model. The pricing plan is provided on the [pricing page](/zh/price), and you can download the pre-compiled demo program `QFluentWidgets_v*.*.*.zip` from the [releases page](https://github.com/zhiyiYo/PyQt-Fluent-Widgets/releases) on GitHub for experience. Currently, hundreds of thousands of devices are running software that uses this component library, so you can trust its quality.
+No. C++ only supports a one-time permanent purchase model. The pricing plans are available on the [pricing page](/price), and you can download the pre-compiled demo program `C++_QFluentWidgets.zip` from the [releases page](https://github.com/zhiyiYo/PyQt-Fluent-Widgets/releases) on GitHub for testing. Currently, there are hundreds of thousands of devices running software that uses this component library. The library has also established deep collaborations with Fortune 500 companies, so you can trust its quality without any doubt!
 
 #### Which versions of Qt are supported by the C++ component library?
 
@@ -23,6 +23,14 @@ It supports Qt 5.15.x and Qt 6.x.x.
 #### Does the C++ component library provide source code?
 
 No, it does not. After purchase, you will receive header files and static libraries.
+
+#### Can I use your C++ component library for free if I don't use it for commercial purposes?
+
+No.
+
+#### Python is open source, why can't C++ be open source as well?
+
+家人们，谁懂啊？今天碰到一个虾头男，一上来就想白嫖别人数月的劳动成果。这么喜欢开源，怎么不把你女朋友开源出来给大伙儿白嫖？
 
 #### Does it support QML?
 

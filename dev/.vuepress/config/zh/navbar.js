@@ -63,8 +63,25 @@ export const navbar = [
       },
     ],
   },
+  {
+    text: '演示',
+    icon: 'Download',
+    children: [
+      {
+        text: 'Python 社区版',
+        link: 'https://github.com/zhiyiYo/PyQt-Fluent-Widgets/releases/download/v1.3.2/PyQt-Fluent-Widgets-Gallery_v1.3.5_windows_x64.7z'
+      },
+      {
+        text: 'Python 高级版',
+        link: 'https://github.com/zhiyiYo/PyQt-Fluent-Widgets/releases/download/v1.3.2/PySide6-Fluent-Widgets-Pro-Gallery.7z'
+      },
+      {
+        text: 'C++ 组件库',
+        link: 'https://github.com/zhiyiYo/PyQt-Fluent-Widgets/releases/download/v1.3.2/C++_QFluentWidgets.zip'
+      }
+    ]
+  },
   { text: '案例', link: '/zh/showcase/', icon: 'Code' },
-  { text: '支持', icon: 'Cafe', link: '/zh/pages/support/' },
   { text: '价格', link: '/zh/price', icon: 'ShoppingCart' },
   { text: '视频教程', link: 'https://www.bilibili.com/video/BV12c411L73q', icon: 'Playlist' },
 ];
