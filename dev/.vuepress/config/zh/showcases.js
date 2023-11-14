@@ -1,6 +1,6 @@
 export const showcases = {
     title: '精品案例',
-    subTitle: '组件驱动，大有不同',
+    subTitle: '一生万物，万物归一',
     description: '我们收集了一些基于 QFluentWidgets 组件库开发的优秀项目，供您参考',
     data: [
         {
@@ -8,6 +8,12 @@ export const showcases = {
             description: 'Material Design 风格组件库',
             cover: 'https://img.fastmirror.net/s/2023/11/08/654ba28604a6f.jpg',
             url: 'https://github.com/zhiyiYo/QMaterialWidgets'
+        },
+        {
+            name: 'Fluent Studio',
+            description: 'QFluentWidgets 集成软件',
+            cover: 'https://img.fastmirror.net/s/2023/11/14/6552d7c981aa9.jpg',
+            url: 'https://www.bilibili.com/video/BV1s34y1V7QW/'
         },
         {
             name: 'Groove',

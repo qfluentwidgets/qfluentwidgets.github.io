@@ -10,6 +10,12 @@ export const showcases = {
             url: 'https://github.com/zhiyiYo/QMaterialWidgets'
         },
         {
+            name: 'Fluent Studio',
+            description: 'QFluentWidgets tool box',
+            cover: 'https://img.fastmirror.net/s/2023/11/14/6552d7c981aa9.jpg',
+            url: 'https://www.bilibili.com/video/BV1s34y1V7QW/'
+        },
+        {
             name: 'Groove',
             description: 'Cross-platform music player',
             cover: 'https://img.fastmirror.net/s/2023/11/08/654ba23ebad12.jpg',
