@@ -36,6 +36,9 @@ Check out this [▶ example video](https://youtu.be/4Udpxu5D9MQ?si=Lod-vCqL1dhma
 | ---------------------------- | ---------------------------------------------------------------------------------- |
 | `DropDownColorPalette`       | A dropdown color palette that supports selecting standard colors and custom colors |
 | `CustomDropDownColorPalette` | A custom dropdown color palette                                                    |
+| `DropDownColorPicker`        | A dropdown color picker                                                            |
+| `CustomDropDownColorPicker`  | A custom dropdown color picker                                                     |
+| `FlyoutDialog`               | A flyout dialog                                                                    |
 
 ### Date Time
 | Component Name        | Description                                                |
@@ -43,6 +46,11 @@ Check out this [▶ example video](https://youtu.be/4Udpxu5D9MQ?si=Lod-vCqL1dhma
 | `ProCalendarPicker`   | An advanced calendar picker that can disable certain dates |
 | `RangeCalendarPicker` | A calendar range picker                                    |
 
+
+### Layout
+| 组件名            | 描述                                                      |
+| ----------------- | --------------------------------------------------------- |
+| `WaterfallLayout` | Waterfall layout that supports widgets in different sizes |
 
 ### Charts
 
@@ -64,12 +72,15 @@ Skeleton screens provide basic placeholders when network requests are slow, and 
 | `SquarePersonaSkeleton` | Skeleton for square user information          |
 
 ### Views
-| Component Name           | Description               |
-| ------------------------ | ------------------------- |
-| `EmptyStatusWidget`      | Empty status widget       |
-| `NoInternetStatusWidget` | No Internet status widget |
-| `Pager`                  | Pagination component      |
-| `Splitter`               | Area splitter             |
+| Component Name               | Description                            |
+| ---------------------------- | -------------------------------------- |
+| `EmptyStatusWidget`          | Empty status widget                    |
+| `NoInternetStatusWidget`     | No Internet status widget              |
+| `Pager`                      | Pagination component                   |
+| `Splitter`                   | Area splitter                          |
+| `AccentCardWidget`           | Card widget with linear gradient color |
+| `DashboardCardWidget`        | Dashboard card widget                  |
+| `ContentDashboardCardWidget` | Content dash board card widget         |
 
 ### Status & Info
 | Component Name       | Description                         |
@@ -84,3 +95,5 @@ Skeleton screens provide basic placeholders when network requests are slow, and 
 | `ColorPaletteSettingCard`           | Setting card for the dropdown color palette        |
 | `CustomColorPaletteSettingCard`     | Setting card for the custom dropdown color palette |
 | `MultiSelectionComboBoxSettingCard` | Setting card for the multi-selection combobox      |
+| `ColorPickerSettingCard`            | Setting card for the dropdown color picker         |
+| `CustomColorPickerSettingCard`      | Setting card for the custom dropdown color         |
