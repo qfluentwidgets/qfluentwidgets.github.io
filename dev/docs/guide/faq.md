@@ -30,7 +30,7 @@ No.
 
 #### Python is open source, why can't C++ be open source as well?
 
-家人们，谁懂啊？今天碰到一个虾头男，一上来就想白嫖别人数月的劳动成果。这么喜欢开源，怎么不把你女朋友开源出来给大伙儿白嫖？
+😅
 
 #### Does it support QML?
 
