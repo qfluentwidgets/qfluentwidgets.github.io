@@ -27,6 +27,12 @@ Well, the widget is now promoted to fluent push button. But you won’t be able 
 
 ### Using plugin
 
+For all the following operations, they must be performed in an English path.
+
+For Windows systems, you can download `FluentDesigner_v1.*.*.7z` from the [project release page](https://github.com/zhiyiYo/PyQt-Fluent-Widgets/releases) or the QQ group files. After extracting the archive, double-click on `FluentDesigner.exe` to launch QtDesigner with the installed plugins.
+
+If you don't want to use Fluent Designer or you are not using a Windows system, you can follow the steps below to launch QtDesigner with the installed plugins:
+
 1. create a virtual environment, `conda` is the recommended way.
 
 2. Activate virtual environment and run the following code in shell:
@@ -42,7 +48,6 @@ Well, the widget is now promoted to fluent push button. But you won’t be able 
 
 If everything goes smoothly, you will see all PyQt-Fluent-Widgets components in the sidebar of Qt Designer. If the startup fails or the components of PyQt-Fluent-Widgets cannot be seen, the solution can be found in [Issue#196](https://github.com/zhiyiYo/PyQt-Fluent-Widgets/issues/196).
 
-You can also download the compiled QtDesigner from [release page](https://github.com/zhiyiYo/PyQt-Fluent-Widgets/releases). Download and unzip `FluentDesigner_v*.*.*.zip`, then run `designer/designer.exe`, you will launch the QtDesigner that has already installed plugins.
 
 <div style="position: relative; padding: 30% 45%;">
     <iframe style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;" src="https://player.bilibili.com/player.html?cid=1124976209&aid=953381256&page=1&as_wide=1&high_quality=1&danmaku=0" frameborder="no" scrolling="no" allowfullscreen="true"></iframe>

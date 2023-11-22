@@ -25,6 +25,12 @@ permalink: /zh/pages/designer/
 
 ### 使用插件
 
+**下述所有操作，必须在英文路径下完成。**
+
+对于 Windows 系统，可以从 [项目发行页面](https://github.com/zhiyiYo/PyQt-Fluent-Widgets/releases) 或者 QQ 群文件下载 `FluentDesigner_v1.*.*.7z`，解压后双击运行 `FluentDesigner.exe` 就能启动包含插件的 QtDesigner。
+
+不想用 Fluent Designer 或者不是 Windows 系统，可以按照下述步骤来启动安了插件的 QtDesigner：
+
 1. 创建一个虚拟环境，推荐使用 `conda`
 
 2. 激活虚拟环境，在终端中输入下述命令安装所需的包：
@@ -40,7 +46,6 @@ permalink: /zh/pages/designer/
 
 一切无误的情况下能在侧边栏 Widget Box 中看到 PyQt-Fluent-Widgets 的组件。如果启动失败或者看不到 PyQt-Fluent-Widgets 的组件，解决方案参见 [Issue#196](https://github.com/zhiyiYo/PyQt-Fluent-Widgets/issues/196)。
 
-如果嫌搭建环境麻烦的话，可以从 [项目发行页面](https://github.com/zhiyiYo/PyQt-Fluent-Widgets/releases) 下载内置了 QFluentWidgets 插件的 FluentDesigner，下载并解压 `FluentDesigner_v*.*.*.zip`，双击运行 `designer/designer.exe` 就能启动 QtDesigner。
 
 <div style="position: relative; padding: 30% 45%;">
     <iframe style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;" src="https://player.bilibili.com/player.html?cid=1124976209&aid=953381256&page=1&as_wide=1&high_quality=1&danmaku=0" frameborder="no" scrolling="no" allowfullscreen="true"></iframe>
