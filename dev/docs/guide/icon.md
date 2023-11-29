@@ -170,3 +170,5 @@ connect(button, &ToolButton::clicked, this, [] { toggleTheme(); });
 ```
 :::
 ::::
+
+For classes that do not support `FluentIconBase`, such as `QListWidgetItem` that only supports `QIcon`, you can call `FluentIconBase.qicon()` to return a `QIcon` that can automatically switch themes.

@@ -171,3 +171,5 @@ connect(button, &ToolButton::clicked, this, [] { toggleTheme(); });
 ```
 :::
 ::::
+
+对于不支持 `FluentIconBase` 的类，比如只支持 `QIcon` 的 `QListWidgetItem`，可以调用 `FluentIconBase.qicon()` 返回一个能够自动切换主题的 `QIcon`。
