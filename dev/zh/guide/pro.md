@@ -37,6 +37,8 @@ PySide6-Fluent-Widgets 和 PySide2-Fluent-Widgets 使用 **双许可证**。非�
 | `DropDownColorPicker`        | 下拉拾色器                               |
 | `CustomDropDownColorPicker`  | 自定义下拉拾色器                         |
 | `FlyoutDialog`               | 弹出对话框                               |
+| `ShortcutPicker`             | 快捷键选择器                             |
+| `ShortcutDialog`             | 快捷键对话框                             |
 
 ### 日期和时间
 | 组件名                | 描述                             |
@@ -95,3 +97,4 @@ PySide6-Fluent-Widgets 和 PySide2-Fluent-Widgets 使用 **双许可证**。非�
 | `CustomColorPaletteSettingCard`     | 自定义下拉调色盘设置卡 |
 | `ColorPickerSettingCard`            | 下拉拾色器设置卡       |
 | `CustomColorPickerSettingCard`      | 自定义下拉拾色器设置卡 |
+| `ShortcutSettingCard`               | 快捷键设置卡           |

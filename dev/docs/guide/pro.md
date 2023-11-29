@@ -39,6 +39,8 @@ Check out this [▶ example video](https://youtu.be/4Udpxu5D9MQ?si=Lod-vCqL1dhma
 | `DropDownColorPicker`        | A dropdown color picker                                                            |
 | `CustomDropDownColorPicker`  | A custom dropdown color picker                                                     |
 | `FlyoutDialog`               | A flyout dialog                                                                    |
+| `ShortcutPicker`             | Shortcut picker                                                                    |
+| `ShortcutDialog`             | Shortcut dialog                                                                    |
 
 ### Date Time
 | Component Name        | Description                                                |
@@ -97,3 +99,4 @@ Skeleton screens provide basic placeholders when network requests are slow, and 
 | `MultiSelectionComboBoxSettingCard` | Setting card for the multi-selection combobox      |
 | `ColorPickerSettingCard`            | Setting card for the dropdown color picker         |
 | `CustomColorPickerSettingCard`      | Setting card for the custom dropdown color         |
+| `ShortcutSettingCard`               | Setting card for the shortcut picker               |
