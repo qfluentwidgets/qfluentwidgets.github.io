@@ -28,10 +28,6 @@ No, it does not. After purchase, you will receive header files and static librar
 
 No.
 
-#### Python is open source, why can't C++ be open source as well?
-
-😅
-
 #### Does it support QML?
 
 No, it does not. All components are developed based on QWidgets and will not support QML in the future.

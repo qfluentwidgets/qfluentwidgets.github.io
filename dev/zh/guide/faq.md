@@ -35,11 +35,6 @@ permalink: /zh/pages/faq/
   不行。
 
 
-#### Python 都开源了，为什么不能把 C++ 一起开源给我白嫖？
-
-  差不多得了😅
-
-
 #### 支持 QML 吗？
 
   不支持。所有组件都是基于 QWidgets 开发的，日后也不会支持 QML。
