@@ -69,15 +69,15 @@ export const navbar = [
     children: [
       {
         text: 'Fluent Gallery',
-        link: 'https://github.com/zhiyiYo/PyQt-Fluent-Widgets/releases/download/v1.3.2/PyQt-Fluent-Widgets-Gallery_v1.3.5_windows_x64.7z'
+        link: 'https://github.com/zhiyiYo/PyQt-Fluent-Widgets/releases/download/v1.4.1/PyQt-Fluent-Widgets-Gallery_v1.3.5_windows_x64.7z'
       },
       {
         text: 'Fluent Pro Gallery',
-        link: 'https://github.com/zhiyiYo/PyQt-Fluent-Widgets/releases/download/v1.3.2/PySide6-Fluent-Widgets-Pro-Gallery.7z'
+        link: 'https://github.com/zhiyiYo/PyQt-Fluent-Widgets/releases/download/v1.4.1/PySide6-Fluent-Widgets-Pro-Gallery.7z'
       },
       {
         text: 'C++ QFluentWidgets',
-        link: 'https://github.com/zhiyiYo/PyQt-Fluent-Widgets/releases/download/v1.3.2/C++_QFluentWidgets.zip'
+        link: 'https://github.com/zhiyiYo/PyQt-Fluent-Widgets/releases/download/v1.4.1/C++_QFluentWidgets.zip'
       }
     ]
   },
