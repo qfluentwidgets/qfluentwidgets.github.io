@@ -7,7 +7,7 @@ permalink: /zh/pages/faq/
 
 #### 我想用 Python 组件库做个商用软件，必须购买商用许可证吗？
 
-  是的，Python 组件库使用双许可证进行授权，非商用使用 GPLv3 进行授权，商用项目必须在 [价格页面](/zh/price) 购买许可证，购买之后可以使用高级版的组件，订阅制的许可证过期后需要重新购买。虽然许可证平均一个月也才一杯奶茶的价格，但是对于组件库的可持续发展意义重大。
+  是的，Python 组件库使用双许可证进行授权，非商用使用 GPLv3 进行授权，商用项目必须在 [价格页面](/zh/price) 购买许可证，购买之后可以使用高级版的组件，订阅制的许可证过期后需要重新购买。
 
 
 #### 商用版支持 PyQt 吗？
@@ -15,9 +15,14 @@ permalink: /zh/pages/faq/
   不支持。PyQt 的许可证较为严格，商用软件请使用 PySide6（推荐）或者 PySide2。
 
 
+#### 如何购买永久版的 Python 组件库或者 C++ 组件库？
+
+  请联系作者邮箱 [shokokawaii@foxmail.com](mailto:shokokawaii@foxmail.com) 或 QQ：1953658489。
+
+
 #### C++ 的组件库支持试用或者订阅制吗？
 
-  不支持。C++ 只支持一次性永久买断制，价格方案已在 [价格页面](/zh/price) 给出，可从 GitHub 的 [发行页面](https://github.com/zhiyiYo/PyQt-Fluent-Widgets/releases) 下载编译好的演示程序 `C++_QFluentWidgets.zip` 进行体验。目前已有数十万台设备运行着搭载此组件库的软件，同时组件库已与世界 500 强企业达成深度合作，对于质量问题请放一百万个心！
+  不支持。C++ 只支持一次性永久买断制，价格方案已在 [价格页面](/zh/price) 给出，可从 GitHub 的 [发行页面](https://github.com/zhiyiYo/PyQt-Fluent-Widgets/releases) 下载编译好的演示程序 `C++_QFluentWidgets.zip` 进行体验。
 
 
 #### C++ 组件库支持哪些版本的 Qt？

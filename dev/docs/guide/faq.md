@@ -6,15 +6,19 @@ permalink: /pages/faq/
 
 #### Do I need to purchase a license to use the Python component library for commercial software?
 
-Yes, the Python component library is licensed under dual licensing. The GPLv3 license is used for non-commercial use, while commercial projects must purchase a license from the [pricing page](/zh/price) to use the advanced version of the components. Subscriptions need to be renewed after expiration. Although the license price is equivalent to the cost of a cup of milk tea on average per month, it is of great significance for the sustainable development of the component library.
+Yes, the Python component library is licensed under dual licensing. The GPLv3 license is used for non-commercial use, while commercial projects must purchase a license from the [pricing page](/zh/price) to use the advanced version of the components. Subscriptions need to be renewed after expiration.
 
 #### Does the commercial version support PyQt?
 
 No, it does not. PyQt has stricter licensing. For commercial software, please use PySide6 (recommended) or PySide2.
 
+#### How to purchase the perpetual license of the Python component library or the C++ component library?
+
+Please contact the author via email at [shokokawaii@foxmail.com](mailto:shokokawaii@foxmail.com) or QQ: 1953658489.
+
 #### Is there a trial or subscription option for the C++ component library?
 
-No. C++ only supports a one-time permanent purchase model. The pricing plans are available on the [pricing page](/price), and you can download the pre-compiled demo program `C++_QFluentWidgets.zip` from the [releases page](https://github.com/zhiyiYo/PyQt-Fluent-Widgets/releases) on GitHub for testing. Currently, there are hundreds of thousands of devices running software that uses this component library. The library has also established deep collaborations with Fortune 500 companies, so you can trust its quality without any doubt!
+No. C++ only supports a one-time permanent purchase model. The pricing plans are available on the [pricing page](/price), and you can download the pre-compiled demo program `C++_QFluentWidgets.zip` from the [releases page](https://github.com/zhiyiYo/PyQt-Fluent-Widgets/releases) on GitHub for testing.
 
 #### Which versions of Qt are supported by the C++ component library?
 
