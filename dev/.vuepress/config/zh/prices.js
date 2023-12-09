@@ -178,4 +178,24 @@ export const prices = {
             ]
         },
     ],
+    comments: [
+        {
+            logo: "https://img.fastmirror.net/s/2023/10/29/653deb00353b8.png",
+            content: "“作者对这个组件库进行了十分精心、细致的打磨，成功将丝滑的动画、现代化的样式、无与伦比的实用性集于一体，大量开箱即用的组件显著提高了我和朋友们开发 MCSL2 软件的效率，用户也对搭载组件库的界面给予了高度的评价。”",
+            avatar: "https://img.fastmirror.net/s/2023/12/09/6573e9c9741da.jpg",
+            name: "落雪无痕",
+            job: "MCSL2 作者",
+            title: "MCSL2",
+            id: 1
+        },
+        {
+            logo: "https://img.fastmirror.net/s/2023/12/09/65740850ccc5b.png",
+            title: "Copyask",
+            content: "“QFluentWidgets 组件库救我于调整样式表的水深火热之中，极大地加快了我的软件开发速度。在这一点上，QFluentWidgets 毫无疑问是我购买过的投资回报率最高的数字资产。希望这个组件库能够不断发展壮大下去。”",
+            avatar: "https://img.fastmirror.net/s/2023/12/09/6574094282706.png",
+            name: "B1lli",
+            job: "语核科技创始人",
+            id: 2
+        }
+    ]
 }

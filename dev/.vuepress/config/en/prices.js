@@ -14,7 +14,7 @@ export const prices = {
             price: '$369',
             year: false,
             permanent: true,
-            url: 'mailto:shokokawaii@foxmail.com',
+            url: 'https://afdian.net/item/b97e72a8962b11ee8e3d5254001e7c00',
             recommend: false,
             features: [
                 { feature: '200+ components' },
@@ -173,4 +173,24 @@ export const prices = {
             ]
         }
     ],
+    comments: [
+        {
+            logo: "https://img.fastmirror.net/s/2023/10/29/653deb00353b8.png",
+            title: "MCSL2",
+            content: "“The author has meticulously and carefully polished this component library, combining animations, styles, and practicality. The abundance of ready-to-use components has significantly increased efficiency for me and my friends during the development process.”",
+            avatar: "https://img.fastmirror.net/s/2023/12/09/6573e9c9741da.jpg",
+            name: "落雪无痕",
+            job: "Author of MCSL2",
+            id: 1
+        },
+        {
+            logo: "https://img.fastmirror.net/s/2023/12/09/65740850ccc5b.png",
+            title: "Copyask",
+            content: "“Yet again QFluentWidgets are dramatically speeding up my frontend work. At this point QFluentWidgets is hands-down the highest ROI digital asset I’ve ever bought. I hope the component library can continue to develop and grow.”",
+            avatar: "https://img.fastmirror.net/s/2023/12/09/6574094282706.png",
+            name: "B1lli",
+            job: "Founder of LangCore",
+            id: 2
+        }
+    ]
 }
