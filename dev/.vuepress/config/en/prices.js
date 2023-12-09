@@ -18,9 +18,10 @@ export const prices = {
             recommend: false,
             features: [
                 { feature: '200+ components' },
-                { feature: 'Continuous updates' },
-                { feature: "Permanent license validity" },
-                { feature: 'Unlimited personal softwares' },
+                { feature: 'Unlimited softwares' },
+                { feature: 'Single developer' },
+                { feature: "Lifetime access" },
+                { feature: 'Free updates' },
                 { feature: 'High GitHub Issue priority' },
                 { feature: "Exclusive customer group service" },
             ]
@@ -37,7 +38,7 @@ export const prices = {
                 { feature: '200+ components' },
                 { feature: 'Single software' },
                 { feature: 'Single developer' },
-                { feature: 'Continuous updates' },
+                { feature: 'Free updates' },
                 { feature: 'High GitHub Issue priority' },
                 { feature: '24-hour email support response time' },
             ]
@@ -52,10 +53,10 @@ export const prices = {
             recommend: false,
             features: [
                 { feature: '200+ components' },
-                { feature: 'Continuous updates' },
-                { feature: "Permanent license validity" },
-                { feature: "Unlimited enterprise softwares" },
-                { feature: "Unlimited developers" },
+                { feature: "Unlimited softwares" },
+                { feature: "Up to 30 developers" },
+                { feature: "Lifetime access" },
+                { feature: 'Free updates' },
                 { feature: 'High GitHub Issue priority' },
                 { feature: "Exclusive customer group service" },
             ]
@@ -72,9 +73,10 @@ export const prices = {
             recommend: false,
             features: [
                 { feature: '200+ components' },
-                { feature: 'Continuous updates' },
-                { feature: "Permanent license validity" },
-                { feature: 'Unlimited personal softwares' },
+                { feature: 'Unlimited softwares' },
+                { feature: 'Single developer' },
+                { feature: "Lifetime access" },
+                { feature: 'Free updates' },
                 { feature: 'High GitHub Issue priority' },
                 { feature: "Exclusive customer group service" },
             ]
@@ -91,7 +93,7 @@ export const prices = {
                 { feature: '200+ components' },
                 { feature: 'Single software' },
                 { feature: 'Single developer' },
-                { feature: 'Continuous updates' },
+                { feature: 'Free updates' },
                 { feature: 'High GitHub Issue priority' },
                 { feature: '24-hour email support response time' },
             ]
@@ -106,10 +108,10 @@ export const prices = {
             recommend: false,
             features: [
                 { feature: '200+ components' },
-                { feature: 'Continuous updates' },
-                { feature: "Permanent license validity" },
-                { feature: "Unlimited enterprise softwares" },
-                { feature: "Unlimited developers" },
+                { feature: "Unlimited softwares" },
+                { feature: "Up to 30 developers" },
+                { feature: "Lifetime access" },
+                { feature: 'Free updates' },
                 { feature: 'High GitHub Issue priority' },
                 { feature: "Exclusive customer group service" },
             ]
@@ -126,9 +128,10 @@ export const prices = {
             recommend: false,
             features: [
                 { feature: '180+ components' },
-                { feature: 'Continuous updates' },
-                { feature: "Permanent license validity" },
-                { feature: "Unlimited personal softwares" },
+                { feature: 'Single developer' },
+                { feature: "Unlimited softwares" },
+                { feature: "Lifetime access" },
+                { feature: 'Free updates' },
                 { feature: "Exclusive Fluent Studio software" },
                 { feature: "Exclusive customer group service" }
             ]
@@ -143,10 +146,10 @@ export const prices = {
             recommend: true,
             features: [
                 { feature: '180+ components' },
-                { feature: 'Continuous updates' },
                 { feature: "Unlimited developers" },
-                { feature: "Permanent license validity" },
-                { feature: "Unlimited enterprise softwares" },
+                { feature: "Unlimited softwares" },
+                { feature: "Lifetime access" },
+                { feature: 'Free updates' },
                 { feature: "Exclusive Fluent Studio software" },
                 { feature: "Exclusive customer group service" },
             ]

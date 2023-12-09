@@ -17,7 +17,7 @@ export const prices = {
             url: 'mailto:shokokawaii@foxmail.com',
             recommend: false,
             features: [
-                { feature: '个人商用软件' },
+                { feature: '个人开发者' },
                 { feature: '永久许可证有效期' },
                 { feature: '不限开发的软件数量' },
                 { feature: '200+ Fluent Design 组件' },
@@ -35,8 +35,9 @@ export const prices = {
             url: 'https://afdian.net/item/b9c1f79e027911eeb4295254001e7c00',
             recommend: true,
             features: [
-                { feature: '单一个人商用软件' },
+                { feature: '个人开发者' },
                 { feature: '一年许可证有效期' },
+                { feature: '单个商用软件' },
                 { feature: '200+ Fluent Design 组件' },
                 { feature: 'GitHub Issue 得到优先处理' },
                 { feature: '24 小时内组件库问题邮件支持' },
@@ -52,7 +53,7 @@ export const prices = {
             url: 'mailto:shokokawaii@foxmail.com',
             recommend: false,
             features: [
-                { feature: '企业级别软件' },
+                { feature: '开发者团队' },
                 { feature: '永久许可证有效期' },
                 { feature: '不限团队开发者数量' },
                 { feature: '不限开发的软件数量' },
@@ -73,7 +74,7 @@ export const prices = {
             url: 'mailto:shokokawaii@foxmail.com',
             recommend: false,
             features: [
-                { feature: '个人商用软件' },
+                { feature: '个人开发者' },
                 { feature: '永久许可证有效期' },
                 { feature: '不限开发的软件数量' },
                 { feature: '200+ Fluent Design 组件' },
@@ -91,8 +92,9 @@ export const prices = {
             url: 'https://afdian.net/item/7f3bebd4027911eeb1aa52540025c377',
             recommend: true,
             features: [
-                { feature: '单一个人商用软件' },
+                { feature: '个人开发者' },
                 { feature: '一年许可证有效期' },
+                { feature: '单个商用软件' },
                 { feature: '200+ Fluent Design 组件' },
                 { feature: 'GitHub Issue 得到优先处理' },
                 { feature: '24 小时内组件库问题邮件支持' },
@@ -108,7 +110,7 @@ export const prices = {
             url: 'mailto:shokokawaii@foxmail.com',
             recommend: false,
             features: [
-                { feature: '企业级别软件' },
+                { feature: '开发者团队' },
                 { feature: '永久许可证有效期' },
                 { feature: '不限团队开发者数量' },
                 { feature: '不限开发的软件数量' },
@@ -129,7 +131,7 @@ export const prices = {
             url: 'mailto:shokokawaii@foxmail.com',
             recommend: false,
             features: [
-                { feature: '个人商用软件' },
+                { feature: '个人开发者' },
                 { feature: '永久许可证有效期' },
                 { feature: '不限开发的软件数量' },
                 { feature: '180+ Fluent Design 组件' },
@@ -147,7 +149,7 @@ export const prices = {
             url: 'mailto:shokokawaii@foxmail.com',
             recommend: true,
             features: [
-                { feature: '企业商用软件' },
+                { feature: '开发者团队' },
                 { feature: '永久许可证有效期' },
                 { feature: '不限团队开发者数量' },
                 { feature: '不限开发的软件数量' },
