@@ -25,6 +25,7 @@ PySide6-Fluent-Widgets 和 PySide2-Fluent-Widgets 使用 **双许可证**。非�
 | `FilledToolButton`            | 填充工具按钮               |
 | `TransparentCircleToolButton` | 透明圆形工具按钮           |
 | `MultiSelectionComboBox`      | 多选下拉框，可选择多个选项 |
+| `TransparentComboBox`         | 透明下拉框                 |
 | `ToolTipSlider`               | 带工具提示的滑动条         |
 | `RangeSlider`                 | 带两个滑块的范围滑动条     |
 
@@ -86,6 +87,7 @@ PySide6-Fluent-Widgets 和 PySide2-Fluent-Widgets 使用 **双许可证**。非�
 | 组件名               | 描述                           |
 | -------------------- | ------------------------------ |
 | `FilledProgressBar`  | 填充进度条                     |
+| `ProgressInfoBar`    | 进度消息条                     |
 | `ProgressPushButton` | 进度按钮，可用于显示任务进度   |
 | `StepProgressBar`    | 步骤进度条，可用于显示任务步骤 |
 

@@ -18,17 +18,18 @@ Check out this [▶ example video](https://youtu.be/4Udpxu5D9MQ?si=Lod-vCqL1dhma
 
 ### Basic Inputs
 
-| Component Name                | Description                                    |
-| ----------------------------- | ---------------------------------------------- |
-| `Chip`                        | A chip used as a filter                        |
-| `OutlinedPushButton`          | An outlined button used as a filter            |
-| `OutlinedToolButton`          | An outlined tool button                        |
-| `FilledPushButton`            | A filled push button                           |
-| `FilledToolButton`            | A filled tool button                           |
-| `TransparentCircleToolButton` | A transparent circular tool button             |
-| `MultiSelectionComboBox`      | A dropdown box that allows multiple selections |
-| `ToolTipSlider`               | A slider with tooltips                         |
-| `RangeSlider`                 | A range slider with two handles                |
+| Component Name                | Description                                 |
+| ----------------------------- | ------------------------------------------- |
+| `Chip`                        | A chip used as a filter                     |
+| `OutlinedPushButton`          | An outlined button used as a filter         |
+| `OutlinedToolButton`          | An outlined tool button                     |
+| `FilledPushButton`            | A filled push button                        |
+| `FilledToolButton`            | A filled tool button                        |
+| `TransparentCircleToolButton` | A transparent circular tool button          |
+| `MultiSelectionComboBox`      | A combo box that allows multiple selections |
+| `TransparentComboBox`         | A transparent combo box                     |
+| `ToolTipSlider`               | A slider with tooltips                      |
+| `RangeSlider`                 | A range slider with two handles             |
 
 ### Dialogs & Flyouts
 
@@ -88,6 +89,7 @@ Skeleton screens provide basic placeholders when network requests are slow, and 
 | Component Name       | Description                         |
 | -------------------- | ----------------------------------- |
 | `FilledProgressBar`  | Progress bar with filled background |
+| `ProgressInfoBar`    | Progress info bar                   |
 | `ProgressPushButton` | Progress push button                |
 | `StepProgressBar`    | Step progress bar                   |
 
