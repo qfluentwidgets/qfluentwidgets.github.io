@@ -8,7 +8,7 @@ export const faqs = {
         },
         {
             question: '商用版支持 PyQt 吗？',
-            answer: '不支持。PyQt 的许可证较为严格，商用软件请使用 PySide6（推荐）或者 PySide2。',
+            answer: '不支持。PyQt 的许可证较为严格，商用软件请使用 PySide6（推荐）或者 PySide2。PySide 和 PyQt 的接口一样，只有包名不同，没有任何迁移成本。',
         },
         {
             question: '如何购买永久版的组件库？',

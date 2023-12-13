@@ -12,7 +12,7 @@ permalink: /zh/pages/faq/
 
 #### 商用版支持 PyQt 吗？
 
-  不支持。PyQt 的许可证较为严格，商用软件请使用 PySide6（推荐）或者 PySide2。
+  不支持。PyQt 的许可证较为严格，商用软件请使用 PySide6（推荐）或者 PySide2。PySide 和 PyQt 的接口一样，只有包名不同，没有任何迁移成本。
 
 
 #### 如何购买永久版的 Python 组件库或者 C++ 组件库？

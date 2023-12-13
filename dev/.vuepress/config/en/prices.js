@@ -11,7 +11,7 @@ export const prices = {
         {
             title: 'Startup',
             desc: 'A plan that scales with your rapidly growing business.',
-            price: '$369',
+            price: '$399',
             year: false,
             permanent: true,
             url: 'https://afdian.net/item/b97e72a8962b11ee8e3d5254001e7c00',
@@ -66,10 +66,10 @@ export const prices = {
         {
             title: 'Startup',
             desc: 'A plan that scales with your rapidly growing business.',
-            price: '$369',
+            price: '$399',
             year: false,
             permanent: true,
-            url: 'mailto:shokokawaii@foxmail.com',
+            url: 'https://afdian.net/item/294fd704999f11eea38552540025c377',
             recommend: false,
             features: [
                 { feature: '200+ components' },
