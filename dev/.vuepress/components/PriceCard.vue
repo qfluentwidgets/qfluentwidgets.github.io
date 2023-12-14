@@ -68,6 +68,10 @@ export default {
             type: Boolean,
             default: false
         },
+        contactSales: {
+            type: Boolean,
+            default: false
+        },
         features: {
             type: Array,
             require: true
@@ -76,6 +80,9 @@ export default {
     setup(props) {
         let pricePlan = localeConfig('prices');
         let period = props.permanent ? ref(`/${pricePlan.value.permanent}`) : ref(`/${props.year ? pricePlan.value.year : pricePlan.value.month}`);
+        if (props.contactSales) {
+            period = ref("");
+        }
 
         let cardClass = reactive(['price-card']);
         if (props.recommend) {

@@ -22,13 +22,13 @@
         <div class="price-card-container">
             <div class="price-card-list">
                 <PriceCard :title="p.title" :desc="p.desc" :price="p.price" :year="p.year" :permanent="p.permanent"
-                    :url="p.url" :recommend="p.recommend" :features="p.features" v-show="isPySide6"
+                    :url="p.url" :recommend="p.recommend" :contactSales="p.contactSales" :features="p.features" v-show="isPySide6"
                     v-for="p in pricePlan.pyside6" />
                 <PriceCard :title="p.title" :desc="p.desc" :price="p.price" :year="p.year" :permanent="p.permanent"
-                    :url="p.url" :recommend="p.recommend" :features="p.features" v-show="isPySide2"
+                    :url="p.url" :recommend="p.recommend"  :contactSales="p.contactSales" :features="p.features" v-show="isPySide2"
                     v-for="p in pricePlan.pyside2" />
                 <PriceCard :title="p.title" :desc="p.desc" :price="p.price" :year="p.year" :permanent="p.permanent"
-                    :url="p.url" :recommend="p.recommend" :features="p.features" v-show="isCpp"
+                    :url="p.url" :recommend="p.recommend" :contactSales="p.contactSales" :features="p.features" v-show="isCpp"
                     v-for="p in pricePlan.cpp" />
             </div>
         </div>
