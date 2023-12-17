@@ -175,6 +175,54 @@ export const prices = {
             ]
         },
     ],
+    charts: [
+        {
+            title: '个人版',
+            desc: '适用于您用户量快速发展的应用程序',
+            price: '￥699',
+            year: true,
+            permanent: true,
+            url: 'https://afdian.net/item/ff1562129cb711eea8285254001e7c00',
+            recommend: false,
+            features: [
+                { feature: '个人开发者' },
+                { feature: '支持数十种图表' },
+                { feature: '永久许可证有效期' },
+                { feature: '不限开发的软件数量' },
+            ]
+        },
+        {
+            title: '企业版',
+            desc: '为您的公司提供专门的支持和基础设施。',
+            price: '联系客服',
+            year: true,
+            permanent: true,
+            url: 'mailto:shokokawaii@foxmail.com',
+            recommend: true,
+            contactSales: true,
+            features: [
+                { feature: '开发者团队' },
+                { feature: '支持数十种图表' },
+                { feature: '永久许可证有效期' },
+                { feature: '不限开发的软件数量' },
+            ]
+        },
+        {
+            title: '定制版',
+            desc: '定制化您的价格方案',
+            price: '自定义',
+            year: true,
+            permanent: true,
+            url: 'mailto:shokokawaii@foxmail.com',
+            recommend: false,
+            features: [
+                { feature: '个人或企业软件' },
+                { feature: '支持数十种图表' },
+                { feature: '永久许可证有效期' },
+                { feature: '自定义开发的软件数量' },
+            ]
+        },
+    ],
     comments: [
         {
             logo: "https://img.fastmirror.net/s/2023/10/29/653deb00353b8.png",

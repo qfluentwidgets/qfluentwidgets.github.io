@@ -78,7 +78,11 @@ export const navbar = [
       {
         text: 'C++ QFluentWidgets',
         link: 'https://github.com/zhiyiYo/PyQt-Fluent-Widgets/releases/download/v1.4.1/C++_QFluentWidgets.zip'
-      }
+      },
+      {
+        text: 'C++ QFluentCharts',
+        link: 'https://github.com/zhiyiYo/PyQt-Fluent-Widgets/releases/download/v1.4.1/C++_QFluentCharts.7z'
+      },
     ]
   },
   { text: 'Showcase', link: '/showcase/', icon: 'Code' },

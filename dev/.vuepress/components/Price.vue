@@ -15,6 +15,7 @@
                 <div @click="onPySide6Clicked" :class="pyside6NavItemClass">PySide6</div>
                 <div @click="onPySide2Clicked" :class="pyside2NavItemClass">PySide2</div>
                 <div @click="onCppClicked" :class="cppNavItemClass">C++</div>
+                <div @click="onChartsClicked" :class="chartsNavItemClass">Charts</div>
             </div>
         </div>
 
@@ -30,6 +31,9 @@
                 <PriceCard :title="p.title" :desc="p.desc" :price="p.price" :year="p.year" :permanent="p.permanent"
                     :url="p.url" :recommend="p.recommend" :contactSales="p.contactSales" :features="p.features" v-show="isCpp"
                     v-for="p in pricePlan.cpp" />
+                <PriceCard :title="p.title" :desc="p.desc" :price="p.price" :year="p.year" :permanent="p.permanent"
+                    :url="p.url" :recommend="p.recommend" :contactSales="p.contactSales" :features="p.features" v-show="isCharts"
+                    v-for="p in pricePlan.charts" />
             </div>
         </div>
 
@@ -83,6 +87,7 @@ useCustomPage();
 let isPySide6 = ref(true);
 let isPySide2 = ref(false);
 let isCpp = ref(false);
+let isCharts = ref(false);
 
 let pricePlan = localeConfig('prices');
 let faqs = localeConfig('faqs');
@@ -99,22 +104,36 @@ let cppNavItemClass = computed(() => {
     return isCpp.value ? "nav-item-selected" : "nav-item";
 });
 
+let chartsNavItemClass = computed(() => {
+    return isCharts.value ? "nav-item-selected" : "nav-item";
+});
+
 let onPySide6Clicked = () => {
     isPySide6.value = true;
     isPySide2.value = false;
     isCpp.value = false;
+    isCharts.value = false;
 };
 
 let onPySide2Clicked = () => {
     isPySide6.value = false;
     isPySide2.value = true;
     isCpp.value = false;
+    isCharts.value = false;
 };
 
 let onCppClicked = () => {
     isPySide6.value = false;
     isPySide2.value = false;
     isCpp.value = true;
+    isCharts.value = false;
+};
+
+let onChartsClicked = () => {
+    isPySide6.value = false;
+    isPySide2.value = false;
+    isCpp.value = false;
+    isCharts.value = true;
 };
 
 </script>
@@ -145,7 +164,7 @@ let onCppClicked = () => {
     @apply mt-16 flex justify-center;
 
     .segmented-container {
-        @apply grid grid-cols-3 gap-x-1 rounded-full p-1 text-center text-xs font-semibold leading-5 ring-1 ring-inset ring-gray-200 dark:bg-white/5 dark:ring-0;
+        @apply grid grid-cols-4 gap-x-1 rounded-full p-1 text-center text-xs font-semibold leading-5 ring-1 ring-inset ring-gray-200 dark:bg-white/5 dark:ring-0;
 
         .nav-item-selected {
             @apply text-white py-1 px-[0.625rem] bg-sky-500 rounded-full cursor-pointer tracking-tight;

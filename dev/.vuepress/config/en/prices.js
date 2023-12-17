@@ -119,7 +119,7 @@ export const prices = {
     ],
     cpp: [
         {
-            title: 'Startup',
+            title: 'Personal',
             desc: 'A plan that scales with your rapidly growing business.',
             price: '$639',
             year: true,
@@ -169,6 +169,54 @@ export const prices = {
                 { feature: "Permanent license validity" },
                 { feature: "Exclusive Fluent Studio software" },
                 { feature: "Exclusive customer group service" }
+            ]
+        }
+    ],
+    charts: [
+        {
+            title: 'Personal',
+            desc: 'A plan that scales with your rapidly growing business.',
+            price: '$119',
+            year: true,
+            permanent: true,
+            url: 'https://afdian.net/item/becc33c49cb811eea32652540025c377',
+            recommend: false,
+            features: [
+                { feature: 'Single developer' },
+                { feature: 'Support 10+ charts' },
+                { feature: "Unlimited softwares" },
+                { feature: "Lifetime access" },
+            ]
+        },
+        {
+            title: 'Enterprise',
+            desc: 'Dedicated support and infrastructure for your company.',
+            price: 'Contact Sales',
+            year: true,
+            permanent: true,
+            url: 'mailto:shokokawaii@foxmail.com',
+            recommend: true,
+            contactSales: true,
+            features: [
+                { feature: 'Developer team' },
+                { feature: 'Support 10+ charts' },
+                { feature: "Unlimited softwares" },
+                { feature: "Lifetime access" },
+            ]
+        },
+        {
+            title: 'Custom',
+            desc: 'Customized price plan and infrastructure for You.',
+            price: 'Custom',
+            year: true,
+            permanent: true,
+            url: 'mailto:shokokawaii@foxmail.com',
+            recommend: false,
+            features: [
+                { feature: 'Personal or Developer team' },
+                { feature: 'Support 10+ charts' },
+                { feature: "Personal/Enterprise software" },
+                { feature: "Permanent license validity" },
             ]
         }
     ],
