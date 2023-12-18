@@ -121,7 +121,7 @@ export const prices = {
         {
             title: 'Personal',
             desc: 'A plan that scales with your rapidly growing business.',
-            price: '$639',
+            price: '$729',
             year: true,
             permanent: true,
             url: 'mailto:shokokawaii@foxmail.com',

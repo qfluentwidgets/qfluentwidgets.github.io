@@ -123,7 +123,7 @@ export const prices = {
         {
             title: '个人版',
             desc: '适用于您用户量快速发展的应用程序',
-            price: '￥3999',
+            price: '￥4999',
             year: true,
             permanent: true,
             url: 'mailto:shokokawaii@foxmail.com',
