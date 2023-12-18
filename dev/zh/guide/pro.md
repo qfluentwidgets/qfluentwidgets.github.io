@@ -23,6 +23,8 @@ PySide6-Fluent-Widgets 和 PySide2-Fluent-Widgets 使用 **双许可证**。非�
 | `OutlinedToolButton`          | 描边工具按钮               |
 | `FilledPushButton`            | 填充按钮，支持不同的类型   |
 | `FilledToolButton`            | 填充工具按钮               |
+| `TextPushButton`              | 文本按钮，支持不同的类型   |
+| `TextToolButton`              | 文本工具按钮               |
 | `TransparentCircleToolButton` | 透明圆形工具按钮           |
 | `MultiSelectionComboBox`      | 多选下拉框，可选择多个选项 |
 | `TransparentComboBox`         | 透明下拉框                 |

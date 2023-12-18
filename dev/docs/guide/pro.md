@@ -25,6 +25,8 @@ Check out this [▶ example video](https://youtu.be/4Udpxu5D9MQ?si=Lod-vCqL1dhma
 | `OutlinedToolButton`          | An outlined tool button                     |
 | `FilledPushButton`            | A filled push button                        |
 | `FilledToolButton`            | A filled tool button                        |
+| `TextPushButton`              | A text push button                          |
+| `TextToolButton`              | A text tool button                          |
 | `TransparentCircleToolButton` | A transparent circular tool button          |
 | `MultiSelectionComboBox`      | A combo box that allows multiple selections |
 | `TransparentComboBox`         | A transparent combo box                     |
