@@ -83,6 +83,7 @@ Skeleton screens provide basic placeholders when network requests are slow, and 
 | `NoInternetStatusWidget`     | No Internet status widget              |
 | `Pager`                      | Pagination component                   |
 | `Splitter`                   | Area splitter                          |
+| `ToolBox`                    | Tool box                               |
 | `AccentCardWidget`           | Card widget with linear gradient color |
 | `DashboardCardWidget`        | Dashboard card widget                  |
 | `ContentDashboardCardWidget` | Content dash board card widget         |
