@@ -58,6 +58,12 @@ export const showcases = {
             url: 'https://mcsl.com.cn'
         },
         {
+            name: 'Xiaowo AI',
+            description: 'A multifunctional AI tool',
+            cover: 'https://img.fastmirror.net/s/2023/12/29/658eb72922356.png',
+            url: 'https://www.xiaowoai.com/'
+        },
+        {
             name: 'NoneBot Desktop',
             description: 'A native GUI application for NoneBot2',
             cover: 'https://img.fastmirror.net/s/2023/10/28/653d2b4046ca1.jpg',

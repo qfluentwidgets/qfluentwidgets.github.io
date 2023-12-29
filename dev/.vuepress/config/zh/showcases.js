@@ -58,6 +58,12 @@ export const showcases = {
             url: 'https://mcsl.com.cn'
         },
         {
+            name: '小蜗工具',
+            description: '实现您多重创意的多功能助手',
+            cover: 'https://img.fastmirror.net/s/2023/12/29/658eb72922356.png',
+            url: 'https://www.xiaowoai.com/'
+        },
+        {
             name: 'NoneBot Desktop',
             description: '原生 NoneBot2 客户端',
             cover: 'https://img.fastmirror.net/s/2023/10/28/653d2b4046ca1.jpg',
