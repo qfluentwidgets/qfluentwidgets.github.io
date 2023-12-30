@@ -82,6 +82,8 @@ PySide6-Fluent-Widgets 和 PySide2-Fluent-Widgets 使用 **双许可证**。非�
 | `Pager`                      | 分页组件           |
 | `Splitter`                   | 区域分割器         |
 | `ToolBox`                    | 工具箱             |
+| `TimeLineWidget`             | 时间线组件         |
+| `TimeLineCard`               | 时间线卡片         |
 | `AccentCardWidget`           | 渐变背景卡片组件   |
 | `DashboardCardWidget`        | 仪表盘卡片         |
 | `ContentDashboardCardWidget` | 仪表盘卡片         |
