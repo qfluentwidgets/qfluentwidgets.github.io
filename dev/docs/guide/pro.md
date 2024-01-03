@@ -89,6 +89,7 @@ Skeleton screens provide basic placeholders when network requests are slow, and 
 | `AccentCardWidget`           | Card widget with linear gradient color |
 | `DashboardCardWidget`        | Dashboard card widget                  |
 | `ContentDashboardCardWidget` | Content dash board card widget         |
+| `SlideAniStackedWidget`      | Stacked widget with sliding animation  |
 
 ### Status & Info
 | Component Name       | Description                         |

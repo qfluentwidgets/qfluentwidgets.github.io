@@ -75,18 +75,19 @@ PySide6-Fluent-Widgets 和 PySide2-Fluent-Widgets 使用 **双许可证**。非�
 | `SquarePersonaSkeleton` | 方形用户信息骨架                 |
 
 ### 视图
-| 组件名                       | 描述               |
-| ---------------------------- | ------------------ |
-| `EmptyStatusWidget`          | 空状态组件         |
-| `NoInternetStatusWidget`     | 无网络连接状态组件 |
-| `Pager`                      | 分页组件           |
-| `Splitter`                   | 区域分割器         |
-| `ToolBox`                    | 工具箱             |
-| `TimeLineWidget`             | 时间线组件         |
-| `TimeLineCard`               | 时间线卡片         |
-| `AccentCardWidget`           | 渐变背景卡片组件   |
-| `DashboardCardWidget`        | 仪表盘卡片         |
-| `ContentDashboardCardWidget` | 仪表盘卡片         |
+| 组件名                       | 描述                     |
+| ---------------------------- | ------------------------ |
+| `EmptyStatusWidget`          | 空状态组件               |
+| `NoInternetStatusWidget`     | 无网络连接状态组件       |
+| `Pager`                      | 分页组件                 |
+| `Splitter`                   | 区域分割器               |
+| `ToolBox`                    | 工具箱                   |
+| `TimeLineWidget`             | 时间线组件               |
+| `TimeLineCard`               | 时间线卡片               |
+| `AccentCardWidget`           | 渐变背景卡片组件         |
+| `DashboardCardWidget`        | 仪表盘卡片               |
+| `ContentDashboardCardWidget` | 仪表盘卡片               |
+| `SlideAniStackedWidget`      | 带左右滑动动画的层叠组件 |
 
 ### 状态和信息
 | 组件名               | 描述                           |
