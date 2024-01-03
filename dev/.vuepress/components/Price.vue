@@ -140,7 +140,7 @@ let onChartsClicked = () => {
 
 <style>
 .price-header {
-    @apply relative z-20 mx-auto max-w-[85rem] px-4 pt-14 sm:px-6 sm:pt-20 lg:px-8;
+    @apply relative mx-auto max-w-[85rem] px-4 pt-14 sm:px-6 sm:pt-20 lg:px-8;
 
 
     .price-title-container {

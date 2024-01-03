@@ -7,6 +7,13 @@ export const prices = {
     permanent: "Permanent",
     subTitle: 'Pricing plans for teams of all sizes',
     description: 'Choose an affordable plan that’s packed with the best features for engaging your audience, creating customer loyalty, and driving sales.',
+    dialog: {
+        url: "https://img.fastmirror.net/s/2024/01/03/659574d1eb752.jpg",
+        title: "Contact us",
+        content: "QQ：1953658489<br/>email: shokokawaii@foxmail.com",
+        cancel: "Cancel",
+        ok: "Contact",
+    },
     pyside6: [
         {
             title: 'Startup',

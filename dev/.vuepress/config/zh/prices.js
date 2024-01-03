@@ -7,6 +7,13 @@ export const prices = {
     permanent: "永久",
     subTitle: '为不同开发者量身定制的方案',
     description: '选择一个最适合您软件的价格方案，其他的技术细节放心交给组件库',
+    dialog: {
+        url: "https://img.fastmirror.net/s/2024/01/03/659574d1eb752.jpg",
+        title: "联系我们",
+        content: "QQ：1953658489<br/>邮箱：shokokawaii@foxmail.com",
+        cancel: "关闭",
+        ok: "确认",
+    },
     pyside6: [
         {
             title: '个人永久版',
