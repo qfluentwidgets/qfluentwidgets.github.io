@@ -5,7 +5,7 @@ permalink: /zh/pages/pro/
 ---
 
 ## 什么是商用版？
-PySide6-Fluent-Widgets 和 PySide2-Fluent-Widgets 使用 **双许可证**。非商业用途使用 GPLv3 许可证进行授权，商用必须购买[商业许可证](/zh/price)。
+PySide6-Fluent-Widgets 和 PySide2-Fluent-Widgets 使用 **双许可证**。非商业用途使用 GPLv3 许可证进行授权，商用需购买[商业许可证](/zh/price) 才能获得商用授权。
 
 为了满足开发者的需求，商用版的组件库包含更多高级组件，搭配开源版本的组件库，可以让现代化界面开发变得更加得心应手。
 
