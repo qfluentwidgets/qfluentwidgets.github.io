@@ -79,6 +79,8 @@ Skeleton screens provide basic placeholders when network requests are slow, and 
 ### Views
 | Component Name               | Description                            |
 | ---------------------------- | -------------------------------------- |
+| `DropSingleFileWidget`       | Drag & drop single file widget         |
+| `DropMultiFilesWidget`       | Drag & drop multiple files widget      |
 | `EmptyStatusWidget`          | Empty status widget                    |
 | `NoInternetStatusWidget`     | No Internet status widget              |
 | `Pager`                      | Pagination component                   |

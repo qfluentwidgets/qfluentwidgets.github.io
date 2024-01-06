@@ -77,6 +77,8 @@ PySide6-Fluent-Widgets 和 PySide2-Fluent-Widgets 使用 **双许可证**。非�
 ### 视图
 | 组件名                       | 描述                     |
 | ---------------------------- | ------------------------ |
+| `DropSingleFileWidget`       | 拖放单文件组件           |
+| `DropMultiFilesWidget`       | 拖放多文件组件           |
 | `EmptyStatusWidget`          | 空状态组件               |
 | `NoInternetStatusWidget`     | 无网络连接状态组件       |
 | `Pager`                      | 分页组件                 |
