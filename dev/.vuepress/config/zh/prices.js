@@ -35,8 +35,8 @@ export const prices = {
         },
         {
             title: '个人年付版',
-            desc: '每个月不到 20 元，一杯奶茶的价格',
-            price: '￥238.88',
+            desc: '每个月不到 25 元，两杯奶茶的价格',
+            price: '￥288',
             year: true,
             permanent: false,
             url: 'https://afdian.net/item/b9c1f79e027911eeb4295254001e7c00',
@@ -91,8 +91,8 @@ export const prices = {
         },
         {
             title: '个人年付版',
-            desc: '每个月不到 20 元，一杯奶茶的价格',
-            price: '￥238.88',
+            desc: '每个月不到 25 元，两杯奶茶的价格',
+            price: '￥288',
             year: true,
             permanent: false,
             url: 'https://afdian.net/item/7f3bebd4027911eeb1aa52540025c377',
