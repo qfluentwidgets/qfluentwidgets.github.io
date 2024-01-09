@@ -35,7 +35,7 @@ export const prices = {
         },
         {
             title: '个人年付版',
-            desc: '每个月不到 25 元，两杯奶茶的价格',
+            desc: '每个月不到 25 元，一杯咖啡的价格',
             price: '￥288',
             year: true,
             permanent: false,
@@ -91,7 +91,7 @@ export const prices = {
         },
         {
             title: '个人年付版',
-            desc: '每个月不到 25 元，两杯奶茶的价格',
+            desc: '每个月不到 25 元，一杯咖啡的价格',
             price: '￥288',
             year: true,
             permanent: false,
