@@ -35,11 +35,11 @@ export const prices = {
         },
         {
             title: '个人年付版',
-            desc: '每个月不到 25 元，一杯咖啡的价格',
-            price: '￥288',
+            desc: '每个月不到 23 元，一杯咖啡的价格',
+            price: '￥269',
             year: true,
             permanent: false,
-            url: 'https://afdian.net/item/b9c1f79e027911eeb4295254001e7c00',
+            url: 'https://m.tb.cn/h.5LxMQbR?tk=S17zWhxXMry',
             recommend: true,
             features: [
                 { feature: '个人开发者' },
@@ -91,11 +91,11 @@ export const prices = {
         },
         {
             title: '个人年付版',
-            desc: '每个月不到 25 元，一杯咖啡的价格',
-            price: '￥288',
+            desc: '每个月不到 23 元，一杯咖啡的价格',
+            price: '￥269',
             year: true,
             permanent: false,
-            url: 'https://afdian.net/item/7f3bebd4027911eeb1aa52540025c377',
+            url: 'https://m.tb.cn/h.5LxMQbR?tk=S17zWhxXMry',
             recommend: true,
             features: [
                 { feature: '个人开发者' },
