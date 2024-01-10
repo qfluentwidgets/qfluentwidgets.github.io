@@ -14,7 +14,7 @@ export const prices = {
         cancel: "Cancel",
         ok: "Contact",
     },
-    pyside6: [
+    python: [
         {
             title: 'Startup',
             desc: 'A plan that scales with your rapidly growing business.',
@@ -40,61 +40,6 @@ export const prices = {
             year: true,
             permanent: false,
             url: 'https://afdian.net/item/873ee35aaa3911ee928352540025c377',
-            recommend: true,
-            features: [
-                { feature: '200+ components' },
-                { feature: 'Single software' },
-                { feature: 'Single developer' },
-                { feature: 'Free updates' },
-                { feature: 'High GitHub Issue priority' },
-                { feature: '24-hour email support response time' },
-            ]
-        },
-        {
-            title: 'Enterprise',
-            desc: 'Dedicated support and infrastructure for your company.',
-            price: 'Contact Sales',
-            year: true,
-            permanent: true,
-            url: 'mailto:shokokawaii@foxmail.com',
-            recommend: false,
-            contactSales: true,
-            features: [
-                { feature: '200+ components' },
-                { feature: "Unlimited softwares" },
-                { feature: "Lifetime access" },
-                { feature: 'Free updates' },
-                { feature: 'High GitHub Issue priority' },
-                { feature: "Exclusive customer group service" },
-            ]
-        }
-    ],
-    pyside2: [
-        {
-            title: 'Startup',
-            desc: 'A plan that scales with your rapidly growing business.',
-            price: '$399',
-            year: false,
-            permanent: true,
-            url: 'https://afdian.net/item/294fd704999f11eea38552540025c377',
-            recommend: false,
-            features: [
-                { feature: '200+ components' },
-                { feature: 'Unlimited softwares' },
-                { feature: 'Single developer' },
-                { feature: "Lifetime access" },
-                { feature: 'Free updates' },
-                { feature: 'High GitHub Issue priority' },
-                { feature: "Exclusive customer group service" },
-            ]
-        },
-        {
-            title: 'Freelancer',
-            desc: 'The essentials to provide your best work for clients.',
-            price: '$45',
-            year: true,
-            permanent: false,
-            url: 'https://afdian.net/item/185a9168aa3a11eeb8ba5254001e7c00',
             recommend: true,
             features: [
                 { feature: '200+ components' },

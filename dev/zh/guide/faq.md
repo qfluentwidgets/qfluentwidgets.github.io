@@ -10,14 +10,9 @@ permalink: /zh/pages/faq/
   是的，Python 组件库使用双许可证进行授权，非商用使用 GPLv3 进行授权，商用项目必须在 [价格页面](/zh/price) 购买许可证，购买之后可以使用高级版的组件，订阅制的许可证过期后需要重新购买。
 
 
-#### 商用版支持 PyQt 吗？
-
-  不支持。PyQt 的许可证较为严格，商用软件请使用 PySide6（推荐）或者 PySide2。PySide 和 PyQt 的接口一样，只有包名不同，没有任何迁移成本。
-
-
 #### 如何购买永久版的 Python 组件库或者 C++ 组件库？
 
-  请联系作者邮箱 [shokokawaii@foxmail.com](mailto:shokokawaii@foxmail.com) 或 QQ：1953658489。
+  请联系作者邮箱 [shokokawaii@foxmail.com](mailto:shokokawaii@foxmail.com) 或 QQ：1953658489。C++ 组件库个人版支持分期付款。
 
 
 #### C++ 的组件库支持试用或者订阅制吗？

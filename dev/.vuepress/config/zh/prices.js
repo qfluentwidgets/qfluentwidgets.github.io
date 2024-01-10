@@ -14,7 +14,7 @@ export const prices = {
         cancel: "关闭",
         ok: "确认",
     },
-    pyside6: [
+    python: [
         {
             title: '个人永久版',
             desc: '适用于您用户量快速发展的应用程序',
@@ -40,62 +40,6 @@ export const prices = {
             year: true,
             permanent: false,
             url: 'https://afdian.net/item/b9c1f79e027911eeb4295254001e7c00',
-            recommend: true,
-            features: [
-                { feature: '个人开发者' },
-                { feature: '一年许可证有效期' },
-                { feature: '单个商用软件' },
-                { feature: '200+ Fluent Design 组件' },
-                { feature: 'GitHub Issue 得到优先处理' },
-                { feature: '有效期内享受组件库版本持续迭代' },
-            ]
-        },
-        {
-            title: '企业版',
-            desc: '为您的公司提供专门的支持和基础设施。',
-            price: '联系客服',
-            year: true,
-            permanent: true,
-            url: 'mailto:shokokawaii@foxmail.com',
-            recommend: false,
-            contactSales: true,
-            features: [
-                { feature: '开发者团队' },
-                { feature: '永久许可证有效期' },
-                { feature: '不限开发的软件数量' },
-                { feature: '200+ Fluent Design 组件' },
-                { feature: 'GitHub Issue 得到优先处理' },
-                { feature: '享受组件库版本持续更新迭代' },
-                { feature: '专属企业微信和 QQ 客户群服务' },
-            ]
-        }
-    ],
-    pyside2: [
-        {
-            title: '个人永久版',
-            desc: '适用于您用户量快速发展的应用程序',
-            price: '￥2499',
-            year: false,
-            permanent: true,
-            url: 'mailto:shokokawaii@foxmail.com',
-            recommend: false,
-            features: [
-                { feature: '个人开发者' },
-                { feature: '永久许可证有效期' },
-                { feature: '不限开发的软件数量' },
-                { feature: '200+ Fluent Design 组件' },
-                { feature: 'GitHub Issue 得到优先处理' },
-                { feature: '享受组件库版本持续更新迭代' },
-                { feature: '专属企业微信和 QQ 客户群服务' },
-            ]
-        },
-        {
-            title: '个人年付版',
-            desc: '每个月不到 23 元，一杯咖啡的价格',
-            price: '￥268',
-            year: true,
-            permanent: false,
-            url: 'https://afdian.net/item/7f3bebd4027911eeb1aa52540025c377',
             recommend: true,
             features: [
                 { feature: '个人开发者' },

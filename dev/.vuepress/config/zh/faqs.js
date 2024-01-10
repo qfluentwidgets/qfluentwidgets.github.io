@@ -7,12 +7,12 @@ export const faqs = {
             answer: '是的，Python 组件库使用双许可证进行授权，商用项目必须购买许可证，购买之后可以使用高级版的组件，订阅制的许可证过期后需要重新购买。',
         },
         {
-            question: '商用版支持 PyQt 吗？',
-            answer: '不支持。PyQt 的许可证较为严格，商用软件请使用 PySide6（推荐）或者 PySide2。PySide 和 PyQt 的接口一样，只有包名不同，没有任何迁移成本。',
+            question: '如何购买永久版的组件库？',
+            answer: '请联系作者邮箱 shokokawaii@foxmail.com 或 QQ：1953658489。C++ 组件库个人版支持分期付款。',
         },
         {
-            question: '如何购买永久版的组件库？',
-            answer: '请联系作者邮箱 shokokawaii@foxmail.com 或 QQ：1953658489。',
+            question: '购买完之后可以开发票吗？',
+            answer: '可以开普通增值税发票，同时支持对公转账。',
         },
         {
             question: 'C++ 的组件库支持试用或者订阅制吗？',

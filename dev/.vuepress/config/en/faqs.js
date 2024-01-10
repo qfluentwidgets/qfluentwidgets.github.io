@@ -7,12 +7,12 @@ export const faqs = {
             answer: 'Yes, commercial projects must purchase a license. Subscriptions need to be renewed after expiration.',
         },
         {
-            question: 'Does the commercial version support PyQt?',
-            answer: 'No, it does not. PyQt has stricter licensing. For commercial software, please use PySide6 (recommended) or PySide2.',
-        },
-        {
             question: 'How to purchase the permanent license of the Python or the C++ component library?',
             answer: 'Please contact the author via email at shokokawaii@foxmail.com or QQ: 1953658489.',
+        },
+        {
+            question: 'Can a receipt be issued after purchase?',
+            answer: 'Yes, a regular VAT invoice can be issued, and we also support bank transfers to businesses.'
         },
         {
             question: 'Is there a trial or subscription option for the C++ component library?',

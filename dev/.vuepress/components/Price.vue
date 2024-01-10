@@ -12,8 +12,7 @@
         <!-- 分段导航栏 -->
         <div class="segmented-nav">
             <div class="segmented-container">
-                <div @click="onPySide6Clicked" :class="pyside6NavItemClass">PySide6</div>
-                <div @click="onPySide2Clicked" :class="pyside2NavItemClass">PySide2</div>
+                <div @click="onPythonClicked" :class="pythonNavItemClass">Python</div>
                 <div @click="onCppClicked" :class="cppNavItemClass">C++</div>
                 <div @click="onChartsClicked" :class="chartsNavItemClass">Charts</div>
             </div>
@@ -23,11 +22,8 @@
         <div class="price-card-container">
             <div class="price-card-list">
                 <PriceCard :title="p.title" :desc="p.desc" :price="p.price" :year="p.year" :permanent="p.permanent"
-                    :url="p.url" :recommend="p.recommend" :contactSales="p.contactSales" :features="p.features" v-show="isPySide6"
-                    v-for="p in pricePlan.pyside6" />
-                <PriceCard :title="p.title" :desc="p.desc" :price="p.price" :year="p.year" :permanent="p.permanent"
-                    :url="p.url" :recommend="p.recommend"  :contactSales="p.contactSales" :features="p.features" v-show="isPySide2"
-                    v-for="p in pricePlan.pyside2" />
+                    :url="p.url" :recommend="p.recommend" :contactSales="p.contactSales" :features="p.features" v-show="isPython"
+                    v-for="p in pricePlan.python" />
                 <PriceCard :title="p.title" :desc="p.desc" :price="p.price" :year="p.year" :permanent="p.permanent"
                     :url="p.url" :recommend="p.recommend" :contactSales="p.contactSales" :features="p.features" v-show="isCpp"
                     v-for="p in pricePlan.cpp" />
@@ -84,20 +80,15 @@ import { ref, computed, reactive } from "vue";
 import { localeConfig } from "../utils/locale";
 
 useCustomPage();
-let isPySide6 = ref(true);
-let isPySide2 = ref(false);
+let isPython = ref(true);
 let isCpp = ref(false);
 let isCharts = ref(false);
 
 let pricePlan = localeConfig('prices');
 let faqs = localeConfig('faqs');
 
-let pyside6NavItemClass = computed(() => {
-    return isPySide6.value ? "nav-item-selected" : "nav-item";
-});
-
-let pyside2NavItemClass = computed(() => {
-    return isPySide2.value ? "nav-item-selected" : "nav-item";
+let pythonNavItemClass = computed(() => {
+    return isPython.value ? "nav-item-selected" : "nav-item";
 });
 
 let cppNavItemClass = computed(() => {
@@ -108,30 +99,20 @@ let chartsNavItemClass = computed(() => {
     return isCharts.value ? "nav-item-selected" : "nav-item";
 });
 
-let onPySide6Clicked = () => {
-    isPySide6.value = true;
-    isPySide2.value = false;
-    isCpp.value = false;
-    isCharts.value = false;
-};
-
-let onPySide2Clicked = () => {
-    isPySide6.value = false;
-    isPySide2.value = true;
+let onPythonClicked = () => {
+    isPython.value = true;
     isCpp.value = false;
     isCharts.value = false;
 };
 
 let onCppClicked = () => {
-    isPySide6.value = false;
-    isPySide2.value = false;
+    isPython.value = false;
     isCpp.value = true;
     isCharts.value = false;
 };
 
 let onChartsClicked = () => {
-    isPySide6.value = false;
-    isPySide2.value = false;
+    isPython.value = false;
     isCpp.value = false;
     isCharts.value = true;
 };
@@ -164,7 +145,7 @@ let onChartsClicked = () => {
     @apply mt-16 flex justify-center;
 
     .segmented-container {
-        @apply grid grid-cols-4 gap-x-1 rounded-full p-1 text-center text-xs font-semibold leading-5 ring-1 ring-inset ring-gray-200 dark:bg-white/5 dark:ring-0;
+        @apply grid grid-cols-3 gap-x-1 rounded-full p-1 text-center text-xs font-semibold leading-5 ring-1 ring-inset ring-gray-200 dark:bg-white/5 dark:ring-0;
 
         .nav-item-selected {
             @apply text-white py-1 px-[0.625rem] bg-sky-500 rounded-full cursor-pointer tracking-tight;
