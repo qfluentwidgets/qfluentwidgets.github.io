@@ -35,11 +35,11 @@ export const prices = {
         },
         {
             title: '个人年付版',
-            desc: '每个月不到 23 元，一杯咖啡的价格',
-            price: '￥268',
+            desc: '每个月不到 20 元，一杯咖啡的价格',
+            price: '￥238.88',
             year: true,
             permanent: false,
-            url: 'https://afdian.net/item/b9c1f79e027911eeb4295254001e7c00',
+            url: 'https://item.taobao.com/item.htm?ft=t&id=762055426986',
             recommend: true,
             features: [
                 { feature: '个人开发者' },
