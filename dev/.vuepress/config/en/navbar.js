@@ -73,7 +73,7 @@ export const navbar = [
       },
       {
         text: 'Fluent Pro Gallery',
-        link: 'https://github.com/zhiyiYo/PyQt-Fluent-Widgets/releases/download/v1.4.1/PySide6-Fluent-Widgets-Pro-Gallery.zip'
+        link: 'https://github.com/zhiyiYo/PyQt-Fluent-Widgets/releases/download/v1.4.1/PyQt-Fluent-Widgets-Pro-Gallery.zip'
       },
       {
         text: 'C++ QFluentWidgets',
