@@ -26,7 +26,7 @@ export const prices = {
             features: [
                 { feature: '个人开发者' },
                 { feature: '永久许可证有效期' },
-                { feature: '不限开发的软件数量' },
+                { feature: '不限开发的商用软件数量' },
                 { feature: '200+ Fluent Design 组件' },
                 { feature: 'GitHub Issue 得到优先处理' },
                 { feature: '享受组件库版本持续更新迭代' },
@@ -35,8 +35,8 @@ export const prices = {
         },
         {
             title: '个人年付版',
-            desc: '每个月不到 20 元，一杯咖啡的价格',
-            price: '￥238.88',
+            desc: '每个月不到 20 元，一杯奶茶的价格',
+            price: '￥239',
             year: true,
             permanent: false,
             url: 'https://item.taobao.com/item.htm?ft=t&id=762055426986',
@@ -44,10 +44,11 @@ export const prices = {
             features: [
                 { feature: '个人开发者' },
                 { feature: '一年许可证有效期' },
-                { feature: '单个商用软件' },
+                { feature: '单个商用软件授权' },
                 { feature: '200+ Fluent Design 组件' },
                 { feature: 'GitHub Issue 得到优先处理' },
                 { feature: '有效期内享受组件库版本持续迭代' },
+                { feature: '专属企业微信和 QQ 客户群服务' },
             ]
         },
         {
@@ -62,7 +63,7 @@ export const prices = {
             features: [
                 { feature: '开发者团队' },
                 { feature: '永久许可证有效期' },
-                { feature: '不限开发的软件数量' },
+                { feature: '不限开发的商用软件数量' },
                 { feature: '200+ Fluent Design 组件' },
                 { feature: 'GitHub Issue 得到优先处理' },
                 { feature: '享受组件库版本持续更新迭代' },

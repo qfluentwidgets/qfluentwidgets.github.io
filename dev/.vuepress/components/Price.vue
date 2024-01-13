@@ -14,7 +14,6 @@
             <div class="segmented-container">
                 <div @click="onPythonClicked" :class="pythonNavItemClass">Python</div>
                 <div @click="onCppClicked" :class="cppNavItemClass">C++</div>
-                <div @click="onChartsClicked" :class="chartsNavItemClass">Charts</div>
             </div>
         </div>
 
@@ -27,9 +26,6 @@
                 <PriceCard :title="p.title" :desc="p.desc" :price="p.price" :year="p.year" :permanent="p.permanent"
                     :url="p.url" :recommend="p.recommend" :contactSales="p.contactSales" :features="p.features" v-show="isCpp"
                     v-for="p in pricePlan.cpp" />
-                <PriceCard :title="p.title" :desc="p.desc" :price="p.price" :year="p.year" :permanent="p.permanent"
-                    :url="p.url" :recommend="p.recommend" :contactSales="p.contactSales" :features="p.features" v-show="isCharts"
-                    v-for="p in pricePlan.charts" />
             </div>
         </div>
 
@@ -145,7 +141,7 @@ let onChartsClicked = () => {
     @apply mt-16 flex justify-center;
 
     .segmented-container {
-        @apply grid grid-cols-3 gap-x-1 rounded-full p-1 text-center text-xs font-semibold leading-5 ring-1 ring-inset ring-gray-200 dark:bg-white/5 dark:ring-0;
+        @apply grid grid-cols-2 gap-x-1 rounded-full p-1 text-center text-xs font-semibold leading-5 ring-1 ring-inset ring-gray-200 dark:bg-white/5 dark:ring-0;
 
         .nav-item-selected {
             @apply text-white py-1 px-[0.625rem] bg-sky-500 rounded-full cursor-pointer tracking-tight;
