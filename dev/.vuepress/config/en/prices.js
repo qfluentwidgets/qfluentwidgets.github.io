@@ -10,7 +10,7 @@ export const prices = {
     dialog: {
         url: "https://img.fastmirror.net/s/2024/01/03/659574d1eb752.jpg",
         title: "Contact us",
-        content: "QQ：1953658489<br/>email: shokokawaii@foxmail.com",
+        content: "QQ：1953658489<br/>客服：<a href='https://shop336830755.taobao.com/'>淘宝旺旺聊天</a><br/>email: shokokawaii@foxmail.com",
         cancel: "Cancel",
         ok: "Contact",
     },
@@ -18,7 +18,7 @@ export const prices = {
         {
             title: 'Startup',
             desc: 'A plan that scales with your rapidly growing business.',
-            price: '$399',
+            price: '$359',
             year: false,
             permanent: true,
             url: 'https://afdian.net/item/b97e72a8962b11ee8e3d5254001e7c00',
@@ -36,7 +36,7 @@ export const prices = {
         {
             title: 'Freelancer',
             desc: 'The essentials to provide your best work for clients.',
-            price: '$45',
+            price: '$39',
             year: true,
             permanent: false,
             url: 'https://afdian.net/item/873ee35aaa3911ee928352540025c377',
@@ -71,13 +71,29 @@ export const prices = {
     ],
     cpp: [
         {
+            title: 'Custom',
+            desc: 'Customized price plan and infrastructure for You.',
+            price: '$559',
+            year: true,
+            permanent: true,
+            url: 'mailto:shokokawaii@foxmail.com',
+            recommend: false,
+            features: [
+                { feature: '190+ components' },
+                { feature: "Personal software" },
+                { feature: "Unlimited softwares" },
+                { feature: "Permanent license validity" },
+                { feature: "Exclusive Fluent Studio software" },
+            ]
+        },
+        {
             title: 'Personal',
             desc: 'A plan that scales with your rapidly growing business.',
             price: '$729',
             year: true,
             permanent: true,
             url: 'mailto:shokokawaii@foxmail.com',
-            recommend: false,
+            recommend: true,
             features: [
                 { feature: '190+ components' },
                 { feature: 'Single developer' },
@@ -95,7 +111,7 @@ export const prices = {
             year: true,
             permanent: true,
             url: 'mailto:shokokawaii@foxmail.com',
-            recommend: true,
+            recommend: false,
             contactSales: true,
             features: [
                 { feature: '190+ components' },
@@ -104,23 +120,6 @@ export const prices = {
                 { feature: 'Free updates' },
                 { feature: "Exclusive Fluent Studio software" },
                 { feature: "Exclusive customer group service" },
-            ]
-        },
-        {
-            title: 'Custom',
-            desc: 'Customized price plan and infrastructure for You.',
-            price: 'Custom',
-            year: true,
-            permanent: true,
-            url: 'mailto:shokokawaii@foxmail.com',
-            recommend: false,
-            features: [
-                { feature: '190+ components' },
-                { feature: "Personal/Enterprise software" },
-                { feature: "Custom the number softwares" },
-                { feature: "Permanent license validity" },
-                { feature: "Exclusive Fluent Studio software" },
-                { feature: "Exclusive customer group service" }
             ]
         }
     ],
