@@ -28,6 +28,7 @@ Check out this [▶ example video](https://youtu.be/4Udpxu5D9MQ?si=Lod-vCqL1dhma
 | `TextPushButton`              | A text push button                          |
 | `TextToolButton`              | A text tool button                          |
 | `TransparentCircleToolButton` | A transparent circular tool button          |
+| `FontComboBox`                | A combo box that allows font selection      |
 | `MultiSelectionComboBox`      | A combo box that allows multiple selections |
 | `TransparentComboBox`         | A transparent combo box                     |
 | `ToolTipSlider`               | A slider with tooltips                      |
@@ -100,6 +101,11 @@ Skeleton screens provide basic placeholders when network requests are slow, and 
 | `ProgressInfoBar`    | Progress info bar                   |
 | `ProgressPushButton` | Progress push button                |
 | `StepProgressBar`    | Step progress bar                   |
+| `Toast`              | Toast information widget            |
+| `SimpleToastView`    | Simple toast view                   |
+| `StarWidget`         | Star widget                         |
+| `SingleScoreWidget`  | Single score widget                 |
+| `MultiScoreWidget`   | Multi score widget                  |
 
 ### Settings
 | Component Name                      | Description                                        |

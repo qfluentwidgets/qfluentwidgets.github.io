@@ -26,6 +26,7 @@ PySide6-Fluent-Widgets 和 PySide2-Fluent-Widgets 使用 **双许可证**。非�
 | `TextPushButton`              | 文本按钮，支持不同的类型   |
 | `TextToolButton`              | 文本工具按钮               |
 | `TransparentCircleToolButton` | 透明圆形工具按钮           |
+| `FontComboBox`                | 字体下拉框                 |
 | `MultiSelectionComboBox`      | 多选下拉框，可选择多个选项 |
 | `TransparentComboBox`         | 透明下拉框                 |
 | `ToolTipSlider`               | 带工具提示的滑动条         |
@@ -98,6 +99,11 @@ PySide6-Fluent-Widgets 和 PySide2-Fluent-Widgets 使用 **双许可证**。非�
 | `ProgressInfoBar`    | 进度消息条                     |
 | `ProgressPushButton` | 进度按钮，可用于显示任务进度   |
 | `StepProgressBar`    | 步骤进度条，可用于显示任务步骤 |
+| `Toast`              | 吐司通知                       |
+| `SimpleToastView`    | 简易吐司通知视图               |
+| `StarWidget`         | 星型组件                       |
+| `SingleScoreWidget`  | 评分组件                       |
+| `MultiScoreWidget`   | 可交互评分组件                 |
 
 ### 设置
 | 组件名                              | 描述                   |
