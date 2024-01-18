@@ -24,12 +24,12 @@ export const prices = {
             url: 'https://afdian.net/item/b97e72a8962b11ee8e3d5254001e7c00',
             recommend: false,
             features: [
-                { feature: '200+ components' },
+                { feature: '220+ components' },
+                { feature: '20+ visual charts' },
                 { feature: 'Unlimited softwares' },
                 { feature: 'Single developer' },
                 { feature: "Lifetime access" },
                 { feature: 'Free updates' },
-                { feature: 'High GitHub Issue priority' },
                 { feature: "Exclusive customer group service" },
             ]
         },
@@ -42,11 +42,11 @@ export const prices = {
             url: 'https://afdian.net/item/873ee35aaa3911ee928352540025c377',
             recommend: true,
             features: [
-                { feature: '200+ components' },
+                { feature: '220+ components' },
+                { feature: '20+ visual charts' },
                 { feature: 'Single software' },
                 { feature: 'Single developer' },
                 { feature: 'Free updates' },
-                { feature: 'High GitHub Issue priority' },
                 { feature: '24-hour email support response time' },
             ]
         },
@@ -60,11 +60,11 @@ export const prices = {
             recommend: false,
             contactSales: true,
             features: [
-                { feature: '200+ components' },
+                { feature: '220+ components' },
+                { feature: '20+ visual charts' },
                 { feature: "Unlimited softwares" },
                 { feature: "Lifetime access" },
                 { feature: 'Free updates' },
-                { feature: 'High GitHub Issue priority' },
                 { feature: "Exclusive customer group service" },
             ]
         }
@@ -79,7 +79,7 @@ export const prices = {
             url: 'mailto:shokokawaii@foxmail.com',
             recommend: false,
             features: [
-                { feature: '190+ components' },
+                { feature: '200+ components' },
                 { feature: "Personal software" },
                 { feature: "Unlimited softwares" },
                 { feature: "Permanent license validity" },
@@ -95,7 +95,7 @@ export const prices = {
             url: 'mailto:shokokawaii@foxmail.com',
             recommend: true,
             features: [
-                { feature: '190+ components' },
+                { feature: '200+ components' },
                 { feature: 'Single developer' },
                 { feature: "Unlimited softwares" },
                 { feature: "Lifetime access" },
@@ -114,7 +114,7 @@ export const prices = {
             recommend: false,
             contactSales: true,
             features: [
-                { feature: '190+ components' },
+                { feature: '200+ components' },
                 { feature: "Unlimited softwares" },
                 { feature: "Lifetime access" },
                 { feature: 'Free updates' },

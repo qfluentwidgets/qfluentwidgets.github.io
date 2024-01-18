@@ -14,7 +14,7 @@ To meet the needs of developers, the commercial version of the component library
 
 Currently, QFluentWidgets Pro includes the following components, and more components being added in the future.
 
-Check out this [▶ example video](https://youtu.be/4Udpxu5D9MQ?si=Lod-vCqL1dhmaztQ) that shows off what Pro are capable of.
+Check out this [▶ example video](https://youtu.be/4Udpxu5D9MQ?si=Lod-vCqL1dhmaztQ) that shows off what Pro are capable of. You can also download the demo `PyQt-Fluent-Widgets-Pro-Gallery.7z` from [release page](https://github.com/zhiyiYo/PyQt-Fluent-Widgets/releases).
 
 ### Basic Inputs
 
@@ -38,6 +38,7 @@ Check out this [▶ example video](https://youtu.be/4Udpxu5D9MQ?si=Lod-vCqL1dhma
 
 | Component Name               | Description                                                                        |
 | ---------------------------- | ---------------------------------------------------------------------------------- |
+| `Drawer`                     | Drawer widget                                                                      |
 | `DropDownColorPalette`       | A dropdown color palette that supports selecting standard colors and custom colors |
 | `CustomDropDownColorPalette` | A custom dropdown color palette                                                    |
 | `DropDownColorPicker`        | A dropdown color picker                                                            |

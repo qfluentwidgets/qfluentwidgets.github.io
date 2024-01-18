@@ -12,7 +12,7 @@ PySide6-Fluent-Widgets 和 PySide2-Fluent-Widgets 使用 **双许可证**。非�
 ## 有哪些高级组件？
 目前，高级版组件库包含下述组件，之后还会不断增加新组件。
 
-演示视频见 [哔哩哔哩](https://www.bilibili.com/video/BV1Sw411M7wo)，可从 [发行页面](https://github.com/zhiyiYo/PyQt-Fluent-Widgets/releases) 下载体验包 `PySide6-Fluent-Widgets-Pro-Gallery.7z`。
+演示视频见 [哔哩哔哩](https://www.bilibili.com/video/BV1Sw411M7wo)，可从 [发行页面](https://github.com/zhiyiYo/PyQt-Fluent-Widgets/releases) 下载体验包 `PyQt-Fluent-Widgets-Pro-Gallery.7z`。
 
 ### 基本输入
 
@@ -36,6 +36,7 @@ PySide6-Fluent-Widgets 和 PySide2-Fluent-Widgets 使用 **双许可证**。非�
 
 | 组件名                       | 描述                                     |
 | ---------------------------- | ---------------------------------------- |
+| `Drawer`                     | 抽屉组件，支持上下左右四个方向的弹出     |
 | `DropDownColorPalette`       | 下拉调色盘，支持选择标准颜色和自定义颜色 |
 | `CustomDropDownColorPalette` | 自定义下拉调色盘                         |
 | `DropDownColorPicker`        | 下拉拾色器                               |
