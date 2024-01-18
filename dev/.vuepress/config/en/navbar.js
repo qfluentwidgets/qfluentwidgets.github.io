@@ -69,7 +69,7 @@ export const navbar = [
     children: [
       {
         text: 'Fluent Gallery',
-        link: 'https://github.com/zhiyiYo/PyQt-Fluent-Widgets/releases/download/v1.4.1/PyQt-Fluent-Widgets-Gallery_v1.4.3_windows_x64.zip'
+        link: 'https://github.com/zhiyiYo/PyQt-Fluent-Widgets/releases/download/v1.4.1/PyQt-Fluent-Widgets-Gallery.zip'
       },
       {
         text: 'Fluent Pro Gallery',
