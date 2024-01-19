@@ -24,6 +24,8 @@ PySide6-Fluent-Widgets 和 PySide2-Fluent-Widgets 使用**双许可证**。非�
 
 C++ 组件库没有开源，可从 [发行页面](https://github.com/zhiyiYo/PyQt-Fluent-Widgets/releases) 下载体验编译好的示例程序 `QFluentWidgets_v*.*.*.zip`，如需购买使用请先了解 [价格方案](/zh/price) 并联系 [shokokawaii@foxmail.com](mailto:shokokawaii@foxmail.com) 或 QQ：1953658489。
 
+组件库受软件著作权保护，软著登字第12532763号，任何盗用组件库，破解组件库，未经授权而商业使用均视为侵权。
+
 ::: info GPLv3
 GPLv3 许可证具有 Copyleft 特性，如果使用 PyQt/PyQt6-Fluent-Widgets 进行开发，必须将整个软件以 GPLv3 许可证发布。用户在购买你的程序的时候必须可以获得源代码，同时不得阻止用户再分发，用户可以将代码免费送给其它人。
 :::

@@ -4,7 +4,7 @@ export const faqs = {
     items: [
         {
             question: 'Do I need to purchase a license for python commercial software?',
-            answer: 'Yes, commercial projects must purchase a license. Subscriptions need to be renewed after expiration.',
+            answer: 'Yes, the component library is protected by copyright, with registration number 12532763. Unauthorized commercial use is considered infringement. Subscription licenses need to be repurchased upon expiration.',
         },
         {
             question: 'How to purchase the permanent license of the Python or the C++ component library?',

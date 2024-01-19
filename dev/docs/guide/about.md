@@ -23,6 +23,8 @@ PySide6-Fluent-Widgets and PySide2-Fluent-Widgets are **dual-licensed**. They ar
 
 C++ QFluentWidgets is not open source. You can download the compiled demo `QFluentWidgets_v*.*.*.zip` from [release page](https://github.com/zhiyiYo/PyQt-Fluent-Widgets/releases). Please check the [price plan](/price) and contact [shokokawaii@foxmail.com](mailto:shokokawaii@foxmail.com) or QQ: 1953658489 if you want to use C++ QFluentWidgets.
 
+The component library is protected by software copyright, registered under the number 12532763. Any unauthorized use of the component library, including but not limited to copying or cracking, for commercial purposes without formal contractual authorization, will be regarded as infringement.
+
 ::: info GPLv3
 The GPLv3 license has Copyleft provisions, which means that if you develop using PyQt/PyQt6-Fluent-Widgets, you must release the entire software under the GPLv3 license. Users must be able to obtain the source code when they purchase your program, and you are not allowed to prevent users from redistributing it, and users can freely share the code with others.
 :::

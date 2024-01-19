@@ -6,7 +6,7 @@ permalink: /pages/faq/
 
 #### Do I need to purchase a license to use the Python component library for commercial software?
 
-Yes, the Python component library is licensed under dual licensing. The GPLv3 license is used for non-commercial use, while commercial projects must purchase a license from the [pricing page](/zh/price) to use the advanced version of the components. Subscriptions need to be renewed after expiration.
+Yes, Yes, the component library is protected by copyright, with registration number 12532763. Unauthorized commercial use is considered infringement. Subscriptions need to be renewed after expiration.
 
 #### Does the commercial version support PyQt?
 
