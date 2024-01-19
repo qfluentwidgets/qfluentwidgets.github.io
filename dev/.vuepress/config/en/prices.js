@@ -30,7 +30,8 @@ export const prices = {
                 { feature: 'Single developer' },
                 { feature: "Lifetime access" },
                 { feature: 'Free updates' },
-                { feature: "Exclusive customer group service" },
+                { feature: "Exclusive QQ group service" },
+                { feature: "Exclusive AI bot service" },
             ]
         },
         {
@@ -65,7 +66,8 @@ export const prices = {
                 { feature: "Unlimited softwares" },
                 { feature: "Lifetime access" },
                 { feature: 'Free updates' },
-                { feature: "Exclusive customer group service" },
+                { feature: "Exclusive QQ group service" },
+                { feature: "Exclusive AI bot service" },
             ]
         }
     ],

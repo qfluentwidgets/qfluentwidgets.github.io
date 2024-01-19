@@ -29,8 +29,9 @@ export const prices = {
                 { feature: '不限开发的商用软件数量' },
                 { feature: '220+ Fluent Design 组件' },
                 { feature: '20+ 响应式可视化图表' },
+                { feature: '专属 QQ 客户群服务' },
+                { feature: '专属组件库智能机器人' },
                 { feature: '享受组件库版本持续更新迭代' },
-                { feature: '专属企业微信和 QQ 客户群服务' },
             ]
         },
         {
@@ -47,8 +48,8 @@ export const prices = {
                 { feature: '单个商用软件授权' },
                 { feature: '220+ Fluent Design 组件' },
                 { feature: '20+ 响应式可视化图表' },
+                { feature: '专属 QQ 客户群服务' },
                 { feature: '有效期内享受组件库版本持续迭代' },
-                { feature: '专属企业微信和 QQ 客户群服务' },
             ]
         },
         {
@@ -66,8 +67,9 @@ export const prices = {
                 { feature: '不限开发的商用软件数量' },
                 { feature: '220+ Fluent Design 组件' },
                 { feature: '20+ 响应式可视化图表' },
+                { feature: '专属 QQ 客户群服务' },
+                { feature: '专属组件库智能机器人' },
                 { feature: '享受组件库版本持续更新迭代' },
-                { feature: '专属企业微信和 QQ 客户群服务' },
             ]
         }
     ],
