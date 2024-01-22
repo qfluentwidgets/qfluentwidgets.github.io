@@ -90,6 +90,12 @@ Skeleton screens provide basic placeholders when network requests are slow, and 
 | `ToolBox`                    | Tool box                               |
 | `TimeLineWidget`             | Time line widget                       |
 | `TimeLineCard`               | Time line card                         |
+| `RoundTableWidget`           | Round border table widget              |
+| `RoundTableView`             | Round border table view                |
+| `LineTableWidget`            | Single line table widget               |
+| `LineTableView`              | Single line table view                 |
+| `GridTableWidget`            | Grid table widget                      |
+| `GridTableView`              | Grid table view                        |
 | `AccentCardWidget`           | Card widget with linear gradient color |
 | `DashboardCardWidget`        | Dashboard card widget                  |
 | `ContentDashboardCardWidget` | Content dash board card widget         |
@@ -102,6 +108,7 @@ Skeleton screens provide basic placeholders when network requests are slow, and 
 | `ProgressInfoBar`    | Progress info bar                   |
 | `ProgressPushButton` | Progress push button                |
 | `StepProgressBar`    | Step progress bar                   |
+| `Tag`                | Tag widget                          |
 | `Toast`              | Toast information widget            |
 | `SimpleToastView`    | Simple toast view                   |
 | `StarWidget`         | Star widget                         |

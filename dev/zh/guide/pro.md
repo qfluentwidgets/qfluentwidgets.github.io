@@ -88,6 +88,12 @@ PySide6-Fluent-Widgets 和 PySide2-Fluent-Widgets 使用 **双许可证**。非�
 | `ToolBox`                    | 工具箱                   |
 | `TimeLineWidget`             | 时间线组件               |
 | `TimeLineCard`               | 时间线卡片               |
+| `RoundTableWidget`           | 圆角表格组件             |
+| `RoundTableView`             | 圆角表格视图             |
+| `LineTableWidget`            | 下边框表格组件           |
+| `LineTableView`              | 下边框表格视图           |
+| `GridTableWidget`            | 网状表格组件             |
+| `GridTableView`              | 网状表格视图             |
 | `AccentCardWidget`           | 渐变背景卡片组件         |
 | `DashboardCardWidget`        | 仪表盘卡片               |
 | `ContentDashboardCardWidget` | 仪表盘卡片               |
@@ -100,6 +106,7 @@ PySide6-Fluent-Widgets 和 PySide2-Fluent-Widgets 使用 **双许可证**。非�
 | `ProgressInfoBar`    | 进度消息条                     |
 | `ProgressPushButton` | 进度按钮，可用于显示任务进度   |
 | `StepProgressBar`    | 步骤进度条，可用于显示任务步骤 |
+| `Tag`                | 标签组件                       |
 | `Toast`              | 吐司通知                       |
 | `SimpleToastView`    | 简易吐司通知视图               |
 | `StarWidget`         | 星型组件                       |
