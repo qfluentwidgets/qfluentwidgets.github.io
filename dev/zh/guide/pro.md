@@ -12,7 +12,7 @@ PySide6-Fluent-Widgets 和 PySide2-Fluent-Widgets 使用 **双许可证**。非�
 ## 有哪些高级组件？
 目前，高级版组件库包含下述组件，之后还会不断增加新组件。
 
-演示视频见 [哔哩哔哩](https://www.bilibili.com/video/BV1Sw411M7wo)，可从 [发行页面](https://github.com/zhiyiYo/PyQt-Fluent-Widgets/releases) 下载体验包 `PyQt-Fluent-Widgets-Pro-Gallery.7z`。
+演示视频见 [哔哩哔哩](https://www.bilibili.com/video/BV14e411Y75d)，可从 [发行页面](https://github.com/zhiyiYo/PyQt-Fluent-Widgets/releases) 下载体验包 `PyQt-Fluent-Widgets-Pro-Gallery.zip`。
 
 ### 基本输入
 
