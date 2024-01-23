@@ -83,6 +83,10 @@ export const navbar = [
         text: 'C++ QFluentCharts',
         link: 'https://github.com/zhiyiYo/PyQt-Fluent-Widgets/releases/download/v1.4.1/C++_QFluentCharts.7z'
       },
+      {
+        text: 'Material Gallery',
+        link: 'https://github.com/zhiyiYo/PyQt-Fluent-Widgets/releases/download/v1.4.1/QMaterialWidgets-Gallery.zip'
+      },
     ]
   },
   { text: 'Showcase', link: '/showcase/', icon: 'Code' },
