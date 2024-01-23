@@ -75,7 +75,7 @@ export const prices = {
         {
             title: 'Custom',
             desc: 'Customized price plan and infrastructure for You.',
-            price: '$559',
+            price: '$509',
             year: true,
             permanent: true,
             url: 'mailto:shokokawaii@foxmail.com',
@@ -84,8 +84,7 @@ export const prices = {
                 { feature: '200+ components' },
                 { feature: "Personal software" },
                 { feature: "Unlimited softwares" },
-                { feature: "Permanent license validity" },
-                { feature: "Exclusive Fluent Studio software" },
+                { feature: "Permanent license validity" }
             ]
         },
         {

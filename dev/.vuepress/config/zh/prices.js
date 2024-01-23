@@ -77,7 +77,7 @@ export const prices = {
         {
             title: '定制版',
             desc: '定制化您的价格方案',
-            price: '￥3999',
+            price: '￥3599',
             year: true,
             permanent: true,
             url: 'mailto:shokokawaii@foxmail.com',
@@ -87,7 +87,7 @@ export const prices = {
                 { feature: '永久许可证有效期' },
                 { feature: '不限开发的软件数量' },
                 { feature: '200+ Fluent Design 组件' },
-                { feature: '专属 Fluent Studio 集成软件' },
+                { feature: '专属企业微信和 QQ 客户群服务' }
             ]
         },
         {
