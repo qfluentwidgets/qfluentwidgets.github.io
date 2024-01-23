@@ -7,7 +7,7 @@ export const showcases = {
             name: 'QMaterialWidgets',
             description: 'Material Design 风格组件库',
             cover: 'https://img.fastmirror.net/s/2023/11/08/654ba28604a6f.jpg',
-            url: 'https://github.com/zhiyiYo/QMaterialWidgets'
+            url: 'https://qmaterialwidgets.vercel.app/'
         },
         {
             name: 'Fluent Studio',
