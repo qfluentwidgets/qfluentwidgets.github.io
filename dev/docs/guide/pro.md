@@ -6,9 +6,9 @@ permalink: /pages/pro/
 
 ## What is the QFluentWidgets Pro?
 
-PySide6-Fluent-Widgets and PySide2-Fluent-Widgets are **dual-licensed**. They are licensed under GPLv3 for non-commercial use. For commercial use, you should purchase a [**commercial license**](/price).
+Python QFluentWidgets is licensed under GPLv3 for non-commercial use. For commercial use, you should purchase a [**commercial license**](/price).
 
-To meet the needs of developers, the commercial version of the component library includes more advanced components. When combined with the open-source version of the component library, it makes modern interface development more convenient.
+To meet the needs of developers, the commercial version of the component library includes more advanced component, which makes modern interface development more convenient.
 
 ## What are the advanced components?
 

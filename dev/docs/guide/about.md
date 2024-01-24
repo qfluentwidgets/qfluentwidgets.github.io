@@ -17,16 +17,16 @@ permalink: /pages/about/
 
 ## License
 
-The license for PyQt-Fluent-Widgets and PyQt6-Fluent-Widgets is [GPLv3](https://github.com/zhiyiYo/PyQt-Fluent-Widgets/blob/master/LICENSE). If your project uses these two libraries, **software distribution must be done under the GPLv3 license**..
+Python QFluentWidgets is licensed under [GPLv3](https://github.com/zhiyiYo/PyQt-Fluent-Widgets/blob/master/LICENSE) for non-commercial project. If your non-commercial project uses this library, **software distribution must be done under the GPLv3 license**.
 
-PySide6-Fluent-Widgets and PySide2-Fluent-Widgets are **dual-licensed**. They are licensed under GPLv3 for non-commercial use. For commercial use, please purchase a [**commercial license**](/price) to support the development of this project, and the [commerial version library](/pages/pro/) contains more advance components.
+For commercial use, please purchase a [**commercial license**](/price), and the [commerial version library](/pages/pro/) contains more advance components.
 
 C++ QFluentWidgets is not open source. You can download the compiled demo `QFluentWidgets_v*.*.*.zip` from [release page](https://github.com/zhiyiYo/PyQt-Fluent-Widgets/releases). Please check the [price plan](/price) and contact [shokokawaii@foxmail.com](mailto:shokokawaii@foxmail.com) or QQ: 1953658489 if you want to use C++ QFluentWidgets.
 
 The component library is protected by software copyright, registered under the number 12532763. Any unauthorized use of the component library, including but not limited to copying or cracking, for commercial purposes without formal contractual authorization, will be regarded as infringement.
 
 ::: info GPLv3
-The GPLv3 license has Copyleft provisions, which means that if you develop using PyQt/PyQt6-Fluent-Widgets, you must release the entire software under the GPLv3 license. Users must be able to obtain the source code when they purchase your program, and you are not allowed to prevent users from redistributing it, and users can freely share the code with others.
+The GPLv3 license has Copyleft provisions, which means that if your non-commercial project uses Python QFluentWidgets, you must release the entire software under the GPLv3 license. Users must be able to obtain the source code when they purchase your program, and you are not allowed to prevent users from redistributing it, and users can freely share the code with others.
 :::
 
 
