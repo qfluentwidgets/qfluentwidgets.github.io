@@ -15,6 +15,10 @@ permalink: /zh/pages/faq/
   请联系作者邮箱 [shokokawaii@foxmail.com](mailto:shokokawaii@foxmail.com) 或 QQ：1953658489。C++ 组件库个人版支持分期付款。
 
 
+#### C++ 组件库的底层是 Python 吗，会不会有运行效率问题？
+
+  并不是。C++ 和 Python 的组件库是两套独立的代码，C++ 组件库完全由 C++ Qt 开发，与 Python 没有关系，不存在效率问题。
+
 #### C++ 的组件库支持试用或者订阅制吗？
 
   不支持。C++ 只支持一次性永久买断制，价格方案已在 [价格页面](/zh/price) 给出，可从 GitHub 的 [发行页面](https://github.com/zhiyiYo/PyQt-Fluent-Widgets/releases) 下载编译好的演示程序 `C++_QFluentWidgets.zip` 进行体验。

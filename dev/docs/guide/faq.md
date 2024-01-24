@@ -16,6 +16,12 @@ No, it does not. PyQt has stricter licensing. For commercial software, please us
 
 Please contact the author via email at [shokokawaii@foxmail.com](mailto:shokokawaii@foxmail.com) or QQ: 1953658489.
 
+#### Is the underlying layer of the C++ component library Python? Will there be any performance issues?
+
+No, it is not. The C++ and Python component libraries are two separate sets of code. The C++ component library is developed entirely with C++ Qt and has no connection to Python. Therefore, there are no efficiency issues.
+
+
+
 #### Is there a trial or subscription option for the C++ component library?
 
 No. C++ only supports a one-time permanent purchase model. The pricing plans are available on the [pricing page](/price), and you can download the pre-compiled demo program `C++_QFluentWidgets.zip` from the [releases page](https://github.com/zhiyiYo/PyQt-Fluent-Widgets/releases) on GitHub for testing.

@@ -15,16 +15,16 @@ export const faqs = {
             answer: 'Yes, a regular VAT invoice can be issued, and we also support bank transfers to businesses.'
         },
         {
+            question: "Is the underlying layer of the C++ component library Python? Will there be any performance issues?",
+            answer: "No, it is not. The C++ and Python component libraries are two separate sets of code. The C++ component library is developed entirely with C++ Qt and has no connection to Python. Therefore, there are no efficiency issues."
+        },
+        {
             question: 'Is there a trial or subscription option for the C++ component library?',
             answer: 'No. C++ only supports a one-time permanent purchase model. You can download demo program from the top navigation bar.',
         },
         {
             question: 'Which versions of Qt are supported by the C++ component library?',
             answer: 'It supports Qt 5.15.x and Qt 6.x.x. QFluentWidgets is developed based on QWidgets and does not support QML.',
-        },
-        {
-            question: 'Does the C++ component library provide source code?',
-            answer: 'No, it does not. After purchase, you will receive header files and static libraries.',
-        },
+        }
     ]
 };
