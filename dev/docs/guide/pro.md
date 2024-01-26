@@ -81,8 +81,12 @@ Skeleton screens provide basic placeholders when network requests are slow, and 
 ### Views
 | Component Name               | Description                            |
 | ---------------------------- | -------------------------------------- |
+| `HorizontalCarousel`         | Horizontal carousel                    |
+| `VerticalCarousel`           | Vertical carousel                      |
 | `DropSingleFileWidget`       | Drag & drop single file widget         |
 | `DropMultiFilesWidget`       | Drag & drop multiple files widget      |
+| `DropSingleFolderWidget`     | Drag & drop single folder widget       |
+| `DropMultiFoldersWidget`     | Drag & drop multiple folders widget    |
 | `EmptyStatusWidget`          | Empty status widget                    |
 | `NoInternetStatusWidget`     | No Internet status widget              |
 | `Pager`                      | Pagination component                   |

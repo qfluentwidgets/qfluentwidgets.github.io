@@ -79,8 +79,12 @@ Python 组件库非商业用途使用 GPLv3 许可证进行授权，商用需购
 ### 视图
 | 组件名                       | 描述                     |
 | ---------------------------- | ------------------------ |
+| `HorizontalCarousel`         | 水平轮播图               |
+| `VerticalCarousel`           | 垂直轮播图               |
 | `DropSingleFileWidget`       | 拖放单文件组件           |
 | `DropMultiFilesWidget`       | 拖放多文件组件           |
+| `DropSingleFolderWidget`     | 拖放单文件夹组件         |
+| `DropMultiFoldersWidget`     | 拖放多文件夹组件         |
 | `EmptyStatusWidget`          | 空状态组件               |
 | `NoInternetStatusWidget`     | 无网络连接状态组件       |
 | `Pager`                      | 分页组件                 |
