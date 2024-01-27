@@ -44,6 +44,7 @@ Check out this [▶ example video](https://www.bilibili.com/video/BV14e411Y75d) 
 | `DropDownColorPicker`        | A dropdown color picker                                                            |
 | `CustomDropDownColorPicker`  | A custom dropdown color picker                                                     |
 | `FlyoutDialog`               | A flyout dialog                                                                    |
+| `ScreenColorPicker`          | Screen color picker                                                                |
 | `ShortcutPicker`             | Shortcut picker                                                                    |
 | `ShortcutDialog`             | Shortcut dialog                                                                    |
 
@@ -79,31 +80,34 @@ Skeleton screens provide basic placeholders when network requests are slow, and 
 | `SquarePersonaSkeleton` | Skeleton for square user information          |
 
 ### Views
-| Component Name               | Description                            |
-| ---------------------------- | -------------------------------------- |
-| `HorizontalCarousel`         | Horizontal carousel                    |
-| `VerticalCarousel`           | Vertical carousel                      |
-| `DropSingleFileWidget`       | Drag & drop single file widget         |
-| `DropMultiFilesWidget`       | Drag & drop multiple files widget      |
-| `DropSingleFolderWidget`     | Drag & drop single folder widget       |
-| `DropMultiFoldersWidget`     | Drag & drop multiple folders widget    |
-| `EmptyStatusWidget`          | Empty status widget                    |
-| `NoInternetStatusWidget`     | No Internet status widget              |
-| `Pager`                      | Pagination component                   |
-| `Splitter`                   | Area splitter                          |
-| `ToolBox`                    | Tool box                               |
-| `TimeLineWidget`             | Time line widget                       |
-| `TimeLineCard`               | Time line card                         |
-| `RoundTableWidget`           | Round border table widget              |
-| `RoundTableView`             | Round border table view                |
-| `LineTableWidget`            | Single line table widget               |
-| `LineTableView`              | Single line table view                 |
-| `GridTableWidget`            | Grid table widget                      |
-| `GridTableView`              | Grid table view                        |
-| `AccentCardWidget`           | Card widget with linear gradient color |
-| `DashboardCardWidget`        | Dashboard card widget                  |
-| `ContentDashboardCardWidget` | Content dash board card widget         |
-| `SlideAniStackedWidget`      | Stacked widget with sliding animation  |
+| Component Name                | Description                            |
+| ----------------------------- | -------------------------------------- |
+| `HorizontalCarousel`          | Horizontal carousel                    |
+| `VerticalCarousel`            | Vertical carousel                      |
+| `HorizontalCircleColorPicker` | Horizontal circle color picker         |
+| `VerticalCircleColorPicker`   | Vertical circle color picker           |
+| `FlowCircleColorPicker`       | Flow circle color picker               |
+| `DropSingleFileWidget`        | Drag & drop single file widget         |
+| `DropMultiFilesWidget`        | Drag & drop multiple files widget      |
+| `DropSingleFolderWidget`      | Drag & drop single folder widget       |
+| `DropMultiFoldersWidget`      | Drag & drop multiple folders widget    |
+| `EmptyStatusWidget`           | Empty status widget                    |
+| `NoInternetStatusWidget`      | No Internet status widget              |
+| `Pager`                       | Pagination component                   |
+| `Splitter`                    | Area splitter                          |
+| `ToolBox`                     | Tool box                               |
+| `TimeLineWidget`              | Time line widget                       |
+| `TimeLineCard`                | Time line card                         |
+| `RoundTableWidget`            | Round border table widget              |
+| `RoundTableView`              | Round border table view                |
+| `LineTableWidget`             | Single line table widget               |
+| `LineTableView`               | Single line table view                 |
+| `GridTableWidget`             | Grid table widget                      |
+| `GridTableView`               | Grid table view                        |
+| `AccentCardWidget`            | Card widget with linear gradient color |
+| `DashboardCardWidget`         | Dashboard card widget                  |
+| `ContentDashboardCardWidget`  | Content dash board card widget         |
+| `SlideAniStackedWidget`       | Stacked widget with sliding animation  |
 
 ### Status & Info
 | Component Name       | Description                         |
@@ -118,6 +122,7 @@ Skeleton screens provide basic placeholders when network requests are slow, and 
 | `StarWidget`         | Star widget                         |
 | `SingleScoreWidget`  | Single score widget                 |
 | `MultiScoreWidget`   | Multi score widget                  |
+| `RadialGauge`        | Radial gauge                        |
 
 ### Settings
 | Component Name                      | Description                                        |

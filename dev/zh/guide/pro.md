@@ -42,6 +42,7 @@ Python 组件库非商业用途使用 GPLv3 许可证进行授权，商用需购
 | `DropDownColorPicker`        | 下拉拾色器                               |
 | `CustomDropDownColorPicker`  | 自定义下拉拾色器                         |
 | `FlyoutDialog`               | 弹出对话框                               |
+| `ScreenColorPicker`          | 屏幕拾色器                               |
 | `ShortcutPicker`             | 快捷键选择器                             |
 | `ShortcutDialog`             | 快捷键对话框                             |
 
@@ -77,31 +78,34 @@ Python 组件库非商业用途使用 GPLv3 许可证进行授权，商用需购
 | `SquarePersonaSkeleton` | 方形用户信息骨架                 |
 
 ### 视图
-| 组件名                       | 描述                     |
-| ---------------------------- | ------------------------ |
-| `HorizontalCarousel`         | 水平轮播图               |
-| `VerticalCarousel`           | 垂直轮播图               |
-| `DropSingleFileWidget`       | 拖放单文件组件           |
-| `DropMultiFilesWidget`       | 拖放多文件组件           |
-| `DropSingleFolderWidget`     | 拖放单文件夹组件         |
-| `DropMultiFoldersWidget`     | 拖放多文件夹组件         |
-| `EmptyStatusWidget`          | 空状态组件               |
-| `NoInternetStatusWidget`     | 无网络连接状态组件       |
-| `Pager`                      | 分页组件                 |
-| `Splitter`                   | 区域分割器               |
-| `ToolBox`                    | 工具箱                   |
-| `TimeLineWidget`             | 时间线组件               |
-| `TimeLineCard`               | 时间线卡片               |
-| `RoundTableWidget`           | 圆角表格组件             |
-| `RoundTableView`             | 圆角表格视图             |
-| `LineTableWidget`            | 下边框表格组件           |
-| `LineTableView`              | 下边框表格视图           |
-| `GridTableWidget`            | 网状表格组件             |
-| `GridTableView`              | 网状表格视图             |
-| `AccentCardWidget`           | 渐变背景卡片组件         |
-| `DashboardCardWidget`        | 仪表盘卡片               |
-| `ContentDashboardCardWidget` | 仪表盘卡片               |
-| `SlideAniStackedWidget`      | 带左右滑动动画的层叠组件 |
+| 组件名                        | 描述                     |
+| ----------------------------- | ------------------------ |
+| `HorizontalCarousel`          | 水平轮播图               |
+| `VerticalCarousel`            | 垂直轮播图               |
+| `HorizontalCircleColorPicker` | 水平圆形拾色器           |
+| `VerticalCircleColorPicker`   | 垂直圆形拾色器           |
+| `FlowCircleColorPicker`       | 流式圆形拾色器           |
+| `DropSingleFileWidget`        | 拖放单文件组件           |
+| `DropMultiFilesWidget`        | 拖放多文件组件           |
+| `DropSingleFolderWidget`      | 拖放单文件夹组件         |
+| `DropMultiFoldersWidget`      | 拖放多文件夹组件         |
+| `EmptyStatusWidget`           | 空状态组件               |
+| `NoInternetStatusWidget`      | 无网络连接状态组件       |
+| `Pager`                       | 分页组件                 |
+| `Splitter`                    | 区域分割器               |
+| `ToolBox`                     | 工具箱                   |
+| `TimeLineWidget`              | 时间线组件               |
+| `TimeLineCard`                | 时间线卡片               |
+| `RoundTableWidget`            | 圆角表格组件             |
+| `RoundTableView`              | 圆角表格视图             |
+| `LineTableWidget`             | 下边框表格组件           |
+| `LineTableView`               | 下边框表格视图           |
+| `GridTableWidget`             | 网状表格组件             |
+| `GridTableView`               | 网状表格视图             |
+| `AccentCardWidget`            | 渐变背景卡片组件         |
+| `DashboardCardWidget`         | 仪表盘卡片               |
+| `ContentDashboardCardWidget`  | 仪表盘卡片               |
+| `SlideAniStackedWidget`       | 带左右滑动动画的层叠组件 |
 
 ### 状态和信息
 | 组件名               | 描述                           |
@@ -116,6 +120,7 @@ Python 组件库非商业用途使用 GPLv3 许可证进行授权，商用需购
 | `StarWidget`         | 星型组件                       |
 | `SingleScoreWidget`  | 评分组件                       |
 | `MultiScoreWidget`   | 可交互评分组件                 |
+| `RadialGauge`        | 仪表盘                         |
 
 ### 设置
 | 组件名                              | 描述                   |
