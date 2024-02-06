@@ -40,10 +40,10 @@ export const showcases = {
             url: 'https://store.steampowered.com/app/1692080/SVFI/'
         },
         {
-            name: 'HuiTang AIGC',
-            description: 'Workflow software for graphics based on Stable Diffusion and LLM',
-            cover: 'https://img.fastmirror.net/s/2023/10/28/653d2d725100d.png',
-            url: 'https://jiu-meng.feishu.cn/wiki/IrAxwMeepirGB1kpixHcTTsen2g'
+            name: 'Weather',
+            description: 'Weather app',
+            cover: 'https://img.fastmirror.net/s/2024/02/06/65c185980febb.jpg',
+            url: 'https://blog.csdn.net/a1397852386/article/details/135035884'
         },
         {
             name: 'DyberPet',
@@ -70,10 +70,10 @@ export const showcases = {
             url: 'https://github.com/nonedesktop/Nonebot-Desktop-Qt'
         },
         {
-            name: 'Weather',
-            description: 'Weather app',
-            cover: 'https://img.fastmirror.net/s/2024/02/06/65c185980febb.jpg',
-            url: 'https://blog.csdn.net/a1397852386/article/details/135035884'
+            name: 'HuiTang AIGC',
+            description: 'Workflow software for graphics based on Stable Diffusion and LLM',
+            cover: 'https://img.fastmirror.net/s/2023/10/28/653d2d725100d.png',
+            url: 'https://jiu-meng.feishu.cn/wiki/IrAxwMeepirGB1kpixHcTTsen2g'
         },
         {
             name: 'March7th Assistant',
@@ -86,6 +86,12 @@ export const showcases = {
             description: 'A concise and easy-to-use FFmpeg client',
             cover: 'https://img.fastmirror.net/s/2023/11/08/654b9ec22ce0e.jpg',
             url: 'https://github.com/Eanya-Tonic/MihiroToolbox'
+        },
+        {
+            name: 'Yutest',
+            description: 'A testing client',
+            cover: 'https://img.fastmirror.net/s/2024/02/06/65c19195466c2.jpg',
+            url: 'https://github.com/Lin-Yuhao/Yutest_'
         },
         {
             name: 'Baas',

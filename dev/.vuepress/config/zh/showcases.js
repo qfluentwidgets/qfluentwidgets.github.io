@@ -40,10 +40,10 @@ export const showcases = {
             url: 'https://store.steampowered.com/app/1692080/SVFI/'
         },
         {
-            name: '绘唐',
-            description: '基于 Stabel Diffusion 和大语言模型的绘图工作流软件',
-            cover: 'https://img.fastmirror.net/s/2023/10/28/653d2d725100d.png',
-            url: 'https://jiu-meng.feishu.cn/wiki/IrAxwMeepirGB1kpixHcTTsen2g'
+            name: '天气',
+            description: 'Win11 风格天气小工具',
+            cover: 'https://img.fastmirror.net/s/2024/02/06/65c185980febb.jpg',
+            url: 'https://blog.csdn.net/a1397852386/article/details/135035884'
         },
         {
             name: '呆啵宠物',
@@ -70,10 +70,10 @@ export const showcases = {
             url: 'https://github.com/nonedesktop/Nonebot-Desktop-Qt'
         },
         {
-            name: '天气',
-            description: 'Win11 风格天气小工具',
-            cover: 'https://img.fastmirror.net/s/2024/02/06/65c185980febb.jpg',
-            url: 'https://blog.csdn.net/a1397852386/article/details/135035884'
+            name: '绘唐',
+            description: '基于 Stabel Diffusion 和大语言模型的绘图工作流软件',
+            cover: 'https://img.fastmirror.net/s/2023/10/28/653d2d725100d.png',
+            url: 'https://jiu-meng.feishu.cn/wiki/IrAxwMeepirGB1kpixHcTTsen2g'
         },
         {
             name: '三月七小助手',
@@ -86,6 +86,12 @@ export const showcases = {
             description: '一个简洁易用的 FFmpeg 客户端',
             cover: 'https://img.fastmirror.net/s/2023/11/08/654b9ec22ce0e.jpg',
             url: 'https://github.com/Eanya-Tonic/MihiroToolbox'
+        },
+        {
+            name: 'Yutest',
+            description: '功能丰富的测试工具',
+            cover: 'https://img.fastmirror.net/s/2024/02/06/65c19195466c2.jpg',
+            url: 'https://github.com/Lin-Yuhao/Yutest_'
         },
         {
             name: 'Baas',
