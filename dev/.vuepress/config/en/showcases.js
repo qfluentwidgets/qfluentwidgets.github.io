@@ -70,6 +70,12 @@ export const showcases = {
             url: 'https://github.com/nonedesktop/Nonebot-Desktop-Qt'
         },
         {
+            name: 'Weather',
+            description: 'Weather app',
+            cover: 'https://img.fastmirror.net/s/2024/02/06/65c185980febb.jpg',
+            url: 'https://blog.csdn.net/a1397852386/article/details/135035884'
+        },
+        {
             name: 'March7th Assistant',
             description: 'Star rail automation tool',
             cover: 'https://img.fastmirror.net/s/2023/10/28/653d1d5bc9178.jpg',

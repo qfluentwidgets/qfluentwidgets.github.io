@@ -70,6 +70,12 @@ export const showcases = {
             url: 'https://github.com/nonedesktop/Nonebot-Desktop-Qt'
         },
         {
+            name: '天气',
+            description: 'Win11 风格天气小工具',
+            cover: 'https://img.fastmirror.net/s/2024/02/06/65c185980febb.jpg',
+            url: 'https://blog.csdn.net/a1397852386/article/details/135035884'
+        },
+        {
             name: '三月七小助手',
             description: '崩坏：星穹铁道全自动工具',
             cover: 'https://img.fastmirror.net/s/2023/10/28/653d1d5bc9178.jpg',
