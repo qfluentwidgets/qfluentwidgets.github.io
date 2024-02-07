@@ -30,8 +30,7 @@ export const prices = {
                 { feature: 'Single developer' },
                 { feature: "Lifetime access" },
                 { feature: 'Free updates' },
-                { feature: "Exclusive QQ group service" },
-                { feature: "Exclusive AI bot service" },
+                { feature: "Exclusive technical support" },
             ]
         },
         {
@@ -48,7 +47,7 @@ export const prices = {
                 { feature: 'Single software' },
                 { feature: 'Single developer' },
                 { feature: 'Free updates' },
-                { feature: '24-hour email support response time' },
+                { feature: '48-hour email support response time' },
             ]
         },
         {
@@ -66,8 +65,7 @@ export const prices = {
                 { feature: "Unlimited softwares" },
                 { feature: "Lifetime access" },
                 { feature: 'Free updates' },
-                { feature: "Exclusive QQ group service" },
-                { feature: "Exclusive AI bot service" },
+                { feature: "Exclusive technical support" },
             ]
         }
     ],
