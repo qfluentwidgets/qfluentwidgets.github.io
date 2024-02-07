@@ -24,7 +24,7 @@ export const prices = {
             url: 'https://afdian.net/item/b97e72a8962b11ee8e3d5254001e7c00',
             recommend: false,
             features: [
-                { feature: '230+ components' },
+                { feature: '250+ components' },
                 { feature: '20+ visual charts' },
                 { feature: 'Unlimited softwares' },
                 { feature: 'Single developer' },
@@ -43,7 +43,7 @@ export const prices = {
             url: 'https://afdian.net/item/873ee35aaa3911ee928352540025c377',
             recommend: true,
             features: [
-                { feature: '230+ components' },
+                { feature: '250+ components' },
                 { feature: '20+ visual charts' },
                 { feature: 'Single software' },
                 { feature: 'Single developer' },
@@ -61,7 +61,7 @@ export const prices = {
             recommend: false,
             contactSales: true,
             features: [
-                { feature: '230+ components' },
+                { feature: '250+ components' },
                 { feature: '20+ visual charts' },
                 { feature: "Unlimited softwares" },
                 { feature: "Lifetime access" },

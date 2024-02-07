@@ -23,6 +23,7 @@ Check out this [▶ example video](https://www.bilibili.com/video/BV14e411Y75d) 
 | `Chip`                        | A chip used as a filter                     |
 | `OutlinedPushButton`          | An outlined button used as a filter         |
 | `OutlinedToolButton`          | An outlined tool button                     |
+| `RoundPushButton`             | An full round push button                   |
 | `FilledPushButton`            | A filled push button                        |
 | `FilledToolButton`            | A filled tool button                        |
 | `TextPushButton`              | A text push button                          |
@@ -36,17 +37,18 @@ Check out this [▶ example video](https://www.bilibili.com/video/BV14e411Y75d) 
 
 ### Dialogs & Flyouts
 
-| Component Name               | Description                                                                        |
-| ---------------------------- | ---------------------------------------------------------------------------------- |
-| `Drawer`                     | Drawer widget                                                                      |
-| `DropDownColorPalette`       | A dropdown color palette that supports selecting standard colors and custom colors |
-| `CustomDropDownColorPalette` | A custom dropdown color palette                                                    |
-| `DropDownColorPicker`        | A dropdown color picker                                                            |
-| `CustomDropDownColorPicker`  | A custom dropdown color picker                                                     |
-| `FlyoutDialog`               | A flyout dialog                                                                    |
-| `ScreenColorPicker`          | Screen color picker                                                                |
-| `ShortcutPicker`             | Shortcut picker                                                                    |
-| `ShortcutDialog`             | Shortcut dialog                                                                    |
+| Component Name                    | Description                                                                        |
+| --------------------------------- | ---------------------------------------------------------------------------------- |
+| `Drawer`                          | Drawer widget                                                                      |
+| `DropDownColorPalette`            | A dropdown color palette that supports selecting standard colors and custom colors |
+| `CustomDropDownColorPalette`      | A custom dropdown color palette                                                    |
+| `DropDownColorPicker`             | A dropdown color picker                                                            |
+| `CustomDropDownColorPicker`       | A custom dropdown color picker                                                     |
+| `FlyoutDialog`                    | A flyout dialog                                                                    |
+| `ScreenColorPicker`               | Screen color picker                                                                |
+| `ShortcutPicker`                  | Shortcut picker                                                                    |
+| `ShortcutDialog`                  | Shortcut dialog                                                                    |
+| `IndeterminateProgressRingDialog` | Waiting dialog                                                                     |
 
 ### Date Time
 | Component Name        | Description                                                |
@@ -123,6 +125,14 @@ Skeleton screens provide basic placeholders when network requests are slow, and 
 | `SingleScoreWidget`  | Single score widget                 |
 | `MultiScoreWidget`   | Multi score widget                  |
 | `RadialGauge`        | Radial gauge                        |
+
+### Navigation
+| Component Name             | Description                  |
+| -------------------------- | ---------------------------- |
+| `ExclusiveLiteFilter`      | Exclusive lite filter        |
+| `MultiSelectionLiteFilter` | Multi selection lite filter  |
+| `TopNavigationBar`         | Top navigation bar           |
+| `TopFluentWindow`          | Top navigation fluent window |
 
 ### Settings
 | Component Name                      | Description                                        |

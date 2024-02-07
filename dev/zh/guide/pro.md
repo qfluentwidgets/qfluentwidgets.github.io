@@ -21,6 +21,7 @@ Python 组件库非商业用途使用 GPLv3 许可证进行授权，商用需购
 | `Chip`                        | 纸片组件，可用作过滤器     |
 | `OutlinedPushButton`          | 描边按钮，可用作过滤器     |
 | `OutlinedToolButton`          | 描边工具按钮               |
+| `RoundPushButton`             | 圆角按钮                   |
 | `FilledPushButton`            | 填充按钮，支持不同的类型   |
 | `FilledToolButton`            | 填充工具按钮               |
 | `TextPushButton`              | 文本按钮，支持不同的类型   |
@@ -34,17 +35,18 @@ Python 组件库非商业用途使用 GPLv3 许可证进行授权，商用需购
 
 ### 对话框和弹出组件
 
-| 组件名                       | 描述                                     |
-| ---------------------------- | ---------------------------------------- |
-| `Drawer`                     | 抽屉组件，支持上下左右四个方向的弹出     |
-| `DropDownColorPalette`       | 下拉调色盘，支持选择标准颜色和自定义颜色 |
-| `CustomDropDownColorPalette` | 自定义下拉调色盘                         |
-| `DropDownColorPicker`        | 下拉拾色器                               |
-| `CustomDropDownColorPicker`  | 自定义下拉拾色器                         |
-| `FlyoutDialog`               | 弹出对话框                               |
-| `ScreenColorPicker`          | 屏幕拾色器                               |
-| `ShortcutPicker`             | 快捷键选择器                             |
-| `ShortcutDialog`             | 快捷键对话框                             |
+| 组件名                            | 描述                                     |
+| --------------------------------- | ---------------------------------------- |
+| `Drawer`                          | 抽屉组件，支持上下左右四个方向的弹出     |
+| `DropDownColorPalette`            | 下拉调色盘，支持选择标准颜色和自定义颜色 |
+| `CustomDropDownColorPalette`      | 自定义下拉调色盘                         |
+| `DropDownColorPicker`             | 下拉拾色器                               |
+| `CustomDropDownColorPicker`       | 自定义下拉拾色器                         |
+| `FlyoutDialog`                    | 弹出对话框                               |
+| `ScreenColorPicker`               | 屏幕拾色器                               |
+| `ShortcutPicker`                  | 快捷键选择器                             |
+| `ShortcutDialog`                  | 快捷键对话框                             |
+| `IndeterminateProgressRingDialog` | 等待对话框                               |
 
 ### 日期和时间
 | 组件名                | 描述                             |
@@ -121,6 +123,14 @@ Python 组件库非商业用途使用 GPLv3 许可证进行授权，商用需购
 | `SingleScoreWidget`  | 评分组件                       |
 | `MultiScoreWidget`   | 可交互评分组件                 |
 | `RadialGauge`        | 仪表盘                         |
+
+### 导航
+| 组件名                     | 描述             |
+| -------------------------- | ---------------- |
+| `ExclusiveLiteFilter`      | 互斥过滤器       |
+| `MultiSelectionLiteFilter` | 多选过滤器       |
+| `TopNavigationBar`         | 顶部导航栏       |
+| `TopFluentWindow`          | 顶部导航流畅窗口 |
 
 ### 设置
 | 组件名                              | 描述                   |
