@@ -79,7 +79,7 @@ export const prices = {
             url: 'mailto:shokokawaii@foxmail.com',
             recommend: false,
             features: [
-                { feature: '200+ components' },
+                { feature: '220+ components' },
                 { feature: "Personal software" },
                 { feature: "Unlimited softwares" },
                 { feature: "Permanent license validity" }
@@ -94,7 +94,7 @@ export const prices = {
             url: 'mailto:shokokawaii@foxmail.com',
             recommend: true,
             features: [
-                { feature: '200+ components' },
+                { feature: '220+ components' },
                 { feature: 'Single developer' },
                 { feature: "Unlimited softwares" },
                 { feature: "Lifetime access" },
@@ -113,7 +113,7 @@ export const prices = {
             recommend: false,
             contactSales: true,
             features: [
-                { feature: '200+ components' },
+                { feature: '220+ components' },
                 { feature: "Unlimited softwares" },
                 { feature: "Lifetime access" },
                 { feature: 'Free updates' },

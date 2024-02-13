@@ -83,7 +83,7 @@ export const prices = {
                 { feature: '个人开发者' },
                 { feature: '永久许可证有效期' },
                 { feature: '不限开发的软件数量' },
-                { feature: '200+ Fluent Design 组件' },
+                { feature: '220+ Fluent Design 组件' },
                 { feature: '专属企业微信和 QQ 客户群服务' }
             ]
         },
@@ -99,7 +99,7 @@ export const prices = {
                 { feature: '个人开发者' },
                 { feature: '永久许可证有效期' },
                 { feature: '不限开发的软件数量' },
-                { feature: '200+ Fluent Design 组件' },
+                { feature: '220+ Fluent Design 组件' },
                 { feature: '享受组件库版本持续更新迭代' },
                 { feature: '专属 Fluent Studio 集成软件' },
                 { feature: '专属企业微信和 QQ 客户群服务' },
@@ -118,7 +118,7 @@ export const prices = {
                 { feature: '个人开发者' },
                 { feature: '永久许可证有效期' },
                 { feature: '不限开发的软件数量' },
-                { feature: '200+ Fluent Design 组件' },
+                { feature: '220+ Fluent Design 组件' },
                 { feature: '享受组件库版本持续更新迭代' },
                 { feature: '专属 Fluent Studio 集成软件' },
                 { feature: '专属企业微信和 QQ 客户群服务' },
