@@ -16,13 +16,30 @@ export const prices = {
     },
     python: [
         {
+            title: '个人年付版',
+            desc: '每个月不到 20 元，一杯奶茶的价格',
+            price: '￥239',
+            year: true,
+            permanent: false,
+            url: 'https://item.taobao.com/item.htm?ft=t&id=762055426986',
+            recommend: false,
+            features: [
+                { feature: '个人开发者' },
+                { feature: '一年许可证有效期' },
+                { feature: '单个商用软件授权' },
+                { feature: '250+ Fluent Design 组件' },
+                { feature: '20+ 响应式可视化图表' },
+                { feature: '有效期内享受组件库版本持续迭代' },
+            ]
+        },
+        {
             title: '个人永久版',
             desc: '适用于您用户量快速发展的应用程序',
             price: '￥2499',
             year: false,
             permanent: true,
             url: 'mailto:shokokawaii@foxmail.com',
-            recommend: false,
+            recommend: true,
             features: [
                 { feature: '个人开发者' },
                 { feature: '永久许可证有效期' },
@@ -31,23 +48,6 @@ export const prices = {
                 { feature: '20+ 响应式可视化图表' },
                 { feature: '专属一对一技术支持服务' },
                 { feature: '享受组件库版本持续更新迭代' },
-            ]
-        },
-        {
-            title: '个人年付版',
-            desc: '每个月不到 20 元，一杯奶茶的价格',
-            price: '￥239',
-            year: true,
-            permanent: false,
-            url: 'https://item.taobao.com/item.htm?ft=t&id=762055426986',
-            recommend: true,
-            features: [
-                { feature: '个人开发者' },
-                { feature: '一年许可证有效期' },
-                { feature: '单个商用软件授权' },
-                { feature: '250+ Fluent Design 组件' },
-                { feature: '20+ 响应式可视化图表' },
-                { feature: '有效期内享受组件库版本持续迭代' },
             ]
         },
         {

@@ -16,13 +16,30 @@ export const prices = {
     },
     python: [
         {
+            title: 'Freelancer',
+            desc: 'The essentials to provide your best work for clients.',
+            price: '$39',
+            year: true,
+            permanent: false,
+            url: 'https://afdian.net/item/873ee35aaa3911ee928352540025c377',
+            recommend: false,
+            features: [
+                { feature: '250+ components' },
+                { feature: '20+ visual charts' },
+                { feature: 'Single software' },
+                { feature: 'Single developer' },
+                { feature: 'Free updates' },
+                { feature: '48-hour email support response time' },
+            ]
+        },
+        {
             title: 'Startup',
             desc: 'A plan that scales with your rapidly growing business.',
             price: '$359',
             year: false,
             permanent: true,
             url: 'https://afdian.net/item/b97e72a8962b11ee8e3d5254001e7c00',
-            recommend: false,
+            recommend: true,
             features: [
                 { feature: '250+ components' },
                 { feature: '20+ visual charts' },
@@ -31,23 +48,6 @@ export const prices = {
                 { feature: "Lifetime access" },
                 { feature: 'Free updates' },
                 { feature: "Exclusive technical support" },
-            ]
-        },
-        {
-            title: 'Freelancer',
-            desc: 'The essentials to provide your best work for clients.',
-            price: '$39',
-            year: true,
-            permanent: false,
-            url: 'https://afdian.net/item/873ee35aaa3911ee928352540025c377',
-            recommend: true,
-            features: [
-                { feature: '250+ components' },
-                { feature: '20+ visual charts' },
-                { feature: 'Single software' },
-                { feature: 'Single developer' },
-                { feature: 'Free updates' },
-                { feature: '48-hour email support response time' },
             ]
         },
         {
