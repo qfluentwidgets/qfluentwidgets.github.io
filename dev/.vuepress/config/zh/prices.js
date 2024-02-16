@@ -17,7 +17,7 @@ export const prices = {
     python: [
         {
             title: '个人年付版',
-            desc: '每个月 1 杯奶茶的价格',
+            desc: '每个月一杯奶茶的价格',
             price: '￥269',
             year: true,
             permanent: false,
@@ -72,9 +72,9 @@ export const prices = {
     ],
     cpp: [
         {
-            title: '定制版',
-            desc: '定制化您的价格方案',
-            price: '￥3599',
+            title: '个人标准版',
+            desc: '开箱即用，快速开发',
+            price: '￥2999',
             year: true,
             permanent: true,
             url: 'mailto:shokokawaii@foxmail.com',
@@ -84,11 +84,11 @@ export const prices = {
                 { feature: '永久许可证有效期' },
                 { feature: '不限开发的软件数量' },
                 { feature: '220+ Fluent Design 组件' },
-                { feature: '专属企业微信和 QQ 客户群服务' }
+                { feature: '享受一个月组件库技术支持' },
             ]
         },
         {
-            title: '个人版',
+            title: '个人专业版',
             desc: '适用于您用户量快速发展的应用程序',
             price: '￥4999',
             year: true,
@@ -100,9 +100,9 @@ export const prices = {
                 { feature: '永久许可证有效期' },
                 { feature: '不限开发的软件数量' },
                 { feature: '220+ Fluent Design 组件' },
-                { feature: '享受组件库版本持续更新迭代' },
                 { feature: '专属 Fluent Studio 集成软件' },
-                { feature: '专属企业微信和 QQ 客户群服务' },
+                { feature: '享受组件库版本持续更新迭代' },
+                { feature: '享受一年组件库技术支持' },
             ]
         },
         {
@@ -115,7 +115,7 @@ export const prices = {
             recommend: false,
             contactSales: true,
             features: [
-                { feature: '个人开发者' },
+                { feature: '开发者团队' },
                 { feature: '永久许可证有效期' },
                 { feature: '不限开发的软件数量' },
                 { feature: '220+ Fluent Design 组件' },
