@@ -17,8 +17,8 @@ export const prices = {
     python: [
         {
             title: '个人年付版',
-            desc: '每个组件不到 2 元，物超所值',
-            price: '￥469',
+            desc: '每个月 1 杯奶茶的价格',
+            price: '￥269',
             year: true,
             permanent: false,
             url: 'https://item.taobao.com/item.htm?ft=t&id=762055426986',

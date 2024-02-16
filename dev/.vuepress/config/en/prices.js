@@ -18,7 +18,7 @@ export const prices = {
         {
             title: 'Freelancer',
             desc: 'The essentials to provide your best work for clients.',
-            price: '$79',
+            price: '$42',
             year: true,
             permanent: false,
             url: 'https://afdian.net/item/873ee35aaa3911ee928352540025c377',
