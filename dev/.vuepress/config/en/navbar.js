@@ -91,5 +91,5 @@ export const navbar = [
   },
   { text: 'Showcase', link: '/showcase/', icon: 'Code' },
   { text: 'Pricing', link: '/price', icon: 'ShoppingCart' },
-  { text: 'Tutorials', link: 'https://www.bilibili.com/video/BV12c411L73q', icon: 'Playlist' },
+  { text: 'Tutorials', link: 'https://www.youtube.com/watch?v=9Id5ThLEpFk&list=PL0KDoBEXflBGymEQ16t4Fr2wcFDMqYVtf', icon: 'Playlist' },
 ];
