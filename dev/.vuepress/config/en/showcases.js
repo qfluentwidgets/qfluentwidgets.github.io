@@ -70,10 +70,10 @@ export const showcases = {
             url: 'https://github.com/nonedesktop/Nonebot-Desktop-Qt'
         },
         {
-            name: 'HuiTang AIGC',
-            description: 'Workflow software for graphics based on Stable Diffusion and LLM',
-            cover: 'https://img.fastmirror.net/s/2023/10/28/653d2d725100d.png',
-            url: 'https://jiu-meng.feishu.cn/wiki/IrAxwMeepirGB1kpixHcTTsen2g'
+            name: 'Yutest',
+            description: 'A testing client',
+            cover: 'https://img.fastmirror.net/s/2024/02/06/65c19195466c2.jpg',
+            url: 'https://github.com/Lin-Yuhao/Yutest_'
         },
         {
             name: 'March7th Assistant',
@@ -88,10 +88,10 @@ export const showcases = {
             url: 'https://github.com/Eanya-Tonic/MihiroToolbox'
         },
         {
-            name: 'Yutest',
-            description: 'A testing client',
-            cover: 'https://img.fastmirror.net/s/2024/02/06/65c19195466c2.jpg',
-            url: 'https://github.com/Lin-Yuhao/Yutest_'
+            name: 'HuiTang AIGC',
+            description: 'Workflow software for graphics based on Stable Diffusion and LLM',
+            cover: 'https://img.fastmirror.net/s/2023/10/28/653d2d725100d.png',
+            url: 'https://jiu-meng.feishu.cn/wiki/IrAxwMeepirGB1kpixHcTTsen2g'
         },
         {
             name: 'Baas',

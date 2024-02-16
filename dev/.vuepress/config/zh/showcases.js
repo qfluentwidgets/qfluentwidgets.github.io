@@ -70,10 +70,10 @@ export const showcases = {
             url: 'https://github.com/nonedesktop/Nonebot-Desktop-Qt'
         },
         {
-            name: '绘唐',
-            description: '基于 Stabel Diffusion 和大语言模型的绘图工作流软件',
-            cover: 'https://img.fastmirror.net/s/2023/10/28/653d2d725100d.png',
-            url: 'https://jiu-meng.feishu.cn/wiki/IrAxwMeepirGB1kpixHcTTsen2g'
+            name: 'Yutest',
+            description: '功能丰富的测试工具',
+            cover: 'https://img.fastmirror.net/s/2024/02/06/65c19195466c2.jpg',
+            url: 'https://github.com/Lin-Yuhao/Yutest_'
         },
         {
             name: '三月七小助手',
@@ -88,10 +88,10 @@ export const showcases = {
             url: 'https://github.com/Eanya-Tonic/MihiroToolbox'
         },
         {
-            name: 'Yutest',
-            description: '功能丰富的测试工具',
-            cover: 'https://img.fastmirror.net/s/2024/02/06/65c19195466c2.jpg',
-            url: 'https://github.com/Lin-Yuhao/Yutest_'
+            name: '绘唐',
+            description: '基于 Stabel Diffusion 和大语言模型的绘图工作流软件',
+            cover: 'https://img.fastmirror.net/s/2023/10/28/653d2d725100d.png',
+            url: 'https://jiu-meng.feishu.cn/wiki/IrAxwMeepirGB1kpixHcTTsen2g'
         },
         {
             name: 'Baas',
