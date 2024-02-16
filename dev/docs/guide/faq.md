@@ -42,9 +42,6 @@ No.
 
 No, it does not. All components are developed based on QWidgets and will not support QML in the future.
 
-#### Is there an official community group?
-
-Yes, there is. After following the author [之一Yo](https://space.bilibili.com/471587058) on Bilibili, you can obtain the QQ group number.
 
 #### Why does the title bar area of the mica window display the theme color?
 
