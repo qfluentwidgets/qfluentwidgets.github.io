@@ -29,36 +29,6 @@ Well, the widget is now promoted to fluent push button. But you won’t be able 
 
 For all the following operations, they must be performed in an English path.
 
-For Windows systems, you can download `FluentDesigner_v1.*.*.7z` from the [project release page](https://github.com/zhiyiYo/PyQt-Fluent-Widgets/releases) or the QQ group files. After extracting the archive, double-click on `FluentDesigner.exe` to launch QtDesigner with the installed plugins.
-
-If you don't want to use Fluent Designer or you are not using a Windows system, you can follow the steps below to launch QtDesigner with the installed plugins:
-
-1. create a virtual environment, `conda` is the recommended way.
-
-2. Activate virtual environment and run the following code in shell:
-
-   ```shell
-   pip install PyQt-Fluent-Widgets
-   pip install pyqt5-tools
-   ```
-
-3. Download the full code from [PyQt-Fluent-Widgets Repo](https://github.com/zhiyiYo/PyQt-Fluent-Widgets).
-
-4. Run `python ./tools/designer.py` to launch Qt Designer (You must use this way to launch Qt Designer).
-
-If everything goes smoothly, you will see all PyQt-Fluent-Widgets components in the sidebar of Qt Designer. If the startup fails or the components of PyQt-Fluent-Widgets cannot be seen, the solution can be found in [Issue#196](https://github.com/zhiyiYo/PyQt-Fluent-Widgets/issues/196).
-
-
-<div style="position: relative; width:100%; padding-bottom: 56.25%; height: 0;">
-    <iframe style="width: 100%; height: 100%; position: absolute; top: 0; left: 0" src="https://www.youtube.com/embed/QMPNLzLS8JI?si=PB9BfIWyUJQhpkoe" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
-
-The plugin for PySide6 is unstable and may not start QtDesigner successfully. It is recommended to use QtDesigner of PyQt5/6 to generate ui files.
-
-::: warning
-PyQt5 must upgrade PyQt5-Frameless-Window to 0.2.7 in order to use the plugin, while PySide6 and PyQt6 do not need to upgrading to frameless packages. PySide2 does not support plugins, but you can use PyQt5’s QtDesigner to generate ui files and then compile them into py files using uic.
-:::
-
 
 ### Complex example
 Here is an example that uses a side navigation bar to implement multiple sub-interfaces window.

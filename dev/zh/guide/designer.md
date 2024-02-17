@@ -27,36 +27,6 @@ permalink: /zh/pages/designer/
 
 **下述所有操作，必须在英文路径下完成。**
 
-对于 Windows 系统，可以从 [项目发行页面](https://github.com/zhiyiYo/PyQt-Fluent-Widgets/releases) 或者 QQ 群文件下载 `FluentDesigner_v1.*.*.7z`，解压后双击运行 `FluentDesigner.exe` 就能启动包含插件的 QtDesigner。
-
-不想用 Fluent Designer 或者不是 Windows 系统，可以按照下述步骤来启动安了插件的 QtDesigner：
-
-1. 创建一个虚拟环境，推荐使用 `conda`
-
-2. 激活虚拟环境，在终端中输入下述命令安装所需的包：
-
-   ```shell
-   pip install PyQt-Fluent-Widgets
-   pip install pyqt5-tools
-   ```
-
-3. 从 [PyQt-Fluent-Widgets Repo](https://github.com/zhiyiYo/PyQt-Fluent-Widgets) 下载代码
-
-4. 运行 `python ./tools/designer.py` 来启动设计师软件（必须使用脚本启动）
-
-一切无误的情况下能在侧边栏 Widget Box 中看到 PyQt-Fluent-Widgets 的组件。如果启动失败或者看不到 PyQt-Fluent-Widgets 的组件，解决方案参见 [Issue#196](https://github.com/zhiyiYo/PyQt-Fluent-Widgets/issues/196)。
-
-
-<div style="position: relative; padding: 30% 45%;">
-    <iframe style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;" src="https://player.bilibili.com/player.html?cid=1124976209&aid=953381256&page=1&as_wide=1&high_quality=1&danmaku=0&autoplay=0" frameborder="no" scrolling="no" allowfullscreen="true"></iframe>
-</div>
-
-PySide6 的插件不稳定，可能无法启动 QtDesigner，建议使用 PyQt5/Qt6 的 QtDesigner 来生成 ui 文件。
-
-::: warning 警告
-PyQt5 要把 PyQt5-Frameless-Window 升级到 0.2.7 才能使用插件，PySide6 和 PyQt6 无需升级无边框包。PySide2 不支持插件，不过可以先用 PyQt5 的 QtDesigner 生成 ui 文件，然后用 uic 编译成 py 文件。
-:::
-
 
 ### 复杂示例
 下面是一个零样式表 + 100 行代码实现多子界面窗口的例子。
