@@ -6,6 +6,18 @@ permalink: /zh/pages/designer/
 
 在 Qt Designer 中，有两种使用 PyQt-Fluent-Widgets 的方式。
 
+
+### 使用 Fluent Client（推荐）
+
+**下述所有操作，必须在英文路径下完成。**
+
+可从 [淘宝商店](https://item.taobao.com/item.htm?ft=t&id=767961666600) 购买 Fluent Client.
+
+<div style="position: relative; width:100%; padding-bottom: 56.25%; height: 0;">
+    <iframe style="width: 100%; height: 100%; position: absolute; top: 0; left: 0" src="https://www.youtube.com/embed/7UCmcsOlhTk?si=gCyZNmtSOrWERG4P" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+
 ### 提升控件
 右击一个小部件，选择右击菜单上的 `提升为…`。
 
@@ -22,10 +34,6 @@ permalink: /zh/pages/designer/
 <div style="position: relative; padding: 30% 45%;">
     <iframe style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;" src="https://player.bilibili.com/player.html?cid=1107159421&aid=655415814&page=1&as_wide=1&high_quality=1&danmaku=0&autoplay=0" frameborder="no" scrolling="no" allowfullscreen="true"></iframe>
 </div>
-
-### 使用插件
-
-**下述所有操作，必须在英文路径下完成。**
 
 
 ### 复杂示例

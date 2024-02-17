@@ -6,6 +6,18 @@ permalink: /pages/designer/
 
 In Qt Designer, there are two ways to use PyQt-Fluent-Widgets.
 
+
+### Using Fluent Client (Recommend)
+
+**For all the following operations, they must be performed in an English path.**
+
+You can purchase the client from [Afadian](https://afdian.net/item/62cc7298cd9411eeb14d52540025c377).
+
+<div style="position: relative; width:100%; padding-bottom: 56.25%; height: 0;">
+    <iframe style="width: 100%; height: 100%; position: absolute; top: 0; left: 0" src="https://www.youtube.com/embed/7UCmcsOlhTk?si=gCyZNmtSOrWERG4P" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+
 ### Promoting widget
 Right click on a widget, select the `Promote to ...` of context menu.
 
@@ -24,10 +36,6 @@ Well, the widget is now promoted to fluent push button. But you won’t be able 
 <div style="position: relative; width:100%; padding-bottom: 56.25%; height: 0;">
     <iframe style="width: 100%; height: 100%; position: absolute; top: 0; left: 0" src="https://www.youtube.com/embed/9FLCTLe7InU?si=0TkEWYDYX2OZSaeu" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
-
-### Using plugin
-
-For all the following operations, they must be performed in an English path.
 
 
 ### Complex example
