@@ -30,6 +30,16 @@ The GPLv3 license has Copyleft provisions, which means that if your non-commerci
 :::
 
 
+## Contact Us
+Official QQ Group: 932014902
+
+Customer Service: 1953658489
+
+Mobile TaoBao: https://shop.m.taobao.com/shop/shop_index.htm?shop_id=336830755
+
+PC TaoBao: https://shop336830755.taobao.com/
+
+
 ## Acknowledgements
 Thanks to all the contributors and supporters of this component library:
 
