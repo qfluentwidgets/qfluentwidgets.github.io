@@ -29,6 +29,7 @@ export const prices = {
                 { feature: '单个商用软件授权' },
                 { feature: '250+ Fluent Design 组件' },
                 { feature: '20+ 响应式可视化图表' },
+                { feature: '专属官方技术交流群服务' },
                 { feature: '专属 Fluent Pro Client 软件' },
                 { feature: '有效期内享受组件库版本持续迭代' },
             ]
@@ -76,7 +77,7 @@ export const prices = {
         {
             title: '个人标准版',
             desc: '开箱即用，快速开发',
-            price: '￥2999',
+            price: '￥3599',
             year: true,
             permanent: true,
             url: 'mailto:shokokawaii@foxmail.com',

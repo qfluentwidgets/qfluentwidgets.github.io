@@ -26,11 +26,11 @@ export const prices = {
             features: [
                 { feature: '250+ components' },
                 { feature: '20+ visual charts' },
-                { feature: 'Single software' },
                 { feature: 'Single developer' },
-                { feature: 'Free updates' },
+                { feature: 'Single commercial software' },
+                { feature: 'One year free updates' },
                 { feature: "Fluent Pro Client software" },
-                { feature: '48-hour email support response time' },
+                { feature: 'Customer group service' },
             ]
         },
         {
@@ -44,10 +44,9 @@ export const prices = {
             features: [
                 { feature: '250+ components' },
                 { feature: '20+ visual charts' },
-                { feature: 'Unlimited softwares' },
                 { feature: 'Single developer' },
-                { feature: "Lifetime access" },
-                { feature: 'Free updates' },
+                { feature: 'Unlimited commercial softwares' },
+                { feature: 'Lifetime free updates' },
                 { feature: 'Fluent Pro Client software' },
                 { feature: "One-on-one technical support" },
             ]
@@ -102,7 +101,7 @@ export const prices = {
                 { feature: "Lifetime access" },
                 { feature: 'Free updates' },
                 { feature: "Fluent Studio software" },
-                { feature: "customer group service" }
+                { feature: "Customer group service" }
             ]
         },
         {
@@ -120,7 +119,7 @@ export const prices = {
                 { feature: "Lifetime access" },
                 { feature: 'Free updates' },
                 { feature: "Fluent Studio software" },
-                { feature: "customer group service" },
+                { feature: "Customer group service" },
             ]
         }
     ],
