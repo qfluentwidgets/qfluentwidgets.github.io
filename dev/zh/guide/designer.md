@@ -7,13 +7,27 @@ permalink: /zh/pages/designer/
 在 Qt Designer 中，有两种使用 PyQt-Fluent-Widgets 的方式。
 
 
-### 使用 Fluent Client（全新上线，强烈推荐）
+### 使用插件
 
 **下述所有操作，必须在英文路径下完成。**
 
 Fluent Client 集成了设计师插件，支持在 Designer 中直接拖拽使用 QFluentWidgets 的组件，所见即所得，让现代化界面搭建如丝般顺滑！可从 [淘宝](https://item.taobao.com/item.htm?ft=t&id=767961666600) 或 [爱发电](https://afdian.net/item/62cc7298cd9411eeb14d52540025c377) 购买使用 Fluent Client。
 
+想自己折腾的话可以按照下述操作启动带有插件的设计师：
+1. 新建虚拟环境，推荐使用 conda
+2. 激活虚拟环就，安装依赖：
+
+    ```python
+    pip install PyQt-Fluent-Widgets
+    pip install pyqt5-tools
+    ```
+3. 从 [PyQt-Fluent-Widgets 仓库](https://github.com/zhiyiYo/PyQt-Fluent-Widgets) 下载代码
+4. 运行 `python tools/designer.py` 来启动设计师
+
+
 ![Fluent Designer](https://img.fastmirror.net/s/2024/02/18/65d22363d4a73.jpg)
+
+
 
 下述视频演示了 Fluent Client 的使用：
 <div style="position: relative; width:100%; padding-bottom: 56.25%; height: 0;">
