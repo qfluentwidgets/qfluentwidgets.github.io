@@ -31,7 +31,7 @@ The GPLv3 license has Copyleft provisions, which means that if your non-commerci
 
 
 ## Contact Us
-Official QQ Group: 932014902
+Official QQ Group: 832409830
 
 Customer Service: 1953658489
 
