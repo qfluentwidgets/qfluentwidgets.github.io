@@ -27,6 +27,7 @@ export const series = {
             text: "基本输入",
             children: [
                 "/zh/components/button",
+                "/zh/components/checkbox",
             ],
         }
     ],

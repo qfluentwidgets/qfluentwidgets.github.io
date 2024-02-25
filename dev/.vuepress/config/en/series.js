@@ -14,6 +14,7 @@ export const series = {
             text: "Basic Input",
             children: [
                 "/components/button",
+                "/components/checkbox",
             ],
         }
     ],
