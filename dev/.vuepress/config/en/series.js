@@ -15,6 +15,7 @@ export const series = {
             children: [
                 "/components/button",
                 "/components/checkbox",
+                "/components/combobox",
             ],
         }
     ],

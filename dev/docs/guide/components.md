@@ -4,6 +4,8 @@ date: 2023-08-25 17:35:27
 permalink: /pages/components/
 ---
 
+Detailed usage documents for each component can be found on the [Component Page](/components/button)
+
 ## Basic Input
 
 | Component Name                   | Description                |
