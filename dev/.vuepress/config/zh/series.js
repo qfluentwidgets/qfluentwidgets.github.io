@@ -22,4 +22,12 @@ export const series = {
             ],
         },
     ],
+    "/zh/components/": [
+        {
+            text: "基本输入",
+            children: [
+                "/zh/components/button",
+            ],
+        }
+    ],
 };

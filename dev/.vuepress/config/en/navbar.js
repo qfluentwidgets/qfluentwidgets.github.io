@@ -20,7 +20,7 @@ export const navbar = [
           },
           {
             text: 'Components',
-            link: '/pages/Components'
+            link: '/components/button'
           },
           {
             text: 'Pro',

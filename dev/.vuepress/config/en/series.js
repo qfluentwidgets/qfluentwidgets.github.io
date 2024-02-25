@@ -9,4 +9,12 @@ export const series = {
             children: ["/pages/theme", "/pages/icon", "/pages/navigation", "/pages/setting", "/pages/i18n"],
         },
     ],
+    "/components/": [
+        {
+            text: "Basic Input",
+            children: [
+                "/components/button",
+            ],
+        }
+    ],
 };
