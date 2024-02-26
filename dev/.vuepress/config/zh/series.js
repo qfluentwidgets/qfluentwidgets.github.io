@@ -30,6 +30,7 @@ export const series = {
                 "/zh/components/checkbox",
                 "/zh/components/combobox",
                 "/zh/components/radiobutton",
+                "/zh/components/slider",
             ],
         }
     ],

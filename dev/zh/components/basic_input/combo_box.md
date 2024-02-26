@@ -6,7 +6,7 @@ permalink: /zh/components/combobox/
 
 ## [ComboBox](https://pyqt-fluent-widgets.readthedocs.io/en/latest/autoapi/qfluentwidgets/components/widgets/combo_box/index.html#qfluentwidgets.components.widgets.combo_box.ComboBox)
 
-![Combo box](/img/components/combobox/ComboBox.jpg)
+![Combo box](/img/components/combobox/ComboBox.png)
 
 当选项过多时，使用下拉框展示并选择内容。`ComboBox` 继承自 `PushButton`，重新实现了 `QComboBox` 的大部分接口，但是无法在 Designer 中添加选项。
 
@@ -32,7 +32,7 @@ comboBox.setCurrentIndex(-1)
 
 ## [EditableComboBox](https://pyqt-fluent-widgets.readthedocs.io/en/latest/autoapi/qfluentwidgets/components/widgets/combo_box/index.html#qfluentwidgets.components.widgets.combo_box.EditableComboBox)
 
-![Editable combo box](/img/components/combobox/EditableComboBox.jpg)
+![Editable combo box](/img/components/combobox/EditableComboBox.png)
 
 `EditableComboBox` 允许用户编辑当前选项，按下回车可添加新选项。这个类继承自 `LineEdit`，同样不能在 Designer 中添加选项。
 

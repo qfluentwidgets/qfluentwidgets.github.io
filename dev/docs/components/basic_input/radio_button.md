@@ -6,7 +6,7 @@ permalink: /components/radiobutton/
 
 ### [RadioButton](https://pyqt-fluent-widgets.readthedocs.io/zh-cn/latest/autoapi/qfluentwidgets/components/widgets/button/index.html#qfluentwidgets.components.widgets.button.RadioButton)
 
-![RadioButton](/img/components/radiobutton/RadioButton.jpg)
+![RadioButton](/img/components/radiobutton/RadioButton.png)
 
 `RadioButton` is used for single selection among a group of alternatives, and its usage is the same as `QRadioButton`. It is generally used in combination with `QButtonGroup`.
 

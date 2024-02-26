@@ -6,7 +6,7 @@ permalink: /components/combobox/
 
 ## [ComboBox](https://pyqt-fluent-widgets.readthedocs.io/en/latest/autoapi/qfluentwidgets/components/widgets/combo_box/index.html#qfluentwidgets.components.widgets.combo_box.ComboBox)
 
-![Combo box](/img/components/combobox/ComboBox.jpg)
+![Combo box](/img/components/combobox/ComboBox.png)
 
 When there are too many options, use a drop-down box to display and select content. `ComboBox` inherits from `PushButton` and reimplements most of the `QComboBox` interfaces, but options cannot be added in Designer.
 
@@ -32,7 +32,7 @@ comboBox.setCurrentIndex(-1)
 
 ## [EditableComboBox](https://pyqt-fluent-widgets.readthedocs.io/en/latest/autoapi/qfluentwidgets/components/widgets/combo_box/index.html#qfluentwidgets.components.widgets.combo_box.EditableComboBox)
 
-![Editable combo box](/img/components/combobox/EditableComboBox.jpg)
+![Editable combo box](/img/components/combobox/EditableComboBox.png)
 
 `EditableComboBox` allows users to edit the current option, and pressing enter can add new options. This class inherits from `LineEdit`, and options also cannot be added in Designer.
 
