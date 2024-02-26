@@ -50,6 +50,12 @@ export const series = {
                 "/zh/components/flyout",
                 "/zh/components/teachingtip",
             ],
-        }
+        },
+        {
+            text: "布局",
+            children: [
+                "/zh/components/flowlayout",
+            ],
+        },
     ],
 };

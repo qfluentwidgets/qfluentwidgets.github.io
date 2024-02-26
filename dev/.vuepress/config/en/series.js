@@ -38,5 +38,11 @@ export const series = {
                 "/components/teachingtip",
             ],
         },
+        {
+            text: "Layout",
+            children: [
+                "/components/flowlayout",
+            ],
+        },
     ],
 };
