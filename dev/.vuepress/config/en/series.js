@@ -18,6 +18,7 @@ export const series = {
                 "/components/combobox",
                 "/components/radiobutton",
                 "/components/slider",
+                "/components/switchbutton",
             ],
         }
     ],
