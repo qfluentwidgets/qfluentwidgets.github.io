@@ -8,7 +8,7 @@ permalink: /zh/components/switchbutton/
 
 ![SwitchButton](/img/components/switchbutton/SwitchButton.png)
 
-`SwitchButton` 表示两种相互对立的状态间的切换，多用于触发「开/关」，开关状态改变时会发送 `checkChanged` 信号。
+`SwitchButton` 表示两种相互对立的状态间的切换，多用于触发「开/关」，开关状态改变时会发送 `checkedChanged(checked: bool)` 信号。
 
 ```python
 button = SwitchButton()

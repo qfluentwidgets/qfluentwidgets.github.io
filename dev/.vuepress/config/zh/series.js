@@ -32,6 +32,7 @@ export const series = {
                 "/zh/components/radiobutton",
                 "/zh/components/slider",
                 "/zh/components/switchbutton",
+                "/zh/components/datepicker",
             ],
         }
     ],
