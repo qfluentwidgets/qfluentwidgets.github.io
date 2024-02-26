@@ -41,6 +41,12 @@ export const series = {
                 "/zh/components/timepicker",
                 "/zh/components/calendarpicker",
             ],
+        },
+        {
+            text: "对话框",
+            children: [
+                "/zh/components/messagebox",
+            ],
         }
     ],
 };

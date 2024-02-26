@@ -29,5 +29,11 @@ export const series = {
                 "/components/calendarpicker",
             ],
         },
+        {
+            text: "Dialog & Flyout",
+            children: [
+                "/components/messagebox",
+            ],
+        },
     ],
 };
