@@ -105,6 +105,6 @@ class Demo(QWidget):
         self.hBoxLayout.addWidget(self.button, 0, Qt.AlignCenter)
         self.resize(600, 500)
 
-    def showFlyout3(self):
+    def showFlyout(self):
         Flyout.make(CustomFlyoutView(), self.button, self, aniType=FlyoutAnimationType.PULL_UP)
 ```

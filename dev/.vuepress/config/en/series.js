@@ -35,6 +35,7 @@ export const series = {
                 "/components/messagebox",
                 "/components/colordialog",
                 "/components/flyout",
+                "/components/teachingtip",
             ],
         },
     ],

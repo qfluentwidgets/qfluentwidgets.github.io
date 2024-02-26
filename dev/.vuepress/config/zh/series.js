@@ -48,6 +48,7 @@ export const series = {
                 "/zh/components/messagebox",
                 "/zh/components/colordialog",
                 "/zh/components/flyout",
+                "/zh/components/teachingtip",
             ],
         }
     ],
