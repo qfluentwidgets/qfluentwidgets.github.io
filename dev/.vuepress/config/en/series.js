@@ -33,6 +33,7 @@ export const series = {
             text: "Dialog & Flyout",
             children: [
                 "/components/messagebox",
+                "/components/colordialog",
             ],
         },
     ],

@@ -46,6 +46,7 @@ export const series = {
             text: "对话框",
             children: [
                 "/zh/components/messagebox",
+                "/zh/components/colordialog",
             ],
         }
     ],
