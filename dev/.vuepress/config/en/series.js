@@ -34,6 +34,7 @@ export const series = {
             children: [
                 "/components/messagebox",
                 "/components/colordialog",
+                "/components/flyout",
             ],
         },
     ],
