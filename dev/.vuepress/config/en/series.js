@@ -26,6 +26,7 @@ export const series = {
             children: [
                 "/components/datepicker",
                 "/components/timepicker",
+                "/components/calendarpicker",
             ],
         },
     ],

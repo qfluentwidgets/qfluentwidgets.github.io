@@ -39,6 +39,7 @@ export const series = {
             children: [
                 "/zh/components/datepicker",
                 "/zh/components/timepicker",
+                "/zh/components/calendarpicker",
             ],
         }
     ],
