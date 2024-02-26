@@ -6,7 +6,7 @@ export const series = {
         },
         {
             text: "Customize",
-            children: ["/pages/theme", "/pages/icon", "/pages/navigation", "/pages/setting", "/pages/i18n"],
+            children: ["/pages/theme", "/pages/icon", "/pages/setting", "/pages/i18n"],
         },
     ],
     "/components/": [
@@ -49,6 +49,13 @@ export const series = {
             children: [
                 "/components/menu",
                 "/components/commandbar",
+            ],
+        },
+        {
+            text: "Navigation",
+            children: [
+                "/components/navigationbar",
+                "/components/breadcrumbbar",
             ],
         },
     ],

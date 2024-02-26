@@ -44,10 +44,6 @@ export const navbar = [
             link: '/pages/icon'
           },
           {
-            text: 'Navigation',
-            link: '/pages/navigation'
-          },
-          {
             text: 'Settings',
             link: '/pages/setting'
           },

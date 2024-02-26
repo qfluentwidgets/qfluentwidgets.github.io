@@ -44,10 +44,6 @@ export const navbar = [
             link: '/zh/pages/icon'
           },
           {
-            text: '导航',
-            link: '/zh/pages/navigation'
-          },
-          {
             text: '设置',
             link: '/zh/pages/setting'
           },

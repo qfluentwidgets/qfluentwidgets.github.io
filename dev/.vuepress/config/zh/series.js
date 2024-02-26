@@ -16,7 +16,6 @@ export const series = {
             children: [
                 "/zh/pages/theme",
                 "/zh/pages/icon",
-                "/zh/pages/navigation",
                 "/zh/pages/setting",
                 "/zh/pages/i18n"
             ],
@@ -62,6 +61,13 @@ export const series = {
             children: [
                 "/zh/components/menu",
                 "/zh/components/commandbar",
+            ],
+        },
+        {
+            text: "导航",
+            children: [
+                "/zh/components/navigationbar",
+                "/zh/components/breadcrumbbar",
             ],
         },
     ],
