@@ -56,3 +56,37 @@ if w.exec():
 else:
     print('Canceled')
 ```
+
+
+### [MessageBoxBase](https://pyqt-fluent-widgets.readthedocs.io/en/latest/autoapi/qfluentwidgets/components/dialog_box/message_box_base/index.html#qfluentwidgets.components.dialog_box.message_box_base.MessageBoxBase)
+
+If you want to customize the content of the message box, you can inherit `MessageBoxBase` and add components to the `viewLayout` layout. The following code creates an input box dialog:
+
+```python
+class CustomMessageBox(MessageBoxBase):
+    """ Custom message box """
+
+    def __init__(self, parent=None):
+        super().__init__(parent)
+        self.titleLabel = SubtitleLabel('Open URL')
+        self.urlLineEdit = LineEdit()
+
+        self.urlLineEdit.setPlaceholderText('Enter the URL of a file, stream, or playlist')
+        self.urlLineEdit.setClearButtonEnabled(True)
+
+        # Add components to the layout
+        self.viewLayout.addWidget(self.titleLabel)
+        self.viewLayout.addWidget(self.urlLineEdit)
+
+        # Set the minimum width of the dialog box
+        self.widget.setMinimumWidth(350)
+
+
+def showMessage(window):
+    w = CustomMessageBox(window)
+    if w.exec():
+        print(w.urlLineEdit.text())
+```
+
+The running effect is as follows:
+![CustomMessageBox](/img/components/messagebox/CustomMessageBox.png)

@@ -56,3 +56,35 @@ if w.exec():
 else:
     print('取消')
 ```
+
+### [MessageBoxBase](https://pyqt-fluent-widgets.readthedocs.io/zh-cn/latest/autoapi/qfluentwidgets/components/dialog_box/message_box_base/index.html#qfluentwidgets.components.dialog_box.message_box_base.MessageBoxBase)
+
+如果你想自定义对话框的内容，可继承 `MessageBoxBase` 并往 `viewLayout` 垂直布局中添加组件。下述代码创建了一个输入框对话框：
+```python
+class CustomMessageBox(MessageBoxBase):
+    """ Custom message box """
+
+    def __init__(self, parent=None):
+        super().__init__(parent)
+        self.titleLabel = SubtitleLabel('打开 URL')
+        self.urlLineEdit = LineEdit()
+
+        self.urlLineEdit.setPlaceholderText('输入文件、流或者播放列表的 URL')
+        self.urlLineEdit.setClearButtonEnabled(True)
+
+        # 将组件添加到布局中
+        self.viewLayout.addWidget(self.titleLabel)
+        self.viewLayout.addWidget(self.urlLineEdit)
+
+        # 设置对话框的最小宽度
+        self.widget.setMinimumWidth(350)
+
+
+def showMessage(window):
+    w = CustomMessageBox(window)
+    if w.exec():
+        print(w.urlLineEdit.text())
+```
+
+运行效果如下：
+![CustomMessageBox](/img/components/messagebox/CustomMessageBox.png)
