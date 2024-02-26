@@ -57,5 +57,11 @@ export const series = {
                 "/zh/components/flowlayout",
             ],
         },
+        {
+            text: "菜单",
+            children: [
+                "/zh/components/menu",
+            ],
+        },
     ],
 };

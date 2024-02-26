@@ -44,5 +44,11 @@ export const series = {
                 "/components/flowlayout",
             ],
         },
+        {
+            text: "Menu",
+            children: [
+                "/components/menu",
+            ],
+        },
     ],
 };
