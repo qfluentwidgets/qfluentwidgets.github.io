@@ -8,7 +8,7 @@ permalink: /zh/components/checkbox/
 
 ![CheckBox](/img/components/checkbox/CheckBox.jpg)
 
-`CheckBox` 用于表示选中操作，使用方式与 `QCheckBox` 相同。
+`CheckBox` 用于在一组备选项中进行多选，使用方式与 `QCheckBox` 相同。
 
 ```python
 checkBox = CheckBox("Text")

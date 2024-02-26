@@ -20,7 +20,7 @@ export const navbar = [
           },
           {
             text: '组件',
-            link: '/zh/components/button'
+            link: '/zh/pages/components'
           },
           {
             text: '商用版',
