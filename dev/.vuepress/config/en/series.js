@@ -48,6 +48,7 @@ export const series = {
             text: "Menu",
             children: [
                 "/components/menu",
+                "/components/commandbar",
             ],
         },
     ],

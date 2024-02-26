@@ -61,6 +61,7 @@ export const series = {
             text: "菜单",
             children: [
                 "/zh/components/menu",
+                "/zh/components/commandbar",
             ],
         },
     ],
