@@ -19,8 +19,14 @@ export const series = {
                 "/components/radiobutton",
                 "/components/slider",
                 "/components/switchbutton",
-                "/components/datepicker",
             ],
-        }
+        },
+        {
+            text: "Date Time",
+            children: [
+                "/components/datepicker",
+                "/components/timepicker",
+            ],
+        },
     ],
 };

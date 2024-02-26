@@ -4,7 +4,7 @@ date: 2024-02-25 19:15:01
 permalink: /components/checkbox/
 ---
 
-### [CheckBox](https://pyqt-fluent-widgets.readthedocs.io/zh-cn/latest/autoapi/qfluentwidgets/components/widgets/check_box/index.html#qfluentwidgets.components.widgets.check_box.CheckBox)
+### [CheckBox](https://pyqt-fluent-widgets.readthedocs.io/en/latest/autoapi/qfluentwidgets/components/widgets/check_box/index.html#qfluentwidgets.components.widgets.check_box.CheckBox)
 
 ![CheckBox](/img/components/checkbox/CheckBox.jpg)
 

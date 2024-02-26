@@ -4,7 +4,7 @@ date: 2024-02-26 11:29:01
 permalink: /components/switchbutton/
 ---
 
-### [SwitchButton](https://pyqt-fluent-widgets.readthedocs.io/zh-cn/latest/autoapi/qfluentwidgets/components/widgets/switch_button/index.html#qfluentwidgets.components.widgets.switch_button.SwitchButton)
+### [SwitchButton](https://pyqt-fluent-widgets.readthedocs.io/en/latest/autoapi/qfluentwidgets/components/widgets/switch_button/index.html#qfluentwidgets.components.widgets.switch_button.SwitchButton)
 
 ![SwitchButton](/img/components/switchbutton/SwitchButton.png)
 

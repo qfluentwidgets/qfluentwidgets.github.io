@@ -32,7 +32,13 @@ export const series = {
                 "/zh/components/radiobutton",
                 "/zh/components/slider",
                 "/zh/components/switchbutton",
+            ],
+        },
+        {
+            text: "日期时间",
+            children: [
                 "/zh/components/datepicker",
+                "/zh/components/timepicker",
             ],
         }
     ],

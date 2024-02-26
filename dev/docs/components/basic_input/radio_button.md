@@ -4,7 +4,7 @@ date: 2024-02-26 11:29:01
 permalink: /components/radiobutton/
 ---
 
-### [RadioButton](https://pyqt-fluent-widgets.readthedocs.io/zh-cn/latest/autoapi/qfluentwidgets/components/widgets/button/index.html#qfluentwidgets.components.widgets.button.RadioButton)
+### [RadioButton](https://pyqt-fluent-widgets.readthedocs.io/en/latest/autoapi/qfluentwidgets/components/widgets/button/index.html#qfluentwidgets.components.widgets.button.RadioButton)
 
 ![RadioButton](/img/components/radiobutton/RadioButton.png)
 

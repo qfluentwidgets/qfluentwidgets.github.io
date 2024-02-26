@@ -4,7 +4,7 @@ date: 2024-02-26 12:32:01
 permalink: /components/datepicker/
 ---
 
-### [DatePicker](https://pyqt-fluent-widgets.readthedocs.io/zh-cn/latest/autoapi/qfluentwidgets/components/date_time/date_picker/index.html#qfluentwidgets.components.date_time.date_picker.DatePicker)
+### [DatePicker](https://pyqt-fluent-widgets.readthedocs.io/en/latest/autoapi/qfluentwidgets/components/date_time/date_picker/index.html#qfluentwidgets.components.date_time.date_picker.DatePicker)
 
 ![DatePicker](/img/components/datepicker/DatePicker.png)
 
@@ -40,7 +40,7 @@ class MonthFormatter(PickerColumnFormatter):
 datePicker.setColumnFormatter(0, MonthFormatter())
 ```
 
-### [ZhDatePicker](https://pyqt-fluent-widgets.readthedocs.io/zh-cn/latest/autoapi/qfluentwidgets/components/date_time/date_picker/index.html#qfluentwidgets.components.date_time.date_picker.ZhDatePicker)
+### [ZhDatePicker](https://pyqt-fluent-widgets.readthedocs.io/en/latest/autoapi/qfluentwidgets/components/date_time/date_picker/index.html#qfluentwidgets.components.date_time.date_picker.ZhDatePicker)
 
 ![ZhDatePicker](/img/components/datepicker/ZhDatePicker.png)
 
