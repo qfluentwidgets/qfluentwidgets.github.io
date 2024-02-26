@@ -13,7 +13,7 @@ permalink: /components/breadcrumbbar/
 You can append a node to the right by using `addItem()`. When there are too many nodes to fit in the viewport, the nodes on the left will be folded into the menu:
 
 ```python
-breadcrumb = BreadcrumbBar(self)
+breadcrumb = BreadcrumbBar()
 items = ["Home", "Documents", "Learning Materials", "Action Movies", "Ip Man"]
 for item in items:
     # The first parameter is routeKey, which must be globally unique
@@ -27,6 +27,6 @@ breadcrumbBar.currentItemChanged.connect(lambda key: print(key))
 
 Adjust the layout and font of the breadcrumb:
 ```python
-setFont(breadcrumbBar, 26)
+qfluentwidgets.setFont(breadcrumbBar, 26)
 breadcrumbBar.setSpacing(20)
 ```

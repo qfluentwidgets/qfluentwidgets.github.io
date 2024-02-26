@@ -55,6 +55,7 @@ export const series = {
             text: "Navigation",
             children: [
                 "/components/navigationbar",
+                "/components/topnavigationbar",
                 "/components/breadcrumbbar",
             ],
         },

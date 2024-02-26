@@ -67,6 +67,7 @@ export const series = {
             text: "导航",
             children: [
                 "/zh/components/navigationbar",
+                "/zh/components/topnavigationbar",
                 "/zh/components/breadcrumbbar",
             ],
         },

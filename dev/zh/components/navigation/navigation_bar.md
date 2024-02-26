@@ -4,7 +4,7 @@ date: 2023-08-17 19:00:22
 permalink: /zh/components/navigationbar/
 ---
 
-## 侧边导航栏
+## [NavigationInterface](https://pyqt-fluent-widgets.readthedocs.io/zh-cn/latest/autoapi/qfluentwidgets/components/navigation/navigation_interface/index.html#qfluentwidgets.components.navigation.navigation_interface.NavigationInterface)
 ### 结构
 
 QFluentWidgets 提供侧边导航类 `NavigationInterface`，可以将它和 `QStackWidget` 放在 `QHBoxLayout` 中，实现多子界面跳转，示例程序参见 [navigation2](https://github.com/zhiyiYo/PyQt-Fluent-Widgets/tree/master/examples/navigation/navigation2/demo.py)。
@@ -109,7 +109,7 @@ def addWidget(
 ![](https://pyqt-fluent-widgets.readthedocs.io/en/latest/_images/NavigationInterface_Minimal.jpg)
 
 
-## FluentWindow
+## [FluentWindow](https://pyqt-fluent-widgets.readthedocs.io/zh-cn/latest/autoapi/qfluentwidgets/window/fluent_window/index.html#)
 QFluentWidgets 对侧边导航栏进行了封装，提供了开箱即用的 `FluentWindow`、`SplitFluentWindow` 和 `MSFluentWindow` 类。三个类的使用方式相似，以 `FluentWindow` 为例，只需调用 `addSubInterface()` 方法就能完成添加子界面的任务：
 
 

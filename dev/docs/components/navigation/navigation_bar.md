@@ -1,9 +1,10 @@
 ---
-title: Navigation Bar
+title: Left Navigation Bar
 date: 2023-08-17 19:00:22
 permalink: /components/navigationbar/
 ---
-## NavigationInterface
+
+## [NavigationInterface](https://pyqt-fluent-widgets.readthedocs.io/zh-cn/latest/autoapi/qfluentwidgets/components/navigation/navigation_interface/index.html#qfluentwidgets.components.navigation.navigation_interface.NavigationInterface)
 ### Structure
 
 PyQt Fluent Widgets provides a side navigation class `NavigationInterface`. You can use it with `QStackWidget` and put them in `QHBoxLayout`. Examples are available at [navigation2](https://github.com/zhiyiYo/PyQt-Fluent-Widgets/tree/master/examples/navigation/navigation2/demo.py).
@@ -111,7 +112,7 @@ Minimal display mode navigation interface is available at [navigation3](https://
 ![](https://pyqt-fluent-widgets.readthedocs.io/en/latest/_images/NavigationInterface_Minimal.jpg)
 
 
-## FluentWindow
+## [FluentWindow](https://pyqt-fluent-widgets.readthedocs.io/zh-cn/latest/autoapi/qfluentwidgets/window/fluent_window/index.html#)
 QFluentWidgets encapsulates the side navigation bar and provides out-of-the-box `FluentWindow`, `SplitFluentWindow` and `MSFluentWindow` classes. The usage of these three classes is similar. Taking `FluentWindow` as an example, you can simply call the `addSubInterface()` method to add a sub-interface.
 
 ```python
@@ -162,12 +163,12 @@ class Widget(QFrame):
 
 
 class Window(FluentWindow):
-    """ 主界面 """
+    """ Main Window """
 
     def __init__(self):
         super().__init__()
 
-        # 创建子界面，实际使用时将 Widget 换成自己的子界面
+        # Create subinterface
         self.homeInterface = Widget('Home Interface', self)
         self.musicInterface = Widget('Music Interface', self)
         self.videoInterface = Widget('Video Interface', self)
