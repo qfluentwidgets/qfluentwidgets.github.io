@@ -72,6 +72,7 @@ export const series = {
                 "/components/infobadge",
                 "/components/infobar",
                 "/components/progressbar",
+                "/components/progressring",
             ],
         },
     ],
