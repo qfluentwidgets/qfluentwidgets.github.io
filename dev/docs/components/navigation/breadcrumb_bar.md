@@ -30,3 +30,63 @@ Adjust the layout and font of the breadcrumb:
 qfluentwidgets.setFont(breadcrumbBar, 26)
 breadcrumbBar.setSpacing(20)
 ```
+
+The breadcrumb navigation bar is often used with `QStackedWidget`:
+
+```python
+class Demo(QWidget):
+
+    def __init__(self):
+        super().__init__()
+        self.setStyleSheet('Demo{background:rgb(255,255,255)}')
+
+        self.breadcrumbBar = BreadcrumbBar(self)
+        self.stackedWidget = QStackedWidget(self)
+
+        self.lineEdit = LineEdit(self)
+        self.addButton = PrimaryToolButton(FluentIcon.SEND, self)
+
+        self.vBoxLayout = QVBoxLayout(self)
+        self.lineEditLayout = QHBoxLayout()
+
+        # Add a new navigation item and sub-interface when the enter key is pressed or the button is clicked
+        self.addButton.clicked.connect(lambda: self.addInterface(self.lineEdit.text()))
+        self.lineEdit.returnPressed.connect(lambda: self.addInterface(self.lineEdit.text()))
+        self.breadcrumbBar.currentItemChanged.connect(self.switchInterface)
+
+        # Adjust the size of the breadcrumb navigation
+        setFont(self.breadcrumbBar, 26)
+        self.breadcrumbBar.setSpacing(20)
+        self.lineEdit.setPlaceholderText('Enter the name of interface')
+
+        # Add two navigation items
+        self.addInterface('Home')
+        self.addInterface('Documents')
+
+        # Initialize layout
+        self.vBoxLayout.setContentsMargins(20, 20, 20, 20)
+        self.vBoxLayout.addWidget(self.breadcrumbBar)
+        self.vBoxLayout.addWidget(self.stackedWidget)
+        self.vBoxLayout.addLayout(self.lineEditLayout)
+
+        self.lineEditLayout.addWidget(self.lineEdit, 1)
+        self.lineEditLayout.addWidget(self.addButton)
+        self.resize(500, 500)
+
+    def addInterface(self, text: str):
+        if not text:
+            return
+
+        w = SubtitleLabel(text)
+        w.setObjectName(uuid1().hex)    # Use a randomly generated route key
+        w.setAlignment(Qt.AlignCenter)
+
+        self.lineEdit.clear()
+        self.stackedWidget.addWidget(w)
+        self.stackedWidget.setCurrentWidget(w)
+
+        self.breadcrumbBar.addItem(w.objectName(), text)
+
+    def switchInterface(self, objectName):
+        self.stackedWidget.setCurrentWidget(self.findChild(SubtitleLabel, objectName))
+```

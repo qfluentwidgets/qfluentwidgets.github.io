@@ -21,6 +21,14 @@ comboBox.addItems(items)
 comboBox.currentIndexChanged.connect(lambda index: print(comboBox.currentText()))
 ```
 
+每个选项都可以绑定数据：
+```python
+comboBox.addItem('leetcode', userData="剑指 Offer")
+
+# "leetcode" 对应的索引为 4，返回值为 "剑指 Offer"
+comboBox.itemData(4)
+```
+
 添加选项之后默认选中第一个选项，如需取消选中：
 ```python
 # 设置提示文本

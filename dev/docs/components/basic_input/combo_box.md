@@ -21,6 +21,14 @@ comboBox.addItems(items)
 comboBox.currentIndexChanged.connect(lambda index: print(comboBox.currentText()))
 ```
 
+Each option can be bound to data:
+```python
+comboBox.addItem('leetcode', userData="Sword Pointing to Offer")
+
+# The index corresponding to "leetcode" is 4, and the return value is "Sword Pointing to Offer"
+comboBox.itemData(4)
+```
+
 After adding options, the first option is selected by default. To deselect:
 ```python
 # Set placeholder text

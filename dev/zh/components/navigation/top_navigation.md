@@ -26,6 +26,54 @@ pivot.setCurrentItem("albumInterface")
 print(pivot.currentItem())
 ```
 
+顶部导航栏通常与 `QStackedWidget` 一同使用，当用户点击不同的标签项时会切换当前页面。
+
+```python
+class Demo(QWidget):
+
+    def __init__(self):
+        super().__init__()
+        self.pivot = Pivot(self)
+        self.stackedWidget = QStackedWidget(self)
+        self.vBoxLayout = QVBoxLayout(self)
+
+        self.songInterface = QLabel('Song Interface', self)
+        self.albumInterface = QLabel('Album Interface', self)
+        self.artistInterface = QLabel('Artist Interface', self)
+
+        # 添加标签页
+        self.addSubInterface(self.songInterface, 'songInterface', 'Song')
+        self.addSubInterface(self.albumInterface, 'albumInterface', 'Album')
+        self.addSubInterface(self.artistInterface, 'artistInterface', 'Artist')
+
+        # 连接信号并初始化当前标签页
+        self.stackedWidget.currentChanged.connect(self.onCurrentIndexChanged)
+        self.stackedWidget.setCurrentWidget(self.songInterface)
+        self.pivot.setCurrentItem(self.songInterface.objectName())
+
+        self.vBoxLayout.setContentsMargins(30, 0, 30, 30)
+        self.vBoxLayout.addWidget(self.pivot, 0, Qt.AlignHCenter)
+        self.vBoxLayout.addWidget(self.stackedWidget)
+        self.resize(400, 400)
+
+    def addSubInterface(self, widget: QLabel, objectName: str, text: str):
+        widget.setObjectName(objectName)
+        widget.setAlignment(Qt.AlignCenter)
+        self.stackedWidget.addWidget(widget)
+
+        # 使用全局唯一的 objectName 作为路由键
+        self.pivot.addItem(
+            routeKey=objectName,
+            text=text,
+            onClick=lambda: self.stackedWidget.setCurrentWidget(widget)
+        )
+
+    def onCurrentIndexChanged(self, index):
+        widget = self.stackedWidget.widget(index)
+        self.pivot.setCurrentItem(widget.objectName())
+```
+
+
 ### [SegmentedWidget](https://pyqt-fluent-widgets.readthedocs.io/zh-cn/latest/autoapi/qfluentwidgets/components/navigation/segmented_widget/index.html#qfluentwidgets.components.navigation.segmented_widget.SegmentedWidget)
 
 ![SegmentedWidget](/img/components/topnavigationbar/SegmentedWidget.png)

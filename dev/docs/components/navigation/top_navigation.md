@@ -26,6 +26,53 @@ pivot.setCurrentItem("albumInterface")
 print(pivot.currentItem())
 ```
 
+The top navigation bar is often used with `QStackedWidget`. When users click on different tab items, the current page will be switched.
+
+```python
+class Demo(QWidget):
+
+    def __init__(self):
+        super().__init__()
+        self.pivot = Pivot(self)
+        self.stackedWidget = QStackedWidget(self)
+        self.vBoxLayout = QVBoxLayout(self)
+
+        self.songInterface = QLabel('Song Interface', self)
+        self.albumInterface = QLabel('Album Interface', self)
+        self.artistInterface = QLabel('Artist Interface', self)
+
+        # Add tabs
+        self.addSubInterface(self.songInterface, 'songInterface', 'Song')
+        self.addSubInterface(self.albumInterface, 'albumInterface', 'Album')
+        self.addSubInterface(self.artistInterface, 'artistInterface', 'Artist')
+
+        # Connect signal and initialize the current tab
+        self.stackedWidget.currentChanged.connect(self.onCurrentIndexChanged)
+        self.stackedWidget.setCurrentWidget(self.songInterface)
+        self.pivot.setCurrentItem(self.songInterface.objectName())
+
+        self.vBoxLayout.setContentsMargins(30, 0, 30, 30)
+        self.vBoxLayout.addWidget(self.pivot, 0, Qt.AlignHCenter)
+        self.vBoxLayout.addWidget(self.stackedWidget)
+        self.resize(400, 400)
+
+    def addSubInterface(self, widget: QLabel, objectName: str, text: str):
+        widget.setObjectName(objectName)
+        widget.setAlignment(Qt.AlignCenter)
+        self.stackedWidget.addWidget(widget)
+
+        # Use the globally unique objectName as the route key
+        self.pivot.addItem(
+            routeKey=objectName,
+            text=text,
+            onClick=lambda: self.stackedWidget.setCurrentWidget(widget)
+        )
+
+    def onCurrentIndexChanged(self, index):
+        widget = self.stackedWidget.widget(index)
+        self.pivot.setCurrentItem(widget.objectName())
+```
+
 ### [SegmentedWidget](https://pyqt-fluent-widgets.readthedocs.io/en/latest/autoapi/qfluentwidgets/components/navigation/segmented_widget/index.html#qfluentwidgets.components.navigation.segmented_widget.SegmentedWidget)
 
 ![SegmentedWidget](/img/components/topnavigationbar/SegmentedWidget.png)
