@@ -75,6 +75,7 @@ export const series = {
             text: "滚动",
             children: [
                 "/zh/components/scrollarea",
+                "/zh/components/pager",
             ],
         },
     ],

@@ -63,6 +63,7 @@ export const series = {
             text: "Scroll",
             children: [
                 "/components/scrollarea",
+                "/components/pager",
             ],
         },
     ],
