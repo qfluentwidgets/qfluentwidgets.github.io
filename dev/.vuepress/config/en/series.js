@@ -71,6 +71,7 @@ export const series = {
             children: [
                 "/components/infobadge",
                 "/components/infobar",
+                "/components/progressbar",
             ],
         },
     ],

@@ -83,6 +83,7 @@ export const series = {
             children: [
                 "/zh/components/infobadge",
                 "/zh/components/infobar",
+                "/zh/components/progressbar",
             ],
         },
     ],
