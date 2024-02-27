@@ -84,5 +84,11 @@ export const series = {
                 "/components/spinbox",
             ],
         },
+        {
+            text: "View",
+            children: [
+                "/components/flipview",
+            ],
+        },
     ],
 };

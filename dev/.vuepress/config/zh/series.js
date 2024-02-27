@@ -96,5 +96,11 @@ export const series = {
                 "/zh/components/spinbox",
             ],
         },
+        {
+            text: "视图",
+            children: [
+                "/zh/components/flipview",
+            ],
+        },
     ],
 };
