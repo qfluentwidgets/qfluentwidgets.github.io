@@ -90,6 +90,7 @@ export const series = {
                 "/components/flipview",
                 "/components/listview",
                 "/components/tableview",
+                "/components/treeview",
             ],
         },
     ],

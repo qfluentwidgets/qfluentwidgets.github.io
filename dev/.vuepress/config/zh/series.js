@@ -102,6 +102,7 @@ export const series = {
                 "/zh/components/flipview",
                 "/zh/components/listview",
                 "/zh/components/tableview",
+                "/zh/components/treeview",
             ],
         },
     ],

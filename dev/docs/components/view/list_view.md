@@ -4,7 +4,7 @@ date: 2024-02-27 20:23:00
 permalink: /components/listview/
 ---
 
-### [ListWidget](https://pyqt-fluent-widgets.readthedocs.io/zh-cn/latest/autoapi/qfluentwidgets/components/widgets/list_view/index.html#qfluentwidgets.components.widgets.list_view.ListWidget)
+### [ListWidget](https://pyqt-fluent-widgets.readthedocs.io/en/latest/autoapi/qfluentwidgets/components/widgets/list_view/index.html#qfluentwidgets.components.widgets.list_view.ListWidget)
 
 ![ListWidget](/img/components/listview/ListView.png)
 
@@ -35,6 +35,6 @@ By default, right-clicking an item in the list does not update the selected stat
 listWidget.setSelectRightClickedRow(True)
 ```
 
-### [ListView](https://pyqt-fluent-widgets.readthedocs.io/zh-cn/latest/autoapi/qfluentwidgets/components/widgets/list_view/index.html#qfluentwidgets.components.widgets.list_view.ListView)
+### [ListView](https://pyqt-fluent-widgets.readthedocs.io/en/latest/autoapi/qfluentwidgets/components/widgets/list_view/index.html#qfluentwidgets.components.widgets.list_view.ListView)
 
 `ListView` is used to display data in the model. The usage is completely the same as `QListView`.

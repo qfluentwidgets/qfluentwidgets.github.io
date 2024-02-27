@@ -4,7 +4,7 @@ date: 2024-02-27 20:23:00
 permalink: /components/tableview/
 ---
 
-### [TableWidget](https://pyqt-fluent-widgets.readthedocs.io/zh-cn/latest/autoapi/qfluentwidgets/components/widgets/table_view/index.html#qfluentwidgets.components.widgets.table_view.TableWidget)
+### [TableWidget](https://pyqt-fluent-widgets.readthedocs.io/en/latest/autoapi/qfluentwidgets/components/widgets/table_view/index.html#qfluentwidgets.components.widgets.table_view.TableWidget)
 
 ![TableWidget](/img/components/tableview/TableView.png)
 
@@ -42,6 +42,6 @@ table.setSelectRightClickedRow(True)
 ```
 
 
-### [TableView](https://pyqt-fluent-widgets.readthedocs.io/zh-cn/latest/autoapi/qfluentwidgets/components/widgets/table_view/index.html#qfluentwidgets.components.widgets.table_view.TableView)
+### [TableView](https://pyqt-fluent-widgets.readthedocs.io/en/latest/autoapi/qfluentwidgets/components/widgets/table_view/index.html#qfluentwidgets.components.widgets.table_view.TableView)
 
 The usage of `TableView` is completely the same as `QTableView`.
