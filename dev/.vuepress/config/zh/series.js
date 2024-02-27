@@ -78,5 +78,11 @@ export const series = {
                 "/zh/components/pager",
             ],
         },
+        {
+            text: "状态信息",
+            children: [
+                "/zh/components/infobadge",
+            ],
+        },
     ],
 };

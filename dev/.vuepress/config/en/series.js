@@ -66,5 +66,11 @@ export const series = {
                 "/components/pager",
             ],
         },
+        {
+            text: "Status & Info",
+            children: [
+                "/components/infobadge",
+            ],
+        },
     ],
 };

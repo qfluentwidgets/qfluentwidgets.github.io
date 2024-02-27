@@ -1,5 +1,5 @@
 ---
-title: Pager
+title: 分页器
 date: 2024-02-27 11:25:00
 permalink: /zh/components/pager/
 ---
