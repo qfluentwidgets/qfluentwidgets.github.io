@@ -80,6 +80,7 @@ export const series = {
             text: "Text",
             children: [
                 "/components/label",
+                "/components/lineedit",
             ],
         },
     ],

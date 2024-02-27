@@ -92,6 +92,7 @@ export const series = {
             text: "文本",
             children: [
                 "/zh/components/label",
+                "/zh/components/lineedit",
             ],
         },
     ],
