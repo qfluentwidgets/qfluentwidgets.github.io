@@ -100,6 +100,7 @@ export const series = {
             text: "视图",
             children: [
                 "/zh/components/flipview",
+                "/zh/components/listview",
             ],
         },
     ],

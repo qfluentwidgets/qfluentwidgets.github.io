@@ -88,6 +88,7 @@ export const series = {
             text: "View",
             children: [
                 "/components/flipview",
+                "/components/listview",
             ],
         },
     ],
