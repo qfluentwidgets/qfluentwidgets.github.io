@@ -3,7 +3,7 @@ title: Label
 date: 2024-02-27 13:34:00
 permalink: /components/label/
 ---
-### [FluentLabelBase](https://pyqt-fluent-widgets.readthedocs.io/zh-cn/latest/autoapi/qfluentwidgets/components/widgets/label/index.html#qfluentwidgets.components.widgets.label.FluentLabelBase)
+### [FluentLabelBase](https://pyqt-fluent-widgets.readthedocs.io/en/latest/autoapi/qfluentwidgets/components/widgets/label/index.html#qfluentwidgets.components.widgets.label.FluentLabelBase)
 
 ![FluentLabel](/img/components/label/FluentLabel.png)
 
@@ -22,7 +22,7 @@ label = BodyLabel("Label")
 label.setTextColor(QColor(0, 255, 0), QColor(255, 0, 0))  # Light theme, dark theme
 ```
 
-### [HyperlinkLabel](https://pyqt-fluent-widgets.readthedocs.io/zh-cn/latest/autoapi/qfluentwidgets/components/widgets/label/index.html#qfluentwidgets.components.widgets.label.HyperlinkLabel)
+### [HyperlinkLabel](https://pyqt-fluent-widgets.readthedocs.io/en/latest/autoapi/qfluentwidgets/components/widgets/label/index.html#qfluentwidgets.components.widgets.label.HyperlinkLabel)
 
 ![HyperlinkLabel](/img/components/label/HyperlinkLabel.png)
 
@@ -39,7 +39,7 @@ label.setUrl('https://github.com/zhiyiYo/QMaterialWidgets')
 print(label.url)
 ```
 
-### [ImageLabel](https://pyqt-fluent-widgets.readthedocs.io/zh-cn/latest/autoapi/qfluentwidgets/components/widgets/label/index.html#qfluentwidgets.components.widgets.label.ImageLabel)
+### [ImageLabel](https://pyqt-fluent-widgets.readthedocs.io/en/latest/autoapi/qfluentwidgets/components/widgets/label/index.html#qfluentwidgets.components.widgets.label.ImageLabel)
 
 ![ImageLabel](/img/components/label/ImageLabel.png)
 
@@ -56,7 +56,7 @@ image.scaleToHeight(300)
 image.setBorderRadius(8, 8, 8, 8)
 ```
 
-### [AvatarWidget](https://pyqt-fluent-widgets.readthedocs.io/zh-cn/latest/autoapi/qfluentwidgets/components/widgets/label/index.html#qfluentwidgets.components.widgets.label.AvatarWidget)
+### [AvatarWidget](https://pyqt-fluent-widgets.readthedocs.io/en/latest/autoapi/qfluentwidgets/components/widgets/label/index.html#qfluentwidgets.components.widgets.label.AvatarWidget)
 
 ![AvatarWidget](/img/components/label/AvatarWidget.png)
 

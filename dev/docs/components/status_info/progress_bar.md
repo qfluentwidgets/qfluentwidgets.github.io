@@ -4,7 +4,7 @@ date: 2024-02-27 13:34:00
 permalink: /components/progressbar/
 ---
 
-### [ProgressBar](https://pyqt-fluent-widgets.readthedocs.io/zh-cn/latest/autoapi/qfluentwidgets/components/widgets/progress_bar/index.html)
+### [ProgressBar](https://pyqt-fluent-widgets.readthedocs.io/en/latest/autoapi/qfluentwidgets/components/widgets/progress_bar/index.html)
 
 ![ProgressBar](/img/components/progressbar/ProgressBar.png)
 
@@ -36,7 +36,7 @@ Customize the color of the progress bar:
 progressBar.setCustomBarColor(QColor(255, 0, 0), QColor(0, 255, 110))
 ```
 
-### [IndeterminateProgressBar](https://pyqt-fluent-widgets.readthedocs.io/zh-cn/latest/autoapi/qfluentwidgets/components/widgets/progress_bar/index.html#qfluentwidgets.components.widgets.progress_bar.IndeterminateProgressBar)
+### [IndeterminateProgressBar](https://pyqt-fluent-widgets.readthedocs.io/en/latest/autoapi/qfluentwidgets/components/widgets/progress_bar/index.html#qfluentwidgets.components.widgets.progress_bar.IndeterminateProgressBar)
 
 `IndeterminateProgressBar` represents a long-running task that is in progress but its completion time is unknown. This type of progress bar is very useful when there is no clear completion time or progress information, such as when loading or processing a large amount of data.
 

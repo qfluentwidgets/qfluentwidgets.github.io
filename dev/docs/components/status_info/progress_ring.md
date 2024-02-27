@@ -4,7 +4,7 @@ date: 2024-02-27 13:34:00
 permalink: /components/progressring/
 ---
 
-### [ProgressRing](https://pyqt-fluent-widgets.readthedocs.io/zh-cn/latest/autoapi/qfluentwidgets/components/widgets/progress_ring/index.html#qfluentwidgets.components.widgets.progress_ring.ProgressRing)
+### [ProgressRing](https://pyqt-fluent-widgets.readthedocs.io/en/latest/autoapi/qfluentwidgets/components/widgets/progress_ring/index.html#qfluentwidgets.components.widgets.progress_ring.ProgressRing)
 
 ![ProgressRing](/img/components/progressring/ProgressRing.png)
 
@@ -32,7 +32,7 @@ Adjust the text format of the progress ring, for example, to display temperature
 ring.setFormat("%v℃")
 ```
 
-### [IndeterminateProgressRing](https://pyqt-fluent-widgets.readthedocs.io/zh-cn/latest/autoapi/qfluentwidgets/components/widgets/progress_ring/index.html#qfluentwidgets.components.widgets.progress_ring.IndeterminateProgressRing)
+### [IndeterminateProgressRing](https://pyqt-fluent-widgets.readthedocs.io/en/latest/autoapi/qfluentwidgets/components/widgets/progress_ring/index.html#qfluentwidgets.components.widgets.progress_ring.IndeterminateProgressRing)
 
 `IndeterminateProgressRing` is used to indicate that the application is performing an operation, but the completion time of this operation is unknown.
 

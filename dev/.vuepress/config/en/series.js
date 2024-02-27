@@ -81,6 +81,7 @@ export const series = {
             children: [
                 "/components/label",
                 "/components/lineedit",
+                "/components/spinbox",
             ],
         },
     ],

@@ -4,7 +4,7 @@ date: 2024-02-27 11:25:00
 permalink: /components/infobadge/
 ---
 
-### [InfoBadge](https://pyqt-fluent-widgets.readthedocs.io/zh-cn/latest/autoapi/qfluentwidgets/components/widgets/info_badge/index.html#qfluentwidgets.components.widgets.info_badge.InfoBadge)
+### [InfoBadge](https://pyqt-fluent-widgets.readthedocs.io/en/latest/autoapi/qfluentwidgets/components/widgets/info_badge/index.html#qfluentwidgets.components.widgets.info_badge.InfoBadge)
 
 ![InfoBadge](/img/components/infobadge/InfoBadge.png)
 
@@ -58,7 +58,7 @@ InfoBadge.success(1, parent=parent, target=button, position="Custom")
 ```
 
 
-### [DotInfoBadge](https://pyqt-fluent-widgets.readthedocs.io/zh-cn/latest/autoapi/qfluentwidgets/components/widgets/info_badge/index.html#qfluentwidgets.components.widgets.info_badge.DotInfoBadge)
+### [DotInfoBadge](https://pyqt-fluent-widgets.readthedocs.io/en/latest/autoapi/qfluentwidgets/components/widgets/info_badge/index.html#qfluentwidgets.components.widgets.info_badge.DotInfoBadge)
 
 ![DotInfoBadge](/img/components/infobadge/DotInfoBadge.png)
 
@@ -74,7 +74,7 @@ DotInfoBadge.custom('#005fb8', '#60cdff')
 ```
 
 
-### [IconInfoBadge](https://pyqt-fluent-widgets.readthedocs.io/zh-cn/latest/autoapi/qfluentwidgets/components/widgets/info_badge/index.html#qfluentwidgets.components.widgets.info_badge.IconInfoBadge)
+### [IconInfoBadge](https://pyqt-fluent-widgets.readthedocs.io/en/latest/autoapi/qfluentwidgets/components/widgets/info_badge/index.html#qfluentwidgets.components.widgets.info_badge.IconInfoBadge)
 
 ![IconInfoBadge](/img/components/infobadge/IconInfoBadge.png)
 

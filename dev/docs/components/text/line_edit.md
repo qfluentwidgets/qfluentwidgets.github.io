@@ -4,7 +4,7 @@ date: 2024-02-27 16:46:00
 permalink: /components/lineedit/
 ---
 
-### [LineEdit](https://pyqt-fluent-widgets.readthedocs.io/zh-cn/latest/autoapi/qfluentwidgets/components/widgets/line_edit/index.html#qfluentwidgets.components.widgets.line_edit.LineEdit)
+### [LineEdit](https://pyqt-fluent-widgets.readthedocs.io/en/latest/autoapi/qfluentwidgets/components/widgets/line_edit/index.html#qfluentwidgets.components.widgets.line_edit.LineEdit)
 
 ![LineEdit](/img/components/lineedit/LineEdit.png)
 
@@ -37,7 +37,7 @@ completer.setMaxVisibleItems(10)
 lineEdit.setCompleter(completer)
 ```
 
-### [SearchLineEdit](https://pyqt-fluent-widgets.readthedocs.io/zh-cn/latest/autoapi/qfluentwidgets/components/widgets/line_edit/index.html#qfluentwidgets.components.widgets.line_edit.SearchLineEdit)
+### [SearchLineEdit](https://pyqt-fluent-widgets.readthedocs.io/en/latest/autoapi/qfluentwidgets/components/widgets/line_edit/index.html#qfluentwidgets.components.widgets.line_edit.SearchLineEdit)
 
 ![SearchLineEdit](/img/components/lineedit/SearchLineEdit.png)
 
@@ -48,7 +48,7 @@ lineEdit = SearchLineEdit()
 lineEdit.searchSignal.connect(lambda text: print("Search：" + text))
 ```
 
-### [PasswordLineEdit](https://pyqt-fluent-widgets.readthedocs.io/zh-cn/latest/autoapi/qfluentwidgets/components/widgets/line_edit/index.html#qfluentwidgets.components.widgets.line_edit.PasswordLineEdit)
+### [PasswordLineEdit](https://pyqt-fluent-widgets.readthedocs.io/en/latest/autoapi/qfluentwidgets/components/widgets/line_edit/index.html#qfluentwidgets.components.widgets.line_edit.PasswordLineEdit)
 
 ![PasswordLineEdit](/img/components/lineedit/PasswordLineEdit.png)
 
@@ -62,7 +62,7 @@ lineEdit.setPasswordVisible(True)
 ```
 
 
-### [TextEdit](https://pyqt-fluent-widgets.readthedocs.io/zh-cn/latest/autoapi/qfluentwidgets/components/widgets/line_edit/index.html#qfluentwidgets.components.widgets.line_edit.TextEdit)
+### [TextEdit](https://pyqt-fluent-widgets.readthedocs.io/en/latest/autoapi/qfluentwidgets/components/widgets/line_edit/index.html#qfluentwidgets.components.widgets.line_edit.TextEdit)
 
 ![TextEdit](/img/components/lineedit/TextEdit.png)
 
@@ -80,7 +80,7 @@ print(textEdit.toHtml())
 ```
 
 
-### [PlainTextEdit](https://pyqt-fluent-widgets.readthedocs.io/zh-cn/latest/autoapi/qfluentwidgets/components/widgets/line_edit/index.html#qfluentwidgets.components.widgets.line_edit.PlainTextEdit)
+### [PlainTextEdit](https://pyqt-fluent-widgets.readthedocs.io/en/latest/autoapi/qfluentwidgets/components/widgets/line_edit/index.html#qfluentwidgets.components.widgets.line_edit.PlainTextEdit)
 
 ![PlainTextEdit](/img/components/lineedit/PlainTextEdit.png)
 

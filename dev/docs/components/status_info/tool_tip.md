@@ -4,7 +4,7 @@ date: 2024-02-27 13:34:00
 permalink: /components/tooltip/
 ---
 
-### [ToolTipFilter](https://pyqt-fluent-widgets.readthedocs.io/zh-cn/latest/autoapi/qfluentwidgets/components/widgets/tool_tip/index.html#qfluentwidgets.components.widgets.tool_tip.ToolTipFilter)
+### [ToolTipFilter](https://pyqt-fluent-widgets.readthedocs.io/en/latest/autoapi/qfluentwidgets/components/widgets/tool_tip/index.html#qfluentwidgets.components.widgets.tool_tip.ToolTipFilter)
 
 ![ToolTip](/img/components/tooltip/ToolTip.png)
 
