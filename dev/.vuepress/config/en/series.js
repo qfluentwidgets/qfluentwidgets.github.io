@@ -59,5 +59,11 @@ export const series = {
                 "/components/breadcrumbbar",
             ],
         },
+        {
+            text: "Scroll",
+            children: [
+                "/components/scrollarea",
+            ],
+        },
     ],
 };

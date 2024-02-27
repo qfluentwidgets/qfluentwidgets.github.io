@@ -71,5 +71,11 @@ export const series = {
                 "/zh/components/breadcrumbbar",
             ],
         },
+        {
+            text: "滚动",
+            children: [
+                "/zh/components/scrollarea",
+            ],
+        },
     ],
 };
