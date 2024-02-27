@@ -70,6 +70,7 @@ export const series = {
             text: "Status & Info",
             children: [
                 "/components/infobadge",
+                "/components/infobar",
             ],
         },
     ],

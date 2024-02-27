@@ -82,6 +82,7 @@ export const series = {
             text: "状态信息",
             children: [
                 "/zh/components/infobadge",
+                "/zh/components/infobar",
             ],
         },
     ],
