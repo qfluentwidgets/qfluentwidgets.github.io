@@ -76,5 +76,11 @@ export const series = {
                 "/components/tooltip",
             ],
         },
+        {
+            text: "Text",
+            children: [
+                "/components/label",
+            ],
+        },
     ],
 };

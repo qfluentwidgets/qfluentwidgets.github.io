@@ -88,5 +88,11 @@ export const series = {
                 "/zh/components/tooltip",
             ],
         },
+        {
+            text: "文本",
+            children: [
+                "/zh/components/label",
+            ],
+        },
     ],
 };
