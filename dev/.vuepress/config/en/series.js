@@ -89,6 +89,7 @@ export const series = {
             children: [
                 "/components/flipview",
                 "/components/listview",
+                "/components/tableview",
             ],
         },
     ],
