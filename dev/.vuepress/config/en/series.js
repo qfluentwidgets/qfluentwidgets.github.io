@@ -73,6 +73,7 @@ export const series = {
                 "/components/infobar",
                 "/components/progressbar",
                 "/components/progressring",
+                "/components/tooltip",
             ],
         },
     ],

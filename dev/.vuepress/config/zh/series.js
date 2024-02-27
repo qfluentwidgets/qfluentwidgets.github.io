@@ -85,6 +85,7 @@ export const series = {
                 "/zh/components/infobar",
                 "/zh/components/progressbar",
                 "/zh/components/progressring",
+                "/zh/components/tooltip",
             ],
         },
     ],
