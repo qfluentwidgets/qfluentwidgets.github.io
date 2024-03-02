@@ -48,7 +48,7 @@ export const prices = {
                 { feature: '不限开发的商用软件数量' },
                 { feature: '250+ Fluent Design 组件' },
                 { feature: '20+ 响应式可视化图表' },
-                { feature: '专属一对一技术支持服务' },
+                { feature: '专属官方技术交流群服务' },
                 { feature: '专属 Fluent Pro Client 软件' },
                 { feature: '享受组件库版本持续更新迭代' },
             ]
@@ -68,7 +68,7 @@ export const prices = {
                 { feature: '不限开发的商用软件数量' },
                 { feature: '250+ Fluent Design 组件' },
                 { feature: '20+ 响应式可视化图表' },
-                { feature: '专属 QQ 客户群服务' },
+                { feature: '专属官方技术交流群服务' },
                 { feature: '享受组件库版本持续更新迭代' },
             ]
         }

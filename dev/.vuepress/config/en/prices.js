@@ -30,7 +30,7 @@ export const prices = {
                 { feature: 'Single commercial software' },
                 { feature: 'One year free updates' },
                 { feature: "Fluent Pro Client software" },
-                { feature: 'Customer group service' },
+                { feature: 'Customer group technical support' },
             ]
         },
         {
@@ -48,7 +48,7 @@ export const prices = {
                 { feature: 'Unlimited commercial softwares' },
                 { feature: 'Lifetime free updates' },
                 { feature: 'Fluent Pro Client software' },
-                { feature: "One-on-one technical support" },
+                { feature: "Customer group technical support" },
             ]
         },
         {
