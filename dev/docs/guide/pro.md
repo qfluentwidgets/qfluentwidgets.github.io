@@ -28,6 +28,7 @@ Check out this [▶ example video](https://www.bilibili.com/video/BV14e411Y75d) 
 | `FilledToolButton`            | A filled tool button                        |
 | `TextPushButton`              | A text push button                          |
 | `TextToolButton`              | A text tool button                          |
+| `HyperlinkToolButton`         | A hyperlink tool button                     |
 | `TransparentCircleToolButton` | A transparent circular tool button          |
 | `FontComboBox`                | A combo box that allows font selection      |
 | `MultiSelectionComboBox`      | A combo box that allows multiple selections |
@@ -100,6 +101,8 @@ Skeleton screens provide basic placeholders when network requests are slow, and 
 | `ToolBox`                     | Tool box                               |
 | `TimeLineWidget`              | Time line widget                       |
 | `TimeLineCard`                | Time line card                         |
+| `RoundListWidget`             | Round border list widget               |
+| `RoundListView`               | Round border list view                 |
 | `RoundTableWidget`            | Round border table widget              |
 | `RoundTableView`              | Round border table view                |
 | `LineTableWidget`             | Single line table widget               |

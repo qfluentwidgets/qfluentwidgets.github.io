@@ -10,7 +10,7 @@ Python 组件库非商业用途使用 GPLv3 许可证进行授权，商用需购
 为了满足开发者的需求，商用版的组件库包含更多高级组件，可以让现代化界面开发变得更加得心应手。
 
 ## 有哪些高级组件？
-目前，高级版组件库包含下述组件，之后还会不断增加新组件。
+目前，商用版组件库包含下述组件，之后还会不断增加新组件。
 
 演示视频见 [哔哩哔哩](https://www.bilibili.com/video/BV14e411Y75d)，可从 [发行页面](https://github.com/zhiyiYo/PyQt-Fluent-Widgets/releases) 下载体验包 `PyQt-Fluent-Widgets-Pro-Gallery.zip`。
 
@@ -26,6 +26,7 @@ Python 组件库非商业用途使用 GPLv3 许可证进行授权，商用需购
 | `FilledToolButton`            | 填充工具按钮               |
 | `TextPushButton`              | 文本按钮，支持不同的类型   |
 | `TextToolButton`              | 文本工具按钮               |
+| `HyperlinkToolButton`         | 超链接工具按钮             |
 | `TransparentCircleToolButton` | 透明圆形工具按钮           |
 | `FontComboBox`                | 字体下拉框                 |
 | `MultiSelectionComboBox`      | 多选下拉框，可选择多个选项 |
@@ -98,6 +99,8 @@ Python 组件库非商业用途使用 GPLv3 许可证进行授权，商用需购
 | `ToolBox`                     | 工具箱                   |
 | `TimeLineWidget`              | 时间线组件               |
 | `TimeLineCard`                | 时间线卡片               |
+| `RoundListWidget`             | 圆角列表组件             |
+| `RoundListView`               | 圆角列表视图             |
 | `RoundTableWidget`            | 圆角表格组件             |
 | `RoundTableView`              | 圆角表格视图             |
 | `LineTableWidget`             | 下边框表格组件           |
