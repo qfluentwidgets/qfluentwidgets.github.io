@@ -29,3 +29,9 @@ calendarPicker.dateChanged.connect(lambda date: print(date.toString()))
 calendarPicker.setDateFormat(Qt.TextDate)
 calendarPicker.setDateFormat('yyyy-M-d')
 ```
+
+### [RangeCalendarPicker](https://qfluentwidgets.com/zh/price)
+
+![RangeCalendarPicker](/img/components/calendarpicker/RangeCalendarPicker.png)
+
+`RangeCalendarPicker` 用于选择日期范围。

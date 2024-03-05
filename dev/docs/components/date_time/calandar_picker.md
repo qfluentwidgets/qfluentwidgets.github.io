@@ -29,3 +29,9 @@ Set date format:
 calendarPicker.setDateFormat(Qt.TextDate)
 calendarPicker.setDateFormat('yyyy-M-d')
 ```
+
+### [RangeCalendarPicker](https://qfluentwidgets.com/price)
+
+![RangeCalendarPicker](/img/components/calendarpicker/RangeCalendarPicker.png)
+
+`RangeCalendarPicker` is used for selecting a date range.
