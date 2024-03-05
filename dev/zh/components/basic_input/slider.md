@@ -28,3 +28,14 @@ print(slider.value())
 Slider(Qt.Vertical)
 ```
 
+### [ToolTipSlider](https://qfluentwidgets.com/zh/price)
+
+![ToolTipSlider](/img/components/slider/ToolTipSlider.png)
+
+`ToolTipSlider` 是带工具提示的滑动条，使用方式和 [Slider](#slider) 完全相同。
+
+### [RangeSlider](https://qfluentwidgets.com/zh/price)
+
+![RangeSlider](/img/components/slider/RangeSlider.png)
+
+`RangeSlider` 用于选择一个范围值。

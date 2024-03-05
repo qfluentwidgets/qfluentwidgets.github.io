@@ -19,7 +19,7 @@ export const home = {
             title: 'Component-driven',
             subTitle: 'Ready for production',
             description: `QFluentWidget is a fluent design component library that supports both C++ and Python. It's got hundreds of ready-to-use components and examples to choose from, and is guaranteed to help you find the perfect starting point for what you want to build.`,
-            url: '/pages/designer/',
+            url: '/components/button/',
         },
         designer: {
             title: 'Live preview',

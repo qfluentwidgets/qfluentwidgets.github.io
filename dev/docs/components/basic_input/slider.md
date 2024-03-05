@@ -27,3 +27,15 @@ Vertical slider:
 ```python
 Slider(Qt.Vertical)
 ```
+
+### [ToolTipSlider](https://qfluentwidgets.com/price)
+
+![ToolTipSlider](/img/components/slider/ToolTipSlider.png)
+
+`ToolTipSlider` is a slider with a tooltip. Its usage is identical to the [Slider](#slider).
+
+### [RangeSlider](https://qfluentwidgets.com/price)
+
+![RangeSlider](/img/components/slider/RangeSlider.png)
+
+`RangeSlider` is used to select a range of values.
