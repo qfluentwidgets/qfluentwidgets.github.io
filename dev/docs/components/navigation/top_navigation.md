@@ -106,3 +106,9 @@ print(sw.currentItem())
 ![SegmentedToggleToolWidget](/img/components/topnavigationbar/SegmentedToggleToolWidget.png)
 
 The usage of `SegmentedToggleToolWidget` is exactly the same as [SegmentedToolWidget](#segmentedtoolwidget), and the return value of `addItem()` is a [SegmentedToolItem](https://pyqt-fluent-widgets.readthedocs.io/en/latest/autoapi/qfluentwidgets/components/navigation/segmented_widget/index.html#qfluentwidgets.components.navigation.segmented_widget.SegmentedToggleToolItem) instance.
+
+### [TopNavigationBar](https://qfluentwidgets.com/price)
+
+![TopNavigationBar](/img/components/topnavigationbar/TopNavigationBar.png)
+
+`TopNavigationBar` provides top navigation functionality.

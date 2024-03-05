@@ -107,3 +107,9 @@ print(sw.currentItem())
 ![SegmentedToggleToolWidget](/img/components/topnavigationbar/SegmentedToggleToolWidget.png)
 
 `SegmentedToggleToolWidget` 使用方式和 [SegmentedToolWidget](#segmentedtoolwidget) 完全相同，`addItem()` 的返回值为 [SegmentedToolItem](https://pyqt-fluent-widgets.readthedocs.io/zh-cn/latest/autoapi/qfluentwidgets/components/navigation/segmented_widget/index.html#qfluentwidgets.components.navigation.segmented_widget.SegmentedToggleToolItem) 实例。
+
+### [TopNavigationBar](https://qfluentwidgets.com/zh/price)
+
+![TopNavigationBar](/img/components/topnavigationbar/TopNavigationBar.png)
+
+`TopNavigationBar` 提供了顶部导航功能。
