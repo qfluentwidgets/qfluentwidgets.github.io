@@ -36,6 +36,7 @@ export const series = {
                 "/components/colordialog",
                 "/components/flyout",
                 "/components/teachingtip",
+                "/components/shortcutpicker",
             ],
         },
         {
