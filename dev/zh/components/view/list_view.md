@@ -38,3 +38,15 @@ listWidget.setSelectRightClickedRow(True)
 ### [ListView](https://pyqt-fluent-widgets.readthedocs.io/zh-cn/latest/autoapi/qfluentwidgets/components/widgets/list_view/index.html#qfluentwidgets.components.widgets.list_view.ListView)
 
 `ListView` 用于展示模型中的数据，使用方法和 `QListView` 完全相同。
+
+
+### [RoundListWidget](https://qfluentwidgets.com/zh/price)
+
+![RoundListWidget](/img/components/listview/RoundListView.png)
+
+`RoundListWidget` 用法和 `QListWidget` 完全相同。
+
+
+### [RoundListView](https://qfluentwidgets.com/zh/price)
+
+`RoundListView` 用法和 `QListWidget` 完全相同。

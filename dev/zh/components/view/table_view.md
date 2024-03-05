@@ -45,3 +45,27 @@ table.setSelectRightClickedRow(True)
 ### [TableView](https://pyqt-fluent-widgets.readthedocs.io/zh-cn/latest/autoapi/qfluentwidgets/components/widgets/table_view/index.html#qfluentwidgets.components.widgets.table_view.TableView)
 
 `TableView` 使用方法和 `QTableView` 完全相同。
+
+
+### [RoundTableWidget](https://qfluentwidgets.com/zh/price)
+
+![RoundTableWidget](/img/components/tableview/RoundTableView.png)
+
+`RoundTableWidget` 用法和 `QTableWidget` 完全相同。
+
+
+### [RoundTableView](https://qfluentwidgets.com/zh/price)
+
+`RoundTableView` 用法和 `QTabelView` 完全相同。
+
+
+### [LineTableWidget](https://qfluentwidgets.com/zh/price)
+
+![LineTableWidget](/img/components/tableview/LineTableView.png)
+
+`LineTableWidget` 用法和 `QTableWidget` 完全相同。
+
+
+### [LineTableView](https://qfluentwidgets.com/zh/price)
+
+`LineTableView` 用法和 `QTabelView` 完全相同。
