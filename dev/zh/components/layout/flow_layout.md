@@ -32,3 +32,10 @@ class Demo(QWidget):
 
         self.resize(250, 300)
 ```
+
+
+### [WaterfallLayout](https://qfluentwidgets.com/zh/price)
+
+![WaterfallLayout](/img/components/flowlayout/WaterfallLayout.png)
+
+`WaterfallLayout` 一种多列等宽不等高的页面布局方式。

@@ -32,3 +32,9 @@ class Demo(QWidget):
 
         self.resize(250, 300)
 ```
+
+### [WaterfallLayout](https://qfluentwidgets.com/price)
+
+![WaterfallLayout](/img/components/flowlayout/WaterfallLayout.png)
+
+`WaterfallLayout` is a type of page layout with multiple columns of equal width but varying height.
