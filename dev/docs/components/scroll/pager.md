@@ -31,3 +31,9 @@ When the current page number changes, the signal `currentIndexChanged(index: int
 ```python
 pager.currentIndexChanged.connect(lambda index: print(index, pager.currentIndex()))
 ```
+
+### [Pager](https://qfluentwidgets.com/price)
+
+![Pager](/img/components/pager/Pager.png)
+
+`Pager` provides paging functionality, which is used to break down data when there is too much of it.

@@ -31,3 +31,9 @@ pager.setCurrentIndex(3)
 ```python
 pager.currentIndexChanged.connect(lambda index: print(index, pager.currentIndex()))
 ```
+
+### [Pager](https://qfluentwidgets.com/zh/price)
+
+![Pager](/img/components/pager/Pager.png)
+
+`Pager` 提供了分页功能，当数据量过多时，使用分页分解数据。
