@@ -45,3 +45,9 @@ spinner.setFixedSize(50, 50)
 # Adjust thickness
 spinner.setStrokeWidth(4)
 ```
+
+### [RadialGauge](https://qfluentwidgets.com/price)
+
+![RadialGauge](/img/components/progressring/RadialGauge.png)
+
+`RadialGauge` can be used to display a range of data, such as speed, progress, or other measurements that can be represented by angles.

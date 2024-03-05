@@ -45,3 +45,9 @@ spinner.setFixedSize(50, 50)
 # 调整厚度
 spinner.setStrokeWidth(4)
 ```
+
+### [RadialGauge](https://qfluentwidgets.com/zh/price)
+
+![RadialGauge](/img/components/progressring/RadialGauge.png)
+
+`RadialGauge` 可以用来显示一系列的数据，比如速度、进度或者其他可以用角度来表示的度量。

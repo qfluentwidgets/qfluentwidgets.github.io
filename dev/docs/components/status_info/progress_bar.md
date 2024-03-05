@@ -59,3 +59,15 @@ Customize the color of the progress bar:
 ```python
 progressBar.setCustomBarColor(QColor(255, 0, 0), QColor(0, 255, 110))
 ```
+
+### [FilledProgressBar](https://qfluentwidgets.com/price)
+
+![FilledProgressBar](/img/components/progressbar/FilledProgressBar.png)
+
+`FilledProgressBar` is used to display task progress.
+
+### [StepProgressBar](https://qfluentwidgets.com/price)
+
+![StepProgressBar](/img/components/progressbar/StepProgressBar.png)
+
+`StepProgressBar` is used to display the progress of step-by-step tasks.

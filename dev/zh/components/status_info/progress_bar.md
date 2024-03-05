@@ -59,3 +59,17 @@ bar.resume()
 ```python
 progressBar.setCustomBarColor(QColor(255, 0, 0), QColor(0, 255, 110))
 ```
+
+
+### [FilledProgressBar](https://qfluentwidgets.com/zh/price)
+
+![FilledProgressBar](/img/components/progressbar/FilledProgressBar.png)
+
+`FilledProgressBar` 用于显示任务进度。
+
+
+### [StepProgressBar](https://qfluentwidgets.com/zh/price)
+
+![StepProgressBar](/img/components/progressbar/StepProgressBar.png)
+
+`StepProgressBar` 用于显示分步骤任务进度。

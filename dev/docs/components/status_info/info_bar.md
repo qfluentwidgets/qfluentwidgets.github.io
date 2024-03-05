@@ -152,3 +152,9 @@ InfoBar.success(
 ![Toast](/img/components/infobar/Toast.png)
 
 `Toast` is used to display important information that users need to know in the application。
+
+### [ProgressInfoBar](https://qfluentwidgets.com/price)
+
+![ProgressInfoBar](/img/components/infobar/ProgressInfoBar.png)
+
+`ProgressInfoBar` not only displays the progress of a task, but can also show additional information. This information typically includes the task's name, description, remaining time, etc. This component is very suitable for situations that require the simultaneous display of task progress and other related information.
