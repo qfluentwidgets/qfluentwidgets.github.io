@@ -146,3 +146,9 @@ InfoBar.success(
     parent=window
 )
 ```
+
+### [Toast](https://qfluentwidgets.com/price)
+
+![Toast](/img/components/infobar/Toast.png)
+
+`Toast` is used to display important information that users need to know in the application。

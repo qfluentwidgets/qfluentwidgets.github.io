@@ -147,3 +147,10 @@ InfoBar.success(
     parent=window
 )
 ```
+
+
+### [Toast](https://qfluentwidgets.com/zh/price)
+
+![Toast](/img/components/infobar/Toast.png)
+
+`Toast` 用于在应用程序中显示重要的、用户需要知道的信息。
