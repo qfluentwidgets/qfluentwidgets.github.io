@@ -67,3 +67,21 @@ completer.setMaxVisibleItems(10)
 # Set the completer
 comboBox.setCompleter(completer)
 ```
+
+## [MultiSelectionComboBox](https://qfluentwidgets.com/price)
+
+![MultiSelectionComboBox](/img/components/combobox/MultiSelectionComboBox.png)
+
+`MultiSelectionComboBox` is used for selecting multiple options at the same time, which are displayed as tags in the dropdown box.
+
+## [TransparentComboBox](https://qfluentwidgets.com/price)
+
+![TransparentComboBox](/img/components/combobox/TransparentComboBox.png)
+
+`TransparentComboBox` is a dropdown box with a transparent background, allowing for customization of the current selection's color.
+
+## [FontComboBox](https://qfluentwidgets.com/price)
+
+![FontComboBox](/img/components/combobox/FontComboBox.png)
+
+`FontComboBox` lists all the system's available fonts for user selection.

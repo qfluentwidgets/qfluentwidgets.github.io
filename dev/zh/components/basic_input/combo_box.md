@@ -67,3 +67,21 @@ completer.setMaxVisibleItems(10)
 # 设置补全器
 comboBox.setCompleter(completer)
 ```
+
+## [MultiSelectionComboBox](https://qfluentwidgets.com/zh/price)
+
+![MultiSelectionComboBox](/img/components/combobox/MultiSelectionComboBox.png)
+
+`MultiSelectionComboBox` 用于同时选择多个选项，并以标签的形式展示在下拉框中。
+
+## [TransparentComboBox](https://qfluentwidgets.com/zh/price)
+
+![TransparentComboBox](/img/components/combobox/TransparentComboBox.png)
+
+`TransparentComboBox` 是透明背景的下拉框，可以自定义当前选项的颜色。
+
+## [FontComboBox](https://qfluentwidgets.com/zh/price)
+
+![FontComboBox](/img/components/combobox/FontComboBox.png)
+
+`FontComboBox` 列出了系统所有可用字体供用户选择。
