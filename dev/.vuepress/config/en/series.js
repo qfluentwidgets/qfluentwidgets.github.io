@@ -33,7 +33,7 @@ export const series = {
             text: "Dialog & Flyout",
             children: [
                 "/components/messagebox",
-                "/components/colordialog",
+                "/components/colorpicker",
                 "/components/flyout",
                 "/components/teachingtip",
                 "/components/shortcutpicker",

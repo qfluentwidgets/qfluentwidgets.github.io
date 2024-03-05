@@ -1,7 +1,7 @@
 ---
-title: 颜色对话框
+title: 颜色选择器
 date: 2024-02-26 16:55:01
-permalink: /zh/components/colordialog/
+permalink: /zh/components/colorpicker/
 ---
 
 ### [ColorDialog](https://pyqt-fluent-widgets.readthedocs.io/zh-cn/latest/autoapi/qfluentwidgets/components/dialog_box/color_dialog/index.html)
@@ -24,11 +24,19 @@ w.exec()
 `DropDownColorPalette` 提供了一系列颜色供用户选择。
 
 
+
 ### [DropDownColorPicker](https://qfluentwidgets.com/zh/price)
 
 ![DropDownColorPicker](/img/components/colordialog/DropDownColorPicker.png)
 
 `DropDownColorPicker` 提供了弹出窗口供用户调整和挑选颜色。
+
+
+### [CircleColorPicker](https://qfluentwidgets.com/zh/price)
+
+![CircleColorPicker](/img/components/colordialog/CircleColorPicker.png)
+
+`CircleColorPicker` 提供了一系列颜色供用户选择。
 
 ### [ScreenColorPicker](https://qfluentwidgets.com/zh/price)
 
