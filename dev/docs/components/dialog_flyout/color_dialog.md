@@ -15,3 +15,21 @@ w = ColorDialog(QColor(0, 255, 255), "Choose Background Color", window, enableAl
 w.colorChanged.connect(lambda color: print(color.name()))
 w.exec()
 ```
+
+### [DropDownColorPalette](https://qfluentwidgets.com/price)
+
+![DropDownColorPalette](/img/components/colordialog/DropDownColorPalette.png)
+
+`DropDownColorPalette` provides a range of colors for users to choose from.
+
+### [DropDownColorPicker](https://qfluentwidgets.com/price)
+
+![DropDownColorPicker](/img/components/colordialog/DropDownColorPicker.png)
+
+`DropDownColorPicker` provides a pop-up window for users to adjust and pick colors.
+
+### [ScreenColorPicker](https://qfluentwidgets.com/price)
+
+![ScreenColorPicker](/img/components/colordialog/ScreenColorPicker.png)
+
+`ScreenColorPicker` is used to pick colors from any location on the screen.

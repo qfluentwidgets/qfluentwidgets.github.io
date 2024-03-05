@@ -15,3 +15,23 @@ w = ColorDialog(QColor(0, 255, 255), "Choose Background Color", window, enableAl
 w.colorChanged.connect(lambda color: print(color.name()))
 w.exec()
 ```
+
+
+### [DropDownColorPalette](https://qfluentwidgets.com/zh/price)
+
+![DropDownColorPalette](/img/components/colordialog/DropDownColorPalette.png)
+
+`DropDownColorPalette` 提供了一系列颜色供用户选择。
+
+
+### [DropDownColorPicker](https://qfluentwidgets.com/zh/price)
+
+![DropDownColorPicker](/img/components/colordialog/DropDownColorPicker.png)
+
+`DropDownColorPicker` 提供了弹出窗口供用户调整和挑选颜色。
+
+### [ScreenColorPicker](https://qfluentwidgets.com/zh/price)
+
+![ScreenColorPicker](/img/components/colordialog/ScreenColorPicker.png)
+
+`ScreenColorPicker` 用于选取屏幕任意位置的颜色。
