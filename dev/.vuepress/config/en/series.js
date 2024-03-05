@@ -78,6 +78,13 @@ export const series = {
             ],
         },
         {
+            text: "System",
+            children: [
+                "/components/filepicker",
+                "/components/folderpicker",
+            ],
+        },
+        {
             text: "Text",
             children: [
                 "/components/label",

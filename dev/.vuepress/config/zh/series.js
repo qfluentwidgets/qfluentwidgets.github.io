@@ -90,6 +90,13 @@ export const series = {
             ],
         },
         {
+            text: "系统",
+            children: [
+                "/zh/components/filepicker",
+                "/zh/components/folderpicker",
+            ],
+        },
+        {
             text: "文本",
             children: [
                 "/zh/components/label",
