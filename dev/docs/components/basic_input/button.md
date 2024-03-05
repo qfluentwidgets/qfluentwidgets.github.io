@@ -117,6 +117,37 @@ button.setUrl(QUrl("https://www.youtube.com/watch?v=S0bXDRY1DGM"))
 print(button.url)
 ```
 
+### [HyperlinkToolButton](https://qfluentwidgets.com/price)
+
+![HyperlinkToolButton](/img/components/button/HyperlinkToolButton.png)
+
+`HyperlinkToolButton` is used only for displaying an icon, which can redirect to a specified link when clicked.
+
+### [FilledPushButton](https://qfluentwidgets.com/price)
+
+![FilledPushButton](/img/components/button/FilledPushButton.png)
+
+`FilledPushButton` is used for displaying an icon and text. It can display different background colors according to the level of information. Its usage is identical to `QPushButton`.
+
+### [FilledToolButton](https://qfluentwidgets.com/price)
+
+![FilledToolButton](/img/components/button/FilledToolButton.png)
+
+`FilledToolButton` is used only for displaying an icon. It can display different background colors according to the level of information. Its usage is identical to `QToolButton`.
+
+### [TextPushButton](https://qfluentwidgets.com/price)
+
+![TextPushButton](/img/components/button/TextPushButton.png)
+
+`TextPushButton` is used for displaying an icon and text. It can display different foreground colors according to the level of information. Its usage is identical to `QPushButton`.
+
+### [TextToolButton](https://qfluentwidgets.com/price)
+
+![TextToolButton](/img/components/button/TextToolButton.png)
+
+`TextToolButton` is used only for displaying an icon. It can display different foreground colors according to the level of information. Its usage is identical to `QToolButton`.
+
+
 
 ## Toggle Buttons
 
@@ -358,3 +389,17 @@ button.setMenu(menu)
 ![SplitToolButton](/img/components/button/SplitToolButton.jpg)
 
 `SplitToolButton` consists of two buttons, clicking the left button will emit the `clicked` signal, clicking the right button shows a dropdown menu, the dropdown menu must be `RoundMenu`
+
+## Labels
+
+### [Chip](https://qfluentwidgets.com/price)
+
+![Chip](/img/components/button/Chip.png)
+
+`Chip` is used to display an icon and text, with a delete button. It can be used as a label for user selection. Its usage is identical to `QPushButton`.
+
+### [Tag](https://qfluentwidgets.com/price)
+
+![Tag](/img/components/button/Tag.png)
+
+`Tag` is used to display an icon and text. Depending on the level of information, it can display different background and foreground colors. Its usage is identical to `QPushButton`.

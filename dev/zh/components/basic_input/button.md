@@ -117,6 +117,41 @@ button.setUrl(QUrl("https://www.youtube.com/watch?v=S0bXDRY1DGM"))
 print(button.url)
 ```
 
+### [HyperlinkToolButton](https://qfluentwidgets.com/zh/price)
+
+![HyperlinkToolButton](/img/components/button/HyperlinkToolButton.png)
+
+`HyperlinkToolButton` 只用于显示图标，点击时可跳转到指定链接。
+
+
+### [FilledPushButton](https://qfluentwidgets.com/zh/price)
+
+![FilledPushButton](/img/components/button/FilledPushButton.png)
+
+`FilledPushButton` 用于显示图标和文本，可根据信息级别显示不同的背景色，使用方式和 `QPushButton` 完全相同。
+
+
+### [FilledToolButton](https://qfluentwidgets.com/zh/price)
+
+![FilledToolButton](/img/components/button/FilledToolButton.png)
+
+`FilledToolButton` 只用于显示图标，可根据信息级别显示不同的背景色，使用方式和 `QToolButton` 完全相同。
+
+
+### [TextPushButton](https://qfluentwidgets.com/zh/price)
+
+![TextPushButton](/img/components/button/TextPushButton.png)
+
+`TextPushButton` 用于显示图标和文本，可根据信息级别显示不同的前景色，使用方式和 `QPushButton` 完全相同。
+
+
+### [TextToolButton](https://qfluentwidgets.com/zh/price)
+
+![TextToolButton](/img/components/button/TextToolButton.png)
+
+`TextToolButton` 只用于显示图标，可根据信息级别显示不同的前景色，使用方式和 `QToolButton` 完全相同。
+
+
 
 ## 状态开关按钮
 
@@ -410,3 +445,17 @@ menu.addAction(Action(FluentIcon.SAVE, 'Save', triggered=lambda: print("已保�
 # 添加菜单
 button.setMenu(menu)
 ```
+
+## 标签
+
+### [Chip](https://qfluentwidgets.com/zh/price)
+
+![Chip](/img/components/button/Chip.png)
+
+`Chip` 用于显示图标和文本，带有删除按钮，可作为标签供用户选择，使用方式和 `QPushButton` 完全相同。
+
+### [Tag](https://qfluentwidgets.com/zh/price)
+
+![Tag](/img/components/button/Tag.png)
+
+`Tag` 用于显示图标和文本，根据信息级别可显示不同的背景色和前景色，使用方式和 `QPushButton` 完全相同。
