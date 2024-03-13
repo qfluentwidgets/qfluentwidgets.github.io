@@ -34,6 +34,12 @@ export const series = {
             ],
         },
         {
+            text: "图表",
+            children: [
+                "/zh/components/chartwidget",
+            ],
+        },
+        {
             text: "日期时间",
             children: [
                 "/zh/components/datepicker",

@@ -22,6 +22,12 @@ export const series = {
             ],
         },
         {
+            text: "Chart",
+            children: [
+                "/components/chartwidget",
+            ],
+        },
+        {
             text: "Date Time",
             children: [
                 "/components/datepicker",

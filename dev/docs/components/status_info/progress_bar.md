@@ -71,3 +71,9 @@ progressBar.setCustomBarColor(QColor(255, 0, 0), QColor(0, 255, 110))
 ![StepProgressBar](/img/components/progressbar/StepProgressBar.png)
 
 `StepProgressBar` is used to display the progress of step-by-step tasks.
+
+### [TimeLineWidget](https://qfluentwidgets.com/price)
+
+![TimeLineWidget](/img/components/progressbar/TimeLineWidget.png)
+
+`TimeLineWidget` is used to display time line

@@ -73,3 +73,10 @@ progressBar.setCustomBarColor(QColor(255, 0, 0), QColor(0, 255, 110))
 ![StepProgressBar](/img/components/progressbar/StepProgressBar.png)
 
 `StepProgressBar` 用于显示分步骤任务进度。
+
+
+### [TimeLineWidget](https://qfluentwidgets.com/zh/price)
+
+![TimeLineWidget](/img/components/progressbar/TimeLineWidget.png)
+
+`TimeLineWidget` 用于显示时间线。

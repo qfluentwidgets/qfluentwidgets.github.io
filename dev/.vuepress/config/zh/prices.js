@@ -40,7 +40,7 @@ export const prices = {
             price: '￥2499',
             year: false,
             permanent: true,
-            url: 'mailto:shokokawaii@foxmail.com',
+            url: 'https://item.taobao.com/item.htm?ft=t&id=761921596721',
             recommend: true,
             features: [
                 { feature: '个人开发者' },
