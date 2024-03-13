@@ -93,3 +93,9 @@ textEdit.setPlainText("两岸猿声啼不住 \n 轻舟已过万重山 ")
 # 获取普通文本
 print(textEdit.toPlainText())
 ```
+
+### [CodeEdit](https://qfluentwidgets.com/zh/price)
+
+![CodeEdit](/img/components/lineedit/CodeEdit.png)
+
+`CodeEdit` 可用于显示和编辑代码，内置 20 种语言的语法高亮。

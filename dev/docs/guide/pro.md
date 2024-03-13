@@ -137,6 +137,11 @@ Skeleton screens provide basic placeholders when network requests are slow, and 
 | `TopNavigationBar`         | Top navigation bar           |
 | `TopFluentWindow`          | Top navigation fluent window |
 
+### Text
+| Component Name | Description |
+| -------------- | ----------- |
+| `CodeEdit`     | Code editor |
+
 ### Settings
 | Component Name                      | Description                                        |
 | ----------------------------------- | -------------------------------------------------- |

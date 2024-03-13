@@ -93,3 +93,10 @@ textEdit.setPlainText("The ape's cries are endless on both shores \n The light b
 # Get plain text
 print(textEdit.toPlainText())
 ```
+
+
+### [CodeEdit](https://qfluentwidgets.com/price)
+
+![CodeEdit](/img/components/lineedit/CodeEdit.png)
+
+`CodeEdit` can be used for displaying and editing code, with built-in syntax highlighting for 20 languages.
