@@ -122,7 +122,8 @@ export const series = {
         {
             text: "窗口",
             children: [
-                "/zh/components/fluentwindow"
+                "/zh/components/fluentwindow",
+                "/zh/components/splashscreen"
             ],
         },
     ],

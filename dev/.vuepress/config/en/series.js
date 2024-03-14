@@ -110,7 +110,8 @@ export const series = {
         {
             text: "Window",
             children: [
-                "/components/fluentwindow"
+                "/components/fluentwindow",
+                "/components/splashscreen"
             ],
         },
     ],
