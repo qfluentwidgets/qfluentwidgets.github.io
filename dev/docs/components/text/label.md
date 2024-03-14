@@ -50,7 +50,7 @@ print(label.url)
 image = ImageLabel("/path/to/image.png")
 
 # Scale proportionally to a specified height
-image.scaleToHeight(300)
+image.scaledToHeight(300)
 
 # Rounded corners
 image.setBorderRadius(8, 8, 8, 8)

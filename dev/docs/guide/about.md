@@ -6,6 +6,11 @@ permalink: /pages/about/
 
 [**QFluentWidgets**](https://github.com/zhiyiYo/PyQt-Fluent-Widgets) is a fluent design component library based on C++ Qt/PyQt/PySide. It includes hundreds of fluent design components, aiming to simplify development and improve efficiency.
 
+<div style="position: relative; width:100%; padding-bottom: 56.25%; height: 0;">
+    <iframe style="width: 100%; height: 100%; position: absolute; top: 0; left: 0" src="https://www.youtube.com/embed/9Id5ThLEpFk?si=9FYSIce5XoM1ACuX" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
+
+
 ## Features
 * **Beautiful and Elegant**: 160+ open-source non-commercial Fluent Design components, fast to use, ready for production.
 * **Vector Icons**: 175 Fluent Design vector icons, scalable to any size without losing clarity.

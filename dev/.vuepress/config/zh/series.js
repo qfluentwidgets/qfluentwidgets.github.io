@@ -119,5 +119,11 @@ export const series = {
                 "/zh/components/treeview",
             ],
         },
+        {
+            text: "窗口",
+            children: [
+                "/zh/components/fluentwindow"
+            ],
+        },
     ],
 };

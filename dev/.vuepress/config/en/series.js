@@ -107,5 +107,11 @@ export const series = {
                 "/components/treeview",
             ],
         },
+        {
+            text: "Window",
+            children: [
+                "/components/fluentwindow"
+            ],
+        },
     ],
 };

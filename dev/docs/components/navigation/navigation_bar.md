@@ -5,6 +5,11 @@ permalink: /components/navigationbar/
 ---
 
 ## [NavigationInterface](https://pyqt-fluent-widgets.readthedocs.io/zh-cn/latest/autoapi/qfluentwidgets/components/navigation/navigation_interface/index.html#qfluentwidgets.components.navigation.navigation_interface.NavigationInterface)
+
+::: tip Tip
+This class is only recommended for direct use when you need to highly customize the sidebar, otherwise, please use [FluentWindow](/components/fluentwindow/).
+:::
+
 ### Structure
 
 PyQt Fluent Widgets provides a side navigation class `NavigationInterface`. You can use it with `QStackWidget` and put them in `QHBoxLayout`. Examples are available at [navigation2](https://github.com/zhiyiYo/PyQt-Fluent-Widgets/tree/master/examples/navigation/navigation2/demo.py).
@@ -110,97 +115,3 @@ Here is an another style of navigation interface, and its corresponding example 
 Minimal display mode navigation interface is available at [navigation3](https://github.com/zhiyiYo/PyQt-Fluent-Widgets/tree/master/examples/navigation/navigation3).
 
 ![](https://pyqt-fluent-widgets.readthedocs.io/en/latest/_images/NavigationInterface_Minimal.jpg)
-
-
-## [FluentWindow](https://pyqt-fluent-widgets.readthedocs.io/zh-cn/latest/autoapi/qfluentwidgets/window/fluent_window/index.html#)
-QFluentWidgets encapsulates the side navigation bar and provides out-of-the-box `FluentWindow`, `SplitFluentWindow` and `MSFluentWindow` classes. The usage of these three classes is similar. Taking `FluentWindow` as an example, you can simply call the `addSubInterface()` method to add a sub-interface.
-
-```python
-def addSubInterface(
-    self,
-    interface: QWidget,
-    icon: FluentIconBase | QIcon | str,
-    text: str,
-    position=NavigationItemPosition.TOP,
-    parent: QWidget = None
-) -> NavigationTreeWidget
-```
-
-The explanations for each parameter are as follows:
-* `interface`: The sub-interface that needs to be added.
-* `icon`: The icon of the sidebar menu item.
-* `text`: The text of the sidebar menu item.
-* `position`: The position of the sidebar menu item.
-* `parent`: The sub-interface corresponding to the parent menu item in the sidebar.
-
-::: warning
-Before calling `addSubInterface()`, it is necessary to set a globally unique object name for the sub-interface as the routing key. Otherwise, the back navigation functionality may encounter issues, and the corresponding menu item for the sub-interface will not be visible in the sidebar.
-
-If you see something strange in the top left corner of main window, it means that you forgot to call `addSubInterface()` to add a particular sub-interface.
-:::
-
-Here is a simple example. For more complex examples with multiple sub-interfaces, please refer to the [video tutorial](https://www.bilibili.com/video/BV1Uu411j7AV).
-
-
-```python
-from qfluentwidgets import NavigationItemPosition, FluentWindow, SubtitleLabel, setFont
-from qfluentwidgets import FluentIcon as FIF
-
-
-class Widget(QFrame):
-
-    def __init__(self, text: str, parent=None):
-        super().__init__(parent=parent)
-        self.label = SubtitleLabel(text, self)
-        self.hBoxLayout = QHBoxLayout(self)
-
-        setFont(self.label, 24)
-        self.label.setAlignment(Qt.AlignCenter)
-        self.hBoxLayout.addWidget(self.label, 1, Qt.AlignCenter)
-
-        # unique object name
-        self.setObjectName(text.replace(' ', '-'))
-
-
-class Window(FluentWindow):
-    """ Main Window """
-
-    def __init__(self):
-        super().__init__()
-
-        # Create subinterface
-        self.homeInterface = Widget('Home Interface', self)
-        self.musicInterface = Widget('Music Interface', self)
-        self.videoInterface = Widget('Video Interface', self)
-        self.settingInterface = Widget('Setting Interface', self)
-        self.albumInterface = Widget('Album Interface', self)
-        self.albumInterface1 = Widget('Album Interface 1', self)
-
-        self.initNavigation()
-        self.initWindow()
-
-    def initNavigation(self):
-        self.addSubInterface(self.homeInterface, FIF.HOME, 'Home')
-        self.addSubInterface(self.musicInterface, FIF.MUSIC, 'Music library')
-        self.addSubInterface(self.videoInterface, FIF.VIDEO, 'Video library')
-
-        self.navigationInterface.addSeparator()
-
-        self.addSubInterface(self.albumInterface, FIF.ALBUM, 'Albums', NavigationItemPosition.SCROLL)
-        self.addSubInterface(self.albumInterface1, FIF.ALBUM, 'Album 1', parent=self.albumInterface)
-
-        self.addSubInterface(self.settingInterface, FIF.SETTING, 'Settings', NavigationItemPosition.BOTTOM)
-
-    def initWindow(self):
-        self.resize(900, 700)
-        self.setWindowIcon(QIcon(':/qfluentwidgets/images/logo.png'))
-        self.setWindowTitle('PyQt-Fluent-Widgets')
-
-
-if __name__ == '__main__':
-    app = QApplication(sys.argv)
-    w = Window()
-    w.show()
-    app.exec()
-```
-

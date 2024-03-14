@@ -51,7 +51,7 @@ print(label.url)
 image = ImageLabel("/path/to/image.png")
 
 # 按比例缩放到指定高度
-image.scaleToHeight(300)
+image.scaledToHeight(300)
 
 # 圆角
 image.setBorderRadius(8, 8, 8, 8)
