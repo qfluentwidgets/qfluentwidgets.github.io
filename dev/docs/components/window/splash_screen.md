@@ -51,3 +51,14 @@ if __name__ == '__main__':
     w.show()
     app.exec()
 ```
+
+
+By default, the `SplashScreen` title bar does not display an icon and title. You can set the icon and title by replacing the title bar:
+```python
+from qframelesswindow import StandardTitleBar
+
+titleBar = StandardTitleBar(self.splashScreen)
+titleBar.setIcon(self.windowIcon())
+titleBar.setTitle(self.windowTitle())
+splashScreen.setTitleBar(titleBar)
+```

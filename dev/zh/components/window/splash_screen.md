@@ -51,3 +51,13 @@ if __name__ == '__main__':
     w.show()
     app.exec()
 ```
+
+默认情况下 `SplashScreen` 的标题栏不显示图标和标题，可通过更换标题栏来设置图标和标题：
+```python
+from qframelesswindow import StandardTitleBar
+
+titleBar = StandardTitleBar(self.splashScreen)
+titleBar.setIcon(self.windowIcon())
+titleBar.setTitle(self.windowTitle())
+splashScreen.setTitleBar(titleBar)
+```
