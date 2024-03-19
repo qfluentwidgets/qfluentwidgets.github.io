@@ -4,12 +4,13 @@ date: 2024-03-14 13:52:00
 permalink: /zh/components/fluentwindow/
 ---
 
-### [FluentWindow](https://pyqt-fluent-widgets.readthedocs.io/zh-cn/latest/autoapi/qfluentwidgets/window/fluent_window/index.html#)
+## [FluentWindow](https://pyqt-fluent-widgets.readthedocs.io/zh-cn/latest/autoapi/qfluentwidgets/window/fluent_window/index.html#)
 
 ![FluentWindow](/img/components/fluent_window/FluentWindow.png)
 
 `FluentWindow` 对侧边导航栏和层叠组件进行了封装，使用这个类可以十分方便地创建多界面窗口。
 
+### 添加子界面
 只需调用 `addSubInterface()` 方法就能完成子界面的添加：
 
 ```python
@@ -99,6 +100,22 @@ if __name__ == '__main__':
     app.exec()
 ```
 
+
+### 切换界面
+
+`FluentWindow` 提供了切换当前界面的方法，`interface` 为待切换的子界面：
+```python
+def switchTo(self, interface: QWidget) -> None
+```
+
+`FluentWindow` 内部使用 `StackedWidget` 来存放子界面，切换当前界面时 `StackedWidget` 会发出 `currentChanged(index: int)` 信号：
+
+```python
+self.stackedWidget.currentChanged.connect(lambda: print(self.stackedWidget.currentWidget()))
+```
+
+
+### 定制化侧边栏
 调整展开状态下侧边导航的宽度：
 ```python
 self.navigationInterface.setExpandWidth(300)
@@ -121,6 +138,8 @@ self.navigationInterface.setMinimumExpandWidth(900)
 self.navigationInterface.expand(useAni=False)
 ```
 
+
+### 背景失效解决办法
 在 Win11 系统下，`FluentWindow` 默认启用了云母特效，如果窗口中使用了 `QWebEngineView` 或者 `QOpenGLWidget`，会导致窗口背景特效失效，同时圆角和阴影也会消失。
 
 下述例子演示了如何正确地在 `FluentWindow` 中使用 Web 引擎；
@@ -172,18 +191,18 @@ if __name__ == '__main__':
 
 对于 `QOpenGLWidget`，需要在主界面的构造函数中强制调用 `FluentWindow.updateFrameless()` 并在显示主界面后重新启用云母特效。
 
-### [SplitFluentWindow](https://pyqt-fluent-widgets.readthedocs.io/zh-cn/latest/autoapi/qfluentwidgets/window/fluent_window/index.html#)
+## [SplitFluentWindow](https://pyqt-fluent-widgets.readthedocs.io/zh-cn/latest/autoapi/qfluentwidgets/window/fluent_window/index.html#)
 
 ![SplitFluentWindow](/img/components/fluent_window/SplitFluentWindow.png)
 
 `SplitFluentWindow` 使用方式和 [FluentWindow](#fluentwindow) 完全相同。
 
 
-### [MSFluentWindow](https://pyqt-fluent-widgets.readthedocs.io/zh-cn/latest/autoapi/qfluentwidgets/window/fluent_window/index.html#)
+## [MSFluentWindow](https://pyqt-fluent-widgets.readthedocs.io/zh-cn/latest/autoapi/qfluentwidgets/window/fluent_window/index.html#)
 
 ![MSFluentWindow](/img/components/fluent_window/MSFluentWindow.png)
 
-`MSFluentWindow` 对 `NavigationBar` 和层叠组件进行了封装，使用这个类可以十分方便地创建多界面窗口。
+`MSFluentWindow` 对 `NavigationBar` 和层叠组件进行了封装，使用这个类可以十分方便地创建多界面窗口，使用方式和 [FluentWindow](#fluentwindow) 相似。
 
 只需调用 `addSubInterface()` 方法就能完成子界面的添加（必须先给子界面设置对象名才能调用此方法）：
 
@@ -281,7 +300,7 @@ class Window(MSFluentWindow):
         w.cancelButton.setText('下次一定')
 
         if w.exec():
-            QDesktopServices.openUrl(QUrl("https://afdian.net/a/zhiyiYo"))
+            QDesktopServices.openUrl(QUrl("https://qfluentwidgets.com/zh/price/"))
 
 
 if __name__ == '__main__':

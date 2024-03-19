@@ -4,12 +4,13 @@ date: 2024-03-14 13:52:00
 permalink: /components/fluentwindow/
 ---
 
-### [FluentWindow](https://pyqt-fluent-widgets.readthedocs.io/en/latest/autoapi/qfluentwidgets/window/fluent_window/index.html#)
+## [FluentWindow](https://pyqt-fluent-widgets.readthedocs.io/en/latest/autoapi/qfluentwidgets/window/fluent_window/index.html#)
 
 ![FluentWindow](/img/components/fluent_window/FluentWindow.png)
 
 `FluentWindow` encapsulates the sidebar and stackable components, making it very convenient to create multi-interface windows.
 
+### Add sub-interface
 Just call the `addSubInterface()` method to add a sub-interface:
 
 ```python
@@ -99,6 +100,21 @@ if __name__ == '__main__':
     app.exec()
 ```
 
+### Switching interface
+
+`FluentWindow` provides a method for switching the current interface, where `interface` is the sub-interface to be switched to:
+```python
+def switchTo(self, interface: QWidget) -> None
+```
+
+Internally, `FluentWindow` uses `StackedWidget` to hold sub-interfaces. When switching the current interface, `StackedWidget` will emit a `currentChanged(index: int)` signal:
+
+```python
+self.stackedWidget.currentChanged.connect(lambda: print(self.stackedWidget.currentWidget()))
+```
+
+
+### Customize navigation
 To adjust the width of the sidebar navigation in the expanded state:
 ```python
 self.navigationInterface.setExpandWidth(300)
@@ -121,6 +137,7 @@ self.navigationInterface.setMinimumExpandWidth(900)
 self.navigationInterface.expand(useAni=False)
 ```
 
+### Solution to background failure
 In Win11 system, `FluentWindow` enables the mica effect by default. If `QWebEngineView` or `QOpenGLWidget` is used in the window, it will cause the window background effect to fail, and the rounded corners and shadows will also disappear.
 
 The following example demonstrates how to correctly use the Web engine in `FluentWindow`:
@@ -172,13 +189,13 @@ if __name__ == '__main__':
 
 For `QOpenGLWidget`, you need to forcibly call `FluentWindow.updateFrameless()` in the constructor of the main window and re-enable the mica effect after showing the main window.
 
-### [SplitFluentWindow](https://pyqt-fluent-widgets.readthedocs.io/en/latest/autoapi/qfluentwidgets/window/fluent_window/index.html#)
+## [SplitFluentWindow](https://pyqt-fluent-widgets.readthedocs.io/en/latest/autoapi/qfluentwidgets/window/fluent_window/index.html#)
 
 ![SplitFluentWindow](/img/components/fluent_window/SplitFluentWindow.png)
 
 The usage of `SplitFluentWindow` is exactly the same as [FluentWindow](#fluentwindow).
 
-### [MSFluentWindow](https://pyqt-fluent-widgets.readthedocs.io/en/latest/autoapi/qfluentwidgets/window/fluent_window/index.html#)
+## [MSFluentWindow](https://pyqt-fluent-widgets.readthedocs.io/en/latest/autoapi/qfluentwidgets/window/fluent_window/index.html#)
 
 
 ![MSFluentWindow](/img/components/fluent_window/MSFluentWindow.png)
@@ -281,7 +298,7 @@ class Window(MSFluentWindow):
         w.cancelButton.setText('Next time for sure')
 
         if w.exec():
-            QDesktopServices.openUrl(QUrl("https://afdian.net/a/zhiyiYo"))
+            QDesktopServices.openUrl(QUrl("https://qfluentwidgets.com/price/"))
 
 
 if __name__ == '__main__':
