@@ -33,6 +33,16 @@ class Demo(QWidget):
         self.resize(250, 300)
 ```
 
+In some situations, the components in a flow layout may overlap. The following method can be used to force a refresh of the layout:
+```python
+# Remove all widgets
+flowLayout.removeAllWidgets()
+
+# Re-add widgets
+for w in widgets:
+    flowLayout.addWidget(w)
+```
+
 ### [WaterfallLayout](https://qfluentwidgets.com/price)
 
 ![WaterfallLayout](/img/components/flowlayout/WaterfallLayout.png)

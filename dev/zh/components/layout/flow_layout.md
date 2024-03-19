@@ -33,6 +33,16 @@ class Demo(QWidget):
         self.resize(250, 300)
 ```
 
+在某些情况下，流式布局中的组件可能发生重叠，可使用下述方法强制刷新布局：
+```python
+# 移除全部组件
+flowLayout.removeAllWidgets()
+
+# 重新添加组件
+for w in widgets:
+    flowLayout.addWidget(w)
+```
+
 
 ### [WaterfallLayout](https://qfluentwidgets.com/zh/price)
 

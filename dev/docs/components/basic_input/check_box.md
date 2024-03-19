@@ -24,5 +24,5 @@ checkBox.stateChanged.connect(lambda: print(checkBox.isChecked()))
 ![CheckBox](/img/components/checkbox/CheckBoxPartialChecked.jpg)
 ```python
 checkBox.setTristate(True)
-checkBox.setCheckedState(Qt.PartiallyChecked)
+checkBox.setCheckState(Qt.PartiallyChecked)
 ```
