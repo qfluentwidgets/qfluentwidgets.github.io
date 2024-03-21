@@ -62,6 +62,13 @@ lineEdit.setPasswordVisible(True)
 ```
 
 
+### [TokenLineEdit](https://qfluentwidgets.com/zh/price)
+
+![TokenLineEdit](/img/components/lineedit/TokenLineEdit.png)
+
+`TokenLineEdit` 可用于输入和管理标签。
+
+
 ### [TextEdit](https://pyqt-fluent-widgets.readthedocs.io/zh-cn/latest/autoapi/qfluentwidgets/components/widgets/line_edit/index.html#qfluentwidgets.components.widgets.line_edit.TextEdit)
 
 ![TextEdit](/img/components/lineedit/TextEdit.png)

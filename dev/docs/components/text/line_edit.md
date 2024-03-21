@@ -62,6 +62,13 @@ lineEdit.setPasswordVisible(True)
 ```
 
 
+### [TokenLineEdit](https://qfluentwidgets.com/price)
+
+![TokenLineEdit](/img/components/lineedit/TokenLineEdit.png)
+
+`TokenLineEdit` is used to add and manager tags.
+
+
 ### [TextEdit](https://pyqt-fluent-widgets.readthedocs.io/en/latest/autoapi/qfluentwidgets/components/widgets/line_edit/index.html#qfluentwidgets.components.widgets.line_edit.TextEdit)
 
 ![TextEdit](/img/components/lineedit/TextEdit.png)
