@@ -126,5 +126,11 @@ export const series = {
                 "/zh/components/splashscreen"
             ],
         },
+        {
+            text: "设置",
+            children: [
+                "/zh/components/config",
+            ],
+        },
     ],
 };

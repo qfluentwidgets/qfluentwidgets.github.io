@@ -114,5 +114,11 @@ export const series = {
                 "/components/splashscreen"
             ],
         },
+        {
+            text: "Setting",
+            children: [
+                "/components/config",
+            ],
+        },
     ],
 };
