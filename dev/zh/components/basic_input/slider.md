@@ -1,7 +1,7 @@
 ---
 title: 滑动条
 date: 2024-02-26 11:29:01
-permalink: /zh/components/slider/
+permalink: /zh/pages/components/slider/
 ---
 
 ### [Slider](https://pyqt-fluent-widgets.readthedocs.io/zh-cn/latest/autoapi/qfluentwidgets/components/widgets/slider/index.html#qfluentwidgets.components.widgets.slider.Slider)

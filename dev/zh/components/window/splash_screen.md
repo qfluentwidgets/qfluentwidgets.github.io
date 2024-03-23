@@ -1,7 +1,7 @@
 ---
 title: 启动页面
 date: 2024-03-14 13:52:00
-permalink: /zh/components/splashscreen/
+permalink: /zh/pages/components/splashscreen/
 ---
 
 ### [SplashScreen](https://pyqt-fluent-widgets.readthedocs.io/zh-cn/latest/autoapi/qfluentwidgets/window/splash_screen/index.html)

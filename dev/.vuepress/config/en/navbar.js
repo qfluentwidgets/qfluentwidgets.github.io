@@ -4,54 +4,32 @@ export const navbar = [
     icon: 'Compass',
     children: [
       {
-        text: 'Quick start',
-        children: [
-          {
-            text: 'About',
-            link: '/pages/about'
-          },
-          {
-            text: 'Install',
-            link: '/pages/install'
-          },
-          {
-            text: 'Designer',
-            link: '/pages/designer'
-          },
-          {
-            text: 'Components',
-            link: '/pages/components'
-          },
-          {
-            text: 'Pro',
-            link: '/pages/pro'
-          },
-          {
-            text: 'FAQs',
-            link: '/pages/faq'
-          },
-        ]
+        text: 'About',
+        link: '/pages/about'
       },
       {
-        text: 'Customize',
-        children: [
-          {
-            text: 'Theme',
-            link: '/pages/theme'
-          },
-          {
-            text: 'Icon',
-            link: '/pages/icon'
-          },
-          {
-            text: 'Settings',
-            link: '/pages/setting'
-          },
-          {
-            text: 'Translation',
-            link: '/pages/i18n'
-          },
-        ]
+        text: 'Install',
+        link: '/pages/install'
+      },
+      {
+        text: 'Designer',
+        link: '/pages/designer'
+      },
+      {
+        text: 'Theme',
+        link: '/pages/theme'
+      },
+      {
+        text: 'Icon',
+        link: '/pages/icon'
+      },
+      {
+        text: 'Components',
+        link: '/pages/componentlist'
+      },
+      {
+        text: 'Pro',
+        link: '/pages/pro'
       },
       {
         text: 'API docs',

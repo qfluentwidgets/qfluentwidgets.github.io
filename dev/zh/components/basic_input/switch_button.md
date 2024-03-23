@@ -1,7 +1,7 @@
 ---
 title: 开关按钮
 date: 2024-02-26 11:29:01
-permalink: /zh/components/switchbutton/
+permalink: /zh/pages/components/switchbutton/
 ---
 
 ### [SwitchButton](https://pyqt-fluent-widgets.readthedocs.io/zh-cn/latest/autoapi/qfluentwidgets/components/widgets/switch_button/index.html#qfluentwidgets.components.widgets.switch_button.SwitchButton)

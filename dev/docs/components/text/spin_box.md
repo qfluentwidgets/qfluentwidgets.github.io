@@ -1,7 +1,7 @@
 ---
 title: Spin Box
 date: 2024-02-27 17:42:00
-permalink: /components/spinbox/
+permalink: /pages/components/spinbox/
 ---
 
 ### [SpinBox](https://pyqt-fluent-widgets.readthedocs.io/zh-cn/latest/autoapi/qfluentwidgets/components/widgets/spin_box/index.html#qfluentwidgets.components.widgets.spin_box.SpinBox)

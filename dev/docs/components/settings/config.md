@@ -1,7 +1,7 @@
 ---
 title: Configuration
 date: 2024-03-21 23:31:00
-permalink: /components/config/
+permalink: /pages/components/config/
 ---
 
 ## Design Principles

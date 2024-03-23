@@ -1,7 +1,7 @@
 ---
 title: 单选按钮
 date: 2024-02-26 11:29:01
-permalink: /zh/components/radiobutton/
+permalink: /zh/pages/components/radiobutton/
 ---
 
 ### [RadioButton](https://pyqt-fluent-widgets.readthedocs.io/zh-cn/latest/autoapi/qfluentwidgets/components/widgets/button/index.html#qfluentwidgets.components.widgets.button.RadioButton)

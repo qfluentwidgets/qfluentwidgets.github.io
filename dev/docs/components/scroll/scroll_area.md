@@ -1,7 +1,7 @@
 ---
 title: Scroll Area
 date: 2024-02-27 10:45:00
-permalink: /components/scrollarea/
+permalink: /pages/components/scrollarea/
 ---
 
 ### [SingleDirectionScrollArea](https://pyqt-fluent-widgets.readthedocs.io/en/latest/autoapi/qfluentwidgets/components/widgets/scroll_area/index.html#qfluentwidgets.components.widgets.scroll_area.SingleDirectionScrollArea)

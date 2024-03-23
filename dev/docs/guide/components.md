@@ -1,10 +1,10 @@
 ---
 title: Components
 date: 2023-08-25 17:35:27
-permalink: /pages/components/
+permalink: /pages/componentlist/
 ---
 
-Detailed usage documents for each component can be found on the [Component Page](/components/button).
+Detailed usage documents for each component can be found on the [Component Page](/pages/components/button).
 
 ## Basic Input
 

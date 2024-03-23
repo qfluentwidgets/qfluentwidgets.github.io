@@ -1,7 +1,7 @@
 ---
 title: Line Edit
 date: 2024-02-27 16:46:00
-permalink: /components/lineedit/
+permalink: /pages/components/lineedit/
 ---
 
 ### [LineEdit](https://pyqt-fluent-widgets.readthedocs.io/en/latest/autoapi/qfluentwidgets/components/widgets/line_edit/index.html#qfluentwidgets.components.widgets.line_edit.LineEdit)

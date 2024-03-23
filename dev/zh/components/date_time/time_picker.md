@@ -1,7 +1,7 @@
 ---
 title: 时间选择器
 date: 2024-02-26 13:45:01
-permalink: /zh/components/timepicker/
+permalink: /zh/pages/components/timepicker/
 ---
 
 ### [TimePicker](https://pyqt-fluent-widgets.readthedocs.io/zh-cn/latest/autoapi/qfluentwidgets/components/date_time/time_picker/index.html#qfluentwidgets.components.date_time.time_picker.TimePicker)

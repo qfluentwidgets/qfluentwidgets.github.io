@@ -1,7 +1,7 @@
 ---
 title: Flyout
 date: 2024-02-26 16:55:01
-permalink: /components/flyout/
+permalink: /pages/components/flyout/
 ---
 ### [Flyout](https://pyqt-fluent-widgets.readthedocs.io/zh-cn/latest/autoapi/qfluentwidgets/components/widgets/flyout/index.html#qfluentwidgets.components.widgets.flyout.Flyout)
 

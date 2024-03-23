@@ -1,7 +1,7 @@
 ---
 title: 快捷键选择器
 date: 2024-02-26 16:55:01
-permalink: /zh/components/shortcutpicker/
+permalink: /zh/pages/components/shortcutpicker/
 ---
 
 ### [ShortcutPicker](https://qfluentwidgets.com/zh/price)

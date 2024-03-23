@@ -1,7 +1,7 @@
 ---
 title: Color Picker
 date: 2024-02-26 16:55:01
-permalink: /components/colorpicker/
+permalink: /pages/components/colorpicker/
 ---
 
 ### [ColorDialog](https://pyqt-fluent-widgets.readthedocs.io/zh-cn/latest/autoapi/qfluentwidgets/components/dialog_box/color_dialog/index.html)

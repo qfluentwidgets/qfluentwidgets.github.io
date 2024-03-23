@@ -1,7 +1,7 @@
 ---
 title: Table View
 date: 2024-02-27 20:23:00
-permalink: /components/tableview/
+permalink: /pages/components/tableview/
 ---
 
 ### [TableWidget](https://pyqt-fluent-widgets.readthedocs.io/en/latest/autoapi/qfluentwidgets/components/widgets/table_view/index.html#qfluentwidgets.components.widgets.table_view.TableWidget)

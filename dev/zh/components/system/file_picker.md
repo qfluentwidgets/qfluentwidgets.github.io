@@ -1,7 +1,7 @@
 ---
 title: 文件选择器
 date: 2024-03-05 23:14:01
-permalink: /zh/components/filepicker/
+permalink: /zh/pages/components/filepicker/
 ---
 
 ### [DropSingleFileWidget](https://qfluentwidgets.com/zh/price)

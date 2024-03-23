@@ -1,14 +1,14 @@
 ---
 title: 进度环
 date: 2024-02-27 13:34:00
-permalink: /zh/components/progressring/
+permalink: /zh/pages/components/progressring/
 ---
 
 ### [ProgressRing](https://pyqt-fluent-widgets.readthedocs.io/zh-cn/latest/autoapi/qfluentwidgets/components/widgets/progress_ring/index.html#qfluentwidgets.components.widgets.progress_ring.ProgressRing)
 
 ![ProgressRing](/img/components/progressring/ProgressRing.png)
 
-`ProgressRing` 是一个环形进度条，可以用来表示处理进度或者用作仪表盘，使用方式和 [ProgressBar](/zh/components/progressbar) 相似。
+`ProgressRing` 是一个环形进度条，可以用来表示处理进度或者用作仪表盘，使用方式和 [ProgressBar](/zh/pages/components/progressbar) 相似。
 
 ```python
 ring = ProgressRing()

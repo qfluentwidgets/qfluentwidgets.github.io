@@ -1,7 +1,7 @@
 ---
 title: 标签
 date: 2024-02-27 13:34:00
-permalink: /zh/components/label/
+permalink: /zh/pages/components/label/
 ---
 
 ### [FluentLabelBase](https://pyqt-fluent-widgets.readthedocs.io/zh-cn/latest/autoapi/qfluentwidgets/components/widgets/label/index.html#qfluentwidgets.components.widgets.label.FluentLabelBase)

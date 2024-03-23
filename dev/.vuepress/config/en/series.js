@@ -2,122 +2,127 @@ export const series = {
     "/pages/": [
         {
             text: "Quick start",
-            children: ["/pages/about", "/pages/install", "/pages/designer", "/pages/components", "/pages/pro", "/pages/faq"],
+            children: [
+                "/pages/about",
+                "/pages/install",
+                "/pages/designer",
+                "/pages/theme",
+                "/pages/icon",
+                "/pages/i18n",
+                "/pages/componentlist",
+                "/pages/pro",
+                "/pages/faq"
+            ],
         },
-        {
-            text: "Customize",
-            children: ["/pages/theme", "/pages/icon", "/pages/setting", "/pages/i18n"],
-        },
-    ],
-    "/components/": [
         {
             text: "Basic Input",
             children: [
-                "/components/button",
-                "/components/checkbox",
-                "/components/combobox",
-                "/components/radiobutton",
-                "/components/slider",
-                "/components/switchbutton",
+                "/pages/components/button",
+                "/pages/components/checkbox",
+                "/pages/components/combobox",
+                "/pages/components/radiobutton",
+                "/pages/components/slider",
+                "/pages/components/switchbutton",
             ],
         },
         {
             text: "Chart",
             children: [
-                "/components/chartwidget",
+                "/pages/components/chartwidget",
             ],
         },
         {
             text: "Date Time",
             children: [
-                "/components/datepicker",
-                "/components/timepicker",
-                "/components/calendarpicker",
+                "/pages/components/datepicker",
+                "/pages/components/timepicker",
+                "/pages/components/calendarpicker",
             ],
         },
         {
             text: "Dialog & Flyout",
             children: [
-                "/components/messagebox",
-                "/components/colorpicker",
-                "/components/flyout",
-                "/components/teachingtip",
-                "/components/shortcutpicker",
+                "/pages/components/messagebox",
+                "/pages/components/colorpicker",
+                "/pages/components/flyout",
+                "/pages/components/teachingtip",
+                "/pages/components/shortcutpicker",
             ],
         },
         {
             text: "Layout",
             children: [
-                "/components/flowlayout",
+                "/pages/components/flowlayout",
             ],
         },
         {
             text: "Menu",
             children: [
-                "/components/menu",
-                "/components/commandbar",
+                "/pages/components/menu",
+                "/pages/components/commandbar",
             ],
         },
         {
             text: "Navigation",
             children: [
-                "/components/navigationbar",
-                "/components/topnavigationbar",
-                "/components/breadcrumbbar",
+                "/pages/components/navigationbar",
+                "/pages/components/topnavigationbar",
+                "/pages/components/breadcrumbbar",
             ],
         },
         {
             text: "Scroll",
             children: [
-                "/components/scrollarea",
-                "/components/pager",
+                "/pages/components/scrollarea",
+                "/pages/components/pager",
             ],
         },
         {
             text: "Status & Info",
             children: [
-                "/components/infobadge",
-                "/components/infobar",
-                "/components/progressbar",
-                "/components/progressring",
-                "/components/tooltip",
+                "/pages/components/infobadge",
+                "/pages/components/infobar",
+                "/pages/components/progressbar",
+                "/pages/components/progressring",
+                "/pages/components/tooltip",
             ],
         },
         {
             text: "System",
             children: [
-                "/components/filepicker",
-                "/components/folderpicker",
+                "/pages/components/filepicker",
+                "/pages/components/folderpicker",
             ],
         },
         {
             text: "Text",
             children: [
-                "/components/label",
-                "/components/lineedit",
-                "/components/spinbox",
+                "/pages/components/label",
+                "/pages/components/lineedit",
+                "/pages/components/spinbox",
             ],
         },
         {
             text: "View",
             children: [
-                "/components/flipview",
-                "/components/listview",
-                "/components/tableview",
-                "/components/treeview",
+                "/pages/components/flipview",
+                "/pages/components/listview",
+                "/pages/components/tableview",
+                "/pages/components/treeview",
             ],
         },
         {
             text: "Window",
             children: [
-                "/components/fluentwindow",
-                "/components/splashscreen"
+                "/pages/components/fluentwindow",
+                "/pages/components/splashscreen"
             ],
         },
         {
             text: "Setting",
             children: [
-                "/components/config",
+                "/pages/components/config",
+                "/pages/components/settingcard",
             ],
         },
     ],

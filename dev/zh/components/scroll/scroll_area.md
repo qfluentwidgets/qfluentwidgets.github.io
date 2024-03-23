@@ -1,7 +1,7 @@
 ---
 title: 滚动区域
 date: 2024-02-27 10:45:00
-permalink: /zh/components/scrollarea/
+permalink: /zh/pages/components/scrollarea/
 ---
 
 ### [SingleDirectionScrollArea](https://pyqt-fluent-widgets.readthedocs.io/zh-cn/latest/autoapi/qfluentwidgets/components/widgets/scroll_area/index.html#qfluentwidgets.components.widgets.scroll_area.SingleDirectionScrollArea)

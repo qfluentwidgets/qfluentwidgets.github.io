@@ -1,7 +1,7 @@
 ---
 title: Switch Button
 date: 2024-02-26 11:29:01
-permalink: /components/switchbutton/
+permalink: /pages/components/switchbutton/
 ---
 
 ### [SwitchButton](https://pyqt-fluent-widgets.readthedocs.io/en/latest/autoapi/qfluentwidgets/components/widgets/switch_button/index.html#qfluentwidgets.components.widgets.switch_button.SwitchButton)

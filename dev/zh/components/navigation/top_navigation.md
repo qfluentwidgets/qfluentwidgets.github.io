@@ -1,7 +1,7 @@
 ---
 title: 顶部导航栏
 date: 2024-02-26 19:56:01
-permalink: /zh/components/topnavigationbar/
+permalink: /zh/pages/components/topnavigationbar/
 ---
 
 ### [Pivot](https://pyqt-fluent-widgets.readthedocs.io/zh-cn/latest/autoapi/qfluentwidgets/components/navigation/pivot/index.html#qfluentwidgets.components.navigation.pivot.Pivot)

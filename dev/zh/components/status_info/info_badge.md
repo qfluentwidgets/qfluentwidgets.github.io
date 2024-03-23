@@ -1,7 +1,7 @@
 ---
 title: 徽章
 date: 2024-02-27 11:25:00
-permalink: /zh/components/infobadge/
+permalink: /zh/pages/components/infobadge/
 ---
 
 ### [InfoBadge](https://pyqt-fluent-widgets.readthedocs.io/zh-cn/latest/autoapi/qfluentwidgets/components/widgets/info_badge/index.html#qfluentwidgets.components.widgets.info_badge.InfoBadge)

@@ -1,7 +1,7 @@
 ---
 title: 输入框
 date: 2024-02-27 16:46:00
-permalink: /zh/components/lineedit/
+permalink: /zh/pages/components/lineedit/
 ---
 
 ### [LineEdit](https://pyqt-fluent-widgets.readthedocs.io/zh-cn/latest/autoapi/qfluentwidgets/components/widgets/line_edit/index.html#qfluentwidgets.components.widgets.line_edit.LineEdit)

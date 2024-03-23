@@ -1,7 +1,7 @@
 ---
 title: Folder Picker
 date: 2024-03-05 23:14:01
-permalink: /components/folderpicker/
+permalink: /pages/components/folderpicker/
 ---
 
 ### [DropSingleFolderWidget](https://qfluentwidgets.com/price)

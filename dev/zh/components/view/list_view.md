@@ -1,7 +1,7 @@
 ---
 title: 列表控件
 date: 2024-02-27 20:23:00
-permalink: /zh/components/listview/
+permalink: /zh/pages/components/listview/
 ---
 
 ### [ListWidget](https://pyqt-fluent-widgets.readthedocs.io/zh-cn/latest/autoapi/qfluentwidgets/components/widgets/list_view/index.html#qfluentwidgets.components.widgets.list_view.ListWidget)

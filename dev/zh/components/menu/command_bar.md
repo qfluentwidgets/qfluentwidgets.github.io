@@ -1,7 +1,7 @@
 ---
 title: 命令栏
 date: 2024-02-26 21:00:00
-permalink: /zh/components/commandbar/
+permalink: /zh/pages/components/commandbar/
 ---
 
 ### [CommandBar](https://pyqt-fluent-widgets.readthedocs.io/zh-cn/latest/autoapi/qfluentwidgets/components/widgets/command_bar/index.html#qfluentwidgets.components.widgets.command_bar.CommandBar)

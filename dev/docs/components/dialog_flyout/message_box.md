@@ -1,7 +1,7 @@
 ---
 title: Message Box
 date: 2024-02-26 15:04:01
-permalink: /components/messagebox/
+permalink: /pages/components/messagebox/
 ---
 
 ### [Dialog](https://pyqt-fluent-widgets.readthedocs.io/en/latest/autoapi/qfluentwidgets/components/dialog_box/dialog/index.html#qfluentwidgets.components.dialog_box.dialog.Dialog)

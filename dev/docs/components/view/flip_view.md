@@ -1,7 +1,7 @@
 ---
 title: Flip View
 date: 2024-02-27 19:35:00
-permalink: /components/flipview/
+permalink: /pages/components/flipview/
 ---
 
 ### [FlipView](https://pyqt-fluent-widgets.readthedocs.io/en/latest/autoapi/qfluentwidgets/components/widgets/flip_view/index.html#qfluentwidgets.components.widgets.flip_view.FlipView)

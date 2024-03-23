@@ -1,7 +1,7 @@
 ---
 title: Progress Bar
 date: 2024-02-27 13:34:00
-permalink: /components/progressbar/
+permalink: /pages/components/progressbar/
 ---
 
 ### [ProgressBar](https://pyqt-fluent-widgets.readthedocs.io/en/latest/autoapi/qfluentwidgets/components/widgets/progress_bar/index.html)

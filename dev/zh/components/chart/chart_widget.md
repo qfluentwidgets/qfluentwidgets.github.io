@@ -1,7 +1,7 @@
 ---
 title: 图表组件
 date: 2024-03-13 13:25:01
-permalink: /zh/components/chartwidget/
+permalink: /zh/pages/components/chartwidget/
 ---
 
 ### [ChartWidget](https://qfluentwidgets.com/zh/price)

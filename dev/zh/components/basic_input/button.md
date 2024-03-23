@@ -1,7 +1,7 @@
 ---
 title: 按钮
 date: 2024-02-25 19:15:01
-permalink: /zh/components/button/
+permalink: /zh/pages/components/button/
 ---
 
 ## 普通按钮

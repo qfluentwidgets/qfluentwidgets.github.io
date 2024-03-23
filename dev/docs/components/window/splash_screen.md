@@ -1,7 +1,7 @@
 ---
 title: Splash Screen
 date: 2024-03-14 13:52:00
-permalink: /components/splashscreen/
+permalink: /pages/components/splashscreen/
 ---
 
 ### [SplashScreen](https://pyqt-fluent-widgets.readthedocs.io/en/latest/autoapi/qfluentwidgets/window/splash_screen/index.html)

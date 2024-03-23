@@ -1,7 +1,7 @@
 ---
 title: 菜单
 date: 2024-02-26 19:56:01
-permalink: /zh/components/menu/
+permalink: /zh/pages/components/menu/
 ---
 
 ### [RoundMenu](https://pyqt-fluent-widgets.readthedocs.io/zh-cn/latest/autoapi/qfluentwidgets/components/widgets/menu/index.html#qfluentwidgets.components.widgets.menu.RoundMenu)

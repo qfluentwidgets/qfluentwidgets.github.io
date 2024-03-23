@@ -19,7 +19,7 @@ export const home = {
             title: '组件驱动',
             subTitle: '开箱即用',
             description: 'QFluentWidgets 是基于 Qt 的 Fluent Design 风格组件库。该组件库同时支持 C++ 和 Python，包含了数百个现成的组件和示例供你选择，保证能让你找到一个完美的组件作为千里之行的起点。',
-            url: '/zh/components/button/'
+            url: '/zh/pages/components/button/'
         },
         designer: {
             title: '拖拖拽拽',

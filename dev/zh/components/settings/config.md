@@ -1,7 +1,7 @@
 ---
 title: 配置类
 date: 2024-03-21 23:31:00
-permalink: /zh/components/config/
+permalink: /zh/pages/components/config/
 ---
 
 

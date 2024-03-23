@@ -1,7 +1,7 @@
 ---
 title: Tool Tip
 date: 2024-02-27 13:34:00
-permalink: /components/tooltip/
+permalink: /pages/components/tooltip/
 ---
 
 ### [ToolTipFilter](https://pyqt-fluent-widgets.readthedocs.io/en/latest/autoapi/qfluentwidgets/components/widgets/tool_tip/index.html#qfluentwidgets.components.widgets.tool_tip.ToolTipFilter)

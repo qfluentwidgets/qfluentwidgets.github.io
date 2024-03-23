@@ -1,7 +1,7 @@
 ---
 title: Info Bar
 date: 2024-02-27 13:34:00
-permalink: /components/infobar/
+permalink: /pages/components/infobar/
 ---
 
 ### [InfoBar](https://pyqt-fluent-widgets.readthedocs.io/en/latest/autoapi/qfluentwidgets/components/widgets/info_bar/index.html)

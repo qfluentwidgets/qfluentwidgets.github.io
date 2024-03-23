@@ -1,7 +1,7 @@
 ---
 title: Slider
 date: 2024-02-26 11:29:01
-permalink: /components/slider/
+permalink: /pages/components/slider/
 ---
 
 ### [Slider](https://pyqt-fluent-widgets.readthedocs.io/en/latest/autoapi/qfluentwidgets/components/widgets/slider/index.html#qfluentwidgets.components.widgets.slider.Slider)

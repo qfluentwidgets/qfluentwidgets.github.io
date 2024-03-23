@@ -1,7 +1,7 @@
 ---
 title: 分页器
 date: 2024-02-27 11:25:00
-permalink: /zh/components/pager/
+permalink: /zh/pages/components/pager/
 ---
 
 ### [PipsPager](https://pyqt-fluent-widgets.readthedocs.io/zh-cn/latest/autoapi/qfluentwidgets/components/widgets/pips_pager/index.html#qfluentwidgets.components.widgets.pips_pager.PipsPager)

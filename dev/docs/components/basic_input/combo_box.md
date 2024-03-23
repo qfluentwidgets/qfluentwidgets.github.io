@@ -1,7 +1,7 @@
 ---
 title: Combo Box
 date: 2024-02-25 19:15:01
-permalink: /components/combobox/
+permalink: /pages/components/combobox/
 ---
 
 ## [ComboBox](https://pyqt-fluent-widgets.readthedocs.io/en/latest/autoapi/qfluentwidgets/components/widgets/combo_box/index.html#qfluentwidgets.components.widgets.combo_box.ComboBox)

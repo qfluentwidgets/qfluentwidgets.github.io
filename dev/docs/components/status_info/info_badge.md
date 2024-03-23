@@ -1,7 +1,7 @@
 ---
 title: Badge
 date: 2024-02-27 11:25:00
-permalink: /components/infobadge/
+permalink: /pages/components/infobadge/
 ---
 
 ### [InfoBadge](https://pyqt-fluent-widgets.readthedocs.io/en/latest/autoapi/qfluentwidgets/components/widgets/info_badge/index.html#qfluentwidgets.components.widgets.info_badge.InfoBadge)

@@ -1,7 +1,7 @@
 ---
 title: 进度条
 date: 2024-02-27 13:34:00
-permalink: /zh/components/progressbar/
+permalink: /zh/pages/components/progressbar/
 ---
 
 ### [ProgressBar](https://pyqt-fluent-widgets.readthedocs.io/zh-cn/latest/autoapi/qfluentwidgets/components/widgets/progress_bar/index.html)

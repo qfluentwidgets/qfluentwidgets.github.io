@@ -1,7 +1,7 @@
 ---
 title: List View
 date: 2024-02-27 20:23:00
-permalink: /components/listview/
+permalink: /pages/components/listview/
 ---
 
 ### [ListWidget](https://pyqt-fluent-widgets.readthedocs.io/en/latest/autoapi/qfluentwidgets/components/widgets/list_view/index.html#qfluentwidgets.components.widgets.list_view.ListWidget)

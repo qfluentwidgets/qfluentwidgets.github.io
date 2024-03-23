@@ -1,7 +1,7 @@
 ---
 title: Shortcut Picker
 date: 2024-02-26 16:55:01
-permalink: /components/shortcutpicker/
+permalink: /pages/components/shortcutpicker/
 ---
 
 ### [ShortcutPicker](https://qfluentwidgets.com/price)

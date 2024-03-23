@@ -1,7 +1,7 @@
 ---
 title: File Picker
 date: 2024-03-05 23:14:01
-permalink: /components/filepicker/
+permalink: /pages/components/filepicker/
 ---
 
 ### [DropSingleFileWidget](https://qfluentwidgets.com/price)

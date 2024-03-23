@@ -12,7 +12,7 @@ permalink: /zh/pages/faq/
 
 #### 如何购买永久版的 Python 组件库或者 C++ 组件库？
 
-  请联系作者邮箱 [shokokawaii@foxmail.com](mailto:shokokawaii@foxmail.com) 或 QQ：1953658489。C++ 组件库个人版支持分期付款。
+  请联系作者邮箱 [shokokawaii@foxmail.com](mailto:shokokawaii@foxmail.com) 或 QQ：1953658489。
 
 
 #### C++ 组件库的底层是 Python 吗，会不会有运行效率问题？

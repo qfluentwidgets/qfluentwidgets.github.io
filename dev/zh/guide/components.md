@@ -1,10 +1,10 @@
 ---
 title: 组件
 date: 2023-08-25 17:35:27
-permalink: /zh/pages/components/
+permalink: /zh/pages/componentlist/
 ---
 
-各个组件的详细使用文档见 [组件页面](/zh/components/button)。
+各个组件的详细使用文档见 [组件页面](/zh/pages/components/button)。
 
 ## 基本输入
 

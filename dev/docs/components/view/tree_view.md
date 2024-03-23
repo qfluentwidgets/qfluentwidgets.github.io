@@ -1,7 +1,7 @@
 ---
 title: Tree View
 date: 2024-02-27 21:07:00
-permalink: /components/treeview/
+permalink: /pages/components/treeview/
 ---
 
 ### [TreeWidget](https://pyqt-fluent-widgets.readthedocs.io/zh-cn/latest/autoapi/qfluentwidgets/components/widgets/tree_view/index.html#qfluentwidgets.components.widgets.tree_view.TreeWidget)

@@ -1,7 +1,7 @@
 ---
 title: 颜色选择器
 date: 2024-02-26 16:55:01
-permalink: /zh/components/colorpicker/
+permalink: /zh/pages/components/colorpicker/
 ---
 
 ### [ColorDialog](https://pyqt-fluent-widgets.readthedocs.io/zh-cn/latest/autoapi/qfluentwidgets/components/dialog_box/color_dialog/index.html)

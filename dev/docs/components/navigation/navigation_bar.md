@@ -1,7 +1,7 @@
 ---
 title: Left Navigation Bar
 date: 2023-08-17 19:00:22
-permalink: /components/navigationbar/
+permalink: /pages/components/navigationbar/
 ---
 
 ## [NavigationInterface](https://pyqt-fluent-widgets.readthedocs.io/zh-cn/latest/autoapi/qfluentwidgets/components/navigation/navigation_interface/index.html#qfluentwidgets.components.navigation.navigation_interface.NavigationInterface)

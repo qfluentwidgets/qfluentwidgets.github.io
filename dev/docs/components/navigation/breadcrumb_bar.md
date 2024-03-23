@@ -1,7 +1,7 @@
 ---
 title: Breadcrumb Bar
 date: 2024-02-26 19:56:01
-permalink: /components/breadcrumbbar/
+permalink: /pages/components/breadcrumbbar/
 ---
 
 ### [BreadcrumbBar](https://pyqt-fluent-widgets.readthedocs.io/en/latest/autoapi/qfluentwidgets/components/navigation/breadcrumb/index.html#qfluentwidgets.components.navigation.breadcrumb.BreadcrumbBar)

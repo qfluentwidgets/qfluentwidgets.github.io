@@ -1,7 +1,7 @@
 ---
 title: Calendar Picker
 date: 2024-02-26 14:08:01
-permalink: /components/calendarpicker/
+permalink: /pages/components/calendarpicker/
 ---
 
 ### [CalendarPicker](https://pyqt-fluent-widgets.readthedocs.io/en/latest/autoapi/qfluentwidgets/components/date_time/calendar_picker/index.html#qfluentwidgets.components.date_time.calendar_picker.CalendarPicker)

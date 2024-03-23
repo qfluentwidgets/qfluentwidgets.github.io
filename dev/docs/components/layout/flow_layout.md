@@ -1,7 +1,7 @@
 ---
 title: Flow Layout
 date: 2024-02-26 19:40:01
-permalink: /components/flowlayout/
+permalink: /pages/components/flowlayout/
 ---
 
 ### [FlowLayout](https://pyqt-fluent-widgets.readthedocs.io/en/latest/autoapi/qfluentwidgets/components/layout/flow_layout/index.html)

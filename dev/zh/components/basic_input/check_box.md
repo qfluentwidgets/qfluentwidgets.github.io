@@ -1,7 +1,7 @@
 ---
 title: 复选框
 date: 2024-02-25 19:15:01
-permalink: /zh/components/checkbox/
+permalink: /zh/pages/components/checkbox/
 ---
 
 ### [CheckBox](https://pyqt-fluent-widgets.readthedocs.io/zh-cn/latest/autoapi/qfluentwidgets/components/widgets/check_box/index.html#qfluentwidgets.components.widgets.check_box.CheckBox)

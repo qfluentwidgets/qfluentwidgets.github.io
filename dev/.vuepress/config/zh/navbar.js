@@ -4,54 +4,32 @@ export const navbar = [
     icon: 'Compass',
     children: [
       {
-        text: '快速入门',
-        children: [
-          {
-            text: '简介',
-            link: '/zh/pages/about'
-          },
-          {
-            text: '安装',
-            link: '/zh/pages/install'
-          },
-          {
-            text: '设计师',
-            link: '/zh/pages/designer'
-          },
-          {
-            text: '组件',
-            link: '/zh/pages/components'
-          },
-          {
-            text: '商用版',
-            link: '/zh/pages/pro'
-          },
-          {
-            text: '常见问题',
-            link: '/zh/pages/faq'
-          },
-        ]
+        text: '简介',
+        link: '/zh/pages/about'
       },
       {
-        text: '高级定制',
-        children: [
-          {
-            text: '主题',
-            link: '/zh/pages/theme'
-          },
-          {
-            text: '图标',
-            link: '/zh/pages/icon'
-          },
-          {
-            text: '设置',
-            link: '/zh/pages/setting'
-          },
-          {
-            text: '国际化',
-            link: '/zh/pages/i18n'
-          },
-        ]
+        text: '安装',
+        link: '/zh/pages/install'
+      },
+      {
+        text: '设计师',
+        link: '/zh/pages/designer'
+      },
+      {
+        text: '主题',
+        link: '/zh/pages/theme'
+      },
+      {
+        text: '图标',
+        link: '/zh/pages/icon'
+      },
+      {
+        text: '组件',
+        link: '/zh/pages/componentlist'
+      },
+      {
+        text: '高级版',
+        link: '/zh/pages/pro'
       },
       {
         text: 'API 文档',

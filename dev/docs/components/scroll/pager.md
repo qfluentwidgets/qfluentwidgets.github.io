@@ -1,7 +1,7 @@
 ---
 title: Pager
 date: 2024-02-27 11:25:00
-permalink: /components/pager/
+permalink: /pages/components/pager/
 ---
 
 ### [PipsPager](https://pyqt-fluent-widgets.readthedocs.io/en/latest/autoapi/qfluentwidgets/components/widgets/pips_pager/index.html#qfluentwidgets.components.widgets.pips_pager.PipsPager)

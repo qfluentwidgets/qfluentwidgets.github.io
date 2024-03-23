@@ -1,14 +1,14 @@
 ---
 title: Progress Ring
 date: 2024-02-27 13:34:00
-permalink: /components/progressring/
+permalink: /pages/components/progressring/
 ---
 
 ### [ProgressRing](https://pyqt-fluent-widgets.readthedocs.io/en/latest/autoapi/qfluentwidgets/components/widgets/progress_ring/index.html#qfluentwidgets.components.widgets.progress_ring.ProgressRing)
 
 ![ProgressRing](/img/components/progressring/ProgressRing.png)
 
-`ProgressRing` is a circular progress bar that can be used to represent processing progress or as a dashboard, its usage is similar to [ProgressBar](/zh/components/progressbar).
+`ProgressRing` is a circular progress bar that can be used to represent processing progress or as a dashboard, its usage is similar to [ProgressBar](/zh/pages/components/progressbar).
 
 ```python
 ring = ProgressRing()

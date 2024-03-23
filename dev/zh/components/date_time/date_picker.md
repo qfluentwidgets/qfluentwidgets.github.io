@@ -1,7 +1,7 @@
 ---
 title: 日期选择器
 date: 2024-02-26 12:32:01
-permalink: /zh/components/datepicker/
+permalink: /zh/pages/components/datepicker/
 ---
 
 ### [DatePicker](https://pyqt-fluent-widgets.readthedocs.io/zh-cn/latest/autoapi/qfluentwidgets/components/date_time/date_picker/index.html#qfluentwidgets.components.date_time.date_picker.DatePicker)

@@ -1,7 +1,7 @@
 ---
 title: 消息条
 date: 2024-02-27 13:34:00
-permalink: /zh/components/infobar/
+permalink: /zh/pages/components/infobar/
 ---
 
 ### [InfoBar](https://pyqt-fluent-widgets.readthedocs.io/zh-cn/latest/autoapi/qfluentwidgets/components/widgets/info_bar/index.html)

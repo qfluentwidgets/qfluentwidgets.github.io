@@ -1,7 +1,7 @@
 ---
 title: Chart Widget
 date: 2024-03-13 13:25:01
-permalink: /components/chartwidget/
+permalink: /pages/components/chartwidget/
 ---
 
 ### [ChartWidget](https://qfluentwidgets.com/price)

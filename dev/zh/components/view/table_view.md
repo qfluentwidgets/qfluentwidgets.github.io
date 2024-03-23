@@ -1,7 +1,7 @@
 ---
 title: 表格控件
 date: 2024-02-27 20:23:00
-permalink: /zh/components/tableview/
+permalink: /zh/pages/components/tableview/
 ---
 
 ### [TableWidget](https://pyqt-fluent-widgets.readthedocs.io/zh-cn/latest/autoapi/qfluentwidgets/components/widgets/table_view/index.html#qfluentwidgets.components.widgets.table_view.TableWidget)

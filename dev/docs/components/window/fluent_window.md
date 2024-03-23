@@ -1,7 +1,7 @@
 ---
 title: Fluent Window
 date: 2024-03-14 13:52:00
-permalink: /components/fluentwindow/
+permalink: /pages/components/fluentwindow/
 ---
 
 ## [FluentWindow](https://pyqt-fluent-widgets.readthedocs.io/en/latest/autoapi/qfluentwidgets/window/fluent_window/index.html#)

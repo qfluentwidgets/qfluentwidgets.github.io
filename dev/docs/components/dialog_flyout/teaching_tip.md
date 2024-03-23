@@ -1,7 +1,7 @@
 ---
 title: Teaching Tip
 date: 2024-02-26 19:00:01
-permalink: /components/teachingtip/
+permalink: /pages/components/teachingtip/
 ---
 
 ### [TeachingTip](https://pyqt-fluent-widgets.readthedocs.io/zh-cn/latest/autoapi/qfluentwidgets/components/widgets/teaching_tip/index.html#qfluentwidgets.components.widgets.teaching_tip.TeachingTip)

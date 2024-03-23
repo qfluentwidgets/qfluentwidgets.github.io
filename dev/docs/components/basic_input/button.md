@@ -1,7 +1,7 @@
 ---
 title: Button
 date: 2024-02-25 19:15:01
-permalink: /components/button
+permalink: /pages/components/button
 ---
 
 ## Standard Buttons

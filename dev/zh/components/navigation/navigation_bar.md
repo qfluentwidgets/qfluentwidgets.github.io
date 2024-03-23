@@ -1,13 +1,13 @@
 ---
 title: 侧边导航
 date: 2023-08-17 19:00:22
-permalink: /zh/components/navigationbar/
+permalink: /zh/pages/components/navigationbar/
 ---
 
 ## [NavigationInterface](https://pyqt-fluent-widgets.readthedocs.io/zh-cn/latest/autoapi/qfluentwidgets/components/navigation/navigation_interface/index.html#qfluentwidgets.components.navigation.navigation_interface.NavigationInterface)
 
 ::: tip 提示
-只有需要高度定制侧边栏时才推荐直接使用这个类，否则请使用 [FluentWindow](/zh/components/fluentwindow/)。
+只有需要高度定制侧边栏时才推荐直接使用这个类，否则请使用 [FluentWindow](/zh/pages/components/fluentwindow/)。
 :::
 
 ### 结构

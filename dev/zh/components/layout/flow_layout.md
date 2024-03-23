@@ -1,7 +1,7 @@
 ---
 title: 流式布局
 date: 2024-02-26 19:40:01
-permalink: /zh/components/flowlayout/
+permalink: /zh/pages/components/flowlayout/
 ---
 
 ### [FlowLayout](https://pyqt-fluent-widgets.readthedocs.io/zh-cn/latest/autoapi/qfluentwidgets/components/layout/flow_layout/index.html)

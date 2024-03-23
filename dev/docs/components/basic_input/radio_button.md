@@ -1,7 +1,7 @@
 ---
 title: Radio Button
 date: 2024-02-26 11:29:01
-permalink: /components/radiobutton/
+permalink: /pages/components/radiobutton/
 ---
 
 ### [RadioButton](https://pyqt-fluent-widgets.readthedocs.io/en/latest/autoapi/qfluentwidgets/components/widgets/button/index.html#qfluentwidgets.components.widgets.button.RadioButton)

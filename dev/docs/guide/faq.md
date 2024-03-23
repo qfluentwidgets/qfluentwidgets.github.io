@@ -8,10 +8,6 @@ permalink: /pages/faq/
 
 Yes, Yes, the component library is protected by copyright, with registration number 12532763. Unauthorized commercial use is considered infringement. Subscriptions need to be renewed after expiration.
 
-#### Does the commercial version support PyQt?
-
-No, it does not. PyQt has stricter licensing. For commercial software, please use PySide6 (recommended) or PySide2.
-
 #### How to purchase the perpetual license of the Python component library or the C++ component library?
 
 Please contact the author via email at [shokokawaii@foxmail.com](mailto:shokokawaii@foxmail.com) or QQ: 1953658489.

@@ -1,7 +1,7 @@
 ---
 title: Top Navigation Bar
 date: 2024-02-26 19:56:01
-permalink: /components/topnavigationbar/
+permalink: /pages/components/topnavigationbar/
 ---
 
 ### [Pivot](https://pyqt-fluent-widgets.readthedocs.io/en/latest/autoapi/qfluentwidgets/components/navigation/pivot/index.html#qfluentwidgets.components.navigation.pivot.Pivot)

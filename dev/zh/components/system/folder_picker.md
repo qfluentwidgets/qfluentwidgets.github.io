@@ -1,7 +1,7 @@
 ---
 title: 文件夹选择器
 date: 2024-03-05 23:14:01
-permalink: /zh/components/folderpicker/
+permalink: /zh/pages/components/folderpicker/
 ---
 
 ### [DropSingleFolderWidget](https://qfluentwidgets.com/zh/price)
