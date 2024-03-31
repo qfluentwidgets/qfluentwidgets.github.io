@@ -56,6 +56,12 @@ export const series = {
             ],
         },
         {
+            text: "多媒体",
+            children: [
+                "/zh/pages/components/mediaplaybar",
+            ],
+        },
+        {
             text: "菜单",
             children: [
                 "/zh/pages/components/menu",

@@ -56,6 +56,12 @@ export const series = {
             ],
         },
         {
+            text: "Media",
+            children: [
+                "/pages/components/mediaplaybar",
+            ],
+        },
+        {
             text: "Menu",
             children: [
                 "/pages/components/menu",
