@@ -59,6 +59,7 @@ export const series = {
             text: "多媒体",
             children: [
                 "/zh/pages/components/mediaplaybar",
+                "/zh/pages/components/videowidget",
             ],
         },
         {

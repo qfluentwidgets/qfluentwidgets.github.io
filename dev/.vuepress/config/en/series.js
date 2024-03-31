@@ -59,6 +59,7 @@ export const series = {
             text: "Media",
             children: [
                 "/pages/components/mediaplaybar",
+                "/pages/components/videowidget",
             ],
         },
         {
