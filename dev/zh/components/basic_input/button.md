@@ -385,7 +385,7 @@ menu.addAction(Action(FluentIcon.ALBUM, 'Sing', triggered=lambda: print("喜欢�
 menu.addAction(Action(FluentIcon.MUSIC, 'Music', triggered=lambda: print("只因你太美")))
 
 # 添加菜单
-button.setMenu(menu)
+button.setFlyout(menu)
 ```
 
 ### [SplitToolButton](https://pyqt-fluent-widgets.readthedocs.io/zh-cn/latest/autoapi/qfluentwidgets/components/widgets/button/index.html#qfluentwidgets.components.widgets.button.SplitToolButton)
@@ -404,7 +404,7 @@ menu.addAction(Action(FluentIcon.SEND_FIL, 'Send', triggered=lambda: print("已�
 menu.addAction(Action(FluentIcon.SAVE, 'Save', triggered=lambda: print("已保存")))
 
 # 添加菜单
-button.setMenu(menu)
+button.setFlyout(menu)
 ```
 
 ### [PrimarySplitPushButton](https://pyqt-fluent-widgets.readthedocs.io/zh-cn/latest/autoapi/qfluentwidgets/components/widgets/button/index.html#qfluentwidgets.components.widgets.button.PrimarySplitPushButton)
@@ -424,7 +424,7 @@ menu.addAction(Action(FluentIcon.ALBUM, 'Sing', triggered=lambda: print("喜欢�
 menu.addAction(Action(FluentIcon.MUSIC, 'Music', triggered=lambda: print("只因你太美")))
 
 # 添加菜单
-button.setMenu(menu)
+button.setFlyout(menu)
 ```
 
 ### [PrimarySplitToolButton](https://pyqt-fluent-widgets.readthedocs.io/zh-cn/latest/autoapi/qfluentwidgets/components/widgets/button/index.html#qfluentwidgets.components.widgets.button.PrimarySplitToolButton)
@@ -443,7 +443,7 @@ menu.addAction(Action(FluentIcon.SEND_FIL, 'Send', triggered=lambda: print("已�
 menu.addAction(Action(FluentIcon.SAVE, 'Save', triggered=lambda: print("已保存")))
 
 # 添加菜单
-button.setMenu(menu)
+button.setFlyout(menu)
 ```
 
 ## 标签

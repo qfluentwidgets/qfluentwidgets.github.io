@@ -363,32 +363,84 @@ menu.addAction(Action(FluentIcon.SAVE, 'Save', triggered=lambda: print("Saved"))
 button.setMenu(menu)
 ```
 
-## Split Buttons
-### [SplitPushButton](https://pyqt-fluent-widgets.readthedocs.io/en/latest/autoapi/qfluentwidgets/components/widgets/button/index.html#qfluentwidgets.components.widgets.button.SplitPushButton)
+## Split Button
+### [SplitPushButton](https://pyqt-fluent-widgets.readthedocs.io/zh-cn/latest/autoapi/qfluentwidgets/components/widgets/button/index.html#qfluentwidgets.components.widgets.button.SplitPushButton)
 
 ![SplitPushButton](/img/components/button/SplitPushButton.jpg)
 
-`SplitPushButton` consists of two buttons, clicking the left button will emit the `clicked` signal, clicking the right button shows a dropdown menu, the dropdown menu must be `RoundMenu` or subclasses.
+`SplitPushButton` consists of two buttons. Clicking the left button triggers the `clicked` signal, while clicking the right button pops up a drop-down menu. The drop-down menu must be `RoundMenu` or its subclass.
 
 ```python
 button = SplitPushButton(FluentIcon.GITHUB, 'Split push button')
-button.clicked.connect(lambda: print("Click left button"))
+button.clicked.connect(lambda: print("Left button clicked"))
 
 # Create menu
 menu = RoundMenu(parent=button)
-menu.addAction(Action(FluentIcon.BASKETBALL, 'Basketball', triggered=lambda: print("What are you doing?")))
-menu.addAction(Action(FluentIcon.ALBUM, 'Sing', triggered=lambda: print("I like singing, rapping, and dancing")))
-menu.addAction(Action(FluentIcon.MUSIC, 'Music', triggered=lambda: print("Just because you are so beautiful")))
+menu.addAction(Action(FluentIcon.BASKETBALL, 'Basketball', triggered=lambda: print("What are you doing~")))
+menu.addAction(Action(FluentIcon.ALBUM, 'Sing', triggered=lambda: print("Like singing and dancing RAP")))
+menu.addAction(Action(FluentIcon.MUSIC, 'Music', triggered=lambda: print("Just because you are too beautiful")))
 
 # Add menu
-button.setMenu(menu)
+button.setFlyout(menu)
 ```
 
-### [SplitToolButton](https://pyqt-fluent-widgets.readthedocs.io/en/latest/autoapi/qfluentwidgets/components/widgets/button/index.html#qfluentwidgets.components.widgets.button.SplitToolButton)
+### [SplitToolButton](https://pyqt-fluent-widgets.readthedocs.io/zh-cn/latest/autoapi/qfluentwidgets/components/widgets/button/index.html#qfluentwidgets.components.widgets.button.SplitToolButton)
 
 ![SplitToolButton](/img/components/button/SplitToolButton.jpg)
 
-`SplitToolButton` consists of two buttons, clicking the left button will emit the `clicked` signal, clicking the right button shows a dropdown menu, the dropdown menu must be `RoundMenu`
+`SplitToolButton` consists of two buttons. Clicking the left button triggers the `clicked` signal, while clicking the right button pops up a drop-down menu. The drop-down menu must be `RoundMenu` or its subclass.
+
+```python
+button = SplitToolButton(FluentIcon.MAIL)
+button.clicked.connect(lambda: print("Left button clicked"))
+
+# Create menu
+menu = RoundMenu(parent=button)
+menu.addAction(Action(FluentIcon.SEND_FIL, 'Send', triggered=lambda: print("Sent")))
+menu.addAction(Action(FluentIcon.SAVE, 'Save', triggered=lambda: print("Saved")))
+
+# Add menu
+button.setFlyout(menu)
+```
+
+### [PrimarySplitPushButton](https://pyqt-fluent-widgets.readthedocs.io/zh-cn/latest/autoapi/qfluentwidgets/components/widgets/button/index.html#qfluentwidgets.components.widgets.button.PrimarySplitPushButton)
+
+![PrimarySplitPushButton](/img/components/button/PrimarySplitPushButton.jpg)
+
+`PrimarySplitPushButton` consists of two buttons. Clicking the left button triggers the `clicked` signal, while clicking the right button pops up a drop-down menu. The drop-down menu must be `RoundMenu` or its subclass.
+
+```python
+button = PrimarySplitPushButton(FluentIcon.GITHUB, 'Split push button')
+button.clicked.connect(lambda: print("Left button clicked"))
+
+# Create menu
+menu = RoundMenu(parent=button)
+menu.addAction(Action(FluentIcon.BASKETBALL, 'Basketball', triggered=lambda: print("What are you doing~")))
+menu.addAction(Action(FluentIcon.ALBUM, 'Sing', triggered=lambda: print("Like singing and dancing RAP")))
+menu.addAction(Action(FluentIcon.MUSIC, 'Music', triggered=lambda: print("Just because you are too beautiful")))
+
+# Add menu
+button.setFlyout(menu)
+```
+
+### [PrimarySplitToolButton](https://pyqt-fluent-widgets.readthedocs.io/zh-cn/latest/autoapi/qfluentwidgets/components/widgets/button/index.html#qfluentwidgets.components.widgets.button.PrimarySplitToolButton)
+
+![PrimarySplitToolButton](/img/components/button/PrimarySplitToolButton.jpg)
+
+`PrimarySplitToolButton` consists of two buttons. Clicking the left button triggers the `clicked` signal, while clicking the right button pops up a drop-down menu. The drop-down menu must be `RoundMenu` or its subclass.
+
+```python
+button = PrimarySplitToolButton(FluentIcon.MAIL)
+button.clicked.connect(lambda: print("Left button clicked"))
+
+# Create menu
+menu = RoundMenu(parent=button)
+menu.addAction(Action(FluentIcon.SEND_FIL, 'Send', triggered=lambda: print("Sent")))
+menu.addAction(Action(FluentIcon.SAVE, 'Save', triggered=lambda: print("Saved")))
+
+# Add menu
+button.setFlyout(menu)
+```
 
 ## Labels
 
