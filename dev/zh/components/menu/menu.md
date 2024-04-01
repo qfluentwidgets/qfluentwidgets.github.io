@@ -14,8 +14,8 @@ permalink: /zh/pages/components/menu/
 menu = RoundMenu()
 
 # 逐个添加动作，Action 继承自 QAction，接受 FluentIconBase 类型的图标
-menu.addAction(Action(FluentIcon.COPY, '复制', trigerred=lambda: print("复制成功")))
-menu.addAction(Action(FluentIcon.CUT, '剪切', trigerred=lambda: print("剪切成功")))
+menu.addAction(Action(FluentIcon.COPY, '复制', triggered=lambda: print("复制成功")))
+menu.addAction(Action(FluentIcon.CUT, '剪切', triggered=lambda: print("剪切成功")))
 
 # 批量添加动作
 menu.addActions([
