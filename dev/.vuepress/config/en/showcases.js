@@ -88,12 +88,6 @@ export const showcases = {
             url: 'https://github.com/Eanya-Tonic/MihiroToolbox'
         },
         {
-            name: 'HuiTang AIGC',
-            description: 'Workflow software for graphics based on Stable Diffusion and LLM',
-            cover: 'https://img.fastmirror.net/s/2023/10/28/653d2d725100d.png',
-            url: 'https://jiu-meng.feishu.cn/wiki/IrAxwMeepirGB1kpixHcTTsen2g'
-        },
-        {
             name: 'Baas',
             description: 'Blue Archive auto script',
             cover: 'https://img.fastmirror.net/s/2023/11/11/654eed0927f9f.png',

@@ -88,12 +88,6 @@ export const showcases = {
             url: 'https://github.com/Eanya-Tonic/MihiroToolbox'
         },
         {
-            name: '绘唐',
-            description: '基于 Stabel Diffusion 和大语言模型的绘图工作流软件',
-            cover: 'https://img.fastmirror.net/s/2023/10/28/653d2d725100d.png',
-            url: 'https://jiu-meng.feishu.cn/wiki/IrAxwMeepirGB1kpixHcTTsen2g'
-        },
-        {
             name: 'Baas',
             description: '蔚蓝档案自动化工具',
             cover: 'https://img.fastmirror.net/s/2023/11/11/654eed0927f9f.png',
