@@ -128,12 +128,12 @@ Python 组件库非商业用途使用 GPLv3 许可证进行授权，商用需购
 | `RadialGauge`        | 仪表盘                         |
 
 ### 导航
-| 组件名                     | 描述             |
-| -------------------------- | ---------------- |
-| `ExclusiveLiteFilter`      | 互斥过滤器       |
-| `MultiSelectionLiteFilter` | 多选过滤器       |
-| `TopNavigationBar`         | 顶部导航栏       |
-| `TopFluentWindow`          | 顶部导航流畅窗口 |
+| 组件名                     | 描述       |
+| -------------------------- | ---------- |
+| `ExclusiveLiteFilter`      | 互斥过滤器 |
+| `MultiSelectionLiteFilter` | 多选过滤器 |
+| `TopNavigationBar`         | 顶部导航栏 |
+| `FilledNavigationBar`      | 填充导航栏 |
 
 ### 文本
 | 组件名          | 描述       |
@@ -150,3 +150,11 @@ Python 组件库非商业用途使用 GPLv3 许可证进行授权，商用需购
 | `ColorPickerSettingCard`            | 下拉拾色器设置卡       |
 | `CustomColorPickerSettingCard`      | 自定义下拉拾色器设置卡 |
 | `ShortcutSettingCard`               | 快捷键设置卡           |
+
+
+### 窗口
+| 组件名                    | 描述             |
+| ------------------------- | ---------------- |
+| `TopFluentWindow`         | 顶部导航流畅窗口 |
+| `FilledFluentWindow`      | 填充流畅窗口     |
+| `FilledSplitFluentWindow` | 填充拆分流畅窗口 |

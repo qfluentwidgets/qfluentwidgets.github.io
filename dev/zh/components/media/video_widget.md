@@ -17,6 +17,8 @@ PyQt/PySide 6.5.0 及以上版本不需要额外安装解码器，低版本需�
 使用方式较为简单：
 
 ```python
+from qfluentwidgets.multimedia import VideoWidget
+
 videoWidget = VideoWidget(self)
 
 videoWidget.setVideo(QUrl.fromLocalFile("D:/Video/aiko - シアワセ.mp4"))

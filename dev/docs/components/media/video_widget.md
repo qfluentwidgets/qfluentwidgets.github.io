@@ -17,6 +17,8 @@ PyQt/PySide 6.5.0 and above do not require additional installation of decoders, 
 The usage is quite simple:
 
 ```python
+from qfluentwidgets.multimedia import VideoWidget
+
 videoWidget = VideoWidget(self)
 
 videoWidget.setVideo(QUrl.fromLocalFile("D:/Video/aiko - シアワセ.mp4"))

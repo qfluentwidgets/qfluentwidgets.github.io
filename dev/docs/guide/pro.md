@@ -130,12 +130,12 @@ Skeleton screens provide basic placeholders when network requests are slow, and 
 | `RadialGauge`        | Radial gauge                        |
 
 ### Navigation
-| Component Name             | Description                  |
-| -------------------------- | ---------------------------- |
-| `ExclusiveLiteFilter`      | Exclusive lite filter        |
-| `MultiSelectionLiteFilter` | Multi selection lite filter  |
-| `TopNavigationBar`         | Top navigation bar           |
-| `TopFluentWindow`          | Top navigation fluent window |
+| Component Name             | Description                 |
+| -------------------------- | --------------------------- |
+| `ExclusiveLiteFilter`      | Exclusive lite filter       |
+| `MultiSelectionLiteFilter` | Multi selection lite filter |
+| `TopNavigationBar`         | Top navigation bar          |
+| `FilledNavigationBar`      | filled navigation bar       |
 
 ### Text
 | Component Name  | Description     |
@@ -152,3 +152,10 @@ Skeleton screens provide basic placeholders when network requests are slow, and 
 | `ColorPickerSettingCard`            | Setting card for the dropdown color picker         |
 | `CustomColorPickerSettingCard`      | Setting card for the custom dropdown color         |
 | `ShortcutSettingCard`               | Setting card for the shortcut picker               |
+
+### Window
+| Component Name            | Description                  |
+| ------------------------- | ---------------------------- |
+| `TopFluentWindow`         | Top navigation fluent window |
+| `FilledFluentWindow`      | Filled fluent window         |
+| `FilledSplitFluentWindow` | Filled split fluent window   |
