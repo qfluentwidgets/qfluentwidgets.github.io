@@ -48,7 +48,9 @@ pip install "PySide6-Fluent-Widgets[full]" -i https://pypi.org/simple/
 [商用高级版](/zh/pages/pro)组件库包含更多组件，可在发行页面下载 `PyQt-Fluent-Widgets-Pro-Gallery.zip` 进行预览，购买链接见[价格页面](/zh/price/)。
 
 ::: warning 警告
-请勿同时安装 PyQt-Fluent-Widgets、PyQt6-Fluent-Widgets、PySide2-Fluent-Widgets 和 PySide6-Fluent-Widgets，因为他们的包名都是 `qfluentwidgets`
+请勿同时安装 PyQt-Fluent-Widgets、PyQt6-Fluent-Widgets、PySide2-Fluent-Widgets 和 PySide6-Fluent-Widgets，因为他们的包名都是 `qfluentwidgets`.
+
+最新版本的 PySide6 或者 PyQt6 可能导致组件库异常，目前比较推荐的稳定版本是 PySide6 6.4.2 或者 6.6.2.
 :::
 
 ## 运行示例

@@ -49,6 +49,8 @@ The [Pro version](/en/pages/pro) component library contains more components. You
 
 ::: warning Warning
 Do not install PyQt-Fluent-Widgets, PyQt6-Fluent-Widgets, PySide2-Fluent-Widgets, and PySide6-Fluent-Widgets at the same time, as they all have the package name `qfluentwidgets`.
+
+The latest version of PySide6/PyQt6 may cause abnormalities. Currently, the recommended versions are PySide6 6.4.2 or 6.6.2.
 :::
 
 ## Run examples
