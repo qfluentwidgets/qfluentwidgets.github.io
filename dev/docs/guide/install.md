@@ -65,7 +65,7 @@ If you encounter an `ImportError: cannot import name 'XXX' from 'qfluentwidgets'
 ## How to get started
 
 1. Master the signal-slot mechanism, event mechanism, and the use of common components such as buttons and input boxes in Qt.
-2. Install the component library and download the source code from the [GitHub Repository](https://github.com/zhiyiYo/QFluentWidgets).
+2. Install the component library and download the source code from the [GitHub Repository](https://github.com/zhiyiYo/PyQt-Fluent-Widgets).
 3. Read and run the examples in the examples folder.
 4. Read the official documentation.
 

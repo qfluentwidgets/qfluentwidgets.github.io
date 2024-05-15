@@ -65,7 +65,7 @@ python demo.py
 ## 如何入门
 
 1. 掌握 Qt 的信号槽机制、事件机制、按钮和输入框等常用组件的使用
-2. 安装组件库并下载 [GitHub 仓库](https://github.com/zhiyiYo/QFluentWidgets) 源代码
+2. 安装组件库并下载 [GitHub 仓库](https://github.com/zhiyiYo/PyQt-Fluent-Widgets) 源代码
 3. 阅读并运行 examples 文件夹中的实例
 4. 阅读官网文档
 
