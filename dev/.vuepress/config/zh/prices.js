@@ -18,10 +18,10 @@ export const prices = {
         {
             title: '个人年付版',
             desc: '每个月一杯奶茶的价格',
-            price: '￥269',
+            price: '￥278',
             year: true,
             permanent: false,
-            url: 'https://item.taobao.com/item.htm?ft=t&id=762055426986',
+            url: 'https://afdian.net/item/b9c1f79e027911eeb4295254001e7c00',
             recommend: false,
             features: [
                 { feature: '个人开发者' },
@@ -29,8 +29,8 @@ export const prices = {
                 { feature: '单个商用软件授权' },
                 { feature: '250+ Fluent Design 组件' },
                 { feature: '20+ 响应式可视化图表' },
+                { feature: '支持设计师拖拽设计界面' },
                 { feature: '专属官方技术交流群服务' },
-                { feature: '专属 Fluent Pro Client 软件' },
                 { feature: '有效期内享受组件库版本持续迭代' },
             ]
         },
@@ -48,8 +48,8 @@ export const prices = {
                 { feature: '不限开发的商用软件数量' },
                 { feature: '250+ Fluent Design 组件' },
                 { feature: '20+ 响应式可视化图表' },
+                { feature: '支持设计师拖拽设计界面' },
                 { feature: '专属官方技术交流群服务' },
-                { feature: '专属 Fluent Pro Client 软件' },
                 { feature: '享受组件库版本持续更新迭代' },
             ]
         },

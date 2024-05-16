@@ -29,7 +29,7 @@ export const prices = {
                 { feature: 'Single developer' },
                 { feature: 'Single commercial software' },
                 { feature: 'One year free updates' },
-                { feature: "Fluent Pro Client software" },
+                { feature: "Qt Designer component plugins" },
                 { feature: 'Customer group technical support' },
             ]
         },
@@ -47,7 +47,7 @@ export const prices = {
                 { feature: 'Single developer' },
                 { feature: 'Unlimited commercial softwares' },
                 { feature: 'Lifetime free updates' },
-                { feature: 'Fluent Pro Client software' },
+                { feature: 'Qt Designer component plugins' },
                 { feature: "Customer group technical support" },
             ]
         },
