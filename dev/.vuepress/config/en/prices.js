@@ -24,7 +24,7 @@ export const prices = {
             url: 'https://afdian.net/item/873ee35aaa3911ee928352540025c377',
             recommend: false,
             features: [
-                { feature: '250+ components' },
+                { feature: '260+ components' },
                 { feature: '20+ visual charts' },
                 { feature: 'Single developer' },
                 { feature: 'Single commercial software' },
@@ -42,7 +42,7 @@ export const prices = {
             url: 'https://afdian.net/item/b97e72a8962b11ee8e3d5254001e7c00',
             recommend: true,
             features: [
-                { feature: '250+ components' },
+                { feature: '260+ components' },
                 { feature: '20+ visual charts' },
                 { feature: 'Single developer' },
                 { feature: 'Unlimited commercial softwares' },
@@ -61,7 +61,7 @@ export const prices = {
             recommend: false,
             contactSales: true,
             features: [
-                { feature: '250+ components' },
+                { feature: '260+ components' },
                 { feature: '20+ visual charts' },
                 { feature: "Unlimited softwares" },
                 { feature: "Lifetime access" },
@@ -80,7 +80,7 @@ export const prices = {
             url: 'mailto:shokokawaii@foxmail.com',
             recommend: false,
             features: [
-                { feature: '220+ components' },
+                { feature: '250+ components' },
                 { feature: "Personal software" },
                 { feature: "Unlimited softwares" },
                 { feature: "Permanent license validity" }
@@ -95,7 +95,7 @@ export const prices = {
             url: 'mailto:shokokawaii@foxmail.com',
             recommend: true,
             features: [
-                { feature: '220+ components' },
+                { feature: '250+ components' },
                 { feature: 'Single developer' },
                 { feature: "Unlimited softwares" },
                 { feature: "Lifetime access" },
@@ -114,7 +114,7 @@ export const prices = {
             recommend: false,
             contactSales: true,
             features: [
-                { feature: '220+ components' },
+                { feature: '250+ components' },
                 { feature: "Unlimited softwares" },
                 { feature: "Lifetime access" },
                 { feature: 'Free updates' },
