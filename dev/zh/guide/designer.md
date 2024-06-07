@@ -11,7 +11,7 @@ permalink: /zh/pages/designer/
 
 **下述所有操作，必须在英文路径下完成。**
 
-Fluent Client 集成了设计师插件，支持在 Designer 中直接拖拽使用 QFluentWidgets 的组件，所见即所得，让现代化界面搭建如丝般顺滑！可从 [淘宝](https://item.taobao.com/item.htm?ft=t&id=767961666600) 或 [爱发电](https://afdian.net/item/62cc7298cd9411eeb14d52540025c377) 购买使用 Fluent Client。
+Fluent Client 集成了设计师插件，支持在 Designer 中直接拖拽使用 QFluentWidgets 的组件，所见即所得，让现代化界面搭建如丝般顺滑！可在 [爱发电](https://afdian.net/item/6726fcc4247311ef8c6852540025c377) 购买使用 Fluent Client。
 
 ![Fluent Designer](https://img.fastmirror.net/s/2024/02/18/65d22363d4a73.jpg)
 
