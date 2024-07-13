@@ -11,7 +11,8 @@ In Qt Designer, there are two ways to use PyQt-Fluent-Widgets.
 
 **For all the following operations, they must be performed in an English path.**
 
-Fluent Client integrates designer plugins, supporting direct drag-and-drop usage of QFluentWidgets components in Designer. What you see is what you get, making the construction of modern interfaces silky smooth! You can purchase from [Afadian](https://afdian.net/item/62cc7298cd9411eeb14d52540025c377) or [TaoBao](https://item.taobao.com/item.htm?ft=t&id=767961666600).
+
+[Fluent Client](https://client.qfluentwidgets.com/) integrates designer plugins, visual Nuitka packaging, and skeleton functionality, supporting direct drag-and-drop usage of QFluentWidgets components in Designer. What you see is what you get, making the construction of modern interfaces silky smooth! You can purchase from [Afadian](https://afdian.net/item/62cc7298cd9411eeb14d52540025c377) or [TaoBao](https://item.taobao.com/item.htm?ft=t&id=767961666600).
 
 
 ![Fluent Designer](https://img.fastmirror.net/s/2024/02/18/65d22363d4a73.jpg)
