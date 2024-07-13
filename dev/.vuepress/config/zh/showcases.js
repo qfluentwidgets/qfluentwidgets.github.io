@@ -16,6 +16,12 @@ export const showcases = {
             url: 'https://www.bilibili.com/video/BV1s34y1V7QW/'
         },
         {
+            name: 'Fluent Client',
+            description: '一站式 PyQt/PySide 解决方案',
+            cover: 'https://img.fastmirror.net/s/2024/07/13/66922605e38b4.jpg',
+            url: 'https://client.qfluentwidgets.com/zh/'
+        },
+        {
             name: 'Groove',
             description: '跨平台音乐播放器',
             cover: 'https://img.fastmirror.net/s/2023/11/08/654ba23ebad12.jpg',
@@ -34,12 +40,6 @@ export const showcases = {
             url: 'https://github.com/zhiyiYo/Face-Mask-Detector'
         },
         {
-            name: 'SVFI',
-            description: '基于 RIFE 算法的补帧软件',
-            cover: 'https://img.fastmirror.net/s/2023/10/28/653d29b23ff96.jpg',
-            url: 'https://store.steampowered.com/app/1692080/SVFI/'
-        },
-        {
             name: '天气',
             description: 'Win11 风格天气小工具',
             cover: 'https://img.fastmirror.net/s/2024/02/06/65c185980febb.jpg',
@@ -52,6 +52,24 @@ export const showcases = {
             url: 'https://github.com/ChaozhongLiu/DyberPet'
         },
         {
+            name: 'NoneBot Desktop',
+            description: '原生 NoneBot2 客户端',
+            cover: 'https://img.fastmirror.net/s/2023/10/28/653d2b4046ca1.jpg',
+            url: 'https://github.com/nonedesktop/Nonebot-Desktop-Qt'
+        },
+        {
+            name: 'SVFI',
+            description: '基于 RIFE 算法的补帧软件',
+            cover: 'https://img.fastmirror.net/s/2023/10/28/653d29b23ff96.jpg',
+            url: 'https://store.steampowered.com/app/1692080/SVFI/'
+        },
+        {
+            name: 'TooBox',
+            description: '你的 AI 工具盒',
+            cover: 'https://img.fastmirror.net/s/2024/07/13/6692250e8d19d.jpg',
+            url: 'http://www.toobox.love'
+        },
+        {
             name: 'MCServerLauncher2',
             description: '简洁全能的 Minecraft 开服器',
             cover: 'https://img.fastmirror.net/s/2023/10/28/653d162f66436.png',
@@ -62,12 +80,6 @@ export const showcases = {
             description: '实现您多重创意的多功能助手',
             cover: 'https://img.fastmirror.net/s/2023/12/29/658eb72922356.png',
             url: 'https://www.xiaowoai.com/'
-        },
-        {
-            name: 'NoneBot Desktop',
-            description: '原生 NoneBot2 客户端',
-            cover: 'https://img.fastmirror.net/s/2023/10/28/653d2b4046ca1.jpg',
-            url: 'https://github.com/nonedesktop/Nonebot-Desktop-Qt'
         },
         {
             name: 'Yutest',
@@ -98,12 +110,6 @@ export const showcases = {
             description: '自动化番剧命名工具',
             cover: 'https://img.fastmirror.net/s/2023/11/11/654ef66014d97.jpg',
             url: 'https://github.com/nuthx/bangumi-renamer'
-        },
-        {
-            name: 'AutoStarRail',
-            description: '星穹铁道自动化工具',
-            cover: 'https://raw.githubusercontent.com/JunNanLYS/AutoStarRail/main/doc/readme/gui/scripts.png',
-            url: 'https://github.com/JunNanLYS/AutoStarRail'
-        },
+        }
     ]
 };

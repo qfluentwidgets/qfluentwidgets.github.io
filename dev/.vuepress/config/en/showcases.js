@@ -16,6 +16,12 @@ export const showcases = {
             url: 'https://www.bilibili.com/video/BV1s34y1V7QW/'
         },
         {
+            name: 'Fluent Client',
+            description: 'One-stop PyQt/PySide solution',
+            cover: 'https://img.fastmirror.net/s/2024/07/13/66922605e38b4.jpg',
+            url: 'https://client.qfluentwidgets.com/'
+        },
+        {
             name: 'Groove',
             description: 'Cross-platform music player',
             cover: 'https://img.fastmirror.net/s/2023/11/08/654ba23ebad12.jpg',
@@ -34,12 +40,6 @@ export const showcases = {
             url: 'https://github.com/zhiyiYo/Face-Mask-Detector'
         },
         {
-            name: 'SVFI',
-            description: 'Frame filling software based on RIFE algorithm',
-            cover: 'https://img.fastmirror.net/s/2023/10/28/653d29b23ff96.jpg',
-            url: 'https://store.steampowered.com/app/1692080/SVFI/'
-        },
-        {
             name: 'Weather',
             description: 'Weather app',
             cover: 'https://img.fastmirror.net/s/2024/02/06/65c185980febb.jpg',
@@ -52,6 +52,24 @@ export const showcases = {
             url: 'https://github.com/ChaozhongLiu/DyberPet'
         },
         {
+            name: 'NoneBot Desktop',
+            description: 'A native GUI application for NoneBot2',
+            cover: 'https://img.fastmirror.net/s/2023/10/28/653d2b4046ca1.jpg',
+            url: 'https://github.com/nonedesktop/Nonebot-Desktop-Qt'
+        },
+        {
+            name: 'SVFI',
+            description: 'Frame filling software based on RIFE algorithm',
+            cover: 'https://img.fastmirror.net/s/2023/10/28/653d29b23ff96.jpg',
+            url: 'https://store.steampowered.com/app/1692080/SVFI/'
+        },
+        {
+            name: 'TooBox',
+            description: 'Nice to meet you, too box',
+            cover: 'https://img.fastmirror.net/s/2024/07/13/6692250e8d19d.jpg',
+            url: 'http://www.toobox.love'
+        },
+        {
             name: 'MCServerLauncher2',
             description: 'A sleek and versatile Minecraft server launcher',
             cover: 'https://img.fastmirror.net/s/2023/10/28/653d162f66436.png',
@@ -62,12 +80,6 @@ export const showcases = {
             description: 'A multifunctional AI tool',
             cover: 'https://img.fastmirror.net/s/2023/12/29/658eb72922356.png',
             url: 'https://www.xiaowoai.com/'
-        },
-        {
-            name: 'NoneBot Desktop',
-            description: 'A native GUI application for NoneBot2',
-            cover: 'https://img.fastmirror.net/s/2023/10/28/653d2b4046ca1.jpg',
-            url: 'https://github.com/nonedesktop/Nonebot-Desktop-Qt'
         },
         {
             name: 'Yutest',
@@ -98,12 +110,6 @@ export const showcases = {
             description: 'Automated anime naming Tool',
             cover: 'https://img.fastmirror.net/s/2023/11/11/654ef66014d97.jpg',
             url: 'https://github.com/nuthx/bangumi-renamer'
-        },
-        {
-            name: 'AutoStarRail',
-            description: 'Star rail automation tool',
-            cover: 'https://raw.githubusercontent.com/JunNanLYS/AutoStarRail/main/doc/readme/gui/scripts.png',
-            url: 'https://github.com/JunNanLYS/AutoStarRail'
-        },
+        }
     ]
 };
