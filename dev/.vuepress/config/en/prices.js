@@ -21,7 +21,7 @@ export const prices = {
             price: '$42',
             year: true,
             permanent: false,
-            url: 'https://afdian.net/item/873ee35aaa3911ee928352540025c377',
+            url: 'https://item.taobao.com/item.htm?ft=t&id=762055426986',
             recommend: false,
             features: [
                 { feature: '260+ components' },
@@ -39,7 +39,7 @@ export const prices = {
             price: '$359',
             year: false,
             permanent: true,
-            url: 'https://afdian.net/item/b97e72a8962b11ee8e3d5254001e7c00',
+            url: 'https://item.taobao.com/item.htm?ft=t&id=761921596721',
             recommend: true,
             features: [
                 { feature: '260+ components' },
@@ -130,7 +130,7 @@ export const prices = {
             price: '$119',
             year: true,
             permanent: true,
-            url: 'https://afdian.net/item/becc33c49cb811eea32652540025c377',
+            url: 'mailto:shokokawaii@foxmail.com',
             recommend: false,
             features: [
                 { feature: 'Single developer' },

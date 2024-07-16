@@ -21,7 +21,7 @@ export const prices = {
             price: '￥278',
             year: true,
             permanent: false,
-            url: 'https://afdian.net/item/b9c1f79e027911eeb4295254001e7c00',
+            url: 'https://item.taobao.com/item.htm?ft=t&id=762055426986',
             recommend: false,
             features: [
                 { feature: '个人开发者' },
@@ -135,7 +135,7 @@ export const prices = {
             price: '￥699',
             year: true,
             permanent: true,
-            url: 'https://afdian.net/item/ff1562129cb711eea8285254001e7c00',
+            url: 'mailto:shokokawaii@foxmail.com',
             recommend: false,
             features: [
                 { feature: '个人开发者' },

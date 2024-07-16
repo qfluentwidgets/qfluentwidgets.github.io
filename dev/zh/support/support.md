@@ -4,7 +4,7 @@ date: 2023-08-17 19:32:58
 permalink: /zh/pages/support/
 ---
 
-个人开发不易，如果这个组件库帮助了您，可以考虑在 [爱发电](https://afdian.net/a/zhiyiYo) 或者 [ko-fi](https://ko-fi.com/zhiyiYo) 上请作者喝一瓶快乐水。您的支持就是作者继续开发和维护项目的动力 🥰
+个人开发不易，如果这个组件库帮助了您，可以考虑在 [ko-fi](https://ko-fi.com/zhiyiYo) 上请作者喝一瓶快乐水。您的支持就是作者继续开发和维护项目的动力 🥰
 
 
 ## 致谢
