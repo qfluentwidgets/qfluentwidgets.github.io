@@ -82,10 +82,10 @@ export const showcases = {
             url: 'https://www.xiaowoai.com/'
         },
         {
-            name: 'Yutest',
-            description: 'A testing client',
-            cover: 'https://img.fastmirror.net/s/2024/02/06/65c19195466c2.jpg',
-            url: 'https://github.com/Lin-Yuhao/Yutest_'
+            name: 'PyQtScrcpy',
+            description: 'A Scrcpy GUI',
+            cover: 'https://img.fastmirror.net/s/2024/07/24/66a08b6d28e45.png',
+            url: 'https://github.com/Stardawn0v0/PyQtScrcpy'
         },
         {
             name: 'March7th Assistant',
