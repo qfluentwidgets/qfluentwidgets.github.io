@@ -54,6 +54,7 @@ export const series = {
             text: "布局",
             children: [
                 "/zh/pages/components/flowlayout",
+                "/zh/pages/components/cardwidget",
             ],
         },
         {

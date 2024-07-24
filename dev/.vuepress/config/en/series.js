@@ -54,6 +54,7 @@ export const series = {
             text: "Layout",
             children: [
                 "/pages/components/flowlayout",
+                "/pages/components/cardwidget",
             ],
         },
         {
