@@ -46,6 +46,19 @@ button = ToolButton(FluentIcon.ADD.icon(color=Qt.red))
 button = ToolButton(FluentIcon.ADD.icon(color=QColor(255, 0, 0)))
 ```
 
+流畅图标基类提供了 `FluentIconBase.colored()` 方法来自定义深色和浅色模式下的图标颜色：
+
+```python
+def colored(self, lightColor: QColor, darkColor: QColor) -> ColoredFluentIcon:
+```
+
+下述代码返回了一个浅色模式下为红色，深色模式下为蓝色的图标：
+
+```python
+icon = FluentIcon.ADD.colored(QColor(255, 0, 0), QColor(0, 0, 255))
+button.setIcon(icon)
+```
+
 
 
 ### 添加图标

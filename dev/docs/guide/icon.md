@@ -48,6 +48,20 @@ button = ToolButton(FluentIcon.ADD.icon(color=QColor(255, 0, 0)))
 ```
 
 
+`FluentIconBase.colored()` can customize the icon color in light and dark modes:
+
+```python
+def colored(self, lightColor: QColor, darkColor: QColor) -> ColoredFluentIcon:
+```
+
+Create an icon that is red in light mode and blue in dark mode:
+
+```python
+icon = FluentIcon.ADD.colored(QColor(255, 0, 0), QColor(0, 0, 255))
+button.setIcon(icon)
+```
+
+
 ### Add icon
 If you want to automatically change icons when switching themes, you can inherit the `FluentIconBase` class and override the `path()` function to provide the path of the icons for different themes. Here is an example:
 

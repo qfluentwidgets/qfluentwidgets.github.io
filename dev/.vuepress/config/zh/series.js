@@ -23,6 +23,7 @@ export const series = {
                 "/zh/pages/components/radiobutton",
                 "/zh/pages/components/slider",
                 "/zh/pages/components/switchbutton",
+                "/zh/pages/components/iconwidget",
             ],
         },
         {
