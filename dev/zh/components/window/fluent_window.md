@@ -138,6 +138,13 @@ self.navigationInterface.setMinimumExpandWidth(900)
 self.navigationInterface.expand(useAni=False)
 ```
 
+### 自定义背景色
+`FluentWindow` 在云母特效未启用的情况下，浅色模式的背景为淡蓝色，深色模式为深灰色。可调用 `setCustomBackgroundColor()` 来自定义背景色：
+
+```python
+self.setCustomBackgroundColor(QColor(242, 242, 242), QColor(25, 33, 42))
+```
+
 
 ### 背景失效解决办法
 在 Win11 系统下，`FluentWindow` 默认启用了云母特效，如果窗口中使用了 `QWebEngineView` 或者 `QOpenGLWidget`，会导致窗口背景特效失效，同时圆角和阴影也会消失。

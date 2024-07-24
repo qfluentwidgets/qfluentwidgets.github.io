@@ -137,6 +137,18 @@ self.navigationInterface.setMinimumExpandWidth(900)
 self.navigationInterface.expand(useAni=False)
 ```
 
+Here's the continued English translation:
+
+### Customizing background color
+
+When the mica effect is disabled in `FluentWindow`, the background color is light blue in light mode and dark gray in dark mode. You can call `setCustomBackgroundColor()` to customize the background color:
+
+```python
+self.setCustomBackgroundColor(QColor(242, 242, 242), QColor(25, 33, 42))
+```
+
+
+
 ### Solution to background failure
 In Win11 system, `FluentWindow` enables the mica effect by default. If `QWebEngineView` or `QOpenGLWidget` is used in the window, it will cause the window background effect to fail, and the rounded corners and shadows will also disappear.
 
