@@ -50,6 +50,8 @@ pip install "PySide6-Fluent-Widgets[full]" -i https://pypi.org/simple/
 ::: warning 警告
 请勿同时安装 PyQt-Fluent-Widgets、PyQt6-Fluent-Widgets、PySide2-Fluent-Widgets 和 PySide6-Fluent-Widgets，因为他们的包名都是 `qfluentwidgets`.
 
+如果混用 PyQt 和 PySide，会导致程序直接闪退，遇到此问题请自行检查安装的组件库是否对应所使用的 PyQt/PySide。
+
 最新版本的 PySide6 或者 PyQt6 可能导致组件库异常，目前比较推荐的稳定版本是 PySide6 6.4.2 或者 6.6.2.
 :::
 

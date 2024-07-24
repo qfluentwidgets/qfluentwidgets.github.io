@@ -82,22 +82,10 @@ export const showcases = {
             url: 'https://www.xiaowoai.com/'
         },
         {
-            name: 'PyQtScrcpy',
-            description: 'A Scrcpy GUI',
-            cover: 'https://img.fastmirror.net/s/2024/07/24/66a08b6d28e45.png',
-            url: 'https://github.com/Stardawn0v0/PyQtScrcpy'
-        },
-        {
             name: 'March7th Assistant',
             description: 'Star rail automation tool',
             cover: 'https://img.fastmirror.net/s/2023/10/28/653d1d5bc9178.jpg',
             url: 'https://github.com/moesnow/March7thAssistant'
-        },
-        {
-            name: 'Mihiro Toolbox',
-            description: 'A concise and easy-to-use FFmpeg client',
-            cover: 'https://img.fastmirror.net/s/2023/11/08/654b9ec22ce0e.jpg',
-            url: 'https://github.com/Eanya-Tonic/MihiroToolbox'
         },
         {
             name: 'Baas',
@@ -106,10 +94,22 @@ export const showcases = {
             url: 'https://github.com/pur1fying/blue_archive_auto_script'
         },
         {
+            name: 'Mihiro Toolbox',
+            description: 'A concise and easy-to-use FFmpeg client',
+            cover: 'https://img.fastmirror.net/s/2023/11/08/654b9ec22ce0e.jpg',
+            url: 'https://github.com/Eanya-Tonic/MihiroToolbox'
+        },
+        {
             name: 'Bangumi Renamer',
             description: 'Automated anime naming Tool',
             cover: 'https://img.fastmirror.net/s/2023/11/11/654ef66014d97.jpg',
             url: 'https://github.com/nuthx/bangumi-renamer'
-        }
+        },
+        {
+            name: 'PyQtScrcpy',
+            description: 'A Scrcpy GUI',
+            cover: 'https://img.fastmirror.net/s/2024/07/24/66a08b6d28e45.png',
+            url: 'https://github.com/Stardawn0v0/PyQtScrcpy'
+        },
     ]
 };

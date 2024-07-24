@@ -17,6 +17,7 @@ permalink: /pages/about/
 * **Highly Customizable**: Support seamless switching between light and dark themes, and customization of theme colors to meet the user's personalized needs.
 * **WYSIWYG**: Equipped with designer plugins, allowing components to be previewed and used directly in QtDesigner.
 * **UI Scaling**: Support custom UI scaling to adapt to screens with different resolutions.
+* **Easy to Use**: Retains native components APIs, only need to replace the class names to complete the beautification
 * **Internationalization**: Support multiple languages to meet the needs of different user groups.
 * **Cross-platform**: Support Windows, Linux, and macOS
 
