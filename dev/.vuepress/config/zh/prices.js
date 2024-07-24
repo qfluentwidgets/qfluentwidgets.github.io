@@ -26,10 +26,10 @@ export const prices = {
             features: [
                 { feature: '个人开发者' },
                 { feature: '一年许可证有效期' },
+                { feature: '一年 Fluent Client' },
                 { feature: '单个商用软件授权' },
                 { feature: '260+ Fluent Design 组件' },
                 { feature: '20+ 响应式可视化图表' },
-                { feature: '支持设计师拖拽设计界面' },
                 { feature: '专属官方技术交流群服务' },
                 { feature: '有效期内享受组件库版本持续迭代' },
             ]
@@ -45,10 +45,10 @@ export const prices = {
             features: [
                 { feature: '个人开发者' },
                 { feature: '永久许可证有效期' },
+                { feature: '永久使用 Fluent Client' },
                 { feature: '不限开发的商用软件数量' },
                 { feature: '260+ Fluent Design 组件' },
                 { feature: '20+ 响应式可视化图表' },
-                { feature: '支持设计师拖拽设计界面' },
                 { feature: '专属官方技术交流群服务' },
                 { feature: '享受组件库版本持续更新迭代' },
             ]
