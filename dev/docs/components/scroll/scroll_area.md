@@ -44,6 +44,12 @@ scrollArea.setStyleSheet("QScrollArea{background: transparent; border: none}")
 view.setStyleSheet("QWidget{background: transparent}")
 ```
 
+You can also enable transparent background by api, note that this api must be called after `scrollArea.setWidget(view)`:
+
+```python
+scrollArea.enableTransparentBackground()
+```
+
 ### [ScrollArea](https://pyqt-fluent-widgets.readthedocs.io/en/latest/autoapi/qfluentwidgets/components/widgets/scroll_area/index.html#qfluentwidgets.components.widgets.scroll_area.ScrollArea)
 
 `ScrollArea` implements smooth scrolling in the horizontal and vertical directions. The usage is exactly the same as `QScrollArea`.

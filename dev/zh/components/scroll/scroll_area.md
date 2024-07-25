@@ -44,6 +44,12 @@ scrollArea.setStyleSheet("QScrollArea{background: transparent; border: none}")
 view.setStyleSheet("QWidget{background: transparent}")
 ```
 
+也可以调用内置方法修改为透明背景，注意此方法需要在 `scrollArea.setWidget(view)` 之后调用才会生效：
+
+```python
+scrollArea.enableTransparentBackground()
+```
+
 ### [ScrollArea](https://pyqt-fluent-widgets.readthedocs.io/zh-cn/latest/autoapi/qfluentwidgets/components/widgets/scroll_area/index.html#qfluentwidgets.components.widgets.scroll_area.ScrollArea)
 
 `ScrollArea` 实现了水平和竖直方向的平滑滚动，使用方式和 `QScrollArea` 完全相同。
