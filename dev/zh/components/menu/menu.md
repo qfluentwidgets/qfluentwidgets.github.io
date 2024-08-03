@@ -10,6 +10,10 @@ permalink: /zh/pages/components/menu/
 
 `RoundMenu` 用于提供一系列动作供用户选择，使用方式和 `QMenu` 类似。
 
+::: tip 提示
+PyQt/PySide 6.7.0 及以上版本的菜单阴影在 Win11 下显示异常，可通过修改 QApplication 的默认样式来修复此问题，详情参见 [Issue #848](https://github.com/zhiyiYo/PyQt-Fluent-Widgets/issues/848)。
+:::
+
 ```python
 menu = RoundMenu()
 
