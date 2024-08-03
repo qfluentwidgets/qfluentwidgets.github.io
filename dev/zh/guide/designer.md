@@ -42,7 +42,7 @@ permalink: /zh/pages/designer/
 
 
 ### 复杂示例
-Here is an example of using Fluent Client to implement a clock application without writing any stylesheet.
+下面是一个使用设计师实现多界面窗口的例子，代码存放在 [examples/window/clock](https://github.com/zhiyiYo/PyQt-Fluent-Widgets/tree/master/examples/window/clock) 目录中，PySide 切换至对应分支即可：
 
 <div style="position: relative; padding: 30% 45%;">
     <iframe style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;" src="https://player.bilibili.com/player.html?cid=1193201502&aid=530806716&page=1&as_wide=1&high_quality=1&danmaku=0&autoplay=0" frameborder="no" scrolling="no" allowfullscreen="true"></iframe>

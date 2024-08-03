@@ -138,6 +138,22 @@ self.navigationInterface.setMinimumExpandWidth(900)
 self.navigationInterface.expand(useAni=False)
 ```
 
+### 定制化标题栏
+
+`FluentWindow` 使用的是 `qframelesswindow` 库提供的自定义标题栏，对应 `titleBar` 属性。标题栏使用水平布局 `hBoxLayout`，内部组件如下：
+* `minBtn`：最小化按钮
+* `maxBtn`：最大化按钮
+* `closeBtn`：关闭按钮
+* `iconLabel`：图标标签
+* `titleLabel`：标题标签
+
+如需隐藏最大化按钮并禁用标题栏双击最大化功能：
+```python
+self.titleBar.maxBtn.hide()
+self.titleBar.setDoubleClickEnabled(False)
+```
+
+
 ### 自定义背景色
 `FluentWindow` 在云母特效未启用的情况下，浅色模式的背景为淡蓝色，深色模式为深灰色。可调用 `setCustomBackgroundColor()` 来自定义背景色：
 

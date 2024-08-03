@@ -137,7 +137,21 @@ self.navigationInterface.setMinimumExpandWidth(900)
 self.navigationInterface.expand(useAni=False)
 ```
 
-Here's the continued English translation:
+### Customizable Title Bar
+
+`FluentWindow` uses the custom title bar provided by the `qframelesswindow` library, which corresponds to the `titleBar` property. The title bar uses a horizontal layout `hBoxLayout`, and the internal components are as follows:
+* `minBtn`: Minimize button
+* `maxBtn`: Maximize button
+* `closeBtn`: Close button
+* `iconLabel`: Icon label
+* `titleLabel`: Title label
+
+To hide the maximize button and disable the double-click maximize functionality on the title bar:
+```python
+self.titleBar.maxBtn.hide()
+self.titleBar.setDoubleClickEnabled(False)
+```
+
 
 ### Customizing background color
 
