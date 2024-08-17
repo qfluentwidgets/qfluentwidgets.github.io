@@ -45,6 +45,7 @@ export const prices = {
                 { feature: '260+ components' },
                 { feature: '20+ visual charts' },
                 { feature: 'Single developer' },
+                { feature: 'Two development device' },
                 { feature: 'Unlimited commercial softwares' },
                 { feature: 'Lifetime free updates' },
                 { feature: 'Lifetime Fluent Client' },

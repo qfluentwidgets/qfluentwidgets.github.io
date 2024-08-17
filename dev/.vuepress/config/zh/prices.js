@@ -46,6 +46,7 @@ export const prices = {
                 { feature: '个人开发者' },
                 { feature: '永久许可证有效期' },
                 { feature: '永久使用 Fluent Client' },
+                { feature: '支持绑定 2 台开发设备' },
                 { feature: '不限开发的商用软件数量' },
                 { feature: '260+ Fluent Design 组件' },
                 { feature: '20+ 响应式可视化图表' },
