@@ -52,7 +52,6 @@ Do not install PyQt-Fluent-Widgets, PyQt6-Fluent-Widgets, PySide2-Fluent-Widgets
 
 If you mix PyQt and PySide, it will cause the program to crash. Please check whether the installed component libraries correspond to the PyQt/PySide you are using if you encounter this issue.
 
-The latest version of PySide6/PyQt6 may cause abnormalities. Currently, the recommended versions are PySide6 6.4.2 or 6.6.2.
 :::
 
 ## Run examples

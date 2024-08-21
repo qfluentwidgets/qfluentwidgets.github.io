@@ -11,7 +11,7 @@ permalink: /pages/components/menu/
 `RoundMenu` is used to provide a series of actions for users to choose from, similar to the `QMenu` class.
 
 ::: tip Tip
-The menu shadow in PyQt/PySide 6.7.0 and above versions appears abnormal under Win11. You can fix this issue by modifying the default style of the QApplication. For details, please refer to [Issue #848](https://github.com/zhiyiYo/PyQt-Fluent-Widgets/issues/848).
+The menu shadow in PyQt/PySide 6.7.0 and above versions appears abnormal under Win11. You can fix this issue by updating `qfluentwidgets` to v1.6.2 or above version. For details, please refer to [Issue #848](https://github.com/zhiyiYo/PyQt-Fluent-Widgets/issues/848).
 :::
 
 ```python

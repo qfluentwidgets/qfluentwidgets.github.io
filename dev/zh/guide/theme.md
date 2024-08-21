@@ -84,4 +84,15 @@ setCustomStyleSheet(button, qss, qss)
 - `Qt.GlobalColor`
 - `str`：十六进制颜色字符串或者颜色名字，比如 `#0065d5` 或者 `red`
 
-当主题发生改变时，`qconfig` 管理的配置实例会发出 `themeColorChanged` 信号。
+当主题色发生改变时，`qconfig` 管理的配置实例会发出 `themeColorChanged` 信号。
+
+### 系统主题色
+`qframelesswindow` v0.4.3 及以上版本提供了获取 Windows 和 macOS 系统主题色的接口，可搭配 `setThemeColor()` 使用：
+```python
+import sys
+from qframelesswindow.utils import getSystemAccentColor
+
+# 只能获取 Windows 和 macOS 的主题色
+if sys.platform in ["win32", "darwin"]:
+   setThemeColor(getSystemAccentColor(), save=False)
+```

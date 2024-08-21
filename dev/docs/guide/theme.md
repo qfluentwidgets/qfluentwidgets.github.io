@@ -85,3 +85,16 @@ In Qt Designer, you can achieve custom styling by adding dynamic properties. Her
 * `str`: Hex color strings or color names, such as `#0065d5` or `red`.
 
 When the theme color changes, the config instance managed by `qconfig` will emit the `themeColorChanged` signal.
+
+### System accent color
+
+`qframelesswindow` v0.4.3 and above versions provide an api to retrieve the Windows and macOS system accent colors, which can be used with `setThemeColor()`:
+
+```python
+import sys
+from qframelesswindow.utils import getSystemAccentColor
+
+# Can only retrieve the system accent color on Windows and macOS
+if sys.platform in ["win32", "darwin"]:
+   setThemeColor(getSystemAccentColor(), save=False)
+```
