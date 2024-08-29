@@ -36,6 +36,13 @@ tree.setHeaderHidden(True)
 tree.setFixedSize(300, 380)
 ```
 
+当显示器的分辨率较高时，平滑滚动可能导致卡顿，这时候可以禁用平滑滚动：
+
+```python
+tree.scrollDelagate.verticalSmoothScroll.setSmoothMode(SmoothMode.NO_SMOOTH)
+```
+
+
 ### [TreeView](https://pyqt-fluent-widgets.readthedocs.io/zh-cn/latest/autoapi/qfluentwidgets/components/widgets/tree_view/index.html#qfluentwidgets.components.widgets.tree_view.TreeView)
 
 `TreeView` 用于展示具有父子关系的数据，使用方法和 `QTreeView` 完全相同。

@@ -41,6 +41,13 @@ table.verticalHeader().hide()
 table.setSelectRightClickedRow(True)
 ```
 
+当显示器的分辨率较高时，平滑滚动可能导致表格卡顿，这时候可以禁用平滑滚动：
+
+```python
+table.scrollDelagate.verticalSmoothScroll.setSmoothMode(SmoothMode.NO_SMOOTH)
+```
+
+
 
 ### [TableView](https://pyqt-fluent-widgets.readthedocs.io/zh-cn/latest/autoapi/qfluentwidgets/components/widgets/table_view/index.html#qfluentwidgets.components.widgets.table_view.TableView)
 

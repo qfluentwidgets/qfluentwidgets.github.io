@@ -41,6 +41,14 @@ By default, right-clicking an item in the list does not update the selected stat
 table.setSelectRightClickedRow(True)
 ```
 
+When the monitor's resolution is high, smooth scrolling may cause the table to lag. In this case, you can disable smooth scrolling.
+
+
+```python
+table.scrollDelagate.verticalSmoothScroll.setSmoothMode(SmoothMode.NO_SMOOTH)
+```
+
+
 
 ### [TableView](https://pyqt-fluent-widgets.readthedocs.io/en/latest/autoapi/qfluentwidgets/components/widgets/table_view/index.html#qfluentwidgets.components.widgets.table_view.TableView)
 

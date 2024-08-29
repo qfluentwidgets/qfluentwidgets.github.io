@@ -36,6 +36,12 @@ tree.setHeaderHidden(True)
 tree.setFixedSize(300, 380)
 ```
 
+When the monitor's resolution is high, smooth scrolling may cause the tree to lag. In this case, you can disable smooth scrolling.
+
+```python
+tree.scrollDelagate.verticalSmoothScroll.setSmoothMode(SmoothMode.NO_SMOOTH)
+```
+
 ### [TreeView](https://pyqt-fluent-widgets.readthedocs.io/zh-cn/latest/autoapi/qfluentwidgets/components/widgets/tree_view/index.html#qfluentwidgets.components.widgets.tree_view.TreeView)
 
 `TreeView` is used to display data with parent-child relationships. The usage of this class is completely the same as `QTreeView`.
