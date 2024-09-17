@@ -8,7 +8,7 @@ permalink: /pages/components/combobox/
 
 ![Combo box](/img/components/combobox/ComboBox.png)
 
-When there are too many options, use a drop-down box to display and select content. `ComboBox` inherits from `PushButton` and reimplements most of the `QComboBox` interfaces, but options cannot be added in Designer.
+When there are too many options, use a drop-down box to display and select content. `ComboBox` inherits from `PushButton` and reimplements most of the `QComboBox` interfaces.
 
 ```python
 comboBox = ComboBox()

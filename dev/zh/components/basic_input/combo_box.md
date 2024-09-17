@@ -8,7 +8,7 @@ permalink: /zh/pages/components/combobox/
 
 ![Combo box](/img/components/combobox/ComboBox.png)
 
-当选项过多时，使用下拉框展示并选择内容。`ComboBox` 继承自 `PushButton`，重新实现了 `QComboBox` 的大部分接口，但是无法在 Designer 中添加选项。
+当选项过多时，使用下拉框展示并选择内容。`ComboBox` 继承自 `PushButton`，重新实现了 `QComboBox` 的大部分接口。
 
 ```python
 comboBox = ComboBox()

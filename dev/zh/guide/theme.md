@@ -6,7 +6,7 @@ permalink: /zh/pages/theme/
 
 ## 主题模式
 
-`setTheme()` 函数用于切换 PyQt-Fluent-Widgets 全部组件的亮暗主题。该函数接受下述值：
+`setTheme()` 函数用于切换 qfluentwidgets 全部组件的亮暗主题。该函数接受下述值：
 
 - `Theme.LIGHT`：浅色主题
 - `Theme.DARK`：深色主题
@@ -38,6 +38,45 @@ class Window(QWidget):
 
         # apply style sheet to window
         StyleSheet.WINDOW.apply(self)
+```
+
+### 跟随系统主题
+
+qfluentwidgets 提供了系统主题监听器线程 `SystemThemeListener`，可用于跟随系统主题。
+
+下面是一个简单的使用示例：
+
+```python
+from qfluentwidgets import FluentWindow, SystemThemeListener, isDarkTheme
+
+
+class MainWindow(FluentWindow):
+
+    def __init__(self):
+        super().__init__()
+
+        # 创建主题监听器
+        self.themeListener = SystemThemeListener(self)
+
+        # 创建并添加子界面
+        # ...
+
+        # 启动监听器
+        self.themeListener.start()
+
+    def closeEvent(self, e):
+        # 停止监听器线程
+        self.themeListener.terminate()
+        self.themeListener.deleteLater()
+        super().closeEvent(e)
+
+    def _onThemeChangedFinished(self):
+        super()._onThemeChangedFinished()
+
+        # 云母特效启用时需要增加重试机制
+        if self.isMicaEffectEnabled():
+            QTimer.singleShot(100, lambda: self.windowEffect.setMicaEffect(self.winId(), isDarkTheme()))
+
 ```
 
 ## 自定义样式

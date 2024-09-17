@@ -6,7 +6,7 @@ permalink: /pages/theme/
 
 ## Theme mode
 
-You can use the `setTheme()` method to switch the light/dark theme of PyQt-Fluent-Widgets. The parameter of `setTheme()` accepts the following three values:
+You can use the `setTheme()` method to switch the light/dark theme of qfluentwidgets. The parameter of `setTheme()` accepts the following three values:
 * `Theme.LIGHT`: Light theme
 * `Theme.DARK`: Dark theme
 * `Theme.AUTO`: Follow system theme. If the system theme cannot be detected, the light theme will be used.
@@ -38,6 +38,45 @@ class Window(QWidget):
 
         # apply style sheet to window
         StyleSheet.WINDOW.apply(self)
+```
+
+
+### Follow system theme
+
+qfluentwidgets provides a system theme listener thread called `SystemThemeListener`, which can be used to follow the system theme.
+
+Here is a simple usage example:
+
+```python
+from qfluentwidgets import FluentWindow, SystemThemeListener, isDarkTheme
+
+
+class MainWindow(FluentWindow):
+
+    def __init__(self):
+        super().__init__()
+
+        # Create theme listener
+        self.themeListener = SystemThemeListener(self)
+
+        # Create and add sub interfaces
+        # ...
+
+        # Start the listener
+        self.themeListener.start()
+
+    def closeEvent(self, e):
+        # Stop the listener thread
+        self.themeListener.terminate()
+        self.themeListener.deleteLater()
+        super().closeEvent(e)
+
+    def _onThemeChangedFinished(self):
+        super()._onThemeChangedFinished()
+
+        # Retry mechanism needed when mica effect is enabled
+        if self.isMicaEffectEnabled():
+            QTimer.singleShot(100, lambda: self.windowEffect.setMicaEffect(self.winId(), isDarkTheme()))
 ```
 
 
