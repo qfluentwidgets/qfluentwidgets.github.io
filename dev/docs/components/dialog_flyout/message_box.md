@@ -90,3 +90,34 @@ def showMessage(window):
 
 The running effect is as follows:
 ![CustomMessageBox](/img/components/messagebox/CustomMessageBox.png)
+
+`MessageBoxBase` provides `validate() -> bool` method, which can be overridden to validate form data when the user clicks the OK button. Returning `True` indicates that the form data is correct, and the dialog box will automatically close. Here is an example:
+
+```python
+class CustomMessageBox(MessageBoxBase):
+
+    def __init__(self, parent=None):
+        super().__init__(parent)
+        self.titleLabel = SubtitleLabel('Open URL', self)
+        self.urlLineEdit = LineEdit(self)
+
+        self.urlLineEdit.setPlaceholderText('Enter the URL of a file, stream, or playlist')
+        self.urlLineEdit.setClearButtonEnabled(True)
+
+        self.warningLabel = CaptionLabel("Invalid URL")
+        self.warningLabel.setTextColor("#cf1010", QColor(255, 28, 32))
+
+        # add widget to view layout
+        self.viewLayout.addWidget(self.titleLabel)
+        self.viewLayout.addWidget(self.urlLineEdit)
+        self.viewLayout.addWidget(self.warningLabel)
+        self.warningLabel.hide()
+
+        self.widget.setMinimumWidth(350)
+
+    def validate(self):
+        """ Override to validate form data """
+        isValid = QUrl(self.urlLineEdit.text()).isValid()
+        self.warningLabel.setHidden(isValid)
+        return isValid
+```

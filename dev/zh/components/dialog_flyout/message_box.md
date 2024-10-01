@@ -88,3 +88,35 @@ def showMessage(window):
 
 运行效果如下：
 ![CustomMessageBox](/img/components/messagebox/CustomMessageBox.png)
+
+对话框提供了 `valdate() -> bool` 方法，通过重写此方法，可在用户点击确定按钮时验证表单数据，返回 True 代表表单数据正确，对话框会自动关闭。下面是一个示例：
+
+```python
+class CustomMessageBox(MessageBoxBase):
+
+    def __init__(self, parent=None):
+        super().__init__(parent)
+        self.titleLabel = SubtitleLabel('打开 URL', self)
+        self.urlLineEdit = LineEdit(self)
+
+        self.urlLineEdit.setPlaceholderText('输入文件、流或者播放列表的 URL')
+        self.urlLineEdit.setClearButtonEnabled(True)
+
+        self.warningLabel = CaptionLabel("URL 不正确")
+        self.warningLabel.setTextColor("#cf1010", QColor(255, 28, 32))
+
+        # add widget to view layout
+        self.viewLayout.addWidget(self.titleLabel)
+        self.viewLayout.addWidget(self.urlLineEdit)
+        self.viewLayout.addWidget(self.warningLabel)
+        self.warningLabel.hide()
+
+        self.widget.setMinimumWidth(350)
+
+    def validate(self):
+        """ 重写验证表单数据的方法 """
+        isValid = QUrl(self.urlLineEdit.text()).isValid()
+        self.warningLabel.setHidden(isValid)
+        return isValid
+
+```
