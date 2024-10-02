@@ -141,6 +141,7 @@ Skeleton screens provide basic placeholders when network requests are slow, and 
 | Component Name  | Description     |
 | --------------- | --------------- |
 | `CodeEdit`      | Code editor     |
+| `LabelLineEdit` | Label line edit |
 | `TokenLineEdit` | Token line edit |
 
 ### Settings

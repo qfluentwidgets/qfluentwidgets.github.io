@@ -68,6 +68,12 @@ lineEdit.setPasswordVisible(True)
 
 `TokenLineEdit` 可用于输入和管理标签。
 
+### [LabelLineEdit](https://qfluentwidgets.com/zh/price)
+
+![LabelLineEdit](/img/components/lineedit/LabelLineEdit.png)
+
+`LabelLineEdit` 是带前后缀标签的输入框。
+
 
 ### [TextEdit](https://pyqt-fluent-widgets.readthedocs.io/zh-cn/latest/autoapi/qfluentwidgets/components/widgets/line_edit/index.html#qfluentwidgets.components.widgets.line_edit.TextEdit)
 
@@ -99,6 +105,23 @@ textEdit.setPlainText("两岸猿声啼不住 \n 轻舟已过万重山 ")
 
 # 获取普通文本
 print(textEdit.toPlainText())
+```
+
+### [TextBrowser](https://pyqt-fluent-widgets.readthedocs.io/zh-cn/latest/autoapi/qfluentwidgets/components/widgets/line_edit/index.html#qfluentwidgets.components.widgets.line_edit.TextBrowser)
+
+![TextBrowser](/img/components/lineedit/TextEdit.png)
+
+`TextBrowser` 是只读富文本多行编辑框，可以渲染 HTML 和 Markdown 格式的文本，使用方式和 `QTextBrowser` 完全相同。
+
+```python
+textBrowser = TextBrowser()
+textBrowser.setMarkdown("## Steel Ball Run \n * Johnny Joestar 🦄 \n * Gyro Zeppeli 🐴 ")
+
+# 获取普通文本
+print(textBrowser.toPlainText())
+
+# 获取富文本
+print(textBrowser.toHtml())
 ```
 
 ### [CodeEdit](https://qfluentwidgets.com/zh/price)

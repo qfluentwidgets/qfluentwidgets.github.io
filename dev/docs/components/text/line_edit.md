@@ -68,6 +68,12 @@ lineEdit.setPasswordVisible(True)
 
 `TokenLineEdit` is used to add and manager tags.
 
+### [LabelLineEdit](https://qfluentwidgets.com/price)
+
+![LabelLineEdit](/img/components/lineedit/LabelLineEdit.png)
+
+`LabelLineEdit` can display a suffix and prefix label.
+
 
 ### [TextEdit](https://pyqt-fluent-widgets.readthedocs.io/en/latest/autoapi/qfluentwidgets/components/widgets/line_edit/index.html#qfluentwidgets.components.widgets.line_edit.TextEdit)
 
@@ -99,6 +105,23 @@ textEdit.setPlainText("The ape's cries are endless on both shores \n The light b
 
 # Get plain text
 print(textEdit.toPlainText())
+```
+
+### [TextBrowser](https://pyqt-fluent-widgets.readthedocs.io/zh-cn/latest/autoapi/qfluentwidgets/components/widgets/line_edit/index.html#qfluentwidgets.components.widgets.line_edit.TextBrowser)
+
+![TextBrowser](/img/components/lineedit/TextEdit.png)
+
+`TextBrowser` s a read-only rich text multiline box that can render HTML and Markdown formatted text. It is used in the same way as `QTextBrowser`。
+
+```python
+textBrowser = TextBrowser()
+textBrowser.setMarkdown("## Steel Ball Run \n * Johnny Joestar 🦄 \n * Gyro Zeppeli 🐴 ")
+
+# Get plain text
+print(textBrowser.toPlainText())
+
+# Get rich text
+print(textBrowser.toHtml())
 ```
 
 
