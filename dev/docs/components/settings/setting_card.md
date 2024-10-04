@@ -140,11 +140,10 @@ A button setting card that emits a `clicked()` signal when the button on the rig
 
 ```python
 card = PushSettingCard(
-    url="https://qfluentwidgets.com",
-    text="Open Help Page",
-    icon=FluentIcon.HELP,
-    title="Help",
-    content="Discover best practices for PyQt-Fluent-Widgets"
+    text="Choose",
+    icon=FluentIcon.DOWNLOAD,
+    title="Download folder",
+    content="D:/Users/Downloads"
 )
 ```
 
