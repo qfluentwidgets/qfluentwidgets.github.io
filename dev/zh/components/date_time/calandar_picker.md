@@ -30,6 +30,12 @@ calendarPicker.setDateFormat(Qt.TextDate)
 calendarPicker.setDateFormat('yyyy-M-d')
 ```
 
+### [FastCalendarPicker](https://pyqt-fluent-widgets.readthedocs.io/zh-cn/latest/autoapi/qfluentwidgets/components/date_time/calendar_picker/index.html#qfluentwidgets.components.date_time.calendar_picker.FastCalendarPicker)
+
+![FastCalendarPicker](/img/components/calendarpicker/CalendarPicker.png)
+
+`FastCalendarPicker` 用法和 [CalendarPicker](#calendarpicker) 完全一致，但是弹出速度更快，内存占用更小。
+
 ### [RangeCalendarPicker](https://qfluentwidgets.com/zh/price)
 
 ![RangeCalendarPicker](/img/components/calendarpicker/RangeCalendarPicker.png)

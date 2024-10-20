@@ -37,6 +37,19 @@ completer.setMaxVisibleItems(10)
 lineEdit.setCompleter(completer)
 ```
 
+自定义动作：
+```python
+from qfluentwidgets import Action, FluentIcon
+
+# 在后面添加按钮
+action1 = QAction(FluentIcon.CALENDAR.qicon(), "", triggered=lambda: print("action1 triggered"))
+lineEdit.addAction(action1, QLineEdit.TrailingPosition)
+
+# 在前面添加按钮
+action2 = Action(FluentIcon.ADD, "", triggered=lambda: print("action2 triggered"))
+lineEdit.addAction(action2, QLineEdit.LeadingPosition)
+```
+
 ### [SearchLineEdit](https://pyqt-fluent-widgets.readthedocs.io/zh-cn/latest/autoapi/qfluentwidgets/components/widgets/line_edit/index.html#qfluentwidgets.components.widgets.line_edit.SearchLineEdit)
 
 ![SearchLineEdit](/img/components/lineedit/SearchLineEdit.png)
