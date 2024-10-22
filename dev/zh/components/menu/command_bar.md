@@ -14,14 +14,14 @@ permalink: /zh/pages/components/commandbar/
 commandBar = CommandBar()
 
 # 逐个添加动作
-commandBar.addAction(Action(FluentIcon.ADD, '添加', triggerred=lambda: print("添加")))
+commandBar.addAction(Action(FluentIcon.ADD, '添加', triggered=lambda: print("添加")))
 
 # 添加分隔符
 commandBar.addSeparator()
 
 # 批量添加动作
 commandBar.addActions([
-    Action(FluentIcon.EDIT, '编辑', checkable=True, triggerred=lambda: print("编辑")),
+    Action(FluentIcon.EDIT, '编辑', checkable=True, triggered=lambda: print("编辑")),
     Action(FluentIcon.COPY, '复制'),
     Action(FluentIcon.SHARE, '分享'),
 ])
