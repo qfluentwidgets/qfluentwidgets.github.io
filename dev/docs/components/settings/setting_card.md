@@ -155,11 +155,10 @@ A primary color button setting card that emits a `clicked()` signal when the but
 
 ```python
 card = PrimaryPushSettingCard(
-    url="https://qfluentwidgets.com",
-    text="Open Help Page",
-    icon=FluentIcon.HELP,
-    title="Help",
-    content="Discover best practices for PyQt-Fluent-Widgets"
+    text="Choose",
+    icon=FluentIcon.DOWNLOAD,
+    title="Download folder",
+    content="D:/Users/Downloads"
 )
 ```
 

@@ -161,11 +161,10 @@ card = PushSettingCard(
 
 ```python
 card = PrimaryPushSettingCard(
-    url="https://qfluentwidgets.com",
-    text="打开帮助页面",
-    icon=FluentIcon.HELP,
-    title="帮助",
-    content="发现 PyQt-Fluent-Widgets 的最佳实践"
+    text="选择文件夹",
+    icon=FluentIcon.DOWNLOAD,
+    title="下载目录",
+    content="D:/Users/下载"
 )
 ```
 

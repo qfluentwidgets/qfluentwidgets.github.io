@@ -43,23 +43,23 @@ export const navbar = [
     children: [
       {
         text: 'Fluent Gallery',
-        link: 'https://github.com/zhiyiYo/PyQt-Fluent-Widgets/releases/download/v1.6.0/PyQt-Fluent-Widgets-Gallery.zip'
+        link: 'https://github.com/zhiyiYo/PyQt-Fluent-Widgets/releases/download/v1.7.0/PyQt-Fluent-Widgets-Gallery.zip'
       },
       {
         text: 'Fluent Pro Gallery',
-        link: 'https://github.com/zhiyiYo/PyQt-Fluent-Widgets/releases/download/v1.6.0/PyQt-Fluent-Widgets-Pro-Gallery.zip'
+        link: 'https://github.com/zhiyiYo/PyQt-Fluent-Widgets/releases/download/v1.7.0/PyQt-Fluent-Widgets-Pro-Gallery.zip'
       },
       {
         text: 'C++ QFluentWidgets',
-        link: 'https://github.com/zhiyiYo/PyQt-Fluent-Widgets/releases/download/v1.6.0/C++_QFluentWidgets.zip'
+        link: 'https://github.com/zhiyiYo/PyQt-Fluent-Widgets/releases/download/v1.7.0/C++_QFluentWidgets.zip'
       },
       {
         text: 'C++ QFluentCharts',
-        link: 'https://github.com/zhiyiYo/PyQt-Fluent-Widgets/releases/download/v1.6.0/C++_QFluentCharts.7z'
+        link: 'https://github.com/zhiyiYo/PyQt-Fluent-Widgets/releases/download/v1.7.0/C++_QFluentCharts.7z'
       },
       {
         text: 'Material Gallery',
-        link: 'https://github.com/zhiyiYo/PyQt-Fluent-Widgets/releases/download/v1.6.0/QMaterialWidgets-Gallery.zip'
+        link: 'https://github.com/zhiyiYo/PyQt-Fluent-Widgets/releases/download/v1.7.0/QMaterialWidgets-Gallery.zip'
       },
     ]
   },
