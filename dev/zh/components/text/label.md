@@ -70,3 +70,15 @@ w = AvatarWidget("/path/to/image.png")
 # 设置头像半径
 w.setRadius(64)
 ```
+
+如果不设置图片，头像组件也可以居中显示文本的首字母：
+
+![AvatarWidget](/img/components/label/TextAvatarWidget.png)
+
+```python
+w = AvatarWidget()
+w.setRadius(64)
+
+# 设置文本
+w.setText("乔尼·乔斯达")
+```

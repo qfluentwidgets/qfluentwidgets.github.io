@@ -69,3 +69,14 @@ w = AvatarWidget("/path/to/image.png")
 # Set avatar radius
 w.setRadius(64)
 ```
+
+If no image is set, `AvatarWidget` can also display the initial letter of text:
+
+![AvatarWidget](/img/components/label/TextAvatarWidget.png)
+
+```python
+w = AvatarWidget()
+w.setRadius(64)
+
+w.setText("乔尼·乔斯达")
+```
