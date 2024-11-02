@@ -214,6 +214,45 @@ class PowerSettingCard(ExpandGroupSettingCard):
         self.addGroupWidget(w)
 ```
 
+Below is an example of a dynamic card for managing server configurations:
+
+```python
+class ServerCard(ExpandGroupSettingCard):
+
+    def __init__(self, parent=None):
+        super().__init__(FluentIcon.SHARE, "Server", "Configure Streaming Server", parent)
+        self.addButton = PrimaryPushButton(FluentIcon.ADD, "Add Server")
+        self.addWidget(self.addButton)
+        self.addButton.clicked.connect(self.addServerCard)
+
+    def addServerCard(self):
+        item = ServerItem(self)
+        item.removeButton.clicked.connect(lambda: self.removeServerCard(item))
+        self.addGroupWidget(item)
+
+    def removeServerCard(self, card):
+        self.removeGroupWidget(card)
+        card.hide()
+        card.deleteLater()
+
+
+class ServerItem(QWidget):
+
+    def __init__(self, parent=None):
+        super().__init__(parent)
+        self.addButton = PrimaryToolButton(FluentIcon.EDIT, self)
+        self.removeButton = ToolButton(FluentIcon.DELETE, self)
+
+        self.hBoxLayout = QHBoxLayout(self)
+        self.hBoxLayout.addWidget(BodyLabel("Server"))
+        self.hBoxLayout.addStretch(1)
+        self.hBoxLayout.addWidget(self.addButton)
+        self.hBoxLayout.addWidget(self.removeButton)
+
+        self.hBoxLayout.setContentsMargins(20, 12, 20, 12)
+```
+
+
 ### [SettingCardGroup](https://pyqt-fluent-widgets.readthedocs.io/en/latest/autoapi/qfluentwidgets/components/settings/setting_card_group/index.html)
 
 Multiple setting cards can be added to the same group using `SettingCardGroup.addSettingCard()`. The `SettingCardGroup` will automatically adjust its layout based on the height of the setting cards.
