@@ -118,7 +118,6 @@ export const prices = {
                 { feature: '250+ components' },
                 { feature: "Unlimited softwares" },
                 { feature: "Lifetime access" },
-                { feature: 'Free updates' },
                 { feature: "Fluent Studio software" },
                 { feature: "Customer group service" },
             ]

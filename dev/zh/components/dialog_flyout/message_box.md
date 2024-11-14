@@ -89,7 +89,7 @@ def showMessage(window):
 运行效果如下：
 ![CustomMessageBox](/img/components/messagebox/CustomMessageBox.png)
 
-对话框提供了 `valdate() -> bool` 方法，通过重写此方法，可在用户点击确定按钮时验证表单数据，返回 True 代表表单数据正确，对话框会自动关闭。下面是一个示例：
+对话框提供了 `validate() -> bool` 方法，通过重写此方法，可在用户点击确定按钮时验证表单数据，返回 True 代表表单数据正确，对话框会自动关闭。下面是一个示例：
 
 ```python
 class CustomMessageBox(MessageBoxBase):
