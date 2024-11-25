@@ -106,10 +106,10 @@ export const showcases = {
             url: 'https://github.com/nuthx/bangumi-renamer'
         },
         {
-            name: 'PyQtScrcpy',
-            description: 'A Scrcpy GUI',
-            cover: 'https://img.fastmirror.net/s/2024/07/24/66a08b6d28e45.png',
-            url: 'https://github.com/Stardawn0v0/PyQtScrcpy'
+            name: 'Ghost-Downloader-3',
+            description: 'A multi-threading async downloader',
+            cover: 'https://img.fastmirror.net/s/2024/11/25/674416062e878.jpg',
+            url: 'https://github.com/XiaoYouChR/Ghost-Downloader-3'
         },
     ]
 };
