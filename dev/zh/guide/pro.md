@@ -33,6 +33,7 @@ Python 组件库非商业用途使用 GPLv3 许可证进行授权，商用需购
 | `TransparentComboBox`         | 透明下拉框                 |
 | `ToolTipSlider`               | 带工具提示的滑动条         |
 | `RangeSlider`                 | 带两个滑块的范围滑动条     |
+| `SubtitleRadioButton`         | 子标题单选按钮             |
 
 ### 对话框和弹出组件
 

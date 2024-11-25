@@ -6,7 +6,7 @@ permalink: /pages/faq/
 
 #### Do I need to purchase a license to use the Python component library for commercial software?
 
-Yes, Yes, the component library is protected by copyright, with registration number 12532763. Unauthorized commercial use is considered infringement. Subscriptions need to be renewed after expiration.
+Yes, Yes, the component library is protected by copyright, with registration number 12532763. Unauthorized commercial use is considered infringement.
 
 #### How to purchase the perpetual license of the Python component library or the C++ component library?
 
