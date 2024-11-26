@@ -18,7 +18,7 @@ export const prices = {
         {
             title: 'Standard',
             desc: 'The essentials to provide your best work for clients.',
-            price: '$189',
+            price: '$179',
             year: false,
             permanent: true,
             url: 'https://item.taobao.com/item.htm?ft=t&id=827637957476',

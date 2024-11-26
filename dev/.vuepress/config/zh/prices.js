@@ -18,7 +18,7 @@ export const prices = {
         {
             title: '个人标准版',
             desc: '开箱即用，快速开发',
-            price: '￥1349',
+            price: '￥1299',
             year: false,
             permanent: true,
             url: 'https://item.taobao.com/item.htm?ft=t&id=827637957476',
