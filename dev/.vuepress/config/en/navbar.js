@@ -32,6 +32,10 @@ export const navbar = [
         link: '/pages/pro'
       },
       {
+        text: 'Changelog',
+        link: '/pages/changelog'
+      },
+      {
         text: 'API docs',
         link: 'https://pyqt-fluent-widgets.readthedocs.io/zh_CN/latest/autoapi/index.html'
       },

@@ -11,7 +11,8 @@ export const series = {
                 "/pages/i18n",
                 "/pages/componentlist",
                 "/pages/pro",
-                "/pages/faq"
+                "/pages/faq",
+                "/pages/changelog",
             ],
         },
         {

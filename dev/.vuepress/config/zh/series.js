@@ -12,6 +12,7 @@ export const series = {
                 "/zh/pages/componentlist",
                 "/zh/pages/pro",
                 "/zh/pages/faq",
+                "/zh/pages/changelog",
             ],
         },
         {

@@ -32,6 +32,10 @@ export const navbar = [
         link: '/zh/pages/pro'
       },
       {
+        text: '更新日志',
+        link: '/zh/pages/changelog'
+      },
+      {
         text: 'API 文档',
         link: 'https://pyqt-fluent-widgets.readthedocs.io/zh_CN/latest/autoapi/index.html'
       },
