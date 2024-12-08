@@ -16,18 +16,18 @@ export const prices = {
     },
     python: [
         {
-            title: 'Standard',
+            title: 'Ultimate',
             desc: 'The essentials to provide your best work for clients.',
-            price: '$179',
+            price: '$529',
             year: false,
             permanent: true,
-            url: 'https://item.taobao.com/item.htm?ft=t&id=827637957476',
+            url: 'mailto:shokokawaii@foxmail.com',
             recommend: false,
             features: [
                 { feature: '260+ components' },
                 { feature: '20+ visual charts' },
                 { feature: 'Single developer' },
-                { feature: '1 development device' },
+                { feature: '3 development device' },
                 { feature: 'Unlimited commercial softwares' },
                 { feature: 'Lifetime free updates' },
                 { feature: 'Lifetime Fluent Client' },

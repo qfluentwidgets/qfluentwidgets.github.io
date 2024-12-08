@@ -16,18 +16,18 @@ export const prices = {
     },
     python: [
         {
-            title: '个人标准版',
+            title: '个人至尊版',
             desc: '开箱即用，快速开发',
-            price: '￥1299',
+            price: '￥3699',
             year: false,
             permanent: true,
-            url: 'https://item.taobao.com/item.htm?ft=t&id=827637957476',
+            url: 'mailto:shokokawaii@foxmail.com',
             recommend: false,
             features: [
                 { feature: '个人开发者' },
                 { feature: '永久许可证有效期' },
                 { feature: '永久使用 Fluent Client' },
-                { feature: '支持绑定 1 台开发设备' },
+                { feature: '支持绑定 3 台开发设备' },
                 { feature: '不限开发的商用软件数量' },
                 { feature: '260+ Fluent Design 组件' },
                 { feature: '20+ 响应式可视化图表' },
