@@ -4,12 +4,6 @@ export const showcases = {
     description: '我们收集了一些基于 QFluentWidgets 组件库开发的优秀项目，供您参考',
     data: [
         {
-            name: 'QMaterialWidgets',
-            description: 'Material Design 风格组件库',
-            cover: 'https://img.fastmirror.net/s/2023/11/08/654ba28604a6f.jpg',
-            url: 'https://qmaterialwidgets.vercel.app/'
-        },
-        {
             name: 'Fluent Studio',
             description: 'QFluentWidgets 集成软件',
             cover: 'https://img.fastmirror.net/s/2023/11/14/6552d7c981aa9.jpg',
@@ -20,6 +14,12 @@ export const showcases = {
             description: '一站式 PyQt/PySide 解决方案',
             cover: 'https://img.fastmirror.net/s/2024/07/13/66922605e38b4.jpg',
             url: 'https://client.qfluentwidgets.com/zh/'
+        },
+        {
+            name: 'Ghost-Downloader-3',
+            description: '新一代多线程下载器',
+            cover: 'https://img.fastmirror.net/s/2024/11/25/674416062e878.jpg',
+            url: 'https://github.com/XiaoYouChR/Ghost-Downloader-3'
         },
         {
             name: 'Groove',
@@ -76,12 +76,6 @@ export const showcases = {
             url: 'https://mcsl.com.cn'
         },
         {
-            name: '小蜗工具',
-            description: '实现您多重创意的多功能助手',
-            cover: 'https://img.fastmirror.net/s/2023/12/29/658eb72922356.png',
-            url: 'https://www.xiaowoai.com/'
-        },
-        {
             name: '三月七小助手',
             description: '崩坏：星穹铁道全自动工具',
             cover: 'https://img.fastmirror.net/s/2023/10/28/653d1d5bc9178.jpg',
@@ -94,23 +88,10 @@ export const showcases = {
             url: 'https://github.com/pur1fying/blue_archive_auto_script'
         },
         {
-            name: '真寻工具箱',
-            description: '一个简洁易用的 FFmpeg 客户端',
-            cover: 'https://img.fastmirror.net/s/2023/11/08/654b9ec22ce0e.jpg',
-            url: 'https://github.com/Eanya-Tonic/MihiroToolbox'
-        },
-
-        {
             name: 'Bangumi Renamer',
             description: '自动化番剧命名工具',
             cover: 'https://img.fastmirror.net/s/2023/11/11/654ef66014d97.jpg',
             url: 'https://github.com/nuthx/bangumi-renamer'
-        },
-        {
-            name: 'Ghost-Downloader-3',
-            description: '新一代多线程下载器',
-            cover: 'https://img.fastmirror.net/s/2024/11/25/674416062e878.jpg',
-            url: 'https://github.com/XiaoYouChR/Ghost-Downloader-3'
         },
     ]
 };

@@ -4,12 +4,6 @@ export const showcases = {
     description: "Well not quite anything, like you can't build a spaceship with it. But you can definitely build the software for the spaceship — NASA did.",
     data: [
         {
-            name: 'QMaterialWidgets',
-            description: 'Material design widgets library',
-            cover: 'https://img.fastmirror.net/s/2023/11/08/654ba28604a6f.jpg',
-            url: 'https://qmaterialwidgets.vercel.app'
-        },
-        {
             name: 'Fluent Studio',
             description: 'QFluentWidgets tool box',
             cover: 'https://img.fastmirror.net/s/2023/11/14/6552d7c981aa9.jpg',
@@ -20,6 +14,12 @@ export const showcases = {
             description: 'One-stop PyQt/PySide solution',
             cover: 'https://img.fastmirror.net/s/2024/07/13/66922605e38b4.jpg',
             url: 'https://client.qfluentwidgets.com/'
+        },
+        {
+            name: 'Ghost-Downloader-3',
+            description: 'A multi-threading async downloader',
+            cover: 'https://img.fastmirror.net/s/2024/11/25/674416062e878.jpg',
+            url: 'https://github.com/XiaoYouChR/Ghost-Downloader-3'
         },
         {
             name: 'Groove',
@@ -76,12 +76,6 @@ export const showcases = {
             url: 'https://mcsl.com.cn'
         },
         {
-            name: 'Xiaowo AI',
-            description: 'A multifunctional AI tool',
-            cover: 'https://img.fastmirror.net/s/2023/12/29/658eb72922356.png',
-            url: 'https://www.xiaowoai.com/'
-        },
-        {
             name: 'March7th Assistant',
             description: 'Star rail automation tool',
             cover: 'https://img.fastmirror.net/s/2023/10/28/653d1d5bc9178.jpg',
@@ -94,22 +88,11 @@ export const showcases = {
             url: 'https://github.com/pur1fying/blue_archive_auto_script'
         },
         {
-            name: 'Mihiro Toolbox',
-            description: 'A concise and easy-to-use FFmpeg client',
-            cover: 'https://img.fastmirror.net/s/2023/11/08/654b9ec22ce0e.jpg',
-            url: 'https://github.com/Eanya-Tonic/MihiroToolbox'
-        },
-        {
             name: 'Bangumi Renamer',
             description: 'Automated anime naming Tool',
             cover: 'https://img.fastmirror.net/s/2023/11/11/654ef66014d97.jpg',
             url: 'https://github.com/nuthx/bangumi-renamer'
         },
-        {
-            name: 'Ghost-Downloader-3',
-            description: 'A multi-threading async downloader',
-            cover: 'https://img.fastmirror.net/s/2024/11/25/674416062e878.jpg',
-            url: 'https://github.com/XiaoYouChR/Ghost-Downloader-3'
-        },
+
     ]
 };
