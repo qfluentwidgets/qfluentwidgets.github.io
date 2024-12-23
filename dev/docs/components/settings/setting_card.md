@@ -252,6 +252,8 @@ class ServerItem(QWidget):
         self.hBoxLayout.setContentsMargins(20, 12, 20, 12)
 ```
 
+If the accordion setting card cannot expand properly, please use `SimpleExpandGroupSettingCard` instead.
+
 
 ### [SettingCardGroup](https://pyqt-fluent-widgets.readthedocs.io/en/latest/autoapi/qfluentwidgets/components/settings/setting_card_group/index.html)
 

@@ -4,6 +4,23 @@ date: 2023-08-17 15:02:30
 permalink: /zh/pages/changelog/
 ---
 
+### v1.7.4
+#### 新组件
+* 添加 `SimpleExpandGroupSettingCard`
+
+#### 新特性
+* 添加禁用下拉框选项的功能 ([#1026](https://github.com/zhiyiYo/PyQt-Fluent-Widgets/issues/1026))
+
+#### 修复
+* 修复侧边导航栏的触控板滚动问题
+* 修复导航栏在展开子项时无法自动扩展问题 ([#1029](https://github.com/zhiyiYo/PyQt-Fluent-Widgets/issues/1029))
+* 修复 `FastCalendarPicker` 无法选择第一个日期的问题 ([#1028](https://github.com/zhiyiYo/PyQt-Fluent-Widgets/issues/1028))
+
+### v1.7.3
+
+#### 修复
+* 修复表格项工具提示没有及时隐藏的问题
+
 ### v1.7.2
 #### 新特性
 * 重绘单选按钮 ([#1010](https://github.com/zhiyiYo/PyQt-Fluent-Widgets/issues/1010))

@@ -4,6 +4,23 @@ date: 2023-08-17 15:02:30
 permalink: /pages/changelog/
 ---
 
+### v1.7.4
+#### New Components
+* Add `SimpleExpandGroupSettingCard`
+
+#### New Features
+* Add the ability to disable combo box options ([#1026](https://github.com/zhiyiYo/PyQt-Fluent-Widgets/issues/1026))
+
+#### Fixes
+* Fixed touchpad scrolling issue in the side navigation bar
+* Fixed the issue where the navigation bar could not automatically expand when sub-items were opened ([#1029](https://github.com/zhiyiYo/PyQt-Fluent-Widgets/issues/1029))
+* Fixed the issue with `FastCalendarPicker` not being able to select the first date ([#1028](https://github.com/zhiyiYo/PyQt-Fluent-Widgets/issues/1028))
+
+### v1.7.3
+
+#### Fixes
+* Fixed the issue where tooltips for table items were not hiding in a timely manner.
+
 ### v1.7.2
 #### New Features
 * Redraw radio button ([#1010](https://github.com/zhiyiYo/PyQt-Fluent-Widgets/issues/1010))

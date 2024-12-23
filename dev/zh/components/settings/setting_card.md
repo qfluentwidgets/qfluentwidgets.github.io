@@ -259,6 +259,8 @@ class ServerItem(QWidget):
 
 ```
 
+如果无法正常展开手风琴设置卡，请换成 `SimpleExpandGroupSettingCard`。
+
 
 ### [SettingCardGroup](https://pyqt-fluent-widgets.readthedocs.io/zh-cn/latest/autoapi/qfluentwidgets/components/settings/setting_card_group/index.html)
 
