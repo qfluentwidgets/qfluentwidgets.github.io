@@ -109,3 +109,10 @@ class Demo(QWidget):
     def showFlyout(self):
         Flyout.make(CustomFlyoutView(), self.button, self, aniType=FlyoutAnimationType.PULL_UP)
 ```
+
+
+### [FlyoutDialog](https://qfluentwidgets.com/zh/price/)
+
+![FlyoutDialog](/img/components/flyout/FlyoutDialog.png)
+
+`FlyoutDialog` 是个对话框容器，内部可被任何 `QWidget` 的子类实例替换，从而自定义对话框内容。

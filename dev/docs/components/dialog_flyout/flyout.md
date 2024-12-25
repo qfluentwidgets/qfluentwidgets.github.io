@@ -108,3 +108,10 @@ class Demo(QWidget):
     def showFlyout(self):
         Flyout.make(CustomFlyoutView(), self.button, self, aniType=FlyoutAnimationType.PULL_UP)
 ```
+
+
+### [FlyoutDialog](https://qfluentwidgets.com/price/)
+
+![FlyoutDialog](/img/components/flyout/FlyoutDialog.png)
+
+`FlyoutDialog` is a dialog container that can be replaced internally by any instance of `QWidget`, allowing for custom dialog content.

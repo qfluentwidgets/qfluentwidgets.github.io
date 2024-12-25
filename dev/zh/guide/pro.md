@@ -114,31 +114,34 @@ Python 组件库非商业用途使用 GPLv3 许可证进行授权，商用需购
 | `SlideAniStackedWidget`       | 带左右滑动动画的层叠组件 |
 
 ### 状态和信息
-| 组件名               | 描述                           |
-| -------------------- | ------------------------------ |
-| `FilledProgressBar`  | 填充进度条                     |
-| `ProgressInfoBar`    | 进度消息条                     |
-| `ProgressPushButton` | 进度按钮，可用于显示任务进度   |
-| `StepProgressBar`    | 步骤进度条，可用于显示任务步骤 |
-| `Tag`                | 标签组件                       |
-| `Toast`              | 吐司通知                       |
-| `SimpleToastView`    | 简易吐司通知视图               |
-| `StarWidget`         | 星型组件                       |
-| `SingleScoreWidget`  | 评分组件                       |
-| `MultiScoreWidget`   | 可交互评分组件                 |
-| `RadialGauge`        | 仪表盘                         |
+| 组件名                 | 描述                           |
+| ---------------------- | ------------------------------ |
+| `RoundProgressInfoBar` | 圆角进度消息条                 |
+| `FilledProgressBar`    | 填充进度条                     |
+| `ProgressInfoBar`      | 进度消息条                     |
+| `ProgressPushButton`   | 进度按钮，可用于显示任务进度   |
+| `StepProgressBar`      | 步骤进度条，可用于显示任务步骤 |
+| `Tag`                  | 标签组件                       |
+| `Toast`                | 吐司通知                       |
+| `SimpleToastView`      | 简易吐司通知视图               |
+| `StarWidget`           | 星型组件                       |
+| `SingleScoreWidget`    | 评分组件                       |
+| `MultiScoreWidget`     | 可交互评分组件                 |
+| `RadialGauge`          | 仪表盘                         |
 
 ### 导航
-| 组件名                     | 描述       |
-| -------------------------- | ---------- |
-| `ExclusiveLiteFilter`      | 互斥过滤器 |
-| `MultiSelectionLiteFilter` | 多选过滤器 |
-| `TopNavigationBar`         | 顶部导航栏 |
-| `FilledNavigationBar`      | 填充导航栏 |
+| 组件名                     | 描述                   |
+| -------------------------- | ---------------------- |
+| `ExclusiveLiteFilter`      | 互斥过滤器             |
+| `MultiSelectionLiteFilter` | 多选过滤器             |
+| `TopNavigationBar`         | 顶部导航栏             |
+| `FilledNavigationBar`      | 填充导航栏             |
+| `FilledMSNavigationBar`    | 填充微软商店样式导航栏 |
 
 ### 文本
 | 组件名          | 描述                 |
 | --------------- | -------------------- |
+| `PinBox`        | PIN 码输入框         |
 | `CodeEdit`      | 代码编辑框           |
 | `LabelLineEdit` | 带前后缀标签的输入框 |
 | `TokenLineEdit` | 标签输入框           |
@@ -155,8 +158,9 @@ Python 组件库非商业用途使用 GPLv3 许可证进行授权，商用需购
 
 
 ### 窗口
-| 组件名                    | 描述             |
-| ------------------------- | ---------------- |
-| `TopFluentWindow`         | 顶部导航流畅窗口 |
-| `FilledFluentWindow`      | 填充流畅窗口     |
-| `FilledSplitFluentWindow` | 填充拆分流畅窗口 |
+| 组件名                    | 描述                       |
+| ------------------------- | -------------------------- |
+| `TopFluentWindow`         | 顶部导航流畅窗口           |
+| `FilledFluentWindow`      | 填充流畅窗口               |
+| `FilledMSFluentWindow`    | 填充微软商店样式的流畅窗口 |
+| `FilledSplitFluentWindow` | 填充拆分流畅窗口           |
