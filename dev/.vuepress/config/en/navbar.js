@@ -28,7 +28,7 @@ export const navbar = [
         link: '/pages/componentlist'
       },
       {
-        text: 'Pro',
+        text: 'License',
         link: '/pages/pro'
       },
       {

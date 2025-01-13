@@ -3,7 +3,7 @@ export const prices = {
     year: '年',
     badge: '最流行',
     buyPlan: '立即购买',
-    title: '商用高级版',
+    title: '价格',
     permanent: "永久",
     subTitle: '为不同开发者量身定制的方案',
     description: '选择一个最适合您软件的价格方案，其他的技术细节放心交给组件库',

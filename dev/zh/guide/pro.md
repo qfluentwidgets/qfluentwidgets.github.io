@@ -1,16 +1,14 @@
 ---
-title: 高级版
+title: 许可证
 date: 2023-08-17 15:37:01
 permalink: /zh/pages/pro/
 ---
 
-## 什么是高级版？
+## 组件库的授权方式？
 Python 组件库非商业用途使用 GPLv3 许可证进行授权，商用需购买 [商业许可证](/zh/price) 才能获得商用授权。
 
-为了满足开发者的需求，商用版的组件库包含更多高级组件，可以让现代化界面开发变得更加得心应手。
-
 ## 有哪些高级组件？
-目前，商用版组件库包含下述组件，之后还会不断增加新组件。
+为了满足开发者的需求，高级版的组件库包含更多高级组件，可以让现代化界面开发变得更加得心应手。目前，高级版组件库包含下述组件，之后还会不断增加新组件。
 
 演示视频见 [哔哩哔哩](https://www.bilibili.com/video/BV14e411Y75d)，可从 [发行页面](https://github.com/zhiyiYo/PyQt-Fluent-Widgets/releases) 下载体验包 `PyQt-Fluent-Widgets-Pro-Gallery.zip`。
 

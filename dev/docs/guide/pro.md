@@ -1,16 +1,15 @@
 ---
-title: Pro
+title: License
 date: 2023-08-17 15:37:01
 permalink: /pages/pro/
 ---
 
-## What is the QFluentWidgets Pro?
+## How is the component library authorized?
 
 Python QFluentWidgets is licensed under GPLv3 for non-commercial use. For commercial use, you should purchase a [**commercial license**](/price).
 
-To meet the needs of developers, the commercial version of the component library includes more advanced component, which makes modern interface development more convenient.
 
-## What are the advanced components?
+## What are the pro components?
 
 Currently, QFluentWidgets Pro includes the following components, and more components being added in the future.
 

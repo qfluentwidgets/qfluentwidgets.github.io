@@ -28,7 +28,7 @@ export const navbar = [
         link: '/zh/pages/componentlist'
       },
       {
-        text: '高级版',
+        text: '许可证',
         link: '/zh/pages/pro'
       },
       {

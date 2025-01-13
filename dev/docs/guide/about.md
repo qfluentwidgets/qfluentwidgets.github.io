@@ -25,7 +25,7 @@ permalink: /pages/about/
 
 Python QFluentWidgets is licensed under [GPLv3](https://github.com/zhiyiYo/PyQt-Fluent-Widgets/blob/master/LICENSE) for non-commercial project. If your non-commercial project uses this library, **software distribution must be done under the GPLv3 license**.
 
-For commercial use, please purchase a [**commercial license**](/price), and the [commerial version library](/pages/pro/) contains more advance components.
+For commercial use, please purchase a [**commercial license**](/price).
 
 C++ QFluentWidgets is not open source. You can download the compiled demo `QFluentWidgets_v*.*.*.zip` from [release page](https://github.com/zhiyiYo/PyQt-Fluent-Widgets/releases). Please check the [price plan](/price) and contact [shokokawaii@foxmail.com](mailto:shokokawaii@foxmail.com) or QQ: 1953658489 if you want to use C++ QFluentWidgets.
 
