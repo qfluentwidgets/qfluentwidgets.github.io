@@ -25,9 +25,9 @@ permalink: /zh/pages/about/
 
 Python 组件库非商用的许可证为 [GPLv3](https://github.com/zhiyiYo/PyQt-Fluent-Widgets/blob/master/LICENSE)，如果你的非商用项目使用了组件库，**必须使用 GPLv3 许可证进行软件分发**。
 
-Python 组件库商用需购买 [商业许可证](/zh/price) 以获得商用授权。
+Python 组件库商用需购买 [商业许可证](/zh/pages/pro) 以获得商用授权。
 
-C++ 组件库没有开源，可从 [发行页面](https://github.com/zhiyiYo/PyQt-Fluent-Widgets/releases) 下载体验编译好的示例程序 `QFluentWidgets_v*.*.*.zip`，如需购买使用请先了解 [价格方案](/zh/price) 并联系 [shokokawaii@foxmail.com](mailto:shokokawaii@foxmail.com) 或 QQ：1953658489。
+C++ 组件库没有开源，可从官网顶部导航栏下载体验编译好的示例程序，如需购买使用请先了解 [价格方案](/zh/price) 并联系 [shokokawaii@foxmail.com](mailto:shokokawaii@foxmail.com) 或 QQ：1953658489。
 
 组件库受软件著作权保护，软著登字第12532763号，任何盗用组件库，破解组件库，未经授权而商业使用均视为侵权。
 

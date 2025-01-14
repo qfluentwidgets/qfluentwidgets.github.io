@@ -55,7 +55,7 @@ export const navbar = [
       },
       {
         text: 'C++ QFluentWidgets',
-        link: 'https://github.com/zhiyiYo/PyQt-Fluent-Widgets/releases/download/v1.7.0/C++_QFluentWidgets.zip'
+        link: 'https://github.com/zhiyiYo/PyQt-Fluent-Widgets/releases/download/v1.7.0/C++_QFluentWidgets_Qt5.zip'
       },
       {
         text: 'C++ QFluentCharts',
