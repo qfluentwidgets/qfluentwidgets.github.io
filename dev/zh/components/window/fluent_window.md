@@ -332,3 +332,15 @@ if __name__ == '__main__':
     w.show()
     app.exec()
 ```
+
+### [FilledFluentWindow](https://qfluentwidgets.com/zh/price)
+
+![FilledFluentWindow](/img/components/fluent_window/FilledFluentWindow.png)
+
+`FilledFluentWindow` 提供了侧边导航功能。
+
+### [TopFluentWindow](https://qfluentwidgets.com/zh/price)
+
+![TopFluentWindow](/img/components/topnavigationbar/TopNavigationBar.png)
+
+`TopFluentWindow` 提供了顶部导航功能。

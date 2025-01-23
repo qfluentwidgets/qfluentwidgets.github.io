@@ -112,3 +112,17 @@ The usage of `SegmentedToggleToolWidget` is exactly the same as [SegmentedToolWi
 ![TopNavigationBar](/img/components/topnavigationbar/TopNavigationBar.png)
 
 `TopNavigationBar` provides top navigation functionality.
+
+
+### [MenuBar](https://qfluentwidgets.com/price)
+
+![MenuBar](/img/components/topnavigationbar/MenuBar.png)
+
+`MenuBar` provides top menu navigation functionality.
+
+
+### [GuideWindow](https://qfluentwidgets.com/price)
+
+![GuideWindow](/img/components/topnavigationbar/GuideWindow.png)
+
+`GuideWindow` provides the guide step functionality.

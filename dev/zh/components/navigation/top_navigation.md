@@ -113,3 +113,15 @@ print(sw.currentItem())
 ![TopNavigationBar](/img/components/topnavigationbar/TopNavigationBar.png)
 
 `TopNavigationBar` 提供了顶部导航功能。
+
+### [MenuBar](https://qfluentwidgets.com/zh/price)
+
+![MenuBar](/img/components/topnavigationbar/MenuBar.png)
+
+`MenuBar` 提供了顶部菜单导航功能。
+
+### [GuideWindow](https://qfluentwidgets.com/zh/price)
+
+![GuideWindow](/img/components/topnavigationbar/GuideWindow.png)
+
+`GuideWindow` 提供了分步向导功能。

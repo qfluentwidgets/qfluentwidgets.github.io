@@ -130,6 +130,7 @@ Python 组件库非商业用途使用 GPLv3 许可证进行授权，商用需购
 ### 导航
 | 组件名                     | 描述                   |
 | -------------------------- | ---------------------- |
+| `MenuBar`                  | 菜单栏             |
 | `ExclusiveLiteFilter`      | 互斥过滤器             |
 | `MultiSelectionLiteFilter` | 多选过滤器             |
 | `TopNavigationBar`         | 顶部导航栏             |

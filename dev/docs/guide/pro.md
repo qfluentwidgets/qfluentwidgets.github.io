@@ -131,6 +131,7 @@ Skeleton screens provide basic placeholders when network requests are slow, and 
 ### Navigation
 | Component Name             | Description                 |
 | -------------------------- | --------------------------- |
+| `MenuBar`                  | Menu bar                    |
 | `ExclusiveLiteFilter`      | Exclusive lite filter       |
 | `MultiSelectionLiteFilter` | Multi selection lite filter |
 | `TopNavigationBar`         | Top navigation bar          |

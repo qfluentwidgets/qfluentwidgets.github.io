@@ -333,3 +333,15 @@ if __name__ == '__main__':
     w.show()
     app.exec()
 ```
+
+### [FilledFluentWindow](https://qfluentwidgets.com/price)
+
+![FilledFluentWindow](/img/components/fluent_window/FilledFluentWindow.png)
+
+`FilledFluentWindow` provides side navigation functionality.
+
+### [TopFluentWindow](https://qfluentwidgets.com/price)
+
+![TopFluentWindow](/img/components/topnavigationbar/TopNavigationBar.png)
+
+`TopFluentWindow` provides top navigation functionality.
