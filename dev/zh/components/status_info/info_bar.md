@@ -161,3 +161,10 @@ InfoBar.success(
 ![ProgressInfoBar](/img/components/infobar/ProgressInfoBar.png)
 
 `ProgressInfoBar` 它不仅显示任务的完成进度，还可以显示额外的信息。这些信息通常包括任务的名称、描述、剩余时间等。这种组件非常适合用于需要同时展示任务进度和其他相关信息的场合。
+
+
+### [ProgressToast](https://qfluentwidgets.com/zh/price)
+
+![ProgressToast](/img/components/infobar/ProgressToast.png)
+
+`ProgressToast` 可以同时显示任务进度和提示信息。

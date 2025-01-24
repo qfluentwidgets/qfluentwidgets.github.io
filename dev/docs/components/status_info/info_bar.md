@@ -158,3 +158,10 @@ InfoBar.success(
 ![ProgressInfoBar](/img/components/infobar/ProgressInfoBar.png)
 
 `ProgressInfoBar` not only displays the progress of a task, but can also show additional information. This information typically includes the task's name, description, remaining time, etc. This component is very suitable for situations that require the simultaneous display of task progress and other related information.
+
+
+### [ProgressToast](https://qfluentwidgets.com/price)
+
+![ProgressToast](/img/components/infobar/ProgressToast.png)
+
+`ProgressToast` can show the task progress and additional information at the same time.

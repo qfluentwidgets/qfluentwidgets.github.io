@@ -78,6 +78,7 @@ export const series = {
                 "/zh/pages/components/navigationbar",
                 "/zh/pages/components/topnavigationbar",
                 "/zh/pages/components/breadcrumbbar",
+                "/zh/pages/components/tabbar",
             ],
         },
         {
