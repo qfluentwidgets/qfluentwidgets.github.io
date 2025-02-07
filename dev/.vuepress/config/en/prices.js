@@ -24,7 +24,8 @@ export const prices = {
             url: 'mailto:shokokawaii@foxmail.com',
             recommend: false,
             features: [
-                { feature: '260+ components' },
+                { feature: '170+ community components' },
+                { feature: '90+ pro components' },
                 { feature: '20+ visual charts' },
                 { feature: 'Single developer' },
                 { feature: '3 development device' },
@@ -43,7 +44,8 @@ export const prices = {
             url: 'mailto:shokokawaii@foxmail.com',
             recommend: true,
             features: [
-                { feature: '260+ components' },
+                { feature: '170+ community components' },
+                { feature: '90+ pro components' },
                 { feature: '20+ visual charts' },
                 { feature: 'Single developer' },
                 { feature: '2 development device' },
