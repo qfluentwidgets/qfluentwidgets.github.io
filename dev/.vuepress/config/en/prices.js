@@ -65,7 +65,8 @@ export const prices = {
             recommend: false,
             contactSales: true,
             features: [
-                { feature: '260+ components' },
+                { feature: '170+ community components' },
+                { feature: '90+ pro components' },
                 { feature: '20+ visual charts' },
                 { feature: "Unlimited softwares" },
                 { feature: "Lifetime access" },
