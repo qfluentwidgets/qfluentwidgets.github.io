@@ -16,10 +16,10 @@ export const showcases = {
             url: 'https://client.qfluentwidgets.com/'
         },
         {
-            name: 'Ghost-Downloader-3',
-            description: 'A multi-threading async downloader',
-            cover: 'https://img.fastmirror.net/s/2024/11/25/674416062e878.jpg',
-            url: 'https://github.com/XiaoYouChR/Ghost-Downloader-3'
+            name: 'Fluent M3U8',
+            description: '跨平台 M3U8 下载器',
+            cover: 'https://img.fastmirror.net/s/2025/02/08/67a6d1f9db908.png',
+            url: 'https://github.com/zhiyiYo/Fluent-M3U8'
         },
         {
             name: 'Groove',
@@ -40,10 +40,10 @@ export const showcases = {
             url: 'https://github.com/zhiyiYo/Face-Mask-Detector'
         },
         {
-            name: 'Weather',
-            description: 'Weather app',
-            cover: 'https://img.fastmirror.net/s/2024/02/06/65c185980febb.jpg',
-            url: 'https://blog.csdn.net/a1397852386/article/details/135035884'
+            name: 'Ghost-Downloader-3',
+            description: 'A multi-threading async downloader',
+            cover: 'https://img.fastmirror.net/s/2024/11/25/674416062e878.jpg',
+            url: 'https://github.com/XiaoYouChR/Ghost-Downloader-3'
         },
         {
             name: 'DyberPet',
