@@ -19,7 +19,7 @@ export const showcases = {
             name: 'Fluent M3U8',
             description: 'Cross-platform M3U8 downloader',
             cover: 'https://img.fastmirror.net/s/2025/02/08/67a6d1f9db908.png',
-            url: 'https://github.com/zhiyiYo/Fluent-M3U8'
+            url: 'https://fluent-m3u8.org/'
         },
         {
             name: 'Groove',
