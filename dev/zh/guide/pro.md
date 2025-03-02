@@ -10,7 +10,7 @@ Python 组件库非商业用途使用 GPLv3 许可证进行授权，商用需购
 ## 有哪些高级组件？
 为了满足开发者的需求，高级版的组件库包含更多高级组件，可以让现代化界面开发变得更加得心应手。目前，高级版组件库包含下述组件，之后还会不断增加新组件。
 
-演示视频见 [哔哩哔哩](https://www.bilibili.com/video/BV14e411Y75d)，可从 [发行页面](https://github.com/zhiyiYo/PyQt-Fluent-Widgets/releases) 下载体验包 `PyQt-Fluent-Widgets-Pro-Gallery.zip`。
+可从 [发行页面](https://github.com/zhiyiYo/PyQt-Fluent-Widgets/releases) 或顶部导航栏下载体验包 `PyQt-Fluent-Widgets-Pro-Gallery.zip`。
 
 ### 基本输入
 

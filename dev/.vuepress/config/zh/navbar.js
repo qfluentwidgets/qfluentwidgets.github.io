@@ -69,5 +69,4 @@ export const navbar = [
   },
   { text: '案例', link: '/zh/showcase/', icon: 'Code' },
   { text: '价格', link: '/zh/price', icon: 'ShoppingCart' },
-  { text: '视频教程', link: 'https://www.bilibili.com/video/BV12c411L73q', icon: 'Playlist' },
 ];

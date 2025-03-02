@@ -13,7 +13,7 @@ Python QFluentWidgets is licensed under GPLv3 for non-commercial use. For commer
 
 Currently, QFluentWidgets Pro includes the following components, and more components being added in the future.
 
-Check out this [▶ example video](https://www.bilibili.com/video/BV14e411Y75d) that shows off what Pro are capable of. You can also download the demo `PyQt-Fluent-Widgets-Pro-Gallery.zip` from [release page](https://github.com/zhiyiYo/PyQt-Fluent-Widgets/releases).
+You can download the demo `PyQt-Fluent-Widgets-Pro-Gallery.zip` from [release page](https://github.com/zhiyiYo/PyQt-Fluent-Widgets/releases).
 
 ### Basic Inputs
 

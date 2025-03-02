@@ -69,5 +69,4 @@ export const navbar = [
   },
   { text: 'Showcase', link: '/showcase/', icon: 'Code' },
   { text: 'Pricing', link: '/price', icon: 'ShoppingCart' },
-  { text: 'Tutorials', link: 'https://www.youtube.com/watch?v=9Id5ThLEpFk&list=PL0KDoBEXflBGymEQ16t4Fr2wcFDMqYVtf', icon: 'Playlist' },
 ];

@@ -36,14 +36,16 @@ permalink: /zh/pages/designer/
 
 完成提升后不会在设计师中看到任何变化，保存 ui 文件后编译为 py 代码，可以发现 `import` 的是 `PushButton`。
 
-<div style="position: relative; padding: 30% 45%;">
-    <iframe style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;" src="https://player.bilibili.com/player.html?cid=1107159421&aid=655415814&page=1&as_wide=1&high_quality=1&danmaku=0&autoplay=0" frameborder="no" scrolling="no" allowfullscreen="true"></iframe>
+<div style="padding:56.25% 0 0 0;position:relative;">
+    <iframe src="https://player.vimeo.com/video/1061709354?h=aa4e0d1455&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="PyQt-Fluent-Widgets 搭配 QtDesigner 的正确使用姿势">
+    </iframe>
 </div>
 
 
 ### 复杂示例
 下面是一个使用设计师实现多界面窗口的例子，代码存放在 [examples/window/clock](https://github.com/zhiyiYo/PyQt-Fluent-Widgets/tree/master/examples/window/clock) 目录中，PySide 切换至对应分支即可：
 
-<div style="position: relative; padding: 30% 45%;">
-    <iframe style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;" src="https://player.bilibili.com/player.html?cid=1193201502&aid=530806716&page=1&as_wide=1&high_quality=1&danmaku=0&autoplay=0" frameborder="no" scrolling="no" allowfullscreen="true"></iframe>
+<div style="padding:56.25% 0 0 0;position:relative;">
+    <iframe src="https://player.vimeo.com/video/1061705002?h=a00c3ce65d&amp;title=0&amp;byline=0&amp;portrait=0&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="零样式表 +100 行代码实现 Win11 时钟应用">
+    </iframe>
 </div>

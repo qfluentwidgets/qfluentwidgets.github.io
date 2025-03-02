@@ -104,6 +104,7 @@ button.clicked.connect(toggleTheme)
 对于不支持 `FluentIconBase` 的类，比如只支持 `QIcon` 的 `QListWidgetItem`，可以调用 `FluentIconBase.qicon()` 返回一个能够自动切换主题的 `QIcon`。
 
 ### 视频教程
-<div style="position: relative; padding: 30% 45%;">
-    <iframe style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;" src="https://player.bilibili.com/player.html?cid=1141942975&aid=614116994&page=1&as_wide=1&high_quality=1&danmaku=0&autoplay=0" frameborder="no" scrolling="no" allowfullscreen="true"></iframe>
+<div style="padding:56.25% 0 0 0;position:relative;">
+    <iframe src="https://player.vimeo.com/video/1061710278?h=d643e2b0da&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="PyQt-Fluent-Widgets 自定义图标的正确姿势">
+    </iframe>
 </div>

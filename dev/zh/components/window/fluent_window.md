@@ -36,7 +36,7 @@ def addSubInterface(
 如果你在界面的左上角看到奇怪的东西，说明忘了调用 `addSubInterface()` 添加某个子界面
 :::
 
-下面是个简单的例子，更加复杂的多子界面示例见 [视频教程](https://www.bilibili.com/video/BV1Uu411j7AV)：
+下面是个简单的例子，更加复杂的多子界面示例见 [视频教程](/zh/pages/designer/#复杂示例)：
 
 ```python
 from qfluentwidgets import NavigationItemPosition, FluentWindow, SubtitleLabel, setFont
