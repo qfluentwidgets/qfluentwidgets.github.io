@@ -18,7 +18,13 @@ export default defineUserConfig({
     },
   },
   head: [
-    ['link', { rel: 'icon', href: '/img/logo.png' }]
+    ['link', { rel: 'icon', href: '/img/logo.png' }],
+    [
+      'script',
+      {
+        src: 'https://player.vimeo.com/api/player.js'
+      }
+    ],
   ],
   theme: recoTheme(themeConfig),
   debug: false,
