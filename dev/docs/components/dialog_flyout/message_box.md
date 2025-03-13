@@ -39,6 +39,12 @@ w.cancelButton.hide()
 w.buttonLayout.insertStretch(1)
 ```
 
+If `Dialog` and `FluentWindow` are used together, the window may become non-resizable. The solution is as follows:
+
+```python
+app.setAttribute(Qt.ApplicationAttribute.AA_DontCreateNativeWidgetSiblings)
+```
+
 
 ### [MessageBox](https://pyqt-fluent-widgets.readthedocs.io/en/latest/autoapi/qfluentwidgets/components/dialog_box/dialog/index.html#qfluentwidgets.components.dialog_box.dialog.MessageBox)
 
