@@ -36,7 +36,7 @@ label = HyperlinkLabel(QUrl('https://github.com/'), 'GitHub')
 hyperlinkLabel.setUnderlineVisible(True)
 
 # 更换超链接
-label.setUrl('https://github.com/zhiyiYo/QMaterialWidgets')
+label.setUrl('https://github.com/zhiyiYo/')
 print(label.url)
 ```
 

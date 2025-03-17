@@ -61,10 +61,6 @@ export const navbar = [
         text: 'C++ 图表库',
         link: 'https://github.com/zhiyiYo/PyQt-Fluent-Widgets/releases/download/v1.7.0/C++_QFluentCharts.7z'
       },
-      {
-        text: 'Material 组件库',
-        link: 'https://github.com/zhiyiYo/PyQt-Fluent-Widgets/releases/download/v1.7.0/QMaterialWidgets-Gallery.zip'
-      },
     ]
   },
   { text: '案例', link: '/zh/showcase/', icon: 'Code' },
