@@ -4,12 +4,6 @@ export const showcases = {
     description: '我们收集了一些基于 QFluentWidgets 组件库开发的优秀项目，供您参考',
     data: [
         {
-            name: 'Fluent Studio',
-            description: 'QFluentWidgets 集成软件',
-            cover: 'https://img.fastmirror.net/s/2023/11/14/6552d7c981aa9.jpg',
-            url: 'https://www.bilibili.com/video/BV1s34y1V7QW/'
-        },
-        {
             name: 'Fluent Client',
             description: '一站式 PyQt/PySide 解决方案',
             cover: 'https://img.fastmirror.net/s/2024/07/13/66922605e38b4.jpg',

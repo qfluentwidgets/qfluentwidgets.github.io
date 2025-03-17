@@ -4,12 +4,6 @@ export const showcases = {
     description: "Well not quite anything, like you can't build a spaceship with it. But you can definitely build the software for the spaceship — NASA did.",
     data: [
         {
-            name: 'Fluent Studio',
-            description: 'QFluentWidgets tool box',
-            cover: 'https://img.fastmirror.net/s/2023/11/14/6552d7c981aa9.jpg',
-            url: 'https://www.bilibili.com/video/BV1s34y1V7QW/'
-        },
-        {
             name: 'Fluent Client',
             description: 'One-stop PyQt/PySide solution',
             cover: 'https://img.fastmirror.net/s/2024/07/13/66922605e38b4.jpg',
