@@ -27,6 +27,8 @@ You can download the demo `PyQt-Fluent-Widgets-Pro-Gallery.zip` from [release pa
 | `FilledToolButton`            | A filled tool button                        |
 | `TextPushButton`              | A text push button                          |
 | `TextToolButton`              | A text tool button                          |
+| `LuminaPushButton`            | A lumina push button                        |
+| `GlassPushButton`             | A glass push button                         |
 | `HyperlinkToolButton`         | A hyperlink tool button                     |
 | `TransparentCircleToolButton` | A transparent circular tool button          |
 | `FontComboBox`                | A combo box that allows font selection      |
@@ -86,6 +88,7 @@ Skeleton screens provide basic placeholders when network requests are slow, and 
 | ----------------------------- | -------------------------------------- |
 | `HorizontalCarousel`          | Horizontal carousel                    |
 | `VerticalCarousel`            | Vertical carousel                      |
+| `SqueezeCarousel`             | Squeeze carousel                       |
 | `HorizontalCircleColorPicker` | Horizontal circle color picker         |
 | `VerticalCircleColorPicker`   | Vertical circle color picker           |
 | `FlowCircleColorPicker`       | Flow circle color picker               |
@@ -143,6 +146,8 @@ Skeleton screens provide basic placeholders when network requests are slow, and 
 | `CodeEdit`      | Code editor     |
 | `LabelLineEdit` | Label line edit |
 | `TokenLineEdit` | Token line edit |
+| `TextWatermarkWidget` | Text watermark          |
+| `ImageWatermarkWidget` | Image watermark          |
 
 ### Settings
 | Component Name                      | Description                                        |

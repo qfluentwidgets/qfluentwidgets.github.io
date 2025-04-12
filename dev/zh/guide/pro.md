@@ -24,6 +24,8 @@ Python 组件库非商业用途使用 GPLv3 许可证进行授权，商用需购
 | `FilledToolButton`            | 填充工具按钮               |
 | `TextPushButton`              | 文本按钮，支持不同的类型   |
 | `TextToolButton`              | 文本工具按钮               |
+| `LuminaPushButton`            | 辉光按钮                   |
+| `GlassPushButton`             | 玻璃质感按钮               |
 | `HyperlinkToolButton`         | 超链接工具按钮             |
 | `TransparentCircleToolButton` | 透明圆形工具按钮           |
 | `FontComboBox`                | 字体下拉框                 |
@@ -84,6 +86,7 @@ Python 组件库非商业用途使用 GPLv3 许可证进行授权，商用需购
 | ----------------------------- | ------------------------ |
 | `HorizontalCarousel`          | 水平轮播图               |
 | `VerticalCarousel`            | 垂直轮播图               |
+| `SqueezeCarousel`             | 挤压式轮播图             |
 | `HorizontalCircleColorPicker` | 水平圆形拾色器           |
 | `VerticalCircleColorPicker`   | 垂直圆形拾色器           |
 | `FlowCircleColorPicker`       | 流式圆形拾色器           |
@@ -144,6 +147,8 @@ Python 组件库非商业用途使用 GPLv3 许可证进行授权，商用需购
 | `CodeEdit`      | 代码编辑框           |
 | `LabelLineEdit` | 带前后缀标签的输入框 |
 | `TokenLineEdit` | 标签输入框           |
+| `TextWatermarkWidget` | 文本水印组件          |
+| `ImageWatermarkWidget` | 图片水印组件          |
 
 ### 设置
 | 组件名                              | 描述                   |
