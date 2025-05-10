@@ -4,6 +4,33 @@ date: 2023-08-17 15:02:30
 permalink: /pages/changelog/
 ---
 
+
+### v1.8.0
+
+#### New Features
+
+* Added support for icon fonts
+* Added the ability to customize the selected color of table and list view
+* Added the ability to customize the text color of switch buttons
+* Added the ability to customize the bottom border color of spin box in focus state
+* Added the ability to customize the selected color of navigation bar
+* Added the ability to customize the indicator color of pivot
+* Added the ability to customize the background color of the date-time picker
+* Added the ability to customize the text color of checkboxes
+* Added the ability to customize the indicator color of radio buttons in selected state
+* Added the ability to customize the indicator color of sliders in selected state
+* Added the ability to customize the indicator color of switch buttons in selected state
+* Added the ability to customize the indicator color of checkboxes in selected state
+* Added the ability to customize the bottom border color of line edit in focus state
+* Added an interface for `ScrollArea` to enable smooth scrolling mode
+* Added support for draggable mask dialogs
+
+#### Bug Fixes
+
+* Fixed the issue where clicking the arrow in `TreeWidget` did not collapse the node
+* Fixed the issue where the UI became unresponsive after closing `FastCalendarPicker`
+
+
 ### v1.7.7
 #### New Features
 * Added Spanish translation
