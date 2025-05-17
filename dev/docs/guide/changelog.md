@@ -4,6 +4,9 @@ date: 2023-08-17 15:02:30
 permalink: /pages/changelog/
 ---
 
+### v1.8.1
+#### Fixes
+* Fixed the issue of blurry icon fonts.
 
 ### v1.8.0
 
@@ -25,7 +28,7 @@ permalink: /pages/changelog/
 * Added an interface for `ScrollArea` to enable smooth scrolling mode
 * Added support for draggable mask dialogs
 
-#### Bug Fixes
+#### Fixes
 
 * Fixed the issue where clicking the arrow in `TreeWidget` did not collapse the node
 * Fixed the issue where the UI became unresponsive after closing `FastCalendarPicker`
