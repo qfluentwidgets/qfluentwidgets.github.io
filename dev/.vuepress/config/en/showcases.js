@@ -64,12 +64,6 @@ export const showcases = {
             url: 'http://www.toobox.love'
         },
         {
-            name: 'MCServerLauncher2',
-            description: 'A sleek and versatile Minecraft server launcher',
-            cover: 'https://img.fastmirror.net/s/2023/10/28/653d162f66436.png',
-            url: 'https://mcsl.com.cn'
-        },
-        {
             name: 'March7th Assistant',
             description: 'Star rail automation tool',
             cover: 'https://img.fastmirror.net/s/2023/10/28/653d1d5bc9178.jpg',

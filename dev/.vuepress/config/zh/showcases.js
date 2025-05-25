@@ -64,12 +64,6 @@ export const showcases = {
             url: 'http://www.toobox.love'
         },
         {
-            name: 'MCServerLauncher2',
-            description: '简洁全能的 Minecraft 开服器',
-            cover: 'https://img.fastmirror.net/s/2023/10/28/653d162f66436.png',
-            url: 'https://mcsl.com.cn'
-        },
-        {
             name: '三月七小助手',
             description: '崩坏：星穹铁道全自动工具',
             cover: 'https://img.fastmirror.net/s/2023/10/28/653d1d5bc9178.jpg',
