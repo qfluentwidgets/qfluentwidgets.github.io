@@ -4,6 +4,16 @@ date: 2023-08-17 15:02:30
 permalink: /pages/changelog/
 ---
 
+### v1.8.2
+#### New Features
+* Added the ability to disable pop-up animations for `FluentWindow`
+* Added support for custom scrollbar colors and display modes
+
+#### Fixes
+* Fixed the issue where `Flyout` could not use Chinese input methods on macOS
+* Fixed the tree component not responding to mouse hover
+* Fixed the inability to collapse by clicking the `TreeView` arrow
+
 ### v1.8.1
 #### Fixes
 * Fixed the issue of blurry icon fonts.

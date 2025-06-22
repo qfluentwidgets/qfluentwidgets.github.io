@@ -30,6 +30,8 @@ Python 组件库非商业用途使用 GPLv3 许可证进行授权，商用需购
 | `TransparentCircleToolButton` | 透明圆形工具按钮           |
 | `FontComboBox`                | 字体下拉框                 |
 | `MultiSelectionComboBox`      | 多选下拉框，可选择多个选项 |
+| `TreeComboBox`                | 树状下拉框                |
+| `MultiSelectionTreeComboBox`  | 多选树状下拉框，可选择多个选项 |
 | `TransparentComboBox`         | 透明下拉框                 |
 | `ToolTipSlider`               | 带工具提示的滑动条         |
 | `RangeSlider`                 | 带两个滑块的范围滑动条     |

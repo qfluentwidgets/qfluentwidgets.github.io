@@ -8,7 +8,7 @@ permalink: /zh/pages/components/combobox/
 
 ![Combo box](/img/components/combobox/ComboBox.png)
 
-当选项过多时，使用下拉框展示并选择内容。`ComboBox` 继承自 `PushButton`，重新实现了 `QComboBox` 的大部分接口。
+当选项过多时，适合使用下拉框展示并选择内容。`ComboBox` 继承自 `PushButton`，重新实现了 `QComboBox` 的大部分接口。
 
 ```python
 comboBox = ComboBox()
@@ -73,6 +73,18 @@ comboBox.setCompleter(completer)
 ![MultiSelectionComboBox](/img/components/combobox/MultiSelectionComboBox.png)
 
 `MultiSelectionComboBox` 用于同时选择多个选项，并以标签的形式展示在下拉框中。
+
+## [TreeComboBox](https://qfluentwidgets.com/zh/price)
+
+![TreeComboBox](/img/components/combobox/TreeComboBox.png)
+
+`TreeComboBox` 它允许用户以层级方式浏览和选择数据。
+
+## [MultiSelectionTreeComboBox](https://qfluentwidgets.com/zh/price)
+
+![MultiSelectionTreeComboBox](/img/components/combobox/MultiSelectionTreeComboBox.png)
+
+`MultiSelectionTreeComboBox` 它允许用户以层级方式浏览和同时选择多个数据，并以标签的形式展示在下拉框中。
 
 ## [TransparentComboBox](https://qfluentwidgets.com/zh/price)
 

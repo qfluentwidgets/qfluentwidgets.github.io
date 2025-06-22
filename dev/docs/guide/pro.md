@@ -17,25 +17,27 @@ You can download the demo `PyQt-Fluent-Widgets-Pro-Gallery.zip` from [release pa
 
 ### Basic Inputs
 
-| Component Name                | Description                                 |
-| ----------------------------- | ------------------------------------------- |
-| `Chip`                        | A chip used as a filter                     |
-| `OutlinedPushButton`          | An outlined button used as a filter         |
-| `OutlinedToolButton`          | An outlined tool button                     |
-| `RoundPushButton`             | An full round push button                   |
-| `FilledPushButton`            | A filled push button                        |
-| `FilledToolButton`            | A filled tool button                        |
-| `TextPushButton`              | A text push button                          |
-| `TextToolButton`              | A text tool button                          |
-| `LuminaPushButton`            | A lumina push button                        |
-| `GlassPushButton`             | A glass push button                         |
-| `HyperlinkToolButton`         | A hyperlink tool button                     |
-| `TransparentCircleToolButton` | A transparent circular tool button          |
-| `FontComboBox`                | A combo box that allows font selection      |
-| `MultiSelectionComboBox`      | A combo box that allows multiple selections |
-| `TransparentComboBox`         | A transparent combo box                     |
-| `ToolTipSlider`               | A slider with tooltips                      |
-| `RangeSlider`                 | A range slider with two handles             |
+| Component Name                | Description                                                 |
+| ----------------------------- | ----------------------------------------------------------- |
+| `Chip`                        | A chip used as a filter                                     |
+| `OutlinedPushButton`          | An outlined button used as a filter                         |
+| `OutlinedToolButton`          | An outlined tool button                                     |
+| `RoundPushButton`             | An full round push button                                   |
+| `FilledPushButton`            | A filled push button                                        |
+| `FilledToolButton`            | A filled tool button                                        |
+| `TextPushButton`              | A text push button                                          |
+| `TextToolButton`              | A text tool button                                          |
+| `LuminaPushButton`            | A lumina push button                                        |
+| `GlassPushButton`             | A glass push button                                         |
+| `HyperlinkToolButton`         | A hyperlink tool button                                     |
+| `TransparentCircleToolButton` | A transparent circular tool button                          |
+| `FontComboBox`                | A combo box that allows font selection                      |
+| `TreeComboBox`                | A tree-structured combo box                                 |
+| `MultiSelectionTreeComboBox`  | A tree-structured combo box that allows multiple selections |
+| `MultiSelectionComboBox`      | A combo box that allows multiple selections                 |
+| `TransparentComboBox`         | A transparent combo box                                     |
+| `ToolTipSlider`               | A slider with tooltips                                      |
+| `RangeSlider`                 | A range slider with two handles                             |
 
 ### Dialogs & Flyouts
 
@@ -141,13 +143,13 @@ Skeleton screens provide basic placeholders when network requests are slow, and 
 | `FilledNavigationBar`      | filled navigation bar       |
 
 ### Text
-| Component Name  | Description     |
-| --------------- | --------------- |
-| `CodeEdit`      | Code editor     |
-| `LabelLineEdit` | Label line edit |
-| `TokenLineEdit` | Token line edit |
-| `TextWatermarkWidget` | Text watermark          |
-| `ImageWatermarkWidget` | Image watermark          |
+| Component Name         | Description     |
+| ---------------------- | --------------- |
+| `CodeEdit`             | Code editor     |
+| `LabelLineEdit`        | Label line edit |
+| `TokenLineEdit`        | Token line edit |
+| `TextWatermarkWidget`  | Text watermark  |
+| `ImageWatermarkWidget` | Image watermark |
 
 ### Settings
 | Component Name                      | Description                                        |

@@ -74,6 +74,19 @@ comboBox.setCompleter(completer)
 
 `MultiSelectionComboBox` is used for selecting multiple options at the same time, which are displayed as tags in the dropdown box.
 
+
+## [TreeComboBox](https://qfluentwidgets.com/price)
+
+![TreeComboBox](/img/components/combobox/TreeComboBox.png)
+
+`TreeComboBox` allows users to browse and select data in a hierarchical manner.
+
+## [MultiSelectionTreeComboBox](https://qfluentwidgets.com/price)
+
+![MultiSelectionTreeComboBox](/img/components/combobox/MultiSelectionTreeComboBox.png)
+
+`MultiSelectionTreeComboBox` allows users to browse data hierarchically and select multiple items simultaneously, displaying the selected options as tags within the dropdown box.
+
 ## [TransparentComboBox](https://qfluentwidgets.com/price)
 
 ![TransparentComboBox](/img/components/combobox/TransparentComboBox.png)
