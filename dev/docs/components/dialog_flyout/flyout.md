@@ -71,6 +71,12 @@ w = Flyout.make(view, self.button, self)
 view.closed.connect(w.close)
 ```
 
+`Flyout` may not support input methods on macOS. The solution is to set `isMacInputMethodEnabled` to `True` when creating the `Flyout`:
+```python
+Flyout.make(..., isMacInputMethodEnabled=True)
+Flyout.create(..., isMacInputMethodEnabled=True)
+```
+
 ### [FlyoutViewBase](https://pyqt-fluent-widgets.readthedocs.io/zh-cn/latest/autoapi/qfluentwidgets/components/widgets/flyout/index.html#qfluentwidgets.components.widgets.flyout.FlyoutViewBase)
 
 ![CustomFlyout](/img/components/flyout/CustomFlyout.png)
