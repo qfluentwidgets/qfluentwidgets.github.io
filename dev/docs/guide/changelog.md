@@ -4,6 +4,11 @@ date: 2023-08-17 15:02:30
 permalink: /pages/changelog/
 ---
 
+### v1.8.3
+#### Fixes
+* Fixed the time formatting issue in the media play bar
+* Fixed the issue where submenus overlay parent menus at the screen edge
+
 ### v1.8.2
 #### New Features
 * Added the ability to disable pop-up animations for `FluentWindow`
