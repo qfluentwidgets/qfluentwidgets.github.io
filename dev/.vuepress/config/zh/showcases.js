@@ -46,6 +46,12 @@ export const showcases = {
             url: 'https://github.com/ChaozhongLiu/DyberPet'
         },
         {
+            name: 'OpenList-Desktop',
+            description: 'OpenList 跨平台桌面客户端',
+            cover: 'https://img.fastmirror.net/s/2025/07/04/6867e839776d2.png',
+            url: 'https://github.com/qianye216/OpenList-Desktop'
+        },
+        {
             name: 'NoneBot Desktop',
             description: '原生 NoneBot2 客户端',
             cover: 'https://img.fastmirror.net/s/2023/10/28/653d2b4046ca1.jpg',
