@@ -62,9 +62,16 @@ You can download the demo `PyQt-Fluent-Widgets-Pro-Gallery.zip` from [release pa
 
 
 ### Layout
-| 组件名            | 描述                                                      |
+| Component Name             | Description                                                      |
 | ----------------- | --------------------------------------------------------- |
 | `WaterfallLayout` | Waterfall layout that supports widgets in different sizes |
+
+
+### Media
+| Component Name             | Description                                                      |
+| ----------------- | --------------------------------------------------------- |
+| `AvatarPicker` | Avatar picker |
+| `ImageCropper` | Image cropper |
 
 ### Charts
 

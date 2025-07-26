@@ -4,6 +4,14 @@ date: 2023-08-17 15:02:30
 permalink: /pages/changelog/
 ---
 
+### v1.8.4
+#### New Features
+* Dynamically display the scrollbar in the side navigation interface
+
+#### Fixes
+* Fixed the size issue of  `AvatarWidget`
+* Fixed the layout issue when dynamically adding submenu items to the side navigation
+
 ### v1.8.3
 #### Fixes
 * Fixed the time formatting issue in the media play bar
