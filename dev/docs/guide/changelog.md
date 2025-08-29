@@ -4,6 +4,16 @@ date: 2023-08-17 15:02:30
 permalink: /pages/changelog/
 ---
 
+### v1.8.6
+#### New Components
+* Added `ModelComboBox`, a dropdown box that supports data models.
+* Added `EditableModelComboBox`, an editable dropdown box that supports data models.
+
+#### Fixes
+* Fixed an issue with the collapse functionality in the `ExpandSettingCard`.
+* Fixed an error when setting text color in the table component.
+* Fixed an issue with scrollbar timers causing errors after Nuitka packaging.
+
 ### v1.8.4
 #### New Features
 * Dynamically display the scrollbar in the side navigation interface
