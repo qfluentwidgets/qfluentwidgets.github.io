@@ -14,28 +14,28 @@ Python 组件库非商业用途使用 GPLv3 许可证进行授权，商用需购
 
 ### 基本输入
 
-| 组件名                        | 描述                       |
-| ----------------------------- | -------------------------- |
-| `Chip`                        | 纸片组件，可用作过滤器     |
-| `OutlinedPushButton`          | 描边按钮，可用作过滤器     |
-| `OutlinedToolButton`          | 描边工具按钮               |
-| `RoundPushButton`             | 圆角按钮                   |
-| `FilledPushButton`            | 填充按钮，支持不同的类型   |
-| `FilledToolButton`            | 填充工具按钮               |
-| `TextPushButton`              | 文本按钮，支持不同的类型   |
-| `TextToolButton`              | 文本工具按钮               |
-| `LuminaPushButton`            | 辉光按钮                   |
-| `GlassPushButton`             | 玻璃质感按钮               |
-| `HyperlinkToolButton`         | 超链接工具按钮             |
-| `TransparentCircleToolButton` | 透明圆形工具按钮           |
-| `FontComboBox`                | 字体下拉框                 |
-| `MultiSelectionComboBox`      | 多选下拉框，可选择多个选项 |
-| `TreeComboBox`                | 树状下拉框                |
+| 组件名                        | 描述                           |
+| ----------------------------- | ------------------------------ |
+| `Chip`                        | 纸片组件，可用作过滤器         |
+| `OutlinedPushButton`          | 描边按钮，可用作过滤器         |
+| `OutlinedToolButton`          | 描边工具按钮                   |
+| `RoundPushButton`             | 圆角按钮                       |
+| `FilledPushButton`            | 填充按钮，支持不同的类型       |
+| `FilledToolButton`            | 填充工具按钮                   |
+| `TextPushButton`              | 文本按钮，支持不同的类型       |
+| `TextToolButton`              | 文本工具按钮                   |
+| `LuminaPushButton`            | 辉光按钮                       |
+| `GlassPushButton`             | 玻璃质感按钮                   |
+| `HyperlinkToolButton`         | 超链接工具按钮                 |
+| `TransparentCircleToolButton` | 透明圆形工具按钮               |
+| `FontComboBox`                | 字体下拉框                     |
+| `MultiSelectionComboBox`      | 多选下拉框，可选择多个选项     |
+| `TreeComboBox`                | 树状下拉框                     |
 | `MultiSelectionTreeComboBox`  | 多选树状下拉框，可选择多个选项 |
-| `TransparentComboBox`         | 透明下拉框                 |
-| `ToolTipSlider`               | 带工具提示的滑动条         |
-| `RangeSlider`                 | 带两个滑块的范围滑动条     |
-| `SubtitleRadioButton`         | 子标题单选按钮             |
+| `TransparentComboBox`         | 透明下拉框                     |
+| `ToolTipSlider`               | 带工具提示的滑动条             |
+| `RangeSlider`                 | 带两个滑块的范围滑动条         |
+| `SubtitleRadioButton`         | 子标题单选按钮                 |
 
 ### 对话框和弹出组件
 
@@ -64,9 +64,9 @@ Python 组件库非商业用途使用 GPLv3 许可证进行授权，商用需购
 | `WaterfallLayout` | 瀑布流布局，支持添加不同尺寸的组件 |
 
 ### 多媒体
-| 组件名            | 描述                               |
-| ----------------- | ---------------------------------- |
-| `AvatarPicker` | 头像选择器，支持选择和裁剪头像 |
+| 组件名         | 描述                               |
+| -------------- | ---------------------------------- |
+| `AvatarPicker` | 头像选择器，支持选择和裁剪头像     |
 | `ImageCropper` | 图像裁剪器，支持裁剪任意形状的图像 |
 
 ### 图表
@@ -122,25 +122,27 @@ Python 组件库非商业用途使用 GPLv3 许可证进行授权，商用需购
 | `SlideAniStackedWidget`       | 带左右滑动动画的层叠组件 |
 
 ### 状态和信息
-| 组件名                 | 描述                           |
-| ---------------------- | ------------------------------ |
-| `RoundProgressInfoBar` | 圆角进度消息条                 |
-| `FilledProgressBar`    | 填充进度条                     |
-| `ProgressInfoBar`      | 进度消息条                     |
-| `ProgressPushButton`   | 进度按钮，可用于显示任务进度   |
-| `StepProgressBar`      | 步骤进度条，可用于显示任务步骤 |
-| `Tag`                  | 标签组件                       |
-| `Toast`                | 吐司通知                       |
-| `SimpleToastView`      | 简易吐司通知视图               |
-| `StarWidget`           | 星型组件                       |
-| `SingleScoreWidget`    | 评分组件                       |
-| `MultiScoreWidget`     | 可交互评分组件                 |
-| `RadialGauge`          | 仪表盘                         |
+| 组件名                            | 描述                           |
+| --------------------------------- | ------------------------------ |
+| `RoundProgressInfoBar`            | 圆角进度消息条                 |
+| `FilledProgressBar`               | 填充进度条                     |
+| `ProgressInfoBar`                 | 进度消息条                     |
+| `ProgressPushButton`              | 进度按钮，可用于显示任务进度   |
+| `IndeterminateProgressPushButton` | 加载状态按钮                   |
+| `MultiSegmentProgressRing`        | 分段进度环                     |
+| `StepProgressBar`                 | 步骤进度条，可用于显示任务步骤 |
+| `Tag`                             | 标签组件                       |
+| `Toast`                           | 吐司通知                       |
+| `SimpleToastView`                 | 简易吐司通知视图               |
+| `StarWidget`                      | 星型组件                       |
+| `SingleScoreWidget`               | 评分组件                       |
+| `MultiScoreWidget`                | 可交互评分组件                 |
+| `RadialGauge`                     | 仪表盘                         |
 
 ### 导航
 | 组件名                     | 描述                   |
 | -------------------------- | ---------------------- |
-| `MenuBar`                  | 菜单栏             |
+| `MenuBar`                  | 菜单栏                 |
 | `ExclusiveLiteFilter`      | 互斥过滤器             |
 | `MultiSelectionLiteFilter` | 多选过滤器             |
 | `TopNavigationBar`         | 顶部导航栏             |
@@ -148,14 +150,14 @@ Python 组件库非商业用途使用 GPLv3 许可证进行授权，商用需购
 | `FilledMSNavigationBar`    | 填充微软商店样式导航栏 |
 
 ### 文本
-| 组件名          | 描述                 |
-| --------------- | -------------------- |
-| `PinBox`        | PIN 码输入框         |
-| `CodeEdit`      | 代码编辑框           |
-| `LabelLineEdit` | 带前后缀标签的输入框 |
-| `TokenLineEdit` | 标签输入框           |
-| `TextWatermarkWidget` | 文本水印组件          |
-| `ImageWatermarkWidget` | 图片水印组件          |
+| 组件名                 | 描述                 |
+| ---------------------- | -------------------- |
+| `PinBox`               | PIN 码输入框         |
+| `CodeEdit`             | 代码编辑框           |
+| `LabelLineEdit`        | 带前后缀标签的输入框 |
+| `TokenLineEdit`        | 标签输入框           |
+| `TextWatermarkWidget`  | 文本水印组件         |
+| `ImageWatermarkWidget` | 图片水印组件         |
 
 ### 设置
 | 组件名                              | 描述                   |

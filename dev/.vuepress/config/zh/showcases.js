@@ -70,6 +70,12 @@ export const showcases = {
             url: 'http://www.toobox.love'
         },
         {
+            name: '壁纸生成器',
+            description: '个性化聚合图片生成平台',
+            cover: 'https://img.fastmirror.net/s/2025/08/29/68b1a7c03a6d6.png',
+            url: 'https://github.com/SRInternet-Studio/Wallpaper-generator/'
+        },
+        {
             name: '三月七小助手',
             description: '崩坏：星穹铁道全自动工具',
             cover: 'https://img.fastmirror.net/s/2023/10/28/653d1d5bc9178.jpg',

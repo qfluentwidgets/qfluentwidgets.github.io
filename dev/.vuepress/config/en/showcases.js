@@ -70,6 +70,12 @@ export const showcases = {
             url: 'http://www.toobox.love'
         },
         {
+            name: 'Wallpaper Generator',
+            description: 'Next generation wallpaper generator',
+            cover: 'https://img.fastmirror.net/s/2025/08/29/68b1a7c03a6d6.png',
+            url: 'https://github.com/SRInternet-Studio/Wallpaper-generator/'
+        },
+        {
             name: 'March7th Assistant',
             description: 'Star rail automation tool',
             cover: 'https://img.fastmirror.net/s/2023/10/28/653d1d5bc9178.jpg',
