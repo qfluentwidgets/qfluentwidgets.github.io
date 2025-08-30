@@ -182,12 +182,12 @@ export const prices = {
     ],
     comments: [
         {
-            logo: "https://img.fastmirror.net/s/2023/10/29/653deb00353b8.png",
-            content: "“作者对这个组件库进行了十分精心、细致的打磨，成功将丝滑的动画、现代化的样式、无与伦比的实用性集于一体，大量开箱即用的组件显著提高了我和朋友们开发 MCSL2 软件的效率，用户也对搭载组件库的界面给予了高度的评价。”",
-            avatar: "https://img.fastmirror.net/s/2023/12/09/6573e9c9741da.jpg",
-            name: "落雪无痕",
-            job: "MCSL2 作者",
-            title: "MCSL2",
+            logo: "https://img.fastmirror.net/s/2025/08/30/68b2ac876aee8.png",
+            title: "Ghost-Downloader-3",
+            content: "“作者对这个组件库进行了十分精心、细致的打磨，成功将丝滑的动画、现代化的样式、无与伦比的实用性集于一体，大量开箱即用的组件显著提高了我和朋友们开发软件的效率，用户也对搭载组件库的界面给予了高度的评价。”",
+            avatar: "https://img.fastmirror.net/s/2025/08/30/68b2ad14de8a2.jpeg",
+            name: "XiaoYouChR",
+            job: "Ghost-Downloader 作者",
             id: 1
         },
         {

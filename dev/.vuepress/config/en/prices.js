@@ -177,12 +177,12 @@ export const prices = {
     ],
     comments: [
         {
-            logo: "https://img.fastmirror.net/s/2023/10/29/653deb00353b8.png",
-            title: "MCSL2",
+            logo: "https://img.fastmirror.net/s/2025/08/30/68b2ac876aee8.png",
+            title: "Ghost-Downloader-3",
             content: "“The author has meticulously and carefully polished this component library, combining animations, styles, and practicality. The abundance of ready-to-use components has significantly increased efficiency for me and my friends during the development process.”",
-            avatar: "https://img.fastmirror.net/s/2023/12/09/6573e9c9741da.jpg",
-            name: "落雪无痕",
-            job: "Author of MCSL2",
+            avatar: "https://img.fastmirror.net/s/2025/08/30/68b2ad14de8a2.jpeg",
+            name: "XiaoYouChR",
+            job: "Author of Ghost-Downloader",
             id: 1
         },
         {
