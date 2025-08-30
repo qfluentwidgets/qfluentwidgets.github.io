@@ -49,6 +49,7 @@ export const series = {
                 "/zh/pages/components/flyout",
                 "/zh/pages/components/teachingtip",
                 "/zh/pages/components/shortcutpicker",
+                "/zh/pages/components/imagecropper",
             ],
         },
         {
@@ -95,6 +96,7 @@ export const series = {
                 "/zh/pages/components/infobar",
                 "/zh/pages/components/progressbar",
                 "/zh/pages/components/progressring",
+                "/zh/pages/components/progressbutton",
                 "/zh/pages/components/tooltip",
             ],
         },

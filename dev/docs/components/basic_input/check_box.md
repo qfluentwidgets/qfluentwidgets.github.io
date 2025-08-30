@@ -26,3 +26,9 @@ checkBox.stateChanged.connect(lambda: print(checkBox.isChecked()))
 checkBox.setTristate(True)
 checkBox.setCheckState(Qt.PartiallyChecked)
 ```
+
+### [SubtitleCheckBox](https://qfluentwidgets.com/price)
+
+![SubtitleCheckBox](/img/components/checkbox/SubtitleCheckBox.png)
+
+`SubtitleCheckBox` is a checkbox with a subtitle, and its usage is the same as `QCheckBox`.

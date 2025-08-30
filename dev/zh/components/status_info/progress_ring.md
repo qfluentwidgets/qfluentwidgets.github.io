@@ -46,6 +46,12 @@ spinner.setFixedSize(50, 50)
 spinner.setStrokeWidth(4)
 ```
 
+### [MultiSegmentProgressRing](https://qfluentwidgets.com/zh/price)
+
+![MultiSegmentProgressRing](/img/components/progressring/MultiSegmentProgressRing.png)
+
+`MultiSegmentProgressRing` 支持分段显示不同进度状态，适用于存储空间可视化等场景。
+
 ### [RadialGauge](https://qfluentwidgets.com/zh/price)
 
 ![RadialGauge](/img/components/progressring/RadialGauge.png)

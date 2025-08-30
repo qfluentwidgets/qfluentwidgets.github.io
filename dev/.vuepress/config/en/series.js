@@ -49,6 +49,7 @@ export const series = {
                 "/pages/components/flyout",
                 "/pages/components/teachingtip",
                 "/pages/components/shortcutpicker",
+                "/pages/components/imagecropper",
             ],
         },
         {
@@ -95,6 +96,7 @@ export const series = {
                 "/pages/components/infobar",
                 "/pages/components/progressbar",
                 "/pages/components/progressring",
+                "/pages/components/progressbutton",
                 "/pages/components/tooltip",
             ],
         },

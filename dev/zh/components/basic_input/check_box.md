@@ -26,3 +26,9 @@ checkBox.stateChanged.connect(lambda: print(checkBox.isChecked()))
 checkBox.setTristate(True)
 checkBox.setCheckState(Qt.PartiallyChecked)
 ```
+
+### [SubtitleCheckBox](https://qfluentwidgets.com/zh/price)
+
+![SubtitleCheckBox](/img/components/checkbox/SubtitleCheckBox.png)
+
+`SubtitleCheckBox` 是带子标题的复选框，使用方式与 `QCheckBox` 相同。
