@@ -25,7 +25,7 @@ export const prices = {
             recommend: false,
             features: [
                 { feature: '170+ community components' },
-                { feature: '90+ pro components' },
+                { feature: '100+ pro components' },
                 { feature: '20+ visual charts' },
                 { feature: 'Single developer' },
                 { feature: '3 development device' },
@@ -45,7 +45,7 @@ export const prices = {
             recommend: true,
             features: [
                 { feature: '170+ community components' },
-                { feature: '90+ pro components' },
+                { feature: '100+ pro components' },
                 { feature: '20+ visual charts' },
                 { feature: 'Single developer' },
                 { feature: '2 development device' },
@@ -66,7 +66,7 @@ export const prices = {
             contactSales: true,
             features: [
                 { feature: '170+ community components' },
-                { feature: '90+ pro components' },
+                { feature: '100+ pro components' },
                 { feature: '20+ visual charts' },
                 { feature: "Unlimited softwares" },
                 { feature: "Lifetime access" },
@@ -85,7 +85,7 @@ export const prices = {
             url: 'mailto:shokokawaii@foxmail.com',
             recommend: false,
             features: [
-                { feature: '250+ components' },
+                { feature: '270+ components' },
                 { feature: "Personal software" },
                 { feature: "Unlimited softwares" },
                 { feature: "Permanent license validity" }
@@ -100,7 +100,7 @@ export const prices = {
             url: 'mailto:shokokawaii@foxmail.com',
             recommend: true,
             features: [
-                { feature: '250+ components' },
+                { feature: '270+ components' },
                 { feature: 'Single developer' },
                 { feature: "Unlimited softwares" },
                 { feature: "Lifetime access" },
@@ -119,7 +119,7 @@ export const prices = {
             recommend: false,
             contactSales: true,
             features: [
-                { feature: '250+ components' },
+                { feature: '270+ components' },
                 { feature: "Unlimited softwares" },
                 { feature: "Lifetime access" },
                 { feature: "Fluent Studio software" },
