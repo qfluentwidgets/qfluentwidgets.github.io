@@ -4,7 +4,8 @@ date: 2023-08-17 17:31:30
 permalink: /zh/pages/theme/
 ---
 
-## 主题模式
+## 切换主题
+
 
 `setTheme()` 函数用于切换 qfluentwidgets 全部组件的亮暗主题。该函数接受下述值：
 
@@ -12,9 +13,11 @@ permalink: /zh/pages/theme/
 - `Theme.DARK`：深色主题
 - `Theme.AUTO`：跟随系统主题。如果无法检测到系统的主题，将使用浅色主题。
 
-使用 `toggleTheme()` 切换亮暗主题，当主题发生改变时，`qconfig` 会发出 `themeChanged` 信号。
+当主题发生改变时，`qconfig` 会发出 `themeChanged` 信号，组件库提供了 `toggleTheme()` 快速切换亮暗主题。
 
-如果想在主题发生改变时，自动切换界面的样式，可以继承 `StyleSheetBase` 类并重写 `path()` 方法。假设有一个 `Window` 类，它的 qss 文件路径为 `qss/light/window.qss` 和 `qss/dark/window.qss`，那么代码可以这么写：
+## 样式表
+
+如果想在主题发生改变时，自动切换界面的样式，可以继承 `StyleSheetBase` 类并重写 `path()` 方法。下述代码实现了一个能够自动切换背景颜色的 `Window` 类，它的 qss 文件路径为 `qss/light/window.qss` 和 `qss/dark/window.qss`：
 
 ```python
 from enum import Enum
@@ -36,9 +39,48 @@ class Window(QWidget):
     def __init__(self, parent=None):
         super().__init__(parent=parent)
 
-        # apply style sheet to window
+        self.label = QLabel("Label", self)
+
+        # 使用流畅样式表
         StyleSheet.WINDOW.apply(self)
 ```
+
+样式表文件：
+
+* 浅色模式 `qss/light/window.qss`
+
+    ```css
+    Window {
+        background-color: rgb(249, 249, 249);
+    }
+
+    Window>QLabel {
+        color: --ThemeColorPrimary;   /* 使用组件库的主题色 */
+    }
+    ```
+
+* 深色模式 `qss/dark/window.qss`
+
+    ```css
+    Window {
+        background-color: rgb(32, 32, 32);
+    }
+
+    Window>QLabel {
+        color: --ThemeColorPrimary;
+    }
+    ```
+
+样式表支持下述几种颜色占位符：
+
+* `--ThemeColorPrimary`
+* `--ThemeColorLight1`
+* `--ThemeColorLight2`
+* `--ThemeColorLight3`
+* `--ThemeColorDark1`
+* `--ThemeColorDark2`
+* `--ThemeColorDark3`
+
 
 ### 跟随系统主题
 
