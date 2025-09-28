@@ -56,6 +56,7 @@ class Window(QWidget):
 
     Window>QLabel {
         color: --ThemeColorPrimary;   /* 使用组件库的主题色 */
+        font: 14px --FontFamilies;    /* 使用组件库的字体 */
     }
     ```
 
@@ -68,10 +69,11 @@ class Window(QWidget):
 
     Window>QLabel {
         color: --ThemeColorPrimary;
+        font: 14px --FontFamilies;
     }
     ```
 
-样式表支持下述几种颜色占位符：
+样式表支持下述几种占位符：
 
 * `--ThemeColorPrimary`
 * `--ThemeColorLight1`
@@ -80,6 +82,7 @@ class Window(QWidget):
 * `--ThemeColorDark1`
 * `--ThemeColorDark2`
 * `--ThemeColorDark3`
+* `--FontFamilies`
 
 
 ### 跟随系统主题
@@ -177,3 +180,7 @@ from qframelesswindow.utils import getSystemAccentColor
 if sys.platform in ["win32", "darwin"]:
    setThemeColor(getSystemAccentColor(), save=False)
 ```
+
+## 字体
+
+qfluentwidgets v1.9.0 及以上版本支持调用 `setFontFamilies()` 来自定义组件库所使用的字体，通过 `fontFamilies()` 获取当前字体，默认字体家族为 `['Segoe UI', 'Microsoft YaHei', 'PingFang SC']`。

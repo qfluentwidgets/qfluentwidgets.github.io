@@ -54,7 +54,8 @@ Stylesheet files:
     }
 
     Window>QLabel {
-        color: --ThemeColorPrimary;   /* Use the theme color of the component library */
+        color: --ThemeColorPrimary;   /* Use the theme color of qfluentwidgets */
+        font: 14px --FontFamilies;    /* Use the font families of qfluentwidgets */
     }
     ```
 
@@ -67,6 +68,7 @@ Stylesheet files:
 
     Window>QLabel {
         color: --ThemeColorPrimary;
+        font: 14px --FontFamilies;
     }
     ```
 
@@ -79,6 +81,7 @@ The stylesheet supports the following color placeholders:
 * `--ThemeColorDark1`
 * `--ThemeColorDark2`
 * `--ThemeColorDark3`
+* `--FontFamilies`
 
 
 ### Follow system theme
@@ -177,3 +180,7 @@ from qframelesswindow.utils import getSystemAccentColor
 if sys.platform in ["win32", "darwin"]:
    setThemeColor(getSystemAccentColor(), save=False)
 ```
+
+## Font
+
+qfluentwidgets v1.9.0 and above support calling `setFontFamilies()` to customize the font used by the component library. Use `fontFamilies()` to get the current font. The default font families are `['Segoe UI', 'Microsoft YaHei', 'PingFang SC']`.

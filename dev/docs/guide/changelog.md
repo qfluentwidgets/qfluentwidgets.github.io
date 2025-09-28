@@ -4,6 +4,17 @@ date: 2023-08-17 15:02:30
 permalink: /pages/changelog/
 ---
 
+### v1.9.0
+
+#### New Features
+* Added the ability to customize component library fonts
+
+#### Fixes
+* Fixed layout issues when button icons are empty
+* Fixed the issue where menu shortcut text was truncated
+* Fixed the issue of theme listeners being ineffective on macOS
+* Fixed the RuntimeError issue with `InfoBar` after packaging
+
 ### v1.8.6
 #### New Components
 * Added `ModelComboBox`, a dropdown box that supports data models.
