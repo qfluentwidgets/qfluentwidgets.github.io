@@ -183,4 +183,6 @@ if sys.platform in ["win32", "darwin"]:
 
 ## 字体
 
-qfluentwidgets v1.9.0 及以上版本支持调用 `setFontFamilies()` 来自定义组件库所使用的字体，通过 `fontFamilies()` 获取当前字体，默认字体家族为 `['Segoe UI', 'Microsoft YaHei', 'PingFang SC']`。
+qfluentwidgets v1.9.0 及以上版本支持调用 `setFontFamilies()` 来自定义组件库所使用的字体。
+
+`fontFamilies()` 返回当前字体，默认的字体家族为 `['Segoe UI', 'Microsoft YaHei', 'PingFang SC']`。
