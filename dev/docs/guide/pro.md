@@ -54,6 +54,15 @@ You can download the demo `PyQt-Fluent-Widgets-Pro-Gallery.zip` from [release pa
 | `ShortcutDialog`                  | Shortcut dialog                                                                    |
 | `IndeterminateProgressRingDialog` | Waiting dialog                                                                     |
 
+
+### Chat
+
+| Component Name       | Description                                                 |
+| -------------------- | ----------------------------------------------------------- |
+| `ChatWidget`         | Chat component with typewriter effect and loading animation |
+| `SimpleChatTextEdit` | Chat input box                                              |
+| `ChatTextEdit`       | Chat input box                                              |
+
 ### Date Time
 | Component Name        | Description                                                |
 | --------------------- | ---------------------------------------------------------- |
