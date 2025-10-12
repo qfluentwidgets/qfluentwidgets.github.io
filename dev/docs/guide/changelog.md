@@ -4,6 +4,16 @@ date: 2023-08-17 15:02:30
 permalink: /pages/changelog/
 ---
 
+### v1.9.1
+
+#### Fixes
+* Fixed the style issue of `RoundMenu`
+* Fixed the top-level issue of `ToolTip`
+* Fixed the background overlap issue in `TreeWidget`
+* Fixed the traversal issue in the stylesheet manager
+* Fixed the cursor position issue in color dialog
+* Fixed the font color issue in the folder settings card
+
 ### v1.9.0
 
 #### New Features
