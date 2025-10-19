@@ -72,10 +72,12 @@ Python 组件库非商业用途使用 GPLv3 许可证进行授权，商用需购
 | `WaterfallLayout` | 瀑布流布局，支持添加不同尺寸的组件 |
 
 ### 多媒体
-| 组件名         | 描述                               |
-| -------------- | ---------------------------------- |
-| `AvatarPicker` | 头像选择器，支持选择和裁剪头像     |
-| `ImageCropper` | 图像裁剪器，支持裁剪任意形状的图像 |
+| 组件名                  | 描述                                 |
+| ----------------------- | ------------------------------------ |
+| `AvatarPicker`          | 头像选择器，支持选择和裁剪头像       |
+| `ImageCropper`          | 图像裁剪器，支持裁剪任意形状的图像   |
+| `ImageComparisonSlider` | 图像对比滑块，适用于图像超分对比场景 |
+| `AudiowaveformWidget`   | 音频波形组件，适用于文本转语音场景   |
 
 ### 图表
 
@@ -158,14 +160,17 @@ Python 组件库非商业用途使用 GPLv3 许可证进行授权，商用需购
 | `FilledMSNavigationBar`    | 填充微软商店样式导航栏 |
 
 ### 文本
-| 组件名                 | 描述                 |
-| ---------------------- | -------------------- |
-| `PinBox`               | PIN 码输入框         |
-| `CodeEdit`             | 代码编辑框           |
-| `LabelLineEdit`        | 带前后缀标签的输入框 |
-| `TokenLineEdit`        | 标签输入框           |
-| `TextWatermarkWidget`  | 文本水印组件         |
-| `ImageWatermarkWidget` | 图片水印组件         |
+| 组件名                  | 描述                 |
+| ----------------------- | -------------------- |
+| `PinBox`                | PIN 码输入框         |
+| `CodeEdit`              | 代码编辑框           |
+| `LabelLineEdit`         | 带前后缀标签的输入框 |
+| `TokenLineEdit`         | 标签输入框           |
+| `OutlinedTextEdit`      | 描边富文本框         |
+| `OutlinedPlainTextEdit` | 描边文本浏览器       |
+| `OutlinedTextBrowser`   | 描边富文本浏览器     |
+| `TextWatermarkWidget`   | 文本水印组件         |
+| `ImageWatermarkWidget`  | 图片水印组件         |
 
 ### 设置
 | 组件名                              | 描述                   |

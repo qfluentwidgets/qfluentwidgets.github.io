@@ -71,16 +71,18 @@ You can download the demo `PyQt-Fluent-Widgets-Pro-Gallery.zip` from [release pa
 
 
 ### Layout
-| Component Name             | Description                                                      |
+| Component Name    | Description                                               |
 | ----------------- | --------------------------------------------------------- |
 | `WaterfallLayout` | Waterfall layout that supports widgets in different sizes |
 
 
 ### Media
-| Component Name             | Description                                                      |
-| ----------------- | --------------------------------------------------------- |
-| `AvatarPicker` | Avatar picker |
-| `ImageCropper` | Image cropper |
+| Component Name          | Description             |
+| ----------------------- | ----------------------- |
+| `AvatarPicker`          | Avatar picker           |
+| `ImageCropper`          | Image cropper           |
+| `ImageComparisonSlider` | Image comparison slider |
+| `AudiowaveformWidget`   | Audio waveform widget   |
 
 ### Charts
 
@@ -159,13 +161,16 @@ Skeleton screens provide basic placeholders when network requests are slow, and 
 | `FilledNavigationBar`      | filled navigation bar       |
 
 ### Text
-| Component Name         | Description     |
-| ---------------------- | --------------- |
-| `CodeEdit`             | Code editor     |
-| `LabelLineEdit`        | Label line edit |
-| `TokenLineEdit`        | Token line edit |
-| `TextWatermarkWidget`  | Text watermark  |
-| `ImageWatermarkWidget` | Image watermark |
+| Component Name          | Description              |
+| ----------------------- | ------------------------ |
+| `CodeEdit`              | Code editor              |
+| `LabelLineEdit`         | Label line edit          |
+| `TokenLineEdit`         | Token line edit          |
+| `OutlinedTextEdit`      | Outlined text edit       |
+| `OutlinedPlainTextEdit` | Outlined plain text edit |
+| `OutlinedTextBrowser`   | Outlined text browser    |
+| `TextWatermarkWidget`   | Text watermark           |
+| `ImageWatermarkWidget`  | Image watermark          |
 
 ### Settings
 | Component Name                      | Description                                        |
