@@ -175,43 +175,26 @@ class PowerSettingCard(ExpandGroupSettingCard):
         super().__init__(FluentIcon.SPEED_OFF, "Power Saving Mode", "Reduce battery consumption by limiting certain notifications and background activities", parent)
 
         # First group
-        self.modeButton = PushButton("Activate Now")
-        self.modeLabel = BodyLabel("Power Saving Mode")
+        self.modeButton = PushButton("Enable Now")
         self.modeButton.setFixedWidth(135)
 
         # Second group
-        self.autoLabel = BodyLabel("Automatically Activate Power Saving Mode")
         self.autoComboBox = ComboBox()
         self.autoComboBox.addItems(["10%", "20%", "30%"])
         self.autoComboBox.setFixedWidth(135)
 
         # Third group
-        self.lightnessLabel = BodyLabel("Lower Screen Brightness While Using Power Saving Mode")
         self.lightnessSwitchButton = SwitchButton("Off", self, IndicatorPosition.RIGHT)
         self.lightnessSwitchButton.setOnText("On")
 
-        # Adjust the internal layout
+        # Adjust internal layout
         self.viewLayout.setContentsMargins(0, 0, 0, 0)
         self.viewLayout.setSpacing(0)
 
-        # Add each group to the setting card
-        self.add(self.modeLabel, self.modeButton)
-        self.add(self.autoLabel, self.autoComboBox)
-        self.add(self.lightnessLabel, this.lightnessSwitchButton)
-
-    def add(self, label, widget):
-        w = QWidget()
-        w.setFixedHeight(60)
-
-        layout = QHBoxLayout(w)
-        layout.setContentsMargins(48, 12, 48, 12)
-
-        layout.addWidget(label)
-        layout.addStretch(1)
-        layout.addWidget(widget)
-
-        # Add the widget group to the setting card
-        self.addGroupWidget(w)
+        # Add groups to the setting card
+        self.addGroup(FluentIcon.POWER_BUTTON, "Power Saving Mode", "Extend your computer's battery life", self.modeButton)
+        self.addGroup(FluentIcon.RINGER, "Auto Enable Power Saving Mode", "Automatically enable this mode when battery is low", self.autoComboBox)
+        self.addGroup(FluentIcon.BRIGHTNESS, "Lower screen brightness when using power saving mode", "", self.lightnessSwitchButton)
 ```
 
 Below is an example of a dynamic card for managing server configurations:
