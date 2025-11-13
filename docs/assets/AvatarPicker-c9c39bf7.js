@@ -1,0 +1,1 @@
+const n="/img/components/label/FluentLabel.png",o="/img/components/label/HyperlinkLabel.png",t="/img/components/label/ImageLabel.png",e="/img/components/label/AvatarWidget.png",s="/img/components/label/TextAvatarWidget.png",a="/img/components/imagecropper/AvatarPicker.png";export{a as _,n as a,o as b,t as c,e as d,s as e};
