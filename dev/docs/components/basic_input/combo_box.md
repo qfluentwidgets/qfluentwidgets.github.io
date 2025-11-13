@@ -38,6 +38,23 @@ comboBox.setPlaceholderText("Choose a character")
 comboBox.setCurrentIndex(-1)
 ```
 
+## [ModelComboBox](https://pyqt-fluent-widgets.readthedocs.io/en/latest/autoapi/qfluentwidgets/components/widgets/combo_box/index.html#qfluentwidgets.components.widgets.model_combo_box.ModelComboBox)
+
+The usage of `ModelComboBox` is exactly the same as `ComboBox`, and it supports setting a custom data model (which must be a subclass of `QAbstractItemModel`), thereby achieving two-way binding between data and the interface.
+
+```python
+comboBox = ModelComboBox()
+
+# create data model
+model = QStandardItemModel()
+model.appendRow(QStandardItem("Item 1"))
+model.appendRow(QStandardItem("Item 2"))
+model.appendRow(QStandardItem("Item 3"))
+
+# use the data model
+comboBox.setModel(model)
+```
+
 ## [EditableComboBox](https://pyqt-fluent-widgets.readthedocs.io/en/latest/autoapi/qfluentwidgets/components/widgets/combo_box/index.html#qfluentwidgets.components.widgets.combo_box.EditableComboBox)
 
 ![Editable combo box](/img/components/combobox/EditableComboBox.png)
@@ -68,11 +85,41 @@ completer.setMaxVisibleItems(10)
 comboBox.setCompleter(completer)
 ```
 
+## [EditableModelComboBox](https://pyqt-fluent-widgets.readthedocs.io/en/latest/autoapi/qfluentwidgets/components/widgets/combo_box/index.html#qfluentwidgets.components.widgets.model_combo_box.EditableModelComboBox)
+
+The usage of `EditableModelComboBox` is exactly the same as `EditableComboBox`, and it supports setting a custom data model (which must be a subclass of `QAbstractItemModel`), thereby achieving two-way binding between data and the interface.
+
+```python
+comboBox = EditableModelComboBox()
+
+# create data model
+model = QStandardItemModel()
+model.appendRow(QStandardItem("Item 1"))
+model.appendRow(QStandardItem("Item 2"))
+model.appendRow(QStandardItem("Item 3"))
+
+# use the data model
+comboBox.setModel(model)
+```
+
 ## [MultiSelectionComboBox](https://qfluentwidgets.com/price)
 
 ![MultiSelectionComboBox](/img/components/combobox/MultiSelectionComboBox.png)
 
 `MultiSelectionComboBox` is used for selecting multiple options at the same time, which are displayed as tags in the dropdown box.
+
+
+## [TreeComboBox](https://qfluentwidgets.com/price)
+
+![TreeComboBox](/img/components/combobox/TreeComboBox.png)
+
+`TreeComboBox` allows users to browse and select data in a hierarchical manner.
+
+## [MultiSelectionTreeComboBox](https://qfluentwidgets.com/price)
+
+![MultiSelectionTreeComboBox](/img/components/combobox/MultiSelectionTreeComboBox.png)
+
+`MultiSelectionTreeComboBox` allows users to browse data hierarchically and select multiple items simultaneously, displaying the selected options as tags within the dropdown box.
 
 ## [TransparentComboBox](https://qfluentwidgets.com/price)
 

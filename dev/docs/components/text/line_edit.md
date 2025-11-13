@@ -73,6 +73,14 @@ lineEdit.setPasswordVisible(True)
 ```
 
 
+### [PinBox](https://qfluentwidgets.com/price)
+
+![PinBox](/img/components/lineedit/PinBox.png)
+
+`PinBox` can be used in scenarios where users need to enter specific formats or content, such as PIN codes, verification codes and passwords.
+
+
+
 ### [TokenLineEdit](https://qfluentwidgets.com/price)
 
 ![TokenLineEdit](/img/components/lineedit/TokenLineEdit.png)

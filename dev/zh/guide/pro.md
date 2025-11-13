@@ -10,28 +10,32 @@ Python 组件库非商业用途使用 GPLv3 许可证进行授权，商用需购
 ## 有哪些高级组件？
 为了满足开发者的需求，高级版的组件库包含更多高级组件，可以让现代化界面开发变得更加得心应手。目前，高级版组件库包含下述组件，之后还会不断增加新组件。
 
-演示视频见 [哔哩哔哩](https://www.bilibili.com/video/BV14e411Y75d)，可从 [发行页面](https://github.com/zhiyiYo/PyQt-Fluent-Widgets/releases) 下载体验包 `PyQt-Fluent-Widgets-Pro-Gallery.zip`。
+可从 [发行页面](https://github.com/zhiyiYo/PyQt-Fluent-Widgets/releases) 或顶部导航栏下载体验包 `PyQt-Fluent-Widgets-Pro-Gallery.zip`。
 
 ### 基本输入
 
-| 组件名                        | 描述                       |
-| ----------------------------- | -------------------------- |
-| `Chip`                        | 纸片组件，可用作过滤器     |
-| `OutlinedPushButton`          | 描边按钮，可用作过滤器     |
-| `OutlinedToolButton`          | 描边工具按钮               |
-| `RoundPushButton`             | 圆角按钮                   |
-| `FilledPushButton`            | 填充按钮，支持不同的类型   |
-| `FilledToolButton`            | 填充工具按钮               |
-| `TextPushButton`              | 文本按钮，支持不同的类型   |
-| `TextToolButton`              | 文本工具按钮               |
-| `HyperlinkToolButton`         | 超链接工具按钮             |
-| `TransparentCircleToolButton` | 透明圆形工具按钮           |
-| `FontComboBox`                | 字体下拉框                 |
-| `MultiSelectionComboBox`      | 多选下拉框，可选择多个选项 |
-| `TransparentComboBox`         | 透明下拉框                 |
-| `ToolTipSlider`               | 带工具提示的滑动条         |
-| `RangeSlider`                 | 带两个滑块的范围滑动条     |
-| `SubtitleRadioButton`         | 子标题单选按钮             |
+| 组件名                        | 描述                           |
+| ----------------------------- | ------------------------------ |
+| `Chip`                        | 纸片组件，可用作过滤器         |
+| `OutlinedPushButton`          | 描边按钮，可用作过滤器         |
+| `OutlinedToolButton`          | 描边工具按钮                   |
+| `RoundPushButton`             | 圆角按钮                       |
+| `FilledPushButton`            | 填充按钮，支持不同的类型       |
+| `FilledToolButton`            | 填充工具按钮                   |
+| `TextPushButton`              | 文本按钮，支持不同的类型       |
+| `TextToolButton`              | 文本工具按钮                   |
+| `LuminaPushButton`            | 辉光按钮                       |
+| `GlassPushButton`             | 玻璃质感按钮                   |
+| `HyperlinkToolButton`         | 超链接工具按钮                 |
+| `TransparentCircleToolButton` | 透明圆形工具按钮               |
+| `FontComboBox`                | 字体下拉框                     |
+| `MultiSelectionComboBox`      | 多选下拉框，可选择多个选项     |
+| `TreeComboBox`                | 树状下拉框                     |
+| `MultiSelectionTreeComboBox`  | 多选树状下拉框，可选择多个选项 |
+| `TransparentComboBox`         | 透明下拉框                     |
+| `ToolTipSlider`               | 带工具提示的滑动条             |
+| `RangeSlider`                 | 带两个滑块的范围滑动条         |
+| `SubtitleRadioButton`         | 子标题单选按钮                 |
 
 ### 对话框和弹出组件
 
@@ -48,6 +52,14 @@ Python 组件库非商业用途使用 GPLv3 许可证进行授权，商用需购
 | `ShortcutDialog`                  | 快捷键对话框                             |
 | `IndeterminateProgressRingDialog` | 等待对话框                               |
 
+### 聊天
+
+| 组件名               | 描述                               |
+| -------------------- | ---------------------------------- |
+| `ChatWidget`         | 聊天组件，支持打字机效果和加载动画 |
+| `SimpleChatTextEdit` | 聊天输入框                         |
+| `ChatTextEdit`       | 聊天输入框                         |
+
 ### 日期和时间
 | 组件名                | 描述                             |
 | --------------------- | -------------------------------- |
@@ -59,6 +71,13 @@ Python 组件库非商业用途使用 GPLv3 许可证进行授权，商用需购
 | ----------------- | ---------------------------------- |
 | `WaterfallLayout` | 瀑布流布局，支持添加不同尺寸的组件 |
 
+### 多媒体
+| 组件名                  | 描述                                 |
+| ----------------------- | ------------------------------------ |
+| `AvatarPicker`          | 头像选择器，支持选择和裁剪头像       |
+| `ImageCropper`          | 图像裁剪器，支持裁剪任意形状的图像   |
+| `ImageComparisonSlider` | 图像对比滑块，适用于图像超分对比场景 |
+| `AudiowaveformWidget`   | 音频波形组件，适用于文本转语音场景   |
 
 ### 图表
 
@@ -84,6 +103,7 @@ Python 组件库非商业用途使用 GPLv3 许可证进行授权，商用需购
 | ----------------------------- | ------------------------ |
 | `HorizontalCarousel`          | 水平轮播图               |
 | `VerticalCarousel`            | 垂直轮播图               |
+| `SqueezeCarousel`             | 挤压式轮播图             |
 | `HorizontalCircleColorPicker` | 水平圆形拾色器           |
 | `VerticalCircleColorPicker`   | 垂直圆形拾色器           |
 | `FlowCircleColorPicker`       | 流式圆形拾色器           |
@@ -112,25 +132,27 @@ Python 组件库非商业用途使用 GPLv3 许可证进行授权，商用需购
 | `SlideAniStackedWidget`       | 带左右滑动动画的层叠组件 |
 
 ### 状态和信息
-| 组件名                 | 描述                           |
-| ---------------------- | ------------------------------ |
-| `RoundProgressInfoBar` | 圆角进度消息条                 |
-| `FilledProgressBar`    | 填充进度条                     |
-| `ProgressInfoBar`      | 进度消息条                     |
-| `ProgressPushButton`   | 进度按钮，可用于显示任务进度   |
-| `StepProgressBar`      | 步骤进度条，可用于显示任务步骤 |
-| `Tag`                  | 标签组件                       |
-| `Toast`                | 吐司通知                       |
-| `SimpleToastView`      | 简易吐司通知视图               |
-| `StarWidget`           | 星型组件                       |
-| `SingleScoreWidget`    | 评分组件                       |
-| `MultiScoreWidget`     | 可交互评分组件                 |
-| `RadialGauge`          | 仪表盘                         |
+| 组件名                            | 描述                           |
+| --------------------------------- | ------------------------------ |
+| `RoundProgressInfoBar`            | 圆角进度消息条                 |
+| `FilledProgressBar`               | 填充进度条                     |
+| `ProgressInfoBar`                 | 进度消息条                     |
+| `ProgressPushButton`              | 进度按钮，可用于显示任务进度   |
+| `IndeterminateProgressPushButton` | 加载状态按钮                   |
+| `MultiSegmentProgressRing`        | 分段进度环                     |
+| `StepProgressBar`                 | 步骤进度条，可用于显示任务步骤 |
+| `Tag`                             | 标签组件                       |
+| `Toast`                           | 吐司通知                       |
+| `SimpleToastView`                 | 简易吐司通知视图               |
+| `StarWidget`                      | 星型组件                       |
+| `SingleScoreWidget`               | 评分组件                       |
+| `MultiScoreWidget`                | 可交互评分组件                 |
+| `RadialGauge`                     | 仪表盘                         |
 
 ### 导航
 | 组件名                     | 描述                   |
 | -------------------------- | ---------------------- |
-| `MenuBar`                  | 菜单栏             |
+| `MenuBar`                  | 菜单栏                 |
 | `ExclusiveLiteFilter`      | 互斥过滤器             |
 | `MultiSelectionLiteFilter` | 多选过滤器             |
 | `TopNavigationBar`         | 顶部导航栏             |
@@ -138,12 +160,17 @@ Python 组件库非商业用途使用 GPLv3 许可证进行授权，商用需购
 | `FilledMSNavigationBar`    | 填充微软商店样式导航栏 |
 
 ### 文本
-| 组件名          | 描述                 |
-| --------------- | -------------------- |
-| `PinBox`        | PIN 码输入框         |
-| `CodeEdit`      | 代码编辑框           |
-| `LabelLineEdit` | 带前后缀标签的输入框 |
-| `TokenLineEdit` | 标签输入框           |
+| 组件名                  | 描述                 |
+| ----------------------- | -------------------- |
+| `PinBox`                | PIN 码输入框         |
+| `CodeEdit`              | 代码编辑框           |
+| `LabelLineEdit`         | 带前后缀标签的输入框 |
+| `TokenLineEdit`         | 标签输入框           |
+| `OutlinedTextEdit`      | 描边富文本框         |
+| `OutlinedPlainTextEdit` | 描边文本浏览器       |
+| `OutlinedTextBrowser`   | 描边富文本浏览器     |
+| `TextWatermarkWidget`   | 文本水印组件         |
+| `ImageWatermarkWidget`  | 图片水印组件         |
 
 ### 设置
 | 组件名                              | 描述                   |

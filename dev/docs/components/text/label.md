@@ -35,7 +35,7 @@ label = HyperlinkLabel(QUrl('https://github.com/'), 'GitHub')
 hyperlinkLabel.setUnderlineVisible(True)
 
 # Change hyperlink
-label.setUrl('https://github.com/zhiyiYo/QMaterialWidgets')
+label.setUrl('https://github.com/zhiyiYo/')
 print(label.url)
 ```
 
@@ -80,3 +80,10 @@ w.setRadius(64)
 
 w.setText("乔尼·乔斯达")
 ```
+
+
+### [AvatarPicker](https://qfluentwidgets.com/price)
+
+![AvatarPicker](/img/components/imagecropper/AvatarPicker.png)
+
+`AvatarPicker` is used to display circular avatars, which can be static images or GIFs, and supports selecting a cropped local image as the avatar when clicked with the mouse.

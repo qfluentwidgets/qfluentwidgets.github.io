@@ -36,7 +36,7 @@ label = HyperlinkLabel(QUrl('https://github.com/'), 'GitHub')
 hyperlinkLabel.setUnderlineVisible(True)
 
 # 更换超链接
-label.setUrl('https://github.com/zhiyiYo/QMaterialWidgets')
+label.setUrl('https://github.com/zhiyiYo/')
 print(label.url)
 ```
 
@@ -82,3 +82,9 @@ w.setRadius(64)
 # 设置文本
 w.setText("乔尼·乔斯达")
 ```
+
+### [AvatarPicker](https://qfluentwidgets.com/zh/price)
+
+![AvatarPicker](/img/components/imagecropper/AvatarPicker.png)
+
+`AvatarPicker` 用于显示圆形头像，可以是静态图片或者 GIF，并支持鼠标点击时选择经过裁剪的本地图片作为头像。

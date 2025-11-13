@@ -8,7 +8,7 @@ permalink: /zh/pages/components/combobox/
 
 ![Combo box](/img/components/combobox/ComboBox.png)
 
-当选项过多时，使用下拉框展示并选择内容。`ComboBox` 继承自 `PushButton`，重新实现了 `QComboBox` 的大部分接口。
+当选项过多时，适合使用下拉框展示并选择内容。`ComboBox` 继承自 `PushButton`，重新实现了 `QComboBox` 的大部分接口。
 
 ```python
 comboBox = ComboBox()
@@ -37,6 +37,24 @@ comboBox.setPlaceholderText("选择一个脑婆")
 # 取消选中
 comboBox.setCurrentIndex(-1)
 ```
+
+## [ModelComboBox](https://pyqt-fluent-widgets.readthedocs.io/en/latest/autoapi/qfluentwidgets/components/widgets/combo_box/index.html#qfluentwidgets.components.widgets.model_combo_box.ModelComboBox)
+
+`ModelComboBox` 用法与 `ComboBox` 完全相同，并支持设置自定义数据模型（需要是 `QAbstractItemModel` 的子类），从而实现数据与界面的双向绑定。
+
+```python
+comboBox = ModelComboBox()
+
+# 创建数据模型
+model = QStandardItemModel()
+model.appendRow(QStandardItem("Item 1"))
+model.appendRow(QStandardItem("Item 2"))
+model.appendRow(QStandardItem("Item 3"))
+
+# 使用数据模型
+comboBox.setModel(model)
+```
+
 
 ## [EditableComboBox](https://pyqt-fluent-widgets.readthedocs.io/en/latest/autoapi/qfluentwidgets/components/widgets/combo_box/index.html#qfluentwidgets.components.widgets.combo_box.EditableComboBox)
 
@@ -68,11 +86,40 @@ completer.setMaxVisibleItems(10)
 comboBox.setCompleter(completer)
 ```
 
+## [EditableModelComboBox](https://pyqt-fluent-widgets.readthedocs.io/en/latest/autoapi/qfluentwidgets/components/widgets/combo_box/index.html#qfluentwidgets.components.widgets.model_combo_box.EditableModelComboBox)
+
+`EditableModelComboBox` 用法与 `EditableComboBox` 完全相同，并支持设置自定义数据模型（需要是 `QAbstractItemModel` 的子类），从而实现数据与界面的双向绑定。
+
+```python
+comboBox = EditableModelComboBox()
+
+# 创建数据模型
+model = QStandardItemModel()
+model.appendRow(QStandardItem("Item 1"))
+model.appendRow(QStandardItem("Item 2"))
+model.appendRow(QStandardItem("Item 3"))
+
+# 使用数据模型
+comboBox.setModel(model)
+```
+
 ## [MultiSelectionComboBox](https://qfluentwidgets.com/zh/price)
 
 ![MultiSelectionComboBox](/img/components/combobox/MultiSelectionComboBox.png)
 
 `MultiSelectionComboBox` 用于同时选择多个选项，并以标签的形式展示在下拉框中。
+
+## [TreeComboBox](https://qfluentwidgets.com/zh/price)
+
+![TreeComboBox](/img/components/combobox/TreeComboBox.png)
+
+`TreeComboBox` 它允许用户以层级方式浏览和选择数据。
+
+## [MultiSelectionTreeComboBox](https://qfluentwidgets.com/zh/price)
+
+![MultiSelectionTreeComboBox](/img/components/combobox/MultiSelectionTreeComboBox.png)
+
+`MultiSelectionTreeComboBox` 它允许用户以层级方式浏览和同时选择多个数据，并以标签的形式展示在下拉框中。
 
 ## [TransparentComboBox](https://qfluentwidgets.com/zh/price)
 

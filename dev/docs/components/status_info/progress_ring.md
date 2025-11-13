@@ -46,6 +46,13 @@ spinner.setFixedSize(50, 50)
 spinner.setStrokeWidth(4)
 ```
 
+
+### [MultiSegmentProgressRing](https://qfluentwidgets.com/price)
+
+![MultiSegmentProgressRing](/img/components/progressring/MultiSegmentProgressRing.png)
+
+`MultiSegmentProgressRing` supports displaying different progress states in segments, making it suitable for scenarios such as storage space visualization.
+
 ### [RadialGauge](https://qfluentwidgets.com/price)
 
 ![RadialGauge](/img/components/progressring/RadialGauge.png)

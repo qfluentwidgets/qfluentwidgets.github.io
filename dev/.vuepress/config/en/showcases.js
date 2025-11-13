@@ -4,22 +4,16 @@ export const showcases = {
     description: "Well not quite anything, like you can't build a spaceship with it. But you can definitely build the software for the spaceship — NASA did.",
     data: [
         {
-            name: 'Fluent Studio',
-            description: 'QFluentWidgets tool box',
-            cover: 'https://img.fastmirror.net/s/2023/11/14/6552d7c981aa9.jpg',
-            url: 'https://www.bilibili.com/video/BV1s34y1V7QW/'
-        },
-        {
             name: 'Fluent Client',
             description: 'One-stop PyQt/PySide solution',
             cover: 'https://img.fastmirror.net/s/2024/07/13/66922605e38b4.jpg',
             url: 'https://client.qfluentwidgets.com/'
         },
         {
-            name: 'Ghost-Downloader-3',
-            description: 'A multi-threading async downloader',
-            cover: 'https://img.fastmirror.net/s/2024/11/25/674416062e878.jpg',
-            url: 'https://github.com/XiaoYouChR/Ghost-Downloader-3'
+            name: 'Fluent M3U8',
+            description: 'Cross-platform M3U8 downloader',
+            cover: 'https://img.fastmirror.net/s/2025/02/08/67a6d1f9db908.png',
+            url: 'https://fluent-m3u8.org/'
         },
         {
             name: 'Groove',
@@ -40,16 +34,22 @@ export const showcases = {
             url: 'https://github.com/zhiyiYo/Face-Mask-Detector'
         },
         {
-            name: 'Weather',
-            description: 'Weather app',
-            cover: 'https://img.fastmirror.net/s/2024/02/06/65c185980febb.jpg',
-            url: 'https://blog.csdn.net/a1397852386/article/details/135035884'
+            name: 'Ghost-Downloader-3',
+            description: 'A multi-threading async downloader',
+            cover: 'https://img.fastmirror.net/s/2024/11/25/674416062e878.jpg',
+            url: 'https://github.com/XiaoYouChR/Ghost-Downloader-3'
         },
         {
             name: 'DyberPet',
             description: 'Kawaii desktop cyber pet framework',
             cover: 'https://img.fastmirror.net/s/2023/10/28/653d2ab76ba87.png',
             url: 'https://github.com/ChaozhongLiu/DyberPet'
+        },
+        {
+            name: 'OpenList-Desktop',
+            description: 'Cross-platform OpenList client',
+            cover: 'https://img.fastmirror.net/s/2025/07/04/6867e839776d2.png',
+            url: 'https://github.com/qianye216/OpenList-Desktop'
         },
         {
             name: 'NoneBot Desktop',
@@ -70,10 +70,10 @@ export const showcases = {
             url: 'http://www.toobox.love'
         },
         {
-            name: 'MCServerLauncher2',
-            description: 'A sleek and versatile Minecraft server launcher',
-            cover: 'https://img.fastmirror.net/s/2023/10/28/653d162f66436.png',
-            url: 'https://mcsl.com.cn'
+            name: 'Wallpaper Generator',
+            description: 'Next generation wallpaper generator',
+            cover: 'https://img.fastmirror.net/s/2025/08/29/68b1a7c03a6d6.png',
+            url: 'https://github.com/SRInternet-Studio/Wallpaper-generator/'
         },
         {
             name: 'March7th Assistant',

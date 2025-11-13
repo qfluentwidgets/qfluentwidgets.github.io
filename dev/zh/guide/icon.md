@@ -14,6 +14,10 @@ QFluentWidgets 提供的 `FluentIcon` 继承自 `FluentIconBase`, 包含数百�
 ![IconInterface](/img/designer/IconInterface.jpg)
 
 
+## 适配 Qt 原生组件
+对于不支持 `FluentIconBase` 的类，比如只支持 `QIcon` 的 `QListWidgetItem`，可以调用 `FluentIconBase.qicon()` 返回一个能够自动切换主题的 `QIcon`。
+
+
 ## 自定义图标
 ### 更改颜色
 流畅图标基类提供了 `FluentIconBase.icon()` 方法:
@@ -63,6 +67,7 @@ button.setIcon(icon)
 
 ### 添加图标
 
+#### SVG 图标
 如果想在切换主题时自动更换图标，可以继承 `FluentIconBase` 类并重写 `path()` 函数来给出不同主题下图标的路径。下面是一个示例：
 
 
@@ -100,10 +105,48 @@ button.setIcon(MyFluentIcon.CUT)
 button.clicked.connect(toggleTheme)
 ```
 
+#### 图标字体
 
-对于不支持 `FluentIconBase` 的类，比如只支持 `QIcon` 的 `QListWidgetItem`，可以调用 `FluentIconBase.qicon()` 返回一个能够自动切换主题的 `QIcon`。
+组件库支持使用图标字体，可以继承 `FluentFontIconBase` 类并重写 `path()` 函数来给出图标字体的路径。下面是一个示例：
+
+```python
+class PhotoFontIcon(FluentFontIconBase):
+    """ Custom icon font icon """
+
+    def path(self, theme=Theme.AUTO):
+        return "/path/to/font.ttf"
+
+    def iconNameMapPath(self):
+        """ 如果想使用 `fromName` 来创建图标，需要重写此方法 """
+        return "/path/to/fontNameMap.json"
+```
+
+`iconNameMapPath()` 给出了图标名称到图标码点的映射表文件路径，如果不想通过 `FluentFontIconBase.fromName()` 来创建图标，则无需重写此函数。映射表文件的格式如下：
+
+```json
+{
+    "cloud": "\ue753",
+    "filter": "\ue71c",
+    "smile": "\ue76e"
+}
+```
+
+下面是图标字体的使用示例：
+
+```python
+# 使用码点创建图标
+button = ToolButton(PhotoFontIcon("\ue77b"))
+
+# 使用名称来创建图标
+button = ToolButton(PhotoFontIcon.fromName("smile"))
+
+# 自定义图标颜色
+button = ToolButton(PhotoFontIcon.fromName("cloud").colored("#275EFF", Qt.GlobalColor.darkCyan))
+```
+
 
 ### 视频教程
-<div style="position: relative; padding: 30% 45%;">
-    <iframe style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;" src="https://player.bilibili.com/player.html?cid=1141942975&aid=614116994&page=1&as_wide=1&high_quality=1&danmaku=0&autoplay=0" frameborder="no" scrolling="no" allowfullscreen="true"></iframe>
+<div style="padding:56.25% 0 0 0;position:relative;">
+    <iframe src="https://player.vimeo.com/video/1061710278?h=d643e2b0da&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="PyQt-Fluent-Widgets 自定义图标的正确姿势">
+    </iframe>
 </div>

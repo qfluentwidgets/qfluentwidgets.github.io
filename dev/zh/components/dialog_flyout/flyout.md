@@ -72,6 +72,12 @@ w = Flyout.make(view, self.button, self)
 view.closed.connect(w.close)
 ```
 
+`Flyout` 在 macOS 下可能无法使用中文输入法，解决方案是在创建 `Flyout` 的时候将 `isMacInputMethodEnabled` 置为 `True`：
+```python
+Flyout.make(..., isMacInputMethodEnabled=True)
+Flyout.create(..., isMacInputMethodEnabled=True)
+```
+
 ### [FlyoutViewBase](https://pyqt-fluent-widgets.readthedocs.io/zh-cn/latest/autoapi/qfluentwidgets/components/widgets/flyout/index.html#qfluentwidgets.components.widgets.flyout.FlyoutViewBase)
 
 ![CustomFlyout](/img/components/flyout/CustomFlyout.png)

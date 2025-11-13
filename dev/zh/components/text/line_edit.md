@@ -74,6 +74,12 @@ lineEdit.setText("123456")
 lineEdit.setPasswordVisible(True)
 ```
 
+### [PinBox](https://qfluentwidgets.com/zh/price)
+
+![PinBox](/img/components/lineedit/PinBox.png)
+
+`PinBox` 可用于需要用户输入特定格式或内容的场景，比如 PIN 码、验证码、密码等。
+
 
 ### [TokenLineEdit](https://qfluentwidgets.com/zh/price)
 

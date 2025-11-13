@@ -182,17 +182,14 @@ class PowerSettingCard(ExpandGroupSettingCard):
 
         # 第一组
         self.modeButton = PushButton("立即启用")
-        self.modeLabel = BodyLabel("节电模式")
         self.modeButton.setFixedWidth(135)
 
         # 第二组
-        self.autoLabel = BodyLabel("自动开启节电模式")
         self.autoComboBox = ComboBox()
         self.autoComboBox.addItems(["10%", "20%", "30%"])
         self.autoComboBox.setFixedWidth(135)
 
         # 第三组
-        self.lightnessLabel = BodyLabel("使用节电模式时屏幕亮度较低")
         self.lightnessSwitchButton = SwitchButton("关", self, IndicatorPosition.RIGHT)
         self.lightnessSwitchButton.setOnText("开")
 
@@ -201,23 +198,9 @@ class PowerSettingCard(ExpandGroupSettingCard):
         self.viewLayout.setSpacing(0)
 
         # 添加各组到设置卡中
-        self.add(self.modeLabel, self.modeButton)
-        self.add(self.autoLabel, self.autoComboBox)
-        self.add(self.lightnessLabel, self.lightnessSwitchButton)
-
-    def add(self, label, widget):
-        w = QWidget()
-        w.setFixedHeight(60)
-
-        layout = QHBoxLayout(w)
-        layout.setContentsMargins(48, 12, 48, 12)
-
-        layout.addWidget(label)
-        layout.addStretch(1)
-        layout.addWidget(widget)
-
-        # 添加组件到设置卡
-        self.addGroupWidget(w)
+        self.addGroup(FluentIcon.POWER_BUTTON, "节电模式", "延长电脑续航时间", self.modeButton)
+        self.addGroup(FluentIcon.RINGER, "自动开启节电模式", "电量较低时自动开启此模式", self.autoComboBox)
+        self.addGroup(FluentIcon.BRIGHTNESS, "使用节电模式时屏幕亮度较低", "", self.lightnessSwitchButton)
 ```
 
 下面是一个动态删减手风琴设置卡内部组件的例子：

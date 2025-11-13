@@ -24,7 +24,7 @@ export const faqs = {
         },
         {
             question: 'C++ 组件库支持哪些版本的 Qt？',
-            answer: '支持 Qt 5.15.x 和 Qt 6.x.x。组件库基于 QWidgets 开发，不支持 QML。',
+            answer: '支持 Qt 5.14、Qt 5.15 和 Qt 6.x.x。组件库基于 QWidgets 开发，不支持 QML。',
         },
     ]
 };

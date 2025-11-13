@@ -36,7 +36,7 @@ Before calling `addSubInterface()`, you must set a globally unique object name f
 If you see something strange in the upper left corner of the interface, it means you forgot to call `addSubInterface()` to add a certain sub-interface
 :::
 
-Here is a simple example, for more complex multi-sub-interface examples see the [video tutorial](https://www.bilibili.com/video/BV1Uu411j7AV):
+Here is a simple example, for more complex multi-sub-interface examples see the [video tutorial](/pages/designer):
 
 ```python
 from qfluentwidgets import NavigationItemPosition, FluentWindow, SubtitleLabel, setFont

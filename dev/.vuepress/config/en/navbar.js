@@ -61,13 +61,8 @@ export const navbar = [
         text: 'C++ QFluentCharts',
         link: 'https://github.com/zhiyiYo/PyQt-Fluent-Widgets/releases/download/v1.7.0/C++_QFluentCharts.7z'
       },
-      {
-        text: 'Material Gallery',
-        link: 'https://github.com/zhiyiYo/PyQt-Fluent-Widgets/releases/download/v1.7.0/QMaterialWidgets-Gallery.zip'
-      },
     ]
   },
   { text: 'Showcase', link: '/showcase/', icon: 'Code' },
   { text: 'Pricing', link: '/price', icon: 'ShoppingCart' },
-  { text: 'Tutorials', link: 'https://www.youtube.com/watch?v=9Id5ThLEpFk&list=PL0KDoBEXflBGymEQ16t4Fr2wcFDMqYVtf', icon: 'Playlist' },
 ];

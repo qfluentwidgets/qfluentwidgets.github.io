@@ -39,6 +39,11 @@ w.cancelButton.hide()
 w.buttonLayout.insertStretch(1)
 ```
 
+如果同时使用 `Dialog` 和 `FluentWindow`，可能导致窗口无法拉伸，解决方案如下：
+```python
+app.setAttribute(Qt.ApplicationAttribute.AA_DontCreateNativeWidgetSiblings)
+```
+
 ### [MessageBox](https://pyqt-fluent-widgets.readthedocs.io/zh-cn/latest/autoapi/qfluentwidgets/components/dialog_box/dialog/index.html#qfluentwidgets.components.dialog_box.dialog.MessageBox)
 
 

@@ -6,8 +6,9 @@ permalink: /zh/pages/about/
 
 [**QFluentWidgets**](https://github.com/zhiyiYo/PyQt-Fluent-Widgets) 是一个基于 C++ Qt/PyQt/PySide 的 Fluent Design 风格组件库，包含数以百计的流畅设计组件，为简化开发、提高效率而生。
 
-<div style="position: relative; padding: 30% 45%;">
-    <iframe style="position: absolute; width: 100%; height: 100%; left: 0; top: 0;" src="https://player.bilibili.com/player.html?cid=1184333736&aid=269126789&page=1&as_wide=1&high_quality=1&danmaku=0&autoplay=0" frameborder="no" scrolling="no" allowfullscreen="true"></iframe>
+<div style="padding:56.25% 0 0 0;position:relative;">
+    <iframe src="https://player.vimeo.com/video/1061704294?h=6eb47aa5bd&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="新的 gallery">
+    </iframe>
 </div>
 
 

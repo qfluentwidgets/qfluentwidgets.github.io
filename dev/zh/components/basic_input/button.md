@@ -152,6 +152,39 @@ print(button.url)
 `TextToolButton` 只用于显示图标，可根据信息级别显示不同的前景色，使用方式和 `QToolButton` 完全相同。
 
 
+### [LuminaPushButton](https://qfluentwidgets.com/zh/price)
+
+![LuminaPushButton](/img/components/button/LuminaPushButton.png)
+
+`LuminaPushButton` 用于显示图标和文本，可显示辉光，使用方式与 `QPushButton` 完全相同。
+
+### [OutlinedPushButton](https://qfluentwidgets.com/zh/price)
+
+![OutlinedPushButton](/img/components/button/OutlinedPushButton.png)
+
+`OutlinedPushButton` 用于显示图标和文本，默认可选中，使用方式与 `QPushButton` 完全相同，通常与 `QButtonGroup` 组合使用。
+
+
+### [OutlinedToolButton](https://qfluentwidgets.com/zh/price)
+
+![OutlinedToolButton](/img/components/button/OutlinedToolButton.png)
+
+`OutlinedToolButton` 只用于显示图标，默认可选中，使用方式与 `QToolButton` 完全相同。
+
+
+### [RoundPushButton](https://qfluentwidgets.com/zh/price)
+
+![RoundPushButton](/img/components/button/RoundPushButton.png)
+
+`RoundPushButton` 用于显示图标和文本，默认不可选中，使用方式与 `QPushButton` 完全相同。
+
+
+### [RoundToolButton](https://qfluentwidgets.com/zh/price)
+
+![RoundToolButton](/img/components/button/RoundToolButton.png)
+
+`RoundToolButton` 只用于显示图标，默认不可选中，使用方式与 `QToolButton` 完全相同。
+
 
 ## 状态开关按钮
 

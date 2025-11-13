@@ -24,7 +24,8 @@ export const prices = {
             url: 'mailto:shokokawaii@foxmail.com',
             recommend: false,
             features: [
-                { feature: '260+ components' },
+                { feature: '170+ community components' },
+                { feature: '100+ pro components' },
                 { feature: '20+ visual charts' },
                 { feature: 'Single developer' },
                 { feature: '3 development device' },
@@ -43,7 +44,8 @@ export const prices = {
             url: 'mailto:shokokawaii@foxmail.com',
             recommend: true,
             features: [
-                { feature: '260+ components' },
+                { feature: '170+ community components' },
+                { feature: '100+ pro components' },
                 { feature: '20+ visual charts' },
                 { feature: 'Single developer' },
                 { feature: '2 development device' },
@@ -63,7 +65,8 @@ export const prices = {
             recommend: false,
             contactSales: true,
             features: [
-                { feature: '260+ components' },
+                { feature: '170+ community components' },
+                { feature: '100+ pro components' },
                 { feature: '20+ visual charts' },
                 { feature: "Unlimited softwares" },
                 { feature: "Lifetime access" },
@@ -82,7 +85,7 @@ export const prices = {
             url: 'mailto:shokokawaii@foxmail.com',
             recommend: false,
             features: [
-                { feature: '250+ components' },
+                { feature: '270+ components' },
                 { feature: "Personal software" },
                 { feature: "Unlimited softwares" },
                 { feature: "Permanent license validity" }
@@ -97,7 +100,7 @@ export const prices = {
             url: 'mailto:shokokawaii@foxmail.com',
             recommend: true,
             features: [
-                { feature: '250+ components' },
+                { feature: '270+ components' },
                 { feature: 'Single developer' },
                 { feature: "Unlimited softwares" },
                 { feature: "Lifetime access" },
@@ -116,7 +119,7 @@ export const prices = {
             recommend: false,
             contactSales: true,
             features: [
-                { feature: '250+ components' },
+                { feature: '270+ components' },
                 { feature: "Unlimited softwares" },
                 { feature: "Lifetime access" },
                 { feature: "Fluent Studio software" },
@@ -174,12 +177,12 @@ export const prices = {
     ],
     comments: [
         {
-            logo: "https://img.fastmirror.net/s/2023/10/29/653deb00353b8.png",
-            title: "MCSL2",
+            logo: "https://img.fastmirror.net/s/2025/08/30/68b2ac876aee8.png",
+            title: "Ghost-Downloader-3",
             content: "“The author has meticulously and carefully polished this component library, combining animations, styles, and practicality. The abundance of ready-to-use components has significantly increased efficiency for me and my friends during the development process.”",
-            avatar: "https://img.fastmirror.net/s/2023/12/09/6573e9c9741da.jpg",
-            name: "落雪无痕",
-            job: "Author of MCSL2",
+            avatar: "https://img.fastmirror.net/s/2025/08/30/68b2ad14de8a2.jpeg",
+            name: "XiaoYouChR",
+            job: "Author of Ghost-Downloader",
             id: 1
         },
         {

@@ -4,22 +4,16 @@ export const showcases = {
     description: '我们收集了一些基于 QFluentWidgets 组件库开发的优秀项目，供您参考',
     data: [
         {
-            name: 'Fluent Studio',
-            description: 'QFluentWidgets 集成软件',
-            cover: 'https://img.fastmirror.net/s/2023/11/14/6552d7c981aa9.jpg',
-            url: 'https://www.bilibili.com/video/BV1s34y1V7QW/'
-        },
-        {
             name: 'Fluent Client',
             description: '一站式 PyQt/PySide 解决方案',
             cover: 'https://img.fastmirror.net/s/2024/07/13/66922605e38b4.jpg',
             url: 'https://client.qfluentwidgets.com/zh/'
         },
         {
-            name: 'Ghost-Downloader-3',
-            description: '新一代多线程下载器',
-            cover: 'https://img.fastmirror.net/s/2024/11/25/674416062e878.jpg',
-            url: 'https://github.com/XiaoYouChR/Ghost-Downloader-3'
+            name: 'Fluent M3U8',
+            description: '美观易用的跨平台 M3U8 下载器',
+            cover: 'https://img.fastmirror.net/s/2025/02/08/67a6d1f9db908.png',
+            url: 'https://fluent-m3u8.org/zh/'
         },
         {
             name: 'Groove',
@@ -40,16 +34,22 @@ export const showcases = {
             url: 'https://github.com/zhiyiYo/Face-Mask-Detector'
         },
         {
-            name: '天气',
-            description: 'Win11 风格天气小工具',
-            cover: 'https://img.fastmirror.net/s/2024/02/06/65c185980febb.jpg',
-            url: 'https://blog.csdn.net/a1397852386/article/details/135035884'
+            name: 'Ghost-Downloader-3',
+            description: '新一代多线程下载器',
+            cover: 'https://img.fastmirror.net/s/2024/11/25/674416062e878.jpg',
+            url: 'https://github.com/XiaoYouChR/Ghost-Downloader-3'
         },
         {
             name: '呆啵宠物',
             description: '可爱滴桌面宠物开发框架',
             cover: 'https://img.fastmirror.net/s/2023/10/28/653d2ab76ba87.png',
             url: 'https://github.com/ChaozhongLiu/DyberPet'
+        },
+        {
+            name: 'OpenList-Desktop',
+            description: 'OpenList 跨平台桌面客户端',
+            cover: 'https://img.fastmirror.net/s/2025/07/04/6867e839776d2.png',
+            url: 'https://github.com/qianye216/OpenList-Desktop'
         },
         {
             name: 'NoneBot Desktop',
@@ -70,10 +70,10 @@ export const showcases = {
             url: 'http://www.toobox.love'
         },
         {
-            name: 'MCServerLauncher2',
-            description: '简洁全能的 Minecraft 开服器',
-            cover: 'https://img.fastmirror.net/s/2023/10/28/653d162f66436.png',
-            url: 'https://mcsl.com.cn'
+            name: '壁纸生成器',
+            description: '个性化聚合图片生成平台',
+            cover: 'https://img.fastmirror.net/s/2025/08/29/68b1a7c03a6d6.png',
+            url: 'https://github.com/SRInternet-Studio/Wallpaper-generator/'
         },
         {
             name: '三月七小助手',

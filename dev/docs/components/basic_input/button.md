@@ -147,6 +147,37 @@ print(button.url)
 
 `TextToolButton` is used only for displaying an icon. It can display different foreground colors according to the level of information. Its usage is identical to `QToolButton`.
 
+### [LuminaPushButton](https://qfluentwidgets.com/zh/price)
+
+![LuminaPushButton](/img/components/button/LuminaPushButton.png)
+
+`LuminaPushButton` is used for displaying an icon and text. Its usage is identical to `QPushButton`.
+
+### [OutlinedPushButton](https://qfluentwidgets.com/zh/price)
+
+![OutlinedPushButton](/img/components/button/OutlinedPushButton.png)
+
+`OutlinedPushButton`  is used for displaying an icon and text. Its usage is identical to `QPushButton`.
+
+
+### [OutlinedToolButton](https://qfluentwidgets.com/zh/price)
+
+![OutlinedToolButton](/img/components/button/OutlinedToolButton.png)
+
+`OutlinedToolButton` is used only for displaying an icon. Its usage is identical to `QToolButton`
+
+### [RoundPushButton](https://qfluentwidgets.com/zh/price)
+
+![RoundPushButton](/img/components/button/RoundPushButton.png)
+
+`RoundPushButton` is used to display icons and text. Its usage is identical to `QPushButton`
+
+
+### [RoundToolButton](https://qfluentwidgets.com/zh/price)
+
+![RoundToolButton](/img/components/button/RoundToolButton.png)
+
+`RoundToolButton` is used only for displaying an icon. Its usage is identical to `QToolButton`
 
 
 ## Toggle Buttons

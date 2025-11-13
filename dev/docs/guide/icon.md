@@ -14,6 +14,12 @@ The enumeration subclass `FluentIcon` contains hundreds of vector icons that are
 
 ![IconInterface](/img/designer/IconInterface.jpg)
 
+
+## Adapting to native Qt widgets
+
+For classes that do not support `FluentIconBase`, such as `QListWidgetItem` that only supports `QIcon`, you can call `FluentIconBase.qicon()` to return a `QIcon` that can automatically switch themes.
+
+
 ## Customize icon
 
 ### Change color
@@ -63,6 +69,8 @@ button.setIcon(icon)
 
 
 ### Add icon
+
+#### SVG icon
 If you want to automatically change icons when switching themes, you can inherit the `FluentIconBase` class and override the `path()` function to provide the path of the icons for different themes. Here is an example:
 
 
@@ -99,4 +107,39 @@ button.setIcon(MyFluentIcon.CUT)
 button.clicked.connect(toggleTheme)
 ```
 
-For classes that do not support `FluentIconBase`, such as `QListWidgetItem` that only supports `QIcon`, you can call `FluentIconBase.qicon()` to return a `QIcon` that can automatically switch themes.
+
+#### Icon font
+
+`QFluentWidgets` supports the use of icon fonts. You can inherit from the `FluentFontIconBase` class and override the `path()` function to provide the path to your icon font file. Here's an example:
+
+```python
+class PhotoFontIcon(FluentFontIconBase):
+    """ Custom icon font icon """
+
+    def path(self, theme=Theme.AUTO):
+        return "/path/to/font.ttf"
+
+    def iconNameMapPath(self):
+        """ Override this method if you want to use `fromName` to create icons """
+        return "/path/to/fontNameMap.json"
+```
+
+The `iconNameMapPath()` method provides the file path to the icon name-to-Unicode mapping. If you do not intend to create icons using `FluentFontIconBase.fromName()`, you don't need to override this method. The mapping file format looks like this:
+
+```json
+{
+    "cloud": "\ue753",
+    "filter": "\ue71c",
+    "smile": "\ue76e"
+}
+```
+
+Below is an example of how to use the icon font:
+
+```python
+# Create icon using a code point
+button = ToolButton(PhotoFontIcon("\ue77b"))
+
+# Create icon using a name
+button = ToolButton(PhotoFontIcon.fromName("smile"))
+```

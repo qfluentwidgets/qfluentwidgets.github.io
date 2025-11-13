@@ -13,27 +13,31 @@ Python QFluentWidgets is licensed under GPLv3 for non-commercial use. For commer
 
 Currently, QFluentWidgets Pro includes the following components, and more components being added in the future.
 
-Check out this [▶ example video](https://www.bilibili.com/video/BV14e411Y75d) that shows off what Pro are capable of. You can also download the demo `PyQt-Fluent-Widgets-Pro-Gallery.zip` from [release page](https://github.com/zhiyiYo/PyQt-Fluent-Widgets/releases).
+You can download the demo `PyQt-Fluent-Widgets-Pro-Gallery.zip` from [release page](https://github.com/zhiyiYo/PyQt-Fluent-Widgets/releases).
 
 ### Basic Inputs
 
-| Component Name                | Description                                 |
-| ----------------------------- | ------------------------------------------- |
-| `Chip`                        | A chip used as a filter                     |
-| `OutlinedPushButton`          | An outlined button used as a filter         |
-| `OutlinedToolButton`          | An outlined tool button                     |
-| `RoundPushButton`             | An full round push button                   |
-| `FilledPushButton`            | A filled push button                        |
-| `FilledToolButton`            | A filled tool button                        |
-| `TextPushButton`              | A text push button                          |
-| `TextToolButton`              | A text tool button                          |
-| `HyperlinkToolButton`         | A hyperlink tool button                     |
-| `TransparentCircleToolButton` | A transparent circular tool button          |
-| `FontComboBox`                | A combo box that allows font selection      |
-| `MultiSelectionComboBox`      | A combo box that allows multiple selections |
-| `TransparentComboBox`         | A transparent combo box                     |
-| `ToolTipSlider`               | A slider with tooltips                      |
-| `RangeSlider`                 | A range slider with two handles             |
+| Component Name                | Description                                                 |
+| ----------------------------- | ----------------------------------------------------------- |
+| `Chip`                        | A chip used as a filter                                     |
+| `OutlinedPushButton`          | An outlined button used as a filter                         |
+| `OutlinedToolButton`          | An outlined tool button                                     |
+| `RoundPushButton`             | An full round push button                                   |
+| `FilledPushButton`            | A filled push button                                        |
+| `FilledToolButton`            | A filled tool button                                        |
+| `TextPushButton`              | A text push button                                          |
+| `TextToolButton`              | A text tool button                                          |
+| `LuminaPushButton`            | A lumina push button                                        |
+| `GlassPushButton`             | A glass push button                                         |
+| `HyperlinkToolButton`         | A hyperlink tool button                                     |
+| `TransparentCircleToolButton` | A transparent circular tool button                          |
+| `FontComboBox`                | A combo box that allows font selection                      |
+| `TreeComboBox`                | A tree-structured combo box                                 |
+| `MultiSelectionTreeComboBox`  | A tree-structured combo box that allows multiple selections |
+| `MultiSelectionComboBox`      | A combo box that allows multiple selections                 |
+| `TransparentComboBox`         | A transparent combo box                                     |
+| `ToolTipSlider`               | A slider with tooltips                                      |
+| `RangeSlider`                 | A range slider with two handles                             |
 
 ### Dialogs & Flyouts
 
@@ -50,6 +54,15 @@ Check out this [▶ example video](https://www.bilibili.com/video/BV14e411Y75d) 
 | `ShortcutDialog`                  | Shortcut dialog                                                                    |
 | `IndeterminateProgressRingDialog` | Waiting dialog                                                                     |
 
+
+### Chat
+
+| Component Name       | Description                                                 |
+| -------------------- | ----------------------------------------------------------- |
+| `ChatWidget`         | Chat component with typewriter effect and loading animation |
+| `SimpleChatTextEdit` | Chat input box                                              |
+| `ChatTextEdit`       | Chat input box                                              |
+
 ### Date Time
 | Component Name        | Description                                                |
 | --------------------- | ---------------------------------------------------------- |
@@ -58,9 +71,18 @@ Check out this [▶ example video](https://www.bilibili.com/video/BV14e411Y75d) 
 
 
 ### Layout
-| 组件名            | 描述                                                      |
+| Component Name    | Description                                               |
 | ----------------- | --------------------------------------------------------- |
 | `WaterfallLayout` | Waterfall layout that supports widgets in different sizes |
+
+
+### Media
+| Component Name          | Description             |
+| ----------------------- | ----------------------- |
+| `AvatarPicker`          | Avatar picker           |
+| `ImageCropper`          | Image cropper           |
+| `ImageComparisonSlider` | Image comparison slider |
+| `AudiowaveformWidget`   | Audio waveform widget   |
 
 ### Charts
 
@@ -86,6 +108,7 @@ Skeleton screens provide basic placeholders when network requests are slow, and 
 | ----------------------------- | -------------------------------------- |
 | `HorizontalCarousel`          | Horizontal carousel                    |
 | `VerticalCarousel`            | Vertical carousel                      |
+| `SqueezeCarousel`             | Squeeze carousel                       |
 | `HorizontalCircleColorPicker` | Horizontal circle color picker         |
 | `VerticalCircleColorPicker`   | Vertical circle color picker           |
 | `FlowCircleColorPicker`       | Flow circle color picker               |
@@ -138,11 +161,16 @@ Skeleton screens provide basic placeholders when network requests are slow, and 
 | `FilledNavigationBar`      | filled navigation bar       |
 
 ### Text
-| Component Name  | Description     |
-| --------------- | --------------- |
-| `CodeEdit`      | Code editor     |
-| `LabelLineEdit` | Label line edit |
-| `TokenLineEdit` | Token line edit |
+| Component Name          | Description              |
+| ----------------------- | ------------------------ |
+| `CodeEdit`              | Code editor              |
+| `LabelLineEdit`         | Label line edit          |
+| `TokenLineEdit`         | Token line edit          |
+| `OutlinedTextEdit`      | Outlined text edit       |
+| `OutlinedPlainTextEdit` | Outlined plain text edit |
+| `OutlinedTextBrowser`   | Outlined text browser    |
+| `TextWatermarkWidget`   | Text watermark           |
+| `ImageWatermarkWidget`  | Image watermark          |
 
 ### Settings
 | Component Name                      | Description                                        |

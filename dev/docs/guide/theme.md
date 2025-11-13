@@ -4,17 +4,19 @@ date: 2023-08-17 17:31:30
 permalink: /pages/theme/
 ---
 
-## Theme mode
+## Switching Themes
 
-You can use the `setTheme()` method to switch the light/dark theme of qfluentwidgets. The parameter of `setTheme()` accepts the following three values:
-* `Theme.LIGHT`: Light theme
-* `Theme.DARK`: Dark theme
-* `Theme.AUTO`: Follow system theme. If the system theme cannot be detected, the light theme will be used.
+`setTheme()` is used to switch the light/dark theme for all components of QFluentWidgets. This method accepts the following values:
 
-`toggleTheme()` is used to toggle the theme mode. When the theme changes, `qconfig` will emit the `themeChanged` signal.
+- `Theme.LIGHT`: Light theme
+- `Theme.DARK`: Dark theme
+- `Theme.AUTO`: Follow the system theme. If the system theme cannot be detected, the light theme will be used.
 
-If you want to automatically switch the interface style when the theme changes, you can inherit `StyleSheetBase` and override the `path()` method. Suppose you have a `Window` class and its qss file paths are `qss/light/window.qss` and `qss/dark/window.qss`, the code can be written like this:
+When the theme changes, `qconfig` emits a `themeChanged` signal. QFluentWidgets provides the `toggleTheme()` function for quickly switching between light and dark themes.
 
+## Fluent Style Sheet
+
+If you want the interface styles to switch automatically when the theme changes, you can inherit the `StyleSheetBase` class and override the `path()` method. The following code implements a `Window` class that can automatically switch the background color. Its QSS file paths are `qss/light/window.qss` and `qss/dark/window.qss`:
 
 ```python
 from enum import Enum
@@ -22,7 +24,7 @@ from qfluentwidgets import StyleSheetBase, Theme, isDarkTheme, qconfig
 
 
 class StyleSheet(StyleSheetBase, Enum):
-    """ Style sheet  """
+    """ Stylesheet """
 
     WINDOW = "window"
 
@@ -36,9 +38,50 @@ class Window(QWidget):
     def __init__(self, parent=None):
         super().__init__(parent=parent)
 
-        # apply style sheet to window
+        self.label = QLabel("Label", self)
+
+        # Apply stylesheet to window
         StyleSheet.WINDOW.apply(self)
 ```
+
+Stylesheet files:
+
+* Light mode `qss/light/window.qss`
+
+    ```css
+    Window {
+        background-color: rgb(249, 249, 249);
+    }
+
+    Window>QLabel {
+        color: --ThemeColorPrimary;   /* Use the theme color of qfluentwidgets */
+        font: 14px --FontFamilies;    /* Use the font families of qfluentwidgets */
+    }
+    ```
+
+* Dark mode `qss/dark/window.qss`
+
+    ```css
+    Window {
+        background-color: rgb(32, 32, 32);
+    }
+
+    Window>QLabel {
+        color: --ThemeColorPrimary;
+        font: 14px --FontFamilies;
+    }
+    ```
+
+The stylesheet supports the following color placeholders:
+
+* `--ThemeColorPrimary`
+* `--ThemeColorLight1`
+* `--ThemeColorLight2`
+* `--ThemeColorLight3`
+* `--ThemeColorDark1`
+* `--ThemeColorDark2`
+* `--ThemeColorDark3`
+* `--FontFamilies`
 
 
 ### Follow system theme
@@ -137,3 +180,7 @@ from qframelesswindow.utils import getSystemAccentColor
 if sys.platform in ["win32", "darwin"]:
    setThemeColor(getSystemAccentColor(), save=False)
 ```
+
+## Font
+
+qfluentwidgets v1.9.0 and above support calling `setFontFamilies()` to customize the font used by the component library. Use `fontFamilies()` to get the current font. The default font families are `['Segoe UI', 'Microsoft YaHei', 'PingFang SC']`.
