@@ -18,7 +18,7 @@ export const prices = {
         {
             title: 'Ultimate',
             desc: 'The essentials to provide your best work for clients.',
-            price: '$529',
+            price: '$599',
             year: false,
             permanent: true,
             url: 'mailto:shokokawaii@foxmail.com',
@@ -38,7 +38,7 @@ export const prices = {
         {
             title: 'Professional',
             desc: 'A plan that scales with your rapidly growing business.',
-            price: '$359',
+            price: '$399',
             year: false,
             permanent: true,
             url: 'mailto:shokokawaii@foxmail.com',
