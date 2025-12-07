@@ -4,6 +4,30 @@ date: 2023-08-17 15:02:30
 permalink: /pages/changelog/
 ---
 
+### v1.10.0
+#### New Components
+* Added the `TabWidget` component
+* Added the `NavigationUserCard` component
+* Added the `EntranceTransitionStackedWidget` and `DrillInTransitionStackedWidget` components
+
+#### New Features
+* Added group title functionality for the sidebar navigation bar
+* Added continuous scrolling functionality for date-time components
+* Optimized the sliding animation of the indicator for the sidebar navigation bar and `Pivot`
+* Overloaded the FluentWindow method for adding child interfaces
+
+#### Fixes
+* Fixed the issue where tooltips would steal focus
+
+### v1.9.2
+
+#### New Features
+* Added quick insertion functionality for groups in `ExpandGroupSettingCard`
+
+#### Fixes
+* Fixed the background rendering issue in multi-column tree components
+* Fixed the background issue in `FluentWindow` when using WebEngine
+
 ### v1.9.1
 
 #### Fixes

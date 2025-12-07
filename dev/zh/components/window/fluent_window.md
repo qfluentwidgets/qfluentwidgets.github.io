@@ -29,7 +29,7 @@ def addSubInterface(
 * `icon`：侧边栏菜单项图标
 * `text`：侧边栏菜单项文本
 * `position`：侧边栏菜单项的位置
-* `parent`：侧边栏父菜单项对应的子界面
+* `parent`：侧边栏父菜单项对应的子界面，或者父菜单项的 `routeKey`
 
 ::: warning 警告
 调用 `addSubInterface()` 之前必须给子界面设置全局唯一的对象名作为路由键，否则后退功能会出问题，同时侧边栏看不到子界面对应的菜单项。
@@ -138,6 +138,11 @@ self.navigationInterface.setMinimumExpandWidth(900)
 self.navigationInterface.expand(useAni=False)
 ```
 
+禁用侧边栏指示器滑动动画：
+```python
+self.navigationInterface.setIndicatorAnimationEnabled(False)
+```
+
 ### 定制化标题栏
 
 `FluentWindow` 使用的是 `qframelesswindow` 库提供的自定义标题栏，对应 `titleBar` 属性。标题栏使用水平布局 `hBoxLayout`，内部组件如下：
@@ -151,6 +156,15 @@ self.navigationInterface.expand(useAni=False)
 ```python
 self.titleBar.maxBtn.hide()
 self.titleBar.setDoubleClickEnabled(False)
+```
+
+插入一个新按钮：
+
+```python
+from qframeselesswindow import SvgTitleBarButton
+
+themeButton = SvgTitleBarButton(FIF.CONSTRACT.path(), self)
+self.titleBar.buttonLayout.insertWidget(0, themeButton)
 ```
 
 

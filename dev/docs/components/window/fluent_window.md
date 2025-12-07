@@ -137,6 +137,12 @@ self.navigationInterface.setMinimumExpandWidth(900)
 self.navigationInterface.expand(useAni=False)
 ```
 
+Disable the indicator sliding animation when switching interface:
+```python
+self.navigationInterface.setIndicatorAnimationEnabled(False)
+```
+
+
 ### Customizable Title Bar
 
 `FluentWindow` uses the custom title bar provided by the `qframelesswindow` library, which corresponds to the `titleBar` property. The title bar uses a horizontal layout `hBoxLayout`, and the internal components are as follows:
@@ -150,6 +156,16 @@ To hide the maximize button and disable the double-click maximize functionality 
 ```python
 self.titleBar.maxBtn.hide()
 self.titleBar.setDoubleClickEnabled(False)
+```
+
+
+Insert a button into the title bar:
+
+```python
+from qframeselesswindow import SvgTitleBarButton
+
+themeButton = SvgTitleBarButton(FIF.CONSTRACT.path(), self)
+self.titleBar.buttonLayout.insertWidget(0, themeButton)
 ```
 
 

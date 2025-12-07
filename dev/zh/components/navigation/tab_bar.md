@@ -94,6 +94,21 @@ class Demo(QWidget):
 
 ```
 
+### [TabWidget](https://pyqt-fluent-widgets.readthedocs.io/en/latest/autoapi/qfluentwidgets/components/widgets/tab_view/index.html#qfluentwidgets.components.widgets.tab_view.TabWidget)
+
+`TabWidget` 的用法与 `QTabWidget` 相同，但是 `TabWidget` 内部使用了 `TabBar`。
+
+```python
+tabWidget = TabWidget()
+
+# 添加页面
+tabWidget.addPage(QLabel("Page 1"), "Page 1", QIcon("/path/to/icon.png"))
+tabWidget.addPage(QLabel("Page 2"), "Page 2", QIcon("/path/to/icon.png"))
+
+# 设置当前页面
+tabWidget.setCurrentIndex(1)
+```
+
 
 ### [RoundTabBar](https://qfluentwidgets.com/zh/price)
 
