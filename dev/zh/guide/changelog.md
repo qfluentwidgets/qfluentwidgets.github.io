@@ -4,6 +4,11 @@ date: 2023-08-17 15:02:30
 permalink: /zh/pages/changelog/
 ---
 
+### v1.10.3
+#### 新特性
+* 添加侧边导航菜单折叠状态记忆功能
+* 优化 `NavigationBar` 指示器动画
+
 ### v1.10.0
 #### 新组件
 * 添加 `TabWidget` 标签页组件
