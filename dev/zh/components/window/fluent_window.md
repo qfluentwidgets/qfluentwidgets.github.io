@@ -167,6 +167,74 @@ themeButton = SvgTitleBarButton(FIF.CONSTRACT.path(), self)
 self.titleBar.buttonLayout.insertWidget(0, themeButton)
 ```
 
+如果需要深度自定义标题栏，可以通过 `setTitleBar(titleBar: TitleBarBase)` 替换标题栏。下述示例在标题栏中插入了标签栏和头像组件：
+
+```python
+from qfluentwidgets import *
+
+class CustomTitleBar(MSFluentTitleBar):
+    """ Title bar with icon and title """
+
+    def __init__(self, parent):
+        super().__init__(parent)
+
+        # add buttons
+        self.toolButtonLayout = QHBoxLayout()
+        color = QColor(206, 206, 206) if isDarkTheme() else QColor(96, 96, 96)
+        self.searchButton = TransparentToolButton(FIF.SEARCH_MIRROR.icon(color=color), self)
+        self.forwardButton = TransparentToolButton(FIF.RIGHT_ARROW.icon(color=color), self)
+        self.backButton = TransparentToolButton(FIF.LEFT_ARROW.icon(color=color), self)
+
+        self.forwardButton.setDisabled(True)
+        self.toolButtonLayout.setContentsMargins(20, 0, 20, 0)
+        self.toolButtonLayout.setSpacing(15)
+        self.toolButtonLayout.addWidget(self.searchButton)
+        self.toolButtonLayout.addWidget(self.backButton)
+        self.toolButtonLayout.addWidget(self.forwardButton)
+        self.hBoxLayout.insertLayout(4, self.toolButtonLayout)
+
+        # 添加标签栏
+        self.tabBar = TabBar(self)
+
+        self.tabBar.setMovable(True)
+        self.tabBar.setTabMaximumWidth(220)
+        self.tabBar.setTabShadowEnabled(False)
+        self.tabBar.setTabSelectedBackgroundColor(QColor(255, 255, 255, 125), QColor(255, 255, 255, 50))
+
+        self.tabBar.tabCloseRequested.connect(self.tabBar.removeTab)
+        self.tabBar.currentChanged.connect(lambda i: print(self.tabBar.tabText(i)))
+
+        self.hBoxLayout.insertWidget(5, self.tabBar, 1)
+        self.hBoxLayout.setStretch(6, 0)
+
+        # 添加头像
+        self.avatar = TransparentDropDownToolButton('resource/shoko.png', self)
+        self.avatar.setIconSize(QSize(26, 26))
+        self.avatar.setFixedHeight(30)
+        self.hBoxLayout.insertWidget(7, self.avatar, 0, Qt.AlignRight)
+        self.hBoxLayout.insertSpacing(8, 20)
+
+        if sys.platform == "darwin":
+            self.hBoxLayout.insertSpacing(8, 52)
+
+
+    def canDrag(self, pos: QPoint):
+        """ 判断鼠标的点击位置是否允许拖拽 """
+        if not super().canDrag(pos):
+            return False
+
+        pos.setX(pos.x() - self.tabBar.x())
+        return not self.tabBar.tabRegion().contains(pos)
+
+
+class Window(MSFluentWindow):
+
+    def __init__(self):
+        super().__init__()
+        # 替换标题栏
+        self.setTitleBar(CustomTitleBar(self))
+```
+
 
 ### 自定义背景色
 `FluentWindow` 在云母特效未启用的情况下，浅色模式的背景为淡蓝色，深色模式为深灰色。可调用 `setCustomBackgroundColor()` 来自定义背景色：
@@ -358,3 +426,48 @@ if __name__ == '__main__':
 ![TopFluentWindow](/img/components/topnavigationbar/TopNavigationBar.png)
 
 `TopFluentWindow` 提供了顶部导航功能。
+
+## [FluentWidget](https://pyqt-fluent-widgets.readthedocs.io/zh-cn/latest/autoapi/qfluentwidgets/window/fluent_window/index.html#)
+
+`FluentWidget` 是一个能够自动跟随主题的无边框窗口组件，在 Win11 下默认开启了云母特效，并支持[自定义标题栏](#定制化标题栏)。
+
+```python
+# coding:utf-8
+import sys
+
+from qfluentwidgets import FluentWidget, toggleTheme, PushButton
+from qfluentwidgets import FluentIcon as FIF
+
+
+class Window(FluentWidget):
+
+    def __init__(self):
+        super().__init__()
+        self.button = PushButton(FIF.CONSTRACT, '切换主题', self)
+        self.vBoxLayout = QVBoxLayout(self)
+
+        # 禁用云母特效
+        # self.setMicaEffectEnabled(False)
+
+        # 自定义背景颜色
+        # self.setCustomBackgroundColor(Qt.red, Qt.blue)
+
+        # 点击按钮时切换主题
+        self.button.clicked.connect(toggleTheme)
+
+        # 留出标题栏的空间
+        self.vBoxLayout.setContentsMargins(0, self.titleBar.height(), 0, 0)
+        self.vBoxLayout.addWidget(self.button, 0, Qt.AlignmentFlag.AlignCenter)
+
+        self.resize(900, 700)
+        self.setWindowIcon(QIcon(':/qfluentwidgets/images/logo.png'))
+        self.setWindowTitle('PyQt-Fluent-Widgets')
+
+
+if __name__ == '__main__':
+    app = QApplication(sys.argv)
+    w = Window()
+    w.show()
+    app.exec()
+
+```

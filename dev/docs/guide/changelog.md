@@ -4,6 +4,10 @@ date: 2023-08-17 15:02:30
 permalink: /pages/changelog/
 ---
 
+### v1.10.5
+#### New Components
+* Added `FluentWidget` component
+
 ### v1.10.3
 #### New Features
 * Added memory function for the collapsed state of the side navigation menu

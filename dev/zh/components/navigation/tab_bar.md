@@ -102,8 +102,8 @@ class Demo(QWidget):
 tabWidget = TabWidget()
 
 # 添加页面
-tabWidget.addPage(QLabel("Page 1"), "Page 1", QIcon("/path/to/icon.png"))
-tabWidget.addPage(QLabel("Page 2"), "Page 2", QIcon("/path/to/icon.png"))
+tabWidget.addTab(QLabel("Page 1"), "Page 1", QIcon("/path/to/icon.png"))
+tabWidget.addTab(QLabel("Page 2"), "Page 2", QIcon("/path/to/icon.png"))
 
 # 设置当前页面
 tabWidget.setCurrentIndex(1)

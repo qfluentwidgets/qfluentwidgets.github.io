@@ -103,8 +103,8 @@ The usage of `TabWidget` is the same as `QTabWidget`, while `TabWidget` uses `Ta
 tabWidget = TabWidget()
 
 # add pages
-tabWidget.addPage(QLabel("Page 1"), "Page 1", QIcon("/path/to/icon.png"))
-tabWidget.addPage(QLabel("Page 2"), "Page 2", QIcon("/path/to/icon.png"))
+tabWidget.addTab(QLabel("Page 1"), "Page 1", QIcon("/path/to/icon.png"))
+tabWidget.addTab(QLabel("Page 2"), "Page 2", QIcon("/path/to/icon.png"))
 
 # set current page
 tabWidget.setCurrentIndex(1)

@@ -168,6 +168,74 @@ themeButton = SvgTitleBarButton(FIF.CONSTRACT.path(), self)
 self.titleBar.buttonLayout.insertWidget(0, themeButton)
 ```
 
+If you need deep customization of the title bar, you can replace it using `setTitleBar(titleBar: TitleBarBase)`. The following example inserts a tab bar and an avatar component into the title bar:
+
+```python
+from qfluentwidgets import *
+
+class CustomTitleBar(MSFluentTitleBar):
+    """ Title bar with icon and title """
+
+    def __init__(self, parent):
+        super().__init__(parent)
+
+        # add buttons
+        self.toolButtonLayout = QHBoxLayout()
+        color = QColor(206, 206, 206) if isDarkTheme() else QColor(96, 96, 96)
+        self.searchButton = TransparentToolButton(FIF.SEARCH_MIRROR.icon(color=color), self)
+        self.forwardButton = TransparentToolButton(FIF.RIGHT_ARROW.icon(color=color), self)
+        self.backButton = TransparentToolButton(FIF.LEFT_ARROW.icon(color=color), self)
+
+        self.forwardButton.setDisabled(True)
+        self.toolButtonLayout.setContentsMargins(20, 0, 20, 0)
+        self.toolButtonLayout.setSpacing(15)
+        self.toolButtonLayout.addWidget(self.searchButton)
+        self.toolButtonLayout.addWidget(self.backButton)
+        self.toolButtonLayout.addWidget(self.forwardButton)
+        self.hBoxLayout.insertLayout(4, self.toolButtonLayout)
+
+        # Add tab bar
+        self.tabBar = TabBar(self)
+
+        self.tabBar.setMovable(True)
+        self.tabBar.setTabMaximumWidth(220)
+        self.tabBar.setTabShadowEnabled(False)
+        self.tabBar.setTabSelectedBackgroundColor(QColor(255, 255, 255, 125), QColor(255, 255, 255, 50))
+
+        self.tabBar.tabCloseRequested.connect(self.tabBar.removeTab)
+        self.tabBar.currentChanged.connect(lambda i: print(self.tabBar.tabText(i)))
+
+        self.hBoxLayout.insertWidget(5, self.tabBar, 1)
+        self.hBoxLayout.setStretch(6, 0)
+
+        # Add avatar
+        self.avatar = TransparentDropDownToolButton('resource/shoko.png', self)
+        self.avatar.setIconSize(QSize(26, 26))
+        self.avatar.setFixedHeight(30)
+        self.hBoxLayout.insertWidget(7, self.avatar, 0, Qt.AlignRight)
+        self.hBoxLayout.insertSpacing(8, 20)
+
+        if sys.platform == "darwin":
+            self.hBoxLayout.insertSpacing(8, 52)
+
+
+    def canDrag(self, pos: QPoint):
+        """ Determine whether the mouse click position allows dragging """
+        if not super().canDrag(pos):
+            return False
+
+        pos.setX(pos.x() - self.tabBar.x())
+        return not self.tabBar.tabRegion().contains(pos)
+
+
+class Window(MSFluentWindow):
+
+    def __init__(self):
+        super().__init__()
+        # Replace the title bar
+        self.setTitleBar(CustomTitleBar(self))
+```
+
 
 ### Customizing background color
 
@@ -361,3 +429,48 @@ if __name__ == '__main__':
 ![TopFluentWindow](/img/components/topnavigationbar/TopNavigationBar.png)
 
 `TopFluentWindow` provides top navigation functionality.
+
+## [FluentWidget](https://pyqt-fluent-widgets.readthedocs.io/en/latest/autoapi/qfluentwidgets/window/fluent_window/index.html#)
+
+`FluentWidget` is a frameless window component that automatically follows the theme. On Windows 11, the mica effect is enabled by default, and it supports [custom title bars](#customizable-title-bar).
+
+```python
+# coding:utf-8
+import sys
+
+from qfluentwidgets import FluentWidget, toggleTheme, PushButton
+from qfluentwidgets import FluentIcon as FIF
+
+
+class Window(FluentWidget):
+
+    def __init__(self):
+        super().__init__()
+        self.button = PushButton(FIF.CONSTRACT, 'Switch Theme', self)
+        self.vBoxLayout = QVBoxLayout(self)
+
+        # Disable the mica effect
+        # self.setMicaEffectEnabled(False)
+
+        # Customize background color
+        # self.setCustomBackgroundColor(Qt.red, Qt.blue)
+
+        # Toggle theme when the button is clicked
+        self.button.clicked.connect(toggleTheme)
+
+        # Reserve space for the title bar
+        self.vBoxLayout.setContentsMargins(0, self.titleBar.height(), 0, 0)
+        self.vBoxLayout.addWidget(self.button, 0, Qt.AlignmentFlag.AlignCenter)
+
+        self.resize(900, 700)
+        self.setWindowIcon(QIcon(':/qfluentwidgets/images/logo.png'))
+        self.setWindowTitle('PyQt-Fluent-Widgets')
+
+
+if __name__ == '__main__':
+    app = QApplication(sys.argv)
+    w = Window()
+    w.show()
+    app.exec()
+
+```
