@@ -77,8 +77,8 @@ export const prices = {
     ],
     cpp: [
         {
-            title: 'Custom',
-            desc: 'Customized price plan and infrastructure for You.',
+            title: 'Standard',
+            desc: 'The essentials to provide your best work for clients.',
             price: '$509',
             year: true,
             permanent: true,
@@ -86,13 +86,17 @@ export const prices = {
             recommend: false,
             features: [
                 { feature: '270+ components' },
-                { feature: "Personal software" },
+                { feature: 'Single developer' },
+                { feature: '1 development device' },
                 { feature: "Unlimited softwares" },
-                { feature: "Permanent license validity" }
+                { feature: "Lifetime access" },
+                { feature: 'Free updates' },
+                { feature: "Fluent Studio software" },
+                { feature: "Customer group service" }
             ]
         },
         {
-            title: 'Personal',
+            title: 'Professional',
             desc: 'A plan that scales with your rapidly growing business.',
             price: '$729',
             year: true,
@@ -102,6 +106,7 @@ export const prices = {
             features: [
                 { feature: '270+ components' },
                 { feature: 'Single developer' },
+                { feature: '2 development device' },
                 { feature: "Unlimited softwares" },
                 { feature: "Lifetime access" },
                 { feature: 'Free updates' },
