@@ -77,25 +77,6 @@ export const prices = {
     ],
     cpp: [
         {
-            title: 'Standard',
-            desc: 'The essentials to provide your best work for clients.',
-            price: '$509',
-            year: true,
-            permanent: true,
-            url: 'mailto:shokokawaii@foxmail.com',
-            recommend: false,
-            features: [
-                { feature: '270+ components' },
-                { feature: 'Single developer' },
-                { feature: '1 development device' },
-                { feature: "Unlimited softwares" },
-                { feature: "Lifetime access" },
-                { feature: 'Free updates' },
-                { feature: "Fluent Studio software" },
-                { feature: "Customer group service" }
-            ]
-        },
-        {
             title: 'Professional',
             desc: 'A plan that scales with your rapidly growing business.',
             price: '$729',
