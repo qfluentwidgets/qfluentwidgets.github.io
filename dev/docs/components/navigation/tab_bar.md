@@ -97,6 +97,9 @@ class Demo(QWidget):
 
 ### [TabWidget](https://pyqt-fluent-widgets.readthedocs.io/en/latest/autoapi/qfluentwidgets/components/widgets/tab_view/index.html#qfluentwidgets.components.widgets.tab_view.TabWidget)
 
+![TabBar](/img/components/tabbar/TabBar.png)
+
+
 The usage of `TabWidget` is the same as `QTabWidget`, while `TabWidget` uses `TabBar` internally.
 
 ```python
@@ -116,3 +119,11 @@ tabWidget.setCurrentIndex(1)
 ![RoundTabBar](/img/components/tabbar/RoundTabBar.png)
 
 `RoundTabBar` supports switching between a set of tabs and allows for dynamic addition and removal of tabs.
+
+
+
+### [RoundTabWidget](https://qfluentwidgets.com/price)
+
+![RoundTabWidget](/img/components/tabbar/RoundTabWidget.png)
+
+The usage of `RoundTabWidget` is the same as `QTabWidget`, while `RoundTabWidget` uses `RoundTabBar` internally.

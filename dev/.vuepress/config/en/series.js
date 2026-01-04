@@ -49,7 +49,6 @@ export const series = {
                 "/pages/components/flyout",
                 "/pages/components/teachingtip",
                 "/pages/components/shortcutpicker",
-                "/pages/components/imagecropper",
             ],
         },
         {
@@ -62,6 +61,7 @@ export const series = {
         {
             text: "Media",
             children: [
+                "/pages/components/image",
                 "/pages/components/mediaplaybar",
                 "/pages/components/videowidget",
             ],
@@ -80,6 +80,7 @@ export const series = {
                 "/pages/components/topnavigationbar",
                 "/pages/components/breadcrumbbar",
                 "/pages/components/tabbar",
+                "/pages/components/navigationdialog",
             ],
         },
         {

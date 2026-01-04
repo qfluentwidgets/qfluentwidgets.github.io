@@ -50,3 +50,27 @@ The usage of `RoundListWidget` is completely the same as `QListWidget`.
 ### [RoundListView](https://qfluentwidgets.com/price)
 
 The usage of `RoundListView` is completely the same as `QListView`.
+
+
+### [TransparentRoundListWidget](https://qfluentwidgets.com/zh/price)
+
+![TransparentRoundListWidget](/img/components/listview/TransparentRoundListView.png)
+
+The usage of `TransparentRoundListWidget` is completely the same as `QListWidget`.
+
+
+### [TransparentRoundListView](https://qfluentwidgets.com/zh/price)
+
+The usage of `TransparentRoundListView` is completely the same as `QListView`.
+
+
+### [CategoryCardListWidget](https://qfluentwidgets.com/zh/price)
+
+![CategoryCardListWidget](/img/components/listview/CategoryCardListView.png)
+
+The usage of `CategoryCardListWidget` is completely the same as `QListWidget`.
+
+
+### [CategoryCardListView](https://qfluentwidgets.com/zh/price)
+
+The usage of `CategoryCardListView` is completely the same as `QListView`.

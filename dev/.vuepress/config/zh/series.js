@@ -49,7 +49,6 @@ export const series = {
                 "/zh/pages/components/flyout",
                 "/zh/pages/components/teachingtip",
                 "/zh/pages/components/shortcutpicker",
-                "/zh/pages/components/imagecropper",
             ],
         },
         {
@@ -62,6 +61,7 @@ export const series = {
         {
             text: "多媒体",
             children: [
+                "/zh/pages/components/image",
                 "/zh/pages/components/mediaplaybar",
                 "/zh/pages/components/videowidget",
             ],
@@ -80,6 +80,7 @@ export const series = {
                 "/zh/pages/components/topnavigationbar",
                 "/zh/pages/components/breadcrumbbar",
                 "/zh/pages/components/tabbar",
+                "/zh/pages/components/navigationdialog",
             ],
         },
         {
