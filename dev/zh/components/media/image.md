@@ -67,7 +67,7 @@ w.setText("乔尼·乔斯达")
 
 `ImageComparisonSlider` 允许用户通过拖动滑块来直观地比较两张图片的差异效果。
 
-## [ImageMagnifierWidget](https://qfluentwidgets.com/zh/price)
+### [ImageMagnifierWidget](https://qfluentwidgets.com/zh/price)
 
 ![ImageMagnifierWidget](/img/components/label/ImageMagnifierWidget.png)
 
