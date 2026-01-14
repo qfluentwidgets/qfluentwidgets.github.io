@@ -13,13 +13,36 @@ permalink: /zh/pages/components/image/
 `ImageLabel` 用于显示图片或者 GIF，在高分屏下也能清晰显示图片而不出现锯齿。
 
 ```python
-image = ImageLabel("/path/to/image.png")
-
-# 按比例缩放到指定高度
-image.scaledToHeight(300)
+label = ImageLabel("/path/to/image.png")            # 使用 str 创建
+label = ImageLabel(QImage("/path/to/image.png"))   # 使用  QImage 创建
+label = ImageLabel(QPixmap("/path/to/image.png"))  # 使用 QPixmap 创建
 
 # 圆角
-image.setBorderRadius(8, 8, 8, 8)
+label.setBorderRadius(8, 8, 8, 8)
+```
+
+调整图像大小：
+
+```python
+# 按比例缩放到指定高度
+label.scaledToHeight(300)
+
+# 按比例缩放到指定的宽度
+label.scaledToWidth(300)
+
+# 强制缩放到指定大小，忽略比例
+label.setScaledSize(QSize(300, 300))
+```
+
+更换显示的图片：
+
+```python
+label.setImage("/path/to/image.png")
+label.setImage(QImage("/path/to/image.png"))
+label.setImage(QPixmap("/path/to/image.png"))
+
+# 如果图片分辨率发生变化，需要再次调整标签的大小
+label.scaledToHeight(300)
 ```
 
 ### [AvatarWidget](https://pyqt-fluent-widgets.readthedocs.io/zh-cn/latest/autoapi/qfluentwidgets/components/widgets/label/index.html#qfluentwidgets.components.widgets.label.AvatarWidget)

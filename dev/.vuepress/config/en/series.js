@@ -28,6 +28,12 @@ export const series = {
             ],
         },
         {
+            text: "Chat",
+            children: [
+                "/pages/components/chat",
+            ],
+        },
+        {
             text: "Chart",
             children: [
                 "/pages/components/chartwidget",

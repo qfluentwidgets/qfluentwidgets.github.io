@@ -12,13 +12,36 @@ permalink: /pages/components/image/
 `ImageLabel` is used to display images or GIFs, ensuring clear rendering without aliasing even on high-DPI screens.
 
 ```python
-image = ImageLabel("/path/to/image.png")
-
-# Scale proportionally to a specified height
-image.scaledToHeight(300)
+label = ImageLabel("/path/to/image.png")           # Create using str
+label = ImageLabel(QImage("/path/to/image.png"))   # Create using QImage
+label = ImageLabel(QPixmap("/path/to/image.png"))  # Create using QPixmap
 
 # Rounded corners
-image.setBorderRadius(8, 8, 8, 8)
+label.setBorderRadius(8, 8, 8, 8)
+```
+
+Resize the image:
+
+```python
+# Scale proportionally to a specified height
+label.scaledToHeight(300)
+
+# Scale proportionally to a specified width
+label.scaledToWidth(300)
+
+# Force scale to a specified size, ignoring aspect ratio
+label.setScaledSize(QSize(300, 300))
+```
+
+Change the displayed image:
+
+```python
+label.setImage("/path/to/image.png")
+label.setImage(QImage("/path/to/image.png"))
+label.setImage(QPixmap("/path/to/image.png"))
+
+# If the image resolution changes, the label size needs to be adjusted again
+label.scaledToHeight(300)
 ```
 
 ### [AvatarWidget](https://pyqt-fluent-widgets.readthedocs.io/en/latest/autoapi/qfluentwidgets/components/widgets/label/index.html#qfluentwidgets.components.widgets.label.AvatarWidget)
