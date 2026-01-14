@@ -86,6 +86,7 @@ export const series = {
                 "/pages/components/topnavigationbar",
                 "/pages/components/breadcrumbbar",
                 "/pages/components/tabbar",
+                "/pages/components/litefilter",
                 "/pages/components/navigationdialog",
             ],
         },
