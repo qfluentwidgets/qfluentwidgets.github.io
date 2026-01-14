@@ -1,5 +1,5 @@
 ---
-title: 许可证
+title: 高级版
 date: 2023-08-17 15:37:01
 permalink: /zh/pages/pro/
 ---
