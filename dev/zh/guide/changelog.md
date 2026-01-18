@@ -4,6 +4,15 @@ date: 2023-08-17 15:02:30
 permalink: /zh/pages/changelog/
 ---
 
+
+### v1.11.0
+#### 新组件
+* 添加 `FluentTitleBarButton`
+
+#### 新特性
+* 添加波兰语翻译
+* 优化平滑滚动算法在高分屏下的性能
+
 ### v1.10.5
 #### 新组件
 * 添加 `FluentWidget` 组件

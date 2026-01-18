@@ -111,7 +111,7 @@ export const prices = {
                 { feature: '开发者团队' },
                 { feature: '永久许可证有效期' },
                 { feature: '不限开发的软件数量' },
-                { feature: '可选择购买静态库/源代码' },
+                { feature: '提供静态库/源代码' },
                 { feature: '270+ Fluent Design 组件' },
                 { feature: '20+ 响应式可视化图表' },
                 { feature: '专属企业微信和 QQ 客户群服务' },

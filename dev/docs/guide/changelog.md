@@ -4,6 +4,14 @@ date: 2023-08-17 15:02:30
 permalink: /pages/changelog/
 ---
 
+### v1.11.0
+#### New Components
+* Added `FluentTitleBarButton`
+
+#### New Features
+* Added Polish language translation
+* Optimized the performance of the smooth scrolling algorithm on high-DPI screens
+
 ### v1.10.5
 #### New Components
 * Added `FluentWidget` component

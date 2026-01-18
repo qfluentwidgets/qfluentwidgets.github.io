@@ -161,9 +161,9 @@ self.titleBar.setDoubleClickEnabled(False)
 插入一个新按钮：
 
 ```python
-from qframeselesswindow import SvgTitleBarButton
+from qfluentwidgets import FluentTitleBarButton   # since v1.11.0
 
-themeButton = SvgTitleBarButton(FIF.CONSTRACT.path(), self)
+themeButton = FluentTitleBarButton(FIF.CONSTRACT)
 self.titleBar.buttonLayout.insertWidget(0, themeButton)
 ```
 
