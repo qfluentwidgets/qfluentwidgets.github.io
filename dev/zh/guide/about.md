@@ -22,6 +22,9 @@ permalink: /zh/pages/about/
 * **国际化**：支持多国语言，满足不同用户群体的需求
 * **跨平台**：支持 Windows、Linux 和 MacOS
 
+## 架构
+![架构图](/img/Architechture.jpg)
+
 ## 许可证
 
 Python 组件库非商用的许可证为 [GPLv3](https://github.com/zhiyiYo/PyQt-Fluent-Widgets/blob/master/LICENSE)，如果你的非商用项目使用了组件库，**必须使用 GPLv3 许可证进行软件分发**。

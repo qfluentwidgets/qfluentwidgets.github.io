@@ -22,6 +22,10 @@ permalink: /pages/about/
 * **Internationalization**: Support multiple languages to meet the needs of different user groups.
 * **Cross-platform**: Support Windows, Linux, and macOS
 
+## Architecture
+![架构图](/img/Architechture.jpg)
+
+
 ## License
 
 Python QFluentWidgets is licensed under [GPLv3](https://github.com/zhiyiYo/PyQt-Fluent-Widgets/blob/master/LICENSE) for non-commercial project. If your non-commercial project uses this library, **software distribution must be done under the GPLv3 license**.
