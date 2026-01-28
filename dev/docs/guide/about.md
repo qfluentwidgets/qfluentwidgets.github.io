@@ -13,7 +13,7 @@ permalink: /pages/about/
 
 
 ## Features
-* **Beautiful and Elegant**: 160+ open-source non-commercial Fluent Design components, fast to use, ready for production.
+* **Beautiful and Elegant**: 170+ Community Edition and 100+ Pro Edition Fluent Design components , fast to use, ready for production.
 * **Vector Icons**: 175 Fluent Design vector icons, scalable to any size without losing clarity.
 * **Highly Customizable**: Support seamless switching between light and dark themes, and customization of theme colors to meet the user's personalized needs.
 * **WYSIWYG**: Equipped with designer plugins, allowing components to be previewed and used directly in QtDesigner.
