@@ -13,14 +13,7 @@ permalink: /pages/about/
 
 
 ## Features
-* **Beautiful and Elegant**: 170+ Community Edition and 100+ Pro Edition Fluent Design components , fast to use, ready for production.
-* **Vector Icons**: 175 Fluent Design vector icons, scalable to any size without losing clarity.
-* **Highly Customizable**: Support seamless switching between light and dark themes, and customization of theme colors to meet the user's personalized needs.
-* **WYSIWYG**: Equipped with designer plugins, allowing components to be previewed and used directly in QtDesigner.
-* **UI Scaling**: Support custom UI scaling to adapt to screens with different resolutions.
-* **Easy to Use**: Retains native components APIs, only need to replace the class names to complete the beautification
-* **Internationalization**: Support multiple languages to meet the needs of different user groups.
-* **Cross-platform**: Support Windows, Linux, and macOS
+![架构图](/img/Features_en.jpg)
 
 ## Architecture
 ![架构图](/img/Architechture.jpg)
