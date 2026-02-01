@@ -16,7 +16,7 @@ permalink: /zh/pages/about/
 ![架构图](/img/Features_zh.jpg)
 
 ## 架构
-![架构图](/img/Architechture.jpg)
+![架构图](/img/Architechture_zh.jpg)
 
 ## 许可证
 
