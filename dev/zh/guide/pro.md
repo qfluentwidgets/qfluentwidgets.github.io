@@ -1,11 +1,11 @@
 ---
-title: 许可证
+title: 高级版
 date: 2023-08-17 15:37:01
 permalink: /zh/pages/pro/
 ---
 
 ## 组件库的授权方式？
-Python 组件库非商业用途使用 GPLv3 许可证进行授权，商用需购买 [商业许可证](/zh/price) 才能获得商用授权。
+Python 组件库采用对偶许可证，非商业用途使用 GPLv3 许可证进行授权，商用需购买 [商业许可证](/zh/price) 才能获得商用授权。
 
 ## 有哪些高级组件？
 为了满足开发者的需求，高级版的组件库包含更多高级组件，可以让现代化界面开发变得更加得心应手。目前，高级版组件库包含下述组件，之后还会不断增加新组件。
@@ -51,6 +51,7 @@ Python 组件库非商业用途使用 GPLv3 许可证进行授权，商用需购
 | `ShortcutPicker`                  | 快捷键选择器                             |
 | `ShortcutDialog`                  | 快捷键对话框                             |
 | `IndeterminateProgressRingDialog` | 等待对话框                               |
+| `TopNavigationDialog`             | 顶部导航对话框                           |
 
 ### 聊天
 
@@ -77,6 +78,7 @@ Python 组件库非商业用途使用 GPLv3 许可证进行授权，商用需购
 | `AvatarPicker`          | 头像选择器，支持选择和裁剪头像       |
 | `ImageCropper`          | 图像裁剪器，支持裁剪任意形状的图像   |
 | `ImageComparisonSlider` | 图像对比滑块，适用于图像超分对比场景 |
+| `ImageMagnifierWidget`  | 图像放大镜组件，支持局部放大图片     |
 | `AudiowaveformWidget`   | 音频波形组件，适用于文本转语音场景   |
 
 ### 图表
@@ -120,6 +122,10 @@ Python 组件库非商业用途使用 GPLv3 许可证进行授权，商用需购
 | `TimeLineCard`                | 时间线卡片               |
 | `RoundListWidget`             | 圆角列表组件             |
 | `RoundListView`               | 圆角列表视图             |
+| `TransparentRoundListWidget`  | 透明描边圆角列表组件     |
+| `TransparentRoundListView`    | 透明描边圆角列表视图     |
+| `CategoryCardListWidget`      | 分类卡片列表组件         |
+| `CategoryCardListView`        | 分类卡片列表视图         |
 | `RoundTableWidget`            | 圆角表格组件             |
 | `RoundTableView`              | 圆角表格视图             |
 | `LineTableWidget`             | 下边框表格组件           |
@@ -150,14 +156,18 @@ Python 组件库非商业用途使用 GPLv3 许可证进行授权，商用需购
 | `RadialGauge`                     | 仪表盘                         |
 
 ### 导航
-| 组件名                     | 描述                   |
-| -------------------------- | ---------------------- |
-| `MenuBar`                  | 菜单栏                 |
-| `ExclusiveLiteFilter`      | 互斥过滤器             |
-| `MultiSelectionLiteFilter` | 多选过滤器             |
-| `TopNavigationBar`         | 顶部导航栏             |
-| `FilledNavigationBar`      | 填充导航栏             |
-| `FilledMSNavigationBar`    | 填充微软商店样式导航栏 |
+| 组件名                             | 描述                   |
+| ---------------------------------- | ---------------------- |
+| `RoundTabBar`                      | 圆角标签栏             |
+| `RoundTabWidget`                   | 圆角标签页组件         |
+| `MenuBar`                          | 菜单栏                 |
+| `ExclusiveLiteFilter`              | 互斥过滤器             |
+| `MultiSelectionLiteFilter`         | 多选过滤器             |
+| `OutlinedExclusiveLiteFilter`      | 描边互斥过滤器         |
+| `OutlinedMultiSelectionLiteFilter` | 描边多选过滤器         |
+| `TopNavigationBar`                 | 顶部导航栏             |
+| `FilledNavigationBar`              | 填充导航栏             |
+| `FilledMSNavigationBar`            | 填充微软商店样式导航栏 |
 
 ### 文本
 | 组件名                  | 描述                 |
@@ -184,9 +194,10 @@ Python 组件库非商业用途使用 GPLv3 许可证进行授权，商用需购
 
 
 ### 窗口
-| 组件名                    | 描述                       |
-| ------------------------- | -------------------------- |
-| `TopFluentWindow`         | 顶部导航流畅窗口           |
-| `FilledFluentWindow`      | 填充流畅窗口               |
-| `FilledMSFluentWindow`    | 填充微软商店样式的流畅窗口 |
-| `FilledSplitFluentWindow` | 填充拆分流畅窗口           |
+| 组件名                    | 描述                                       |
+| ------------------------- | ------------------------------------------ |
+| `TopFluentWindow`         | 顶部导航流畅窗口                           |
+| `FilledFluentWindow`      | 填充流畅窗口                               |
+| `FilledMSFluentWindow`    | 填充微软商店样式的流畅窗口                 |
+| `FilledSplitFluentWindow` | 填充拆分流畅窗口                           |
+| `FluentMainWindow`        | 流畅主窗口，支持设置菜单栏、工具栏和状态栏 |

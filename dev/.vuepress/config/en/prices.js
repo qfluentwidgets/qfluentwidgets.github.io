@@ -18,7 +18,7 @@ export const prices = {
         {
             title: 'Ultimate',
             desc: 'The essentials to provide your best work for clients.',
-            price: '$529',
+            price: '$599',
             year: false,
             permanent: true,
             url: 'mailto:shokokawaii@foxmail.com',
@@ -38,7 +38,7 @@ export const prices = {
         {
             title: 'Professional',
             desc: 'A plan that scales with your rapidly growing business.',
-            price: '$359',
+            price: '$399',
             year: false,
             permanent: true,
             url: 'mailto:shokokawaii@foxmail.com',
@@ -77,22 +77,7 @@ export const prices = {
     ],
     cpp: [
         {
-            title: 'Custom',
-            desc: 'Customized price plan and infrastructure for You.',
-            price: '$509',
-            year: true,
-            permanent: true,
-            url: 'mailto:shokokawaii@foxmail.com',
-            recommend: false,
-            features: [
-                { feature: '270+ components' },
-                { feature: "Personal software" },
-                { feature: "Unlimited softwares" },
-                { feature: "Permanent license validity" }
-            ]
-        },
-        {
-            title: 'Personal',
+            title: 'Professional',
             desc: 'A plan that scales with your rapidly growing business.',
             price: '$729',
             year: true,
@@ -102,6 +87,7 @@ export const prices = {
             features: [
                 { feature: '270+ components' },
                 { feature: 'Single developer' },
+                { feature: '2 development device' },
                 { feature: "Unlimited softwares" },
                 { feature: "Lifetime access" },
                 { feature: 'Free updates' },
@@ -122,6 +108,7 @@ export const prices = {
                 { feature: '270+ components' },
                 { feature: "Unlimited softwares" },
                 { feature: "Lifetime access" },
+                { feature: "Static library or source code" },
                 { feature: "Fluent Studio software" },
                 { feature: "Customer group service" },
             ]

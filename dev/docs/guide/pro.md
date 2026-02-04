@@ -1,5 +1,5 @@
 ---
-title: License
+title: Pro
 date: 2023-08-17 15:37:01
 permalink: /pages/pro/
 ---

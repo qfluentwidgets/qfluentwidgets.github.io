@@ -25,6 +25,13 @@ export default defineUserConfig({
         src: 'https://player.vimeo.com/api/player.js'
       }
     ],
+    [
+      'script',
+      {
+        src: '/js/badge.js'
+      }
+
+    ],
   ],
   theme: recoTheme(themeConfig),
   debug: false,

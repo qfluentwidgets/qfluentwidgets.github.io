@@ -36,7 +36,7 @@ w.buttonLayout.insertStretch(0, 1)
 隐藏取消按钮：
 ```python
 w.cancelButton.hide()
-w.buttonLayout.insertStretch(1)
+w.buttonLayout.insertStretch(0, 1)
 ```
 
 如果同时使用 `Dialog` 和 `FluentWindow`，可能导致窗口无法拉伸，解决方案如下：

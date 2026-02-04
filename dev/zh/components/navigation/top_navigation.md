@@ -112,7 +112,7 @@ print(sw.currentItem())
 
 ![TopNavigationBar](/img/components/topnavigationbar/TopNavigationBar.png)
 
-`TopNavigationBar` 提供了顶部导航功能。
+`TopNavigationBar` 提供了顶部导航功能，能够随着宽度的变化而自适应导航项的显示内容。
 
 ### [MenuBar](https://qfluentwidgets.com/zh/price)
 

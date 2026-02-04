@@ -36,7 +36,7 @@ w.buttonLayout.insertStretch(0, 1)
 Hide the cancel button:
 ```python
 w.cancelButton.hide()
-w.buttonLayout.insertStretch(1)
+w.buttonLayout.insertStretch(0, 1)
 ```
 
 If `Dialog` and `FluentWindow` are used together, the window may become non-resizable. The solution is as follows:

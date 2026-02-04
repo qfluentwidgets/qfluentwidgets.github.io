@@ -4,7 +4,7 @@ date: 2023-08-17 15:02:30
 permalink: /zh/pages/about/
 ---
 
-[**QFluentWidgets**](https://github.com/zhiyiYo/PyQt-Fluent-Widgets) 是一个基于 C++ Qt/PyQt/PySide 的 Fluent Design 风格组件库，包含数以百计的流畅设计组件，为简化开发、提高效率而生。
+[**QFluentWidgets**](https://github.com/zhiyiYo/PyQt-Fluent-Widgets) 是一个基于 C++ Qt/PyQt/PySide 的 Fluent Design 风格组件库，包含数以百计的流畅设计组件，为简化开发、提高效率而生。凭借出色的易用性、可拓展性和稳定性，QFluentWidgets 在 PyPI 官方平台的累计下载量已突破 **100万** 次，被广泛应用于高校科研、教育教学、智慧交通、医疗健康以及各类企业场景中。
 
 <div style="padding:56.25% 0 0 0;position:relative;">
     <iframe src="https://player.vimeo.com/video/1061704294?h=6eb47aa5bd&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="新的 gallery">
@@ -13,14 +13,10 @@ permalink: /zh/pages/about/
 
 
 ## 特性
-* **美观优雅**：内置 160+ 开源非商用 Fluent Design 组件，开箱即用，快速打造卓越应用
-* **矢量图标**：内置 175 个 Fluent Design 矢量图标，随心缩放，依旧清晰
-* **高度可定制**：支持无缝切换亮暗主题和主题色，满足用户的个性化需求
-* **所见即所得**：搭载设计师插件，直接在 QtDesigner 中预览和使用组件
-* **自由缩放**：支持自定义界面缩放，适配不同分辨率的屏幕
-* **简单易学**：保留原生组件的 API，只需替换类名即可完成美化
-* **国际化**：支持多国语言，满足不同用户群体的需求
-* **跨平台**：支持 Windows、Linux 和 MacOS
+![架构图](/img/Features_zh.jpg)
+
+## 架构
+![架构图](/img/Architechture_zh.jpg)
 
 ## 许可证
 

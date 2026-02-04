@@ -94,9 +94,33 @@ class Demo(QWidget):
 
 ```
 
+### [TabWidget](https://pyqt-fluent-widgets.readthedocs.io/en/latest/autoapi/qfluentwidgets/components/widgets/tab_view/index.html#qfluentwidgets.components.widgets.tab_view.TabWidget)
+
+![TabBar](/img/components/tabbar/TabBar.png)
+
+`TabWidget` 的用法与 `QTabWidget` 相同，但是 `TabWidget` 内部使用了 `TabBar`。
+
+```python
+tabWidget = TabWidget()
+
+# 添加页面
+tabWidget.addTab(QLabel("Page 1"), "Page 1", QIcon("/path/to/icon.png"))
+tabWidget.addTab(QLabel("Page 2"), "Page 2", QIcon("/path/to/icon.png"))
+
+# 设置当前页面
+tabWidget.setCurrentIndex(1)
+```
+
 
 ### [RoundTabBar](https://qfluentwidgets.com/zh/price)
 
 ![RoundTabBar](/img/components/tabbar/RoundTabBar.png)
 
 `RoundTabBar` 控件支持在一组标签页之间进行切换，并支持动态删除和添加标签。
+
+
+### [RoundTabWidget](https://qfluentwidgets.com/zh/price)
+
+![RoundTabWidget](/img/components/tabbar/RoundTabWidget.png)
+
+`RoundTabWidget` 的用法与 `QTabWidget` 相同，但是 `RoundTabWidget` 内部使用了 `RoundTabBar`。

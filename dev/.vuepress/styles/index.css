@@ -80,3 +80,26 @@ body:not(#custom-body) {
 .dropdown-link__container {
     @apply md:shadow-md !important;
 }
+
+.pro-badge {
+    @apply inline-block ml-2 font-semibold leading-tight align-middle tracking-wide;
+    text-transform: none; /* 保持首字母大写而非全部大写 */
+    background: #fffbeb;
+    color: #8a5200; /* 深棕色文字 */
+    border-radius: 9999px;
+    border: 1px solid #ffda47; /* 细金色描边 */
+    box-shadow: 0 4px 12px rgba(222,168,50,0.08), inset 0 -1px 0 rgba(255,255,255,0.6);
+    line-height: 1;
+    display: inline-block;
+    vertical-align: middle;
+    padding: 3px 8px;
+    font-size: 0.875rem;
+}
+
+html.dark .pro-badge {
+    /* 暗色模式下保持淡黄色但更纤细 */
+    background: #5c3700;
+    color: rgb(255, 237, 163);
+    border: 1px solid #ad6800;
+    box-shadow: 0 6px 16px rgba(0,0,0,0.28), 0 2px 8px rgba(222,168,50,0.06) inset;
+}

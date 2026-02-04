@@ -9,3 +9,9 @@ permalink: /zh/pages/components/chartwidget/
 ![ChartWidget](/img/components/chart/Bar.png)
 
 `ChartWidget` 无缝衔接 ECharts 图表库，提供开箱即用的 20 多种图表，并且支持各种图表的任意组合。既可以直接传入图表配置，也可以使用 pyecharts 面向对象的写法来创建图表，十分方便。
+
+### [AudioWaveformWidget](https://qfluentwidgets.com/zh/price)
+
+![AudioWaveformWidget](/img/components/chart/AudioWaveformWidget.png)
+
+`AudioWaveformWidget` 可以用于展示采样后的音频波形图，适用于文本转语音场景的可视化。

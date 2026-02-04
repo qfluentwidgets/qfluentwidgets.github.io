@@ -5,6 +5,48 @@ permalink: /zh/pages/changelog/
 ---
 
 
+### v1.11.0
+#### 新组件
+* 添加 `FluentTitleBarButton`
+
+#### 新特性
+* 添加波兰语翻译
+* 优化平滑滚动算法在高分屏下的性能
+
+### v1.10.5
+#### 新组件
+* 添加 `FluentWidget` 组件
+
+### v1.10.3
+#### 新特性
+* 添加侧边导航菜单折叠状态记忆功能
+* 优化 `NavigationBar` 指示器动画
+
+### v1.10.0
+#### 新组件
+* 添加 `TabWidget` 标签页组件
+* 添加 `NavigationUserCard` 组件
+* 添加 `EntranceTransitionStackedWidget` 和 `DrillInTransitionStackedWidget` 组件
+
+#### 新特性
+* 添加侧边导航栏分组标题功能
+* 添加日期时间组件连续滚动功能
+* 优化侧边导航栏和 `Pivot` 的指示器滑动动画
+* 重载 FluentWindow 添加子界面方法
+
+#### 修复
+* 修复工具提示抢占焦点的问题
+
+### v1.9.2
+
+#### 新特性
+* 添加 `ExpandGroupSettingCard` 快捷插入分组的功能
+
+#### 修复
+* 修复多列树状组件的背景绘制问题
+* 修复 `FluentWindow` 使用 WebEngine 的背景问题
+
+
 ### v1.9.1
 
 #### 修复

@@ -50,3 +50,27 @@ listWidget.setSelectRightClickedRow(True)
 ### [RoundListView](https://qfluentwidgets.com/zh/price)
 
 `RoundListView` 用法和 `QListWidget` 完全相同。
+
+
+### [TransparentRoundListWidget](https://qfluentwidgets.com/zh/price)
+
+![TransparentRoundListWidget](/img/components/listview/TransparentRoundListView.png)
+
+`TransparentRoundListWidget` 用法和 `QListWidget` 完全相同。
+
+
+### [TransparentRoundListView](https://qfluentwidgets.com/zh/price)
+
+`TransparentRoundListView` 用法和 `QListWidget` 完全相同。
+
+
+### [CategoryCardListWidget](https://qfluentwidgets.com/zh/price)
+
+![CategoryCardListWidget](/img/components/listview/CategoryCardListView.png)
+
+`CategoryCardListWidget` 用法和 `QListWidget` 完全相同。
+
+
+### [CategoryCardListView](https://qfluentwidgets.com/zh/price)
+
+`CategoryCardListView` 用法和 `QListView` 完全相同。
